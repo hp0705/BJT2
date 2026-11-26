@@ -2,7 +2,7 @@ import { playSingle } from '../audio.js';
 import { addToBox1, ensureCard } from '../srs.js';
 import { getLessonState, loadState, saveState, touchStreak } from '../store.js';
 import { navigate } from '../router.js';
-import { t } from '../i18n.js';
+import { jp, t } from '../i18n.js';
 
 export function renderVocab(container, ctx, lessonId, lesson) {
   const vocab = lesson.vocab || [];
@@ -11,8 +11,9 @@ export function renderVocab(container, ctx, lessonId, lesson) {
     return;
   }
 
+  const lp = getLessonState(lessonId);
   let tab = 'card'; // 'card' | 'list'
-  let idx = 0;
+  let idx = Math.min(vocab.length - 1, Math.max(0, lp.vocabIndex || 0));
   let flipped = false;
   const s = loadState();
 
@@ -31,22 +32,22 @@ export function renderVocab(container, ctx, lessonId, lesson) {
 
       ${tab === 'card' ? `
         <div class="card flashcard" id="flashcard">
-          <div class="word-jp">${v.word}</div>
-          ${(flipped || showReading) && v.reading ? `<div class="reading-jp">${v.reading}</div>` : ''}
+          <div class="word-jp">${jp(v.word)}</div>
+          ${(flipped || showReading) && v.reading ? `<div class="reading-jp">${jp(v.reading)}</div>` : ''}
           <button class="btn-audio" id="btn-play-word" aria-label="Nghe từ">🔊</button>
 
           ${flipped ? `
-            <div class="meaning-vi">${v.meaning}</div>
+            <div class="meaning-vi">${jp(v.meaning)}</div>
             ${v.exJp ? `
               <div style="background:var(--surface-2);padding:12px;border-radius:12px;width:100%;text-align:left;">
                 <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
-                  <strong>${v.exJp}</strong>
+                  <strong>${jp(v.exJp)}</strong>
                   <button class="btn-audio-sm" id="btn-play-ex" aria-label="Nghe ví dụ">🔊</button>
                 </div>
-                <div class="muted" style="margin-top:4px;">${v.exVi}</div>
+                ${v.exVi ? `<div class="muted" style="margin-top:4px;">${jp(v.exVi)}</div>` : ''}
               </div>
-            ` : ''}
-            ${v.tip ? `<div class="muted" style="text-align:left;width:100%;">💡 ${v.tip}</div>` : ''}
+            ` : (v.exVi ? `<div class="muted" style="text-align:left;width:100%;">📌 ${jp(v.exVi)}</div>` : '')}
+            ${v.tip ? `<div class="muted" style="text-align:left;width:100%;">💡 ${jp(v.tip)}</div>` : ''}
           ` : `<div class="muted">${t('tap_flip')}</div>`}
         </div>
 
@@ -60,13 +61,13 @@ export function renderVocab(container, ctx, lessonId, lesson) {
             <div class="card" style="padding:12px 14px;">
               <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
                 <div>
-                  <strong style="font-size:1.1rem;">${item.word}</strong>
-                  ${item.reading ? `<span class="muted">(${item.reading})</span>` : ''}
-                  <div>${item.meaning}</div>
+                  <strong style="font-size:1.1rem;">${jp(item.word)}</strong>
+                  ${item.reading ? `<span class="muted">(${jp(item.reading)})</span>` : ''}
+                  <div>${jp(item.meaning)}</div>
                 </div>
                 <button class="btn-audio-sm" data-play-idx="${i}" aria-label="Nghe ${item.word}">🔊</button>
               </div>
-              ${item.exJp ? `<div class="muted" style="margin-top:6px;">${item.exJp} → ${item.exVi}</div>` : ''}
+              ${item.exJp ? `<div class="muted" style="margin-top:6px;">${jp(item.exJp)}${item.exVi ? ` → ${jp(item.exVi)}` : ''}</div>` : ''}
             </div>
           `).join('')}
         </div>
@@ -108,13 +109,15 @@ export function renderVocab(container, ctx, lessonId, lesson) {
         else addToBox1(v.id);
         if (idx + 1 < vocab.length) {
           idx += 1;
+          lp.vocabIndex = idx;
+          saveState();
           flipped = false;
           render();
         } else {
-          const lp = getLessonState(lessonId);
           lp.vocabDone = true;
+          delete lp.vocabIndex;
           saveState();
-          ctx.toast('Đã hoàn thành lượt học từ!');
+          ctx.toast(t('vocab_done_toast'));
           navigate(`#/lesson/${lessonId}`);
         }
       };

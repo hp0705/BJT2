@@ -93,7 +93,10 @@ const DICT = {
     reset_btn: '🗑 Xóa toàn bộ dữ liệu',
     title_review: 'Ôn tập 復習',
     title_progress: 'Tiến độ 進捗',
-    title_settings: 'Cài đặt 設定'
+    title_settings: 'Cài đặt 設定',
+    persist_label: 'Lưu trữ bền vững',
+    persist_ok: '✓ Đã kích hoạt lưu trữ bền vững',
+    persist_no: 'Chưa bền vững (trên iPhone nên Thêm vào Màn hình chính)'
   },
   ja: {
     tab_home: '学習',
@@ -186,7 +189,10 @@ const DICT = {
     reset_btn: '🗑 全データ削除',
     title_review: '復習 Ôn tập',
     title_progress: '進捗 Tiến độ',
-    title_settings: '設定 Cài đặt'
+    title_settings: '設定 Cài đặt',
+    persist_label: '永続ストレージ',
+    persist_ok: '✓ 永続化されています',
+    persist_no: '未永続化（iPhoneでは「ホーム画面に追加」を推奨）'
   }
 };
 
@@ -197,4 +203,19 @@ export function t(key, vars = {}) {
     str = str.replace(`{${k}}`, String(v));
   }
   return str;
+}
+
+export function escHtml(str) {
+  return String(str ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+const JA_SEG_RE = /([\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff\uff01-\uff60〜～]+(?:\s+[\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff\uff01-\uff60〜～]+)*)/g;
+
+export function jp(str) {
+  const safe = escHtml(str);
+  return safe.replace(JA_SEG_RE, '<span lang="ja">$1</span>');
 }

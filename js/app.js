@@ -1,5 +1,5 @@
 import { parseHash, navigate } from './router.js';
-import { t } from './i18n.js';
+import { jp, t } from './i18n.js';
 import { getLessonState, getTodayStr, loadState, saveState, touchStreak } from './store.js';
 import { playSingle, setAudioToast, stopAudio } from './audio.js';
 import { getDueCards } from './srs.js';
@@ -53,16 +53,16 @@ function openVocabModal(vocabId) {
     <div class="modal-card">
       <div style="display:flex;justify-content:space-between;align-items:center;">
         <span class="pill">${v.id}</span>
-        <button class="btn-secondary" id="close-modal" style="min-height:36px;">Đóng</button>
+        <button class="btn-secondary" id="close-modal" style="min-height:44px;min-width:44px;">${t('close')}</button>
       </div>
       <div style="text-align:center;margin:14px 0;">
-        <div class="word-jp">${v.word}</div>
-        <div class="reading-jp">${v.reading}</div>
-        <div class="meaning-vi" style="margin:6px 0;">${v.meaning}</div>
-        <button class="btn-audio-sm" id="modal-audio">🔊</button>
+        <div class="word-jp">${jp(v.word)}</div>
+        ${v.reading ? `<div class="reading-jp">${jp(v.reading)}</div>` : ''}
+        <div class="meaning-vi" style="margin:6px 0;">${jp(v.meaning)}</div>
+        <button class="btn-audio-sm" id="modal-audio" aria-label="Nghe">🔊</button>
       </div>
-      ${v.exJp ? `<div class="doc-quote"><strong>${v.exJp}</strong><br><span class="muted">${v.exVi}</span></div>` : ''}
-      ${v.tip ? `<div class="muted">💡 ${v.tip}</div>` : ''}
+      ${v.exJp ? `<div class="doc-quote"><strong>${jp(v.exJp)}</strong><br><span class="muted">${jp(v.exVi)}</span></div>` : ''}
+      ${v.tip ? `<div class="muted">💡 ${jp(v.tip)}</div>` : ''}
     </div>
   `;
   modalRoot.querySelector('#close-modal').onclick = () => { modalRoot.hidden = true; };
@@ -89,17 +89,18 @@ function renderTopBar(title, backHash = null) {
 
 function renderTabBar(activeRoute) {
   const dueCount = getDueCards(appCtx.pool.vocab).length;
+  const isJa = loadState().settings.lang === 'ja';
   const tabs = [
     { id: 'home', label: t('tab_home'), jp: '学習' },
     { id: 'review', label: t('tab_review'), jp: '復習', badge: dueCount },
     { id: 'progress', label: t('tab_progress'), jp: '進捗' },
     { id: 'settings', label: t('tab_settings'), jp: '設定' }
   ];
-  tabBar.innerHTML = tabs.map((t) => `
-    <button class="tab-btn ${activeRoute === t.id ? 'active' : ''}" data-tab="${t.id}">
-      <span>${t.label}</span>
-      <span class="tab-jp">${t.jp}</span>
-      ${t.badge > 0 ? `<span class="tab-badge">${t.badge}</span>` : ''}
+  tabBar.innerHTML = tabs.map((tab) => `
+    <button class="tab-btn ${activeRoute === tab.id ? 'active' : ''}" data-tab="${tab.id}">
+      <span>${tab.label}</span>
+      ${isJa ? '' : `<span class="tab-jp">${tab.jp}</span>`}
+      ${tab.badge > 0 ? `<span class="tab-badge">${tab.badge}</span>` : ''}
     </button>
   `).join('');
   tabBar.querySelectorAll('[data-tab]').forEach((b) => {
@@ -246,6 +247,11 @@ async function routeView() {
 
 async function init() {
   applyTheme();
+  try {
+    if (navigator.storage && navigator.storage.persist) {
+      navigator.storage.persist().catch(() => {});
+    }
+  } catch (_) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js').catch(() => {});
   }

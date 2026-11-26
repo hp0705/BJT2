@@ -1,7 +1,7 @@
 import { playSingle } from '../audio.js';
 import { getBoxCounts, getDueCards, gradeCard } from '../srs.js';
 import { touchStreak } from '../store.js';
-import { t } from '../i18n.js';
+import { jp, t } from '../i18n.js';
 
 export function renderReview(container, ctx) {
   const counts = getBoxCounts();
@@ -65,12 +65,12 @@ export function renderReview(container, ctx) {
       container.innerHTML = `
         <div class="muted">${idx + 1} / ${dueList.length} · Hộp ${card.box} ${card.hard ? '· ⚠ Từ khó' : ''}</div>
         <div class="card flashcard" id="srs-card">
-          <div class="word-jp">${vocab.word}</div>
+          <div class="word-jp">${jp(vocab.word)}</div>
           <button class="btn-audio" id="srs-audio" aria-label="Nghe">🔊</button>
           ${flipped ? `
-            ${vocab.reading ? `<div class="reading-jp">${vocab.reading}</div>` : ''}
-            <div class="meaning-vi">${vocab.meaning}</div>
-            ${vocab.exJp ? `<div class="muted">${vocab.exJp}<br>${vocab.exVi}</div>` : ''}
+            ${vocab.reading ? `<div class="reading-jp">${jp(vocab.reading)}</div>` : ''}
+            <div class="meaning-vi">${jp(vocab.meaning)}</div>
+            ${vocab.exJp ? `<div class="muted">${jp(vocab.exJp)}<br>${jp(vocab.exVi)}</div>` : ''}
           ` : `<div class="muted">${t('tap_flip')}</div>`}
         </div>
         <div class="btn-row">

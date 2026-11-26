@@ -2,7 +2,7 @@
 import { playSingle } from './audio.js';
 import { addToBox1 } from './srs.js';
 import { loadState, recordError } from './store.js';
-import { t } from './i18n.js';
+import { jp, t } from './i18n.js';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -68,7 +68,7 @@ export function renderQuizSession({
           <div style="font-size:1.08rem;font-weight:600;white-space:pre-line;">${
             q.questionType === 'expression_listening' && !isAnswered
               ? t('listen_prompt')
-              : q.q
+              : jp(q.q)
           }</div>
           ${q.questionType === 'expression_listening' ? `<button class="btn-audio-sm" id="q-play-prompt" aria-label="Nghe câu dẫn">🔊</button>` : ''}
         </div>
@@ -87,7 +87,7 @@ export function renderQuizSession({
           return `
             <button class="${cls}" data-letter="${letter}" ${isAnswered && immediateFeedback ? 'disabled' : ''}>
               <span class="option-letter">${letter}</span>
-              <span style="flex:1;">${showText ? text : `Phương án ${letter} (bấm 🔊 để nghe)`}</span>
+              <span style="flex:1;">${showText ? jp(text) : `Phương án ${letter} (bấm 🔊 để nghe)`}</span>
               ${!showText ? `<span class="btn-audio-sm" data-opt-audio="${letter}" role="button" aria-label="Nghe phương án ${letter}">🔊</span>` : ''}
             </button>
           `;

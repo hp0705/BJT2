@@ -84,12 +84,22 @@ export function renderSettings(container, ctx) {
         </label>
       </div>
       <button class="btn-bad" id="btn-reset" style="width:100%;margin-top:12px;">${t('reset_btn')}</button>
+      <div id="persist-status" class="muted" style="margin-top:10px;"></div>
     </div>
 
     <div class="muted" style="text-align:center;">
       BJT J2 App · v${ctx.index.version || '2.2'}
     </div>
   `;
+
+  try {
+    if (navigator.storage && navigator.storage.persisted) {
+      navigator.storage.persisted().then((ok) => {
+        const el = container.querySelector('#persist-status');
+        if (el) el.textContent = `${t('persist_label')}: ${ok ? t('persist_ok') : t('persist_no')}`;
+      }).catch(() => {});
+    }
+  } catch (_) {}
 
   container.querySelector('#set-lang').onchange = (e) => {
     st.lang = e.target.value; saveState();

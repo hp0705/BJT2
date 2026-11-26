@@ -74,6 +74,10 @@ html, body {
   touch-action: manipulation;
 }
 
+:lang(ja) {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif;
+}
+
 button, input, select {
   font-family: inherit;
   font-size: 16px;
@@ -249,6 +253,7 @@ button:focus-visible, a:focus-visible {
 }
 
 .btn-secondary {
+  min-width: 44px;
   min-height: 48px;
   border-radius: 12px;
   background: var(--surface-2);
@@ -330,7 +335,7 @@ button:focus-visible, a:focus-visible {
   gap: 4px;
 }
 .seg-tab {
-  min-height: 40px;
+  min-height: 44px;
   border-radius: 10px;
   font-weight: 600;
   color: var(--text-muted);
@@ -483,7 +488,8 @@ button:focus-visible, a:focus-visible {
   gap: 6px;
 }
 .speed-btn {
-  min-height: 40px;
+  min-height: 44px;
+  min-width: 44px;
   padding: 0 10px;
   border-radius: 10px;
   background: var(--surface-2);

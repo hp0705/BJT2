@@ -2,7 +2,7 @@ import { startQueue, toggleQueuePause, stepQueue, setQueueRate, stopAudio } from
 import { renderQuizSession } from '../quiz.js';
 import { getLessonState, loadState, saveState, touchStreak } from '../store.js';
 import { navigate } from '../router.js';
-import { t } from '../i18n.js';
+import { jp, t } from '../i18n.js';
 
 export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
   const lr = lesson.listening[Number(lrIndex)];
@@ -51,8 +51,8 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
           <div class="dialogue-line" data-line="${i}">
             <button class="btn-audio-sm" data-play-line="${i}" aria-label="Phát dòng ${i + 1}">▶</button>
             <div>
-              <div class="muted" style="font-weight:700;">${l.label || l.speaker}</div>
-              <div>${l.text}</div>
+              <div class="muted" style="font-weight:700;">${jp(l.label || l.speaker)}</div>
+              <div>${jp(l.text)}</div>
             </div>
           </div>
         `).join('')}

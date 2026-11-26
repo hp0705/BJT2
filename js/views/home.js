@@ -1,7 +1,7 @@
 import { loadState, needsBackupReminder, saveState } from '../store.js';
 import { getDueCards } from '../srs.js';
 import { navigate } from '../router.js';
-import { t } from '../i18n.js';
+import { jp, t } from '../i18n.js';
 
 export function renderHome(container, ctx) {
   const s = loadState();
@@ -16,7 +16,7 @@ export function renderHome(container, ctx) {
       <div class="card card-accent" id="ios-hint">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">
           <div>${t('ios_hint')}</div>
-          <button class="btn-secondary" id="dismiss-ios" style="min-height:36px;padding:0 10px;">${t('close')}</button>
+          <button class="btn-secondary" id="dismiss-ios" style="min-width:44px;min-height:44px;padding:0 12px;">${t('close')}</button>
         </div>
       </div>
     ` : ''}
@@ -53,7 +53,7 @@ export function renderHome(container, ctx) {
       return `
         <div class="card" data-part="${p.id}" style="cursor:pointer;">
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
-            <strong>${p.id} — ${p.title}</strong>
+            <strong>${p.id} — ${jp(p.title)}</strong>
             <span class="muted">${doneCount}/${p.lessons.length}</span>
           </div>
           <div class="progress-track" style="margin-bottom:10px;">
