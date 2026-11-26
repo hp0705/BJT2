@@ -1,0 +1,895 @@
+{
+  "id": "P04-L02",
+  "part": "P04",
+  "title": "Ý gián tiếp: đồng ý, chờ duyệt, trì hoãn hay từ chối? (本音)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "IN-02",
+      "group": "Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ)",
+      "word": "前向きに検討いたします",
+      "reading": "まえむきにけんとういたします",
+      "meaning": "Sẽ xem xét tích cực",
+      "exJp": "前向きに検討いたします。",
+      "exVi": "Chúng tôi sẽ xem xét tích cực.",
+      "tip": "◎ **Khả năng đồng ý cao**"
+    },
+    {
+      "id": "IN-01",
+      "group": "Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ)",
+      "word": "検討いたします",
+      "reading": "けんとういたします",
+      "meaning": "Sẽ cân nhắc",
+      "exJp": "検討いたします。",
+      "exVi": "Chúng tôi sẽ cân nhắc.",
+      "tip": "△ Chưa cam kết, có thể nghiêng về từ chối"
+    },
+    {
+      "id": "IN-03",
+      "group": "Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ)",
+      "word": "善処いたします",
+      "reading": "ぜんしょいたします",
+      "meaning": "Sẽ cố gắng xử lý",
+      "exJp": "できる限り善処いたします。",
+      "exVi": "Sẽ cố gắng hết mức.",
+      "tip": "△ **Chưa cam kết** rõ ràng"
+    },
+    {
+      "id": "IN-04",
+      "group": "Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ)",
+      "word": "持ち帰って検討いたします",
+      "reading": "もちかえってけんとういたします",
+      "meaning": "Xin mang về xem xét, trả lời sau",
+      "exJp": "持ち帰って検討いたします。",
+      "exVi": "Xin mang về xem xét rồi trả lời.",
+      "tip": "○ Cần xác nhận nội bộ"
+    },
+    {
+      "id": "IN-08",
+      "group": "Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ)",
+      "word": "社内で確認いたします",
+      "reading": "しゃないでかくにんいたします",
+      "meaning": "Phải hỏi lại trong công ty trước",
+      "exJp": "社内で確認いたします。",
+      "exVi": "Chúng tôi xác nhận nội bộ.",
+      "tip": "○ Chưa thể trả lời ngay"
+    },
+    {
+      "id": "CL-A12",
+      "group": "Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ)",
+      "word": "見合わせる",
+      "reading": "みあわせる",
+      "meaning": "Tạm hoãn, dừng chưa thực hiện",
+      "exJp": "発売を見合わせる。",
+      "exVi": "Tạm hoãn phát hành.",
+      "tip": "△ Hoãn, chưa phải hủy"
+    },
+    {
+      "id": "IN-05",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "難しいかもしれません",
+      "reading": "むずかしいかもしれません",
+      "meaning": "Rất có thể là không được",
+      "exJp": "納期は難しいかもしれません。",
+      "exVi": "Hạn giao rất có thể không được.",
+      "tip": "× Từ chối khéo"
+    },
+    {
+      "id": "IN-06",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "少々、難しい状況です",
+      "reading": "しょうしょう、むずかしいじょうきょうです",
+      "meaning": "Thực tế là khó thực hiện",
+      "exJp": "少々、難しい状況です。",
+      "exVi": "Tình hình hơi khó.",
+      "tip": "× Dù có chữ `少々` vẫn là từ chối"
+    },
+    {
+      "id": "IN-07",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "今回は見送らせていただきます",
+      "reading": "こんかいはみおくらせていただきます",
+      "meaning": "Lần này xin không tham gia",
+      "exJp": "今回は見送らせていただきます。",
+      "exVi": "Lần này xin phép gác lại.",
+      "tip": "× Từ chối"
+    },
+    {
+      "id": "IN-09",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "ご期待に沿えず、申し訳ございません",
+      "reading": "ごきたいにそえず、もうしわけございません",
+      "meaning": "Xin lỗi vì không đáp ứng được",
+      "exJp": "ご期待に沿えず、申し訳ございません。",
+      "exVi": "Xin lỗi vì không đáp ứng được kỳ vọng.",
+      "tip": "× Từ chối"
+    },
+    {
+      "id": "CS-02",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "せっかくですが",
+      "reading": "せっかくですが",
+      "meaning": "Thật quý hóa quá nhưng…",
+      "exJp": "せっかくですが、今回は遠慮します。",
+      "exVi": "Quý hóa quá nhưng lần này xin phép thôi.",
+      "tip": "× Đệm trước khi từ chối"
+    },
+    {
+      "id": "CS-07",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "お力になれず申し訳ございません",
+      "reading": "おちからになれずもうしわけございません",
+      "meaning": "Xin lỗi vì không giúp được",
+      "exJp": "お力になれず申し訳ございません。",
+      "exVi": "Xin lỗi vì không giúp được.",
+      "tip": "× Từ chối rõ nhưng lịch sự"
+    },
+    {
+      "id": "AC-07",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "見送る",
+      "reading": "みおくる",
+      "meaning": "Gác lại, bỏ qua lần này",
+      "exJp": "今回の案は見送ります。",
+      "exVi": "Phương án lần này xin gác lại.",
+      "tip": "× Có thể không quay lại"
+    },
+    {
+      "id": "AC-08",
+      "group": "Nhóm B — Từ chối khéo (8 mục)",
+      "word": "差し控える",
+      "reading": "さしひかえる",
+      "meaning": "Hạn chế, tránh không làm (lịch sự)",
+      "exJp": "コメントは差し控えます。",
+      "exVi": "Xin phép không bình luận.",
+      "tip": "× Từ chối lịch sự"
+    },
+    {
+      "id": "AC-01",
+      "group": "Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",
+      "word": "取り下げる",
+      "reading": "とりさげる",
+      "meaning": "Rút lại (đề xuất, đơn)",
+      "exJp": "申請を取り下げます。",
+      "exVi": "Tôi rút đơn xin.",
+      "tip": "Chính mình rút"
+    },
+    {
+      "id": "AC-02",
+      "group": "Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",
+      "word": "取り消す",
+      "reading": "とりけす",
+      "meaning": "Hủy, thu hồi",
+      "exJp": "予約を取り消します。",
+      "exVi": "Hủy đặt chỗ.",
+      "tip": "Coi như chưa từng có"
+    },
+    {
+      "id": "AC-03",
+      "group": "Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",
+      "word": "撤回",
+      "reading": "てっかい",
+      "meaning": "Rút lại hoàn toàn (ý kiến, yêu cầu)",
+      "exJp": "発言を撤回します。",
+      "exVi": "Tôi rút lại phát ngôn.",
+      "tip": "Mạnh, trang trọng"
+    },
+    {
+      "id": "AC-04",
+      "group": "Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",
+      "word": "見直す",
+      "reading": "みなおす",
+      "meaning": "Xem xét lại, rà soát",
+      "exJp": "計画を見直します。",
+      "exVi": "Rà soát lại kế hoạch.",
+      "tip": "Chưa hủy, chỉ xem lại"
+    }
+  ],
+  "cards": [
+    {
+      "id": "HM-05",
+      "html": "<strong>回答</strong> (trả lời đề nghị, câu hỏi khảo sát) / <strong>解答</strong> (đáp án bài thi)."
+    }
+  ],
+  "confusedPairs": [],
+  "vocabQuiz": {
+    "passAt": 16,
+    "total": 19,
+    "items": [
+      {
+        "id": "P04-L02-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「前向きに検討いたします」の本音として、最も近いのは？",
+        "options": {
+          "A": "Khả năng từ chối cao",
+          "B": "Khả năng đồng ý khá cao",
+          "C": "Chắc chắn từ chối",
+          "D": "Chưa nghĩ gì"
+        },
+        "answer": "B",
+        "explain": "`IN-02`: tích cực nhưng chưa chắc chắn",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-02"
+        ]
+      },
+      {
+        "id": "P04-L02-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「検討いたします」とだけ言われたときの正しい理解は？",
+        "options": {
+          "A": "Chưa cam kết, có thể từ chối",
+          "B": "Chắc chắn đồng ý",
+          "C": "Hợp đồng đã thành",
+          "D": "Đơn đặt hàng đã chốt"
+        },
+        "answer": "A",
+        "explain": "`IN-01`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-01"
+        ]
+      },
+      {
+        "id": "P04-L02-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「善処いたします」の意味は？",
+        "options": {
+          "A": "Chắc chắn thực hiện",
+          "B": "Đã từ chối",
+          "C": "Sẽ cố gắng nhưng chưa cam kết rõ ràng",
+          "D": "Đã hoàn thành"
+        },
+        "answer": "C",
+        "explain": "`IN-03`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-03"
+        ]
+      },
+      {
+        "id": "P04-L02-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「持ち帰って検討いたします」の意味は？",
+        "options": {
+          "A": "Từ chối ngay",
+          "B": "Đã chấp nhận",
+          "C": "Mang hàng về",
+          "D": "Mang về xem xét, trả lời sau"
+        },
+        "answer": "D",
+        "explain": "`IN-04`: cần xác nhận nội bộ",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-04"
+        ]
+      },
+      {
+        "id": "P04-L02-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「社内で確認いたします」と言ったのは、どんな状況ですか。",
+        "options": {
+          "A": "Cần hỏi nội bộ trước khi trả lời",
+          "B": "Đã từ chối",
+          "C": "Đã đồng ý",
+          "D": "Đã hủy hợp đồng"
+        },
+        "answer": "A",
+        "explain": "`IN-08`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-08"
+        ]
+      },
+      {
+        "id": "P04-L02-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「発売を見合わせる」の意味は？",
+        "options": {
+          "A": "Phát hành sớm",
+          "B": "Phát hành đúng hạn",
+          "C": "Tạm hoãn phát hành",
+          "D": "Mở rộng phát hành"
+        },
+        "answer": "C",
+        "explain": "`CL-A12`: tạm hoãn, dừng chưa làm",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P04-L02-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「納期は難しいかもしれません」の本音は？",
+        "options": {
+          "A": "Chắc chắn kịp",
+          "B": "Rất có thể không kịp",
+          "C": "Đang chờ duyệt",
+          "D": "Đã đồng ý"
+        },
+        "answer": "B",
+        "explain": "`IN-05`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-05"
+        ]
+      },
+      {
+        "id": "P04-L02-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「少々、難しい状況です」の正しい理解は？",
+        "options": {
+          "A": "Hơi khó nhưng chắc chắn làm được",
+          "B": "Đang chờ cấp trên duyệt",
+          "C": "Đã đồng ý",
+          "D": "Thực tế là khó thực hiện"
+        },
+        "answer": "D",
+        "explain": "`IN-06`: có `少々` vẫn là từ chối",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-06"
+        ]
+      },
+      {
+        "id": "P04-L02-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「今回は見送らせていただきます」の意味は？",
+        "options": {
+          "A": "Lần này xin không tham gia",
+          "B": "Lần này xin chờ",
+          "C": "Xin đồng ý",
+          "D": "Xin tiễn quý khách"
+        },
+        "answer": "A",
+        "explain": "`IN-07`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-07"
+        ]
+      },
+      {
+        "id": "P04-L02-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「ご期待に沿えず、申し訳ございません」と言われました。どういう意味ですか。",
+        "options": {
+          "A": "Cảm ơn kỳ vọng của anh",
+          "B": "Sẽ đáp ứng ngay",
+          "C": "Xin lỗi vì không đáp ứng được yêu cầu",
+          "D": "Hẹn họp lại"
+        },
+        "answer": "C",
+        "explain": "`IN-09`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "IN-09"
+        ]
+      },
+      {
+        "id": "P04-L02-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「せっかくですが、〜」は、どんなときの前置きですか。",
+        "options": {
+          "A": "Khi nhận lời mời",
+          "B": "Khi cảm ơn",
+          "C": "Khi xin phép về",
+          "D": "Khi từ chối lời mời, đề nghị"
+        },
+        "answer": "D",
+        "explain": "`CS-02`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-02"
+        ]
+      },
+      {
+        "id": "P04-L02-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「お力になれず申し訳ございません」の意味は？",
+        "options": {
+          "A": "Cảm ơn đã giúp",
+          "B": "Xin lỗi vì không thể giúp được",
+          "C": "Sẽ giúp ngay",
+          "D": "Xin hãy giúp tôi"
+        },
+        "answer": "B",
+        "explain": "`CS-07`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-07"
+        ]
+      },
+      {
+        "id": "P04-L02-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "今回は応募せず、次の機会を待つことは？",
+        "options": {
+          "A": "見送る",
+          "B": "取り下げる",
+          "C": "取り消す",
+          "D": "見直す"
+        },
+        "answer": "A",
+        "explain": "`AC-07`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "AC-07"
+        ]
+      },
+      {
+        "id": "P04-L02-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「ここでの写真撮影は（　）ください。」（lịch sự: xin đừng làm）",
+        "options": {
+          "A": "取り消して",
+          "B": "撤回して",
+          "C": "差し控えて",
+          "D": "見直して"
+        },
+        "answer": "C",
+        "explain": "`AC-08`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "AC-08"
+        ]
+      },
+      {
+        "id": "P04-L02-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "自分が出した申請書を、取り戻して引っ込めることは？",
+        "options": {
+          "A": "差し控える",
+          "B": "取り下げる",
+          "C": "見送る",
+          "D": "更新する"
+        },
+        "answer": "B",
+        "explain": "`AC-01`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "AC-01"
+        ]
+      },
+      {
+        "id": "P04-L02-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "予約や注文を、なかったことにして消すことは？",
+        "options": {
+          "A": "見直す",
+          "B": "取り消す",
+          "C": "保留する",
+          "D": "譲歩する"
+        },
+        "answer": "B",
+        "explain": "`AC-02`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "AC-02"
+        ]
+      },
+      {
+        "id": "P04-L02-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "一度言った意見を、完全になかったことにして引っ込めることは？",
+        "options": {
+          "A": "提案",
+          "B": "検討",
+          "C": "撤回",
+          "D": "了承"
+        },
+        "answer": "C",
+        "explain": "`AC-03`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "AC-03"
+        ]
+      },
+      {
+        "id": "P04-L02-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "計画に問題があるので、もう一度確認して考え直します。",
+        "options": {
+          "A": "見送って",
+          "B": "差し控えて",
+          "C": "取り消して",
+          "D": "見直して"
+        },
+        "answer": "D",
+        "explain": "`AC-04`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "AC-04"
+        ]
+      },
+      {
+        "id": "P04-L02-V19",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "アンケートへの（　）を、今週中にお願いします。",
+        "options": {
+          "A": "解答",
+          "B": "回答",
+          "C": "提案",
+          "D": "承認"
+        },
+        "answer": "B",
+        "explain": "`HM-05`: 回答 = trả lời khảo sát; 解答 = đáp án bài thi",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-05"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Người Nhật hiếm khi nói `できません`. Hãy đọc **`本音`** theo bảng ◎ ○ △ × ở trên; **cụm có `少々`, `かもしれません` vẫn là từ chối**.",
+    "`〜かねる` / `〜いたしかねます` = **không thể** (từ chối trang trọng). Đừng nhầm với `〜かねない` = có thể dẫn tới điều xấu (`G6-02`, `G6-25`, `G4-03`).",
+    "`〜わけではない` = không có nghĩa là; `〜わけにはいかない` = không thể (vì lý do xã hội) (`G4-04`, `G4-05`).",
+    "`取り下げる` (mình rút) / `取り消す` (hủy) / `撤回` (rút lại hoàn toàn) / `見直す` (xem lại, chưa hủy)."
+  ],
+  "listening": [
+    {
+      "id": "P04-L02-LR01",
+      "title": "2. Bài Nghe–Đọc — 聴読解 (P04-L02-LR01)",
+      "doc": "<div class=\"doc-table-wrap\"><table class=\"doc-table\"><thead><tr><th>項目</th><th>現在の条件</th><th>先方のご要望</th></tr></thead><tbody><tr><td>① 月額料金</td><td>100,000円</td><td>90,000円</td></tr><tr><td>② 契約期間</td><td>1年</td><td>2年</td></tr><tr><td>③ 納品までの日数</td><td>5営業日</td><td>3営業日</td></tr></tbody></table></div>",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（佐藤・ミライ商事）",
+          "name": "佐藤・ミライ商事",
+          "text": "本日はお時間をいただき、ありがとうございます。ご提案いただいた月額10万円のプランについて、3点お願いがございます。"
+        },
+        {
+          "speaker": "女",
+          "label": "女（田中・さくら商事）",
+          "name": "田中・さくら商事",
+          "text": "はい、伺います。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "まず、月額を9万円にしていただけないでしょうか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "ご要望は承知いたしました。ただ、私の一存では決めかねますので、持ち帰って検討いたします。来週の水曜日までにはご回答いたします。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ありがとうございます。次に、契約期間を1年ではなく2年にしたいと考えています。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "2年のご契約でしたら、前向きに検討いたします。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "最後に、納品までの日数を5営業日から3営業日に短縮していただけませんか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "少々、難しい状況でして…。現在の体制では、5営業日が限度でございます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうですか。わかりました。では、月額と契約期間の件、よろしくお願いいたします。"
+        }
+      ],
+      "translation": [
+        "*Sato:* Cảm ơn chị đã dành thời gian. Về gói 100.000 yên/tháng mà quý công ty đề xuất, tôi có 3 đề nghị.",
+        "*Tanaka:* Vâng, xin anh cứ nói.",
+        "*Sato:* Trước hết, có thể giảm phí tháng xuống 90.000 yên được không?",
+        "*Tanaka:* Tôi đã hiểu yêu cầu. Có điều một mình tôi khó quyết định, nên xin mang về xem xét. Chậm nhất thứ Tư tuần sau chúng tôi sẽ trả lời.",
+        "*Sato:* Cảm ơn chị. Tiếp theo, chúng tôi muốn kỳ hạn hợp đồng là 2 năm thay vì 1 năm.",
+        "*Tanaka:* Nếu ký 2 năm thì chúng tôi sẽ xem xét tích cực.",
+        "*Sato:* Cuối cùng, có thể rút ngắn thời gian giao từ 5 xuống 3 ngày làm việc không?",
+        "*Tanaka:* Hơi khó ạ... Với cơ cấu hiện tại, 5 ngày làm việc là giới hạn.",
+        "*Sato:* Vậy à, tôi hiểu. Vậy phần phí tháng và kỳ hạn hợp đồng xin nhờ chị."
+      ],
+      "questions": [
+        {
+          "id": "P04-L02-E01",
+          "questionType": "listening_reading",
+          "skill": "listening",
+          "q": "月額料金について、田中さんの返事の意味はどれですか。",
+          "options": {
+            "A": "社内で確認して、来週の水曜日までに返事をする。",
+            "B": "すぐに9万円で承諾する。",
+            "C": "9万円にすることを断った。",
+            "D": "返事をしないで保留にする。"
+          },
+          "answer": "A",
+          "explain": "`私の一存では決めかねます` + `持ち帰って検討` + `来週の水曜日までにご回答` → chờ duyệt nội bộ, **có hẹn hạn trả lời** (`IN-04`). B, C chưa xảy ra; D sai vì có hạn trả lời cụ thể.",
+          "tags": [
+            "INDIRECT_INTENT",
+            "SPEAKER_INTENT"
+          ],
+          "vocabIds": [
+            "IN-04"
+          ],
+          "audioId": null
+        },
+        {
+          "id": "P04-L02-E02",
+          "questionType": "listening_reading",
+          "skill": "listening",
+          "q": "契約期間を2年にする件について、どう考えられますか。",
+          "options": {
+            "A": "断られた。",
+            "B": "受け入れられる可能性が高い。",
+            "C": "2年で確定した。",
+            "D": "まだ何も返事がない。"
+          },
+          "answer": "B",
+          "explain": "`前向きに検討いたします` (`IN-02`) → **khả năng chấp nhận cao nhưng chưa chắc chắn**. C sai vì chưa chốt; A sai vì không phải từ chối.",
+          "tags": [
+            "INDIRECT_INTENT"
+          ],
+          "vocabIds": [
+            "IN-02"
+          ],
+          "audioId": null
+        },
+        {
+          "id": "P04-L02-E03",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "納品までの日数について、正しいものはどれですか。",
+          "options": {
+            "A": "3営業日に短縮することに決まった。",
+            "B": "来週、改めて回答する。",
+            "C": "3営業日は難しいと伝えられた。",
+            "D": "前向きに検討してもらえる。"
+          },
+          "answer": "C",
+          "explain": "`少々、難しい状況でして…5営業日が限度` (`IN-06`) → **từ chối khéo**. B, D thuộc về mục ① và ②; A sai.",
+          "tags": [
+            "INDIRECT_INTENT",
+            "DOCUMENT_MATCH"
+          ],
+          "vocabIds": [
+            "IN-06"
+          ],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P04-L02-R01",
+      "title": "3. Bài Đọc — 短文読解 (P04-L02-R01: Email về hạn giao hàng)",
+      "passageHtml": "<strong>件名：</strong> ご希望納期につきまして<br>ミライ商事 佐藤様<br>いつもお世話になっております。さくら商事の田中です。<br>先日ご相談いただきました12月8日（火）のお届けにつきましては、現在、在庫の状況を確認しております。できる限り善処いたしますが、確定いたしましたら改めてご連絡いたします。<br>なお、お見積書の有効期限は12月18日までとなっておりますので、ご注意ください。",
+      "questions": [
+        {
+          "id": "P04-L02-E04",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "このメールの内容と合っているものはどれですか。",
+          "options": {
+            "A": "12月8日に必ず届く。",
+            "B": "12月8日に届くかどうか、まだ決まっていない。",
+            "C": "12月8日の納品は断られた。",
+            "D": "見積書は12月8日まで有効である。"
+          },
+          "answer": "B",
+          "explain": "`できる限り善処いたします` (`IN-03`) = cố gắng nhưng **chưa cam kết**; `確定いたしましたら改めてご連絡` = chưa chốt. A sai; C sai vì không từ chối; D sai vì hạn hiệu lực là **12/18**.",
+          "tags": [
+            "INDIRECT_INTENT",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [
+            "IN-03"
+          ],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P04-L02-X01",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "取引先から新しい提案がありましたが、今回は受けられません。相手を傷つけないように断る返事として、最も適切なものを選んでください。",
+      "options": {
+        "A": "無理です。やりません。",
+        "B": "せっかくですが、今回は見送らせていただきます。",
+        "C": "検討しておきます。",
+        "D": "前向きに検討いたします。"
+      },
+      "answer": "B",
+      "explain": "Từ chối rõ nhưng lịch sự: `せっかくですが` + `見送らせていただきます` (`CS-02`, `IN-07`). A quá thô; C, D làm đối phương **tưởng còn hy vọng**.",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [
+        "CS-02",
+        "IN-07"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P04-L02-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "申し訳ございませんが、そのご依頼はお受け（　）。",
+      "options": {
+        "A": "いたしかねます",
+        "B": "いたしません",
+        "C": "いたしかねない",
+        "D": "いたしましょう"
+      },
+      "answer": "A",
+      "explain": "`〜いたしかねます` = xin phép không thể (`G6-25`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L02-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "私の一存では決め（　）ので、上司に確認いたします。",
+      "options": {
+        "A": "かねます",
+        "B": "かねません",
+        "C": "られます",
+        "D": "たがります"
+      },
+      "answer": "A",
+      "explain": "`決めかねる` = khó quyết định (`G6-02`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L02-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "この方針では、お客様の不満につながり（　）。",
+      "options": {
+        "A": "かねます",
+        "B": "かねません",
+        "C": "たいです",
+        "D": "ません"
+      },
+      "answer": "B",
+      "explain": "`〜かねない` = có thể dẫn đến điều xấu (`G4-03`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L02-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "反対している（　）が、今回は条件が合わないのです。",
+      "options": {
+        "A": "はずだ",
+        "B": "わけではない",
+        "C": "にすぎない",
+        "D": "に違いない"
+      },
+      "answer": "B",
+      "explain": "`〜わけではない` = không có nghĩa là (`G4-04`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L02-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "一度約束した以上、期日を変更する（　）。",
+      "options": {
+        "A": "わけではありません",
+        "B": "にすぎません",
+        "C": "わけにはいきません",
+        "D": "に違いありません"
+      },
+      "answer": "C",
+      "explain": "`〜わけにはいかない` = không thể (lý do xã hội) (`G4-05`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L02-G06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "提案を（　）、新しい案を出し直した。",
+      "options": {
+        "A": "取り下げて",
+        "B": "合意して",
+        "C": "承諾して",
+        "D": "保留して"
+      },
+      "answer": "A",
+      "explain": "`取り下げる` = tự rút đề xuất (`AC-01`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "AC-01"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

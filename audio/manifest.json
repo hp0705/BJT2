@@ -1,0 +1,2418 @@
+{
+  "words/CO-02.mp3": {
+    "hash": "8d1d92f64991bcdf",
+    "size": 11232
+  },
+  "words/CO-01.mp3": {
+    "hash": "a397774395c8e12f",
+    "size": 11232
+  },
+  "examples/CO-01.mp3": {
+    "hash": "d34c4b20c48dac9e",
+    "size": 16704
+  },
+  "examples/CO-02.mp3": {
+    "hash": "d8f8071a18f729fe",
+    "size": 21600
+  },
+  "words/CO-03.mp3": {
+    "hash": "1219e838767b9fdd",
+    "size": 11232
+  },
+  "words/CO-04.mp3": {
+    "hash": "3ccef806d1a3884e",
+    "size": 11232
+  },
+  "examples/CO-03.mp3": {
+    "hash": "36289cce2908307f",
+    "size": 20304
+  },
+  "words/CO-05.mp3": {
+    "hash": "b6742e63b8d2ec69",
+    "size": 11808
+  },
+  "examples/CO-04.mp3": {
+    "hash": "14ce69e71aec6f17",
+    "size": 19728
+  },
+  "examples/CO-05.mp3": {
+    "hash": "a8822fec5f83c2be",
+    "size": 19008
+  },
+  "words/CO-06.mp3": {
+    "hash": "09de3e4136ce3ce4",
+    "size": 11232
+  },
+  "words/CO-07.mp3": {
+    "hash": "537cee3bb04f2273",
+    "size": 11232
+  },
+  "examples/CO-06.mp3": {
+    "hash": "16fe4491ea4b35c5",
+    "size": 24912
+  },
+  "words/CO-08.mp3": {
+    "hash": "de1941cac5395827",
+    "size": 11232
+  },
+  "examples/CO-07.mp3": {
+    "hash": "64183d908a8adf80",
+    "size": 23184
+  },
+  "examples/CO-08.mp3": {
+    "hash": "110e7f256ce29253",
+    "size": 19440
+  },
+  "words/CO-09.mp3": {
+    "hash": "a09b199fd2b01991",
+    "size": 11232
+  },
+  "words/CO-10.mp3": {
+    "hash": "efd9a15c0417ab79",
+    "size": 11520
+  },
+  "words/CO-11.mp3": {
+    "hash": "fb5bbeb48e409ab9",
+    "size": 11232
+  },
+  "examples/CO-09.mp3": {
+    "hash": "143bf2f31971a80c",
+    "size": 19440
+  },
+  "examples/CO-10.mp3": {
+    "hash": "8bfe153013de3393",
+    "size": 20304
+  },
+  "words/CO-12.mp3": {
+    "hash": "223682576aae5816",
+    "size": 11232
+  },
+  "words/CO-13.mp3": {
+    "hash": "44d26d467f51ebec",
+    "size": 11808
+  },
+  "examples/CO-11.mp3": {
+    "hash": "8e77273cfd60532c",
+    "size": 21168
+  },
+  "examples/CO-12.mp3": {
+    "hash": "d56ef186ba2438b6",
+    "size": 20592
+  },
+  "words/CO-15.mp3": {
+    "hash": "4cfd32134225432e",
+    "size": 11664
+  },
+  "words/CO-14.mp3": {
+    "hash": "0fbfbaf1e852bc7a",
+    "size": 11232
+  },
+  "examples/CO-14.mp3": {
+    "hash": "ec12bb86eaaa46fd",
+    "size": 21456
+  },
+  "examples/CO-13.mp3": {
+    "hash": "fbac4e223ccc48c3",
+    "size": 22752
+  },
+  "words/PS-01.mp3": {
+    "hash": "2bfb5d3d9f4196b7",
+    "size": 11232
+  },
+  "words/PS-05.mp3": {
+    "hash": "9d30feb951b6365e",
+    "size": 11232
+  },
+  "examples/PS-01.mp3": {
+    "hash": "9ba6bc08c6f165e6",
+    "size": 20880
+  },
+  "examples/CO-15.mp3": {
+    "hash": "66160c87936b34b7",
+    "size": 28368
+  },
+  "examples/PS-05.mp3": {
+    "hash": "27507b7db9890036",
+    "size": 15552
+  },
+  "words/PS-06.mp3": {
+    "hash": "6593a47a891549a3",
+    "size": 11232
+  },
+  "words/PS-11.mp3": {
+    "hash": "8883c83a5d7a1cbc",
+    "size": 11808
+  },
+  "examples/PS-06.mp3": {
+    "hash": "a15253982fd0261b",
+    "size": 18576
+  },
+  "words/CL-01.mp3": {
+    "hash": "3dd47ccb621e742f",
+    "size": 12672
+  },
+  "examples/PS-11.mp3": {
+    "hash": "44ec49581bed928c",
+    "size": 22752
+  },
+  "examples/CL-01.mp3": {
+    "hash": "eb0954f5285ce365",
+    "size": 16992
+  },
+  "words/AC-15.mp3": {
+    "hash": "eb7a6d82c618afdd",
+    "size": 11232
+  },
+  "examples/WK-16.mp3": {
+    "hash": "ae159acf4bd463b8",
+    "size": 23040
+  },
+  "words/WK-16.mp3": {
+    "hash": "f8fca3173ee0f088",
+    "size": 13392
+  },
+  "examples/AC-15.mp3": {
+    "hash": "f55be81350a80e93",
+    "size": 18720
+  },
+  "listening/P01-L01-A01/02.mp3": {
+    "hash": "b9c964b4d3d12cab",
+    "size": 56304
+  },
+  "listening/P01-L01-A01/03.mp3": {
+    "hash": "b75d93009d396da3",
+    "size": 72144
+  },
+  "words/PS-07.mp3": {
+    "hash": "929aa7848127184a",
+    "size": 11952
+  },
+  "listening/P01-L01-A01/05.mp3": {
+    "hash": "651049510f2ad8a7",
+    "size": 20592
+  },
+  "examples/PS-07.mp3": {
+    "hash": "688ba793d289607a",
+    "size": 23328
+  },
+  "words/PS-09.mp3": {
+    "hash": "6534318ea72aa6af",
+    "size": 11232
+  },
+  "listening/P01-L01-A01/01.mp3": {
+    "hash": "68194a0b14e46b8f",
+    "size": 83520
+  },
+  "listening/P01-L01-A01/04.mp3": {
+    "hash": "84e12e88dc3eadfd",
+    "size": 84816
+  },
+  "words/PS-10.mp3": {
+    "hash": "1f9e58f813344b87",
+    "size": 11232
+  },
+  "words/PS-13.mp3": {
+    "hash": "936fd776d5470fe1",
+    "size": 11664
+  },
+  "examples/PS-09.mp3": {
+    "hash": "bd2d36bbca0405b5",
+    "size": 15984
+  },
+  "examples/PS-10.mp3": {
+    "hash": "a5e848366251794b",
+    "size": 17424
+  },
+  "words/PS-14.mp3": {
+    "hash": "12aebd0ad5e6020e",
+    "size": 12384
+  },
+  "examples/PS-13.mp3": {
+    "hash": "d384250b3fed62ae",
+    "size": 22320
+  },
+  "words/PS-15.mp3": {
+    "hash": "eda495b890adab10",
+    "size": 11808
+  },
+  "words/PS-16.mp3": {
+    "hash": "f4ce1c14dcd252cc",
+    "size": 12960
+  },
+  "examples/PS-14.mp3": {
+    "hash": "8d89b84f79d84865",
+    "size": 20880
+  },
+  "words/PS-17.mp3": {
+    "hash": "095f6ed83f2ef3d3",
+    "size": 12672
+  },
+  "examples/PS-15.mp3": {
+    "hash": "56d86adea1ae15d3",
+    "size": 21312
+  },
+  "examples/PS-16.mp3": {
+    "hash": "3fffb29dfeff787c",
+    "size": 22608
+  },
+  "examples/PS-17.mp3": {
+    "hash": "d183c06ba13319bb",
+    "size": 22176
+  },
+  "words/PS-18.mp3": {
+    "hash": "81fb78a2d51ea70f",
+    "size": 13968
+  },
+  "examples/PS-18.mp3": {
+    "hash": "64f2c9586ef9aa4d",
+    "size": 25344
+  },
+  "words/CL-02.mp3": {
+    "hash": "540a89af00e4f0e5",
+    "size": 12240
+  },
+  "words/CL-03.mp3": {
+    "hash": "89ed27c1b5cd48ed",
+    "size": 11232
+  },
+  "examples/CL-02.mp3": {
+    "hash": "cad6b4e6c68ddca0",
+    "size": 23040
+  },
+  "words/CL-07.mp3": {
+    "hash": "2ec6a0099a7b6b78",
+    "size": 12960
+  },
+  "examples/CL-03.mp3": {
+    "hash": "736961b9c9fac319",
+    "size": 18144
+  },
+  "words/NEW-P01-01.mp3": {
+    "hash": "2550457812677092",
+    "size": 12384
+  },
+  "examples/CL-07.mp3": {
+    "hash": "d8df74661d7ca382",
+    "size": 20304
+  },
+  "words/NEW-P01-02.mp3": {
+    "hash": "dadfb01f96f645e2",
+    "size": 11232
+  },
+  "examples/NEW-P01-01.mp3": {
+    "hash": "550896aa2dddc8aa",
+    "size": 21168
+  },
+  "words/NEW-P01-03.mp3": {
+    "hash": "eb0a32881d5106b7",
+    "size": 12960
+  },
+  "examples/NEW-P01-02.mp3": {
+    "hash": "34e0a94a654561b6",
+    "size": 21744
+  },
+  "words/NEW-P01-04.mp3": {
+    "hash": "f0e0a2a3e137a36e",
+    "size": 11232
+  },
+  "examples/NEW-P01-03.mp3": {
+    "hash": "13cc799f5d225fa7",
+    "size": 23184
+  },
+  "words/NEW-P01-05.mp3": {
+    "hash": "d66fd88c3f63498e",
+    "size": 11232
+  },
+  "examples/NEW-P01-04.mp3": {
+    "hash": "49aa887d7aabfffd",
+    "size": 17280
+  },
+  "examples/NEW-P01-05.mp3": {
+    "hash": "146747edaa099877",
+    "size": 19872
+  },
+  "listening/P01-L02-LR01/01.mp3": {
+    "hash": "c6b6d4e7ea9c7088",
+    "size": 46368
+  },
+  "listening/P01-L02-LR01/02.mp3": {
+    "hash": "2ba5584d279c4bec",
+    "size": 41328
+  },
+  "listening/P01-L02-LR01/03.mp3": {
+    "hash": "188ab44b269bf3a9",
+    "size": 40752
+  },
+  "words/CO-16.mp3": {
+    "hash": "c647f43dac36e077",
+    "size": 11808
+  },
+  "listening/P01-L02-LR01/05.mp3": {
+    "hash": "808d09583611e32c",
+    "size": 42624
+  },
+  "listening/P01-L02-LR01/04.mp3": {
+    "hash": "3c6afccd99d2b4ce",
+    "size": 34560
+  },
+  "words/CO-17.mp3": {
+    "hash": "165394579314cbbd",
+    "size": 11664
+  },
+  "examples/CO-16.mp3": {
+    "hash": "783baa86840158fb",
+    "size": 25920
+  },
+  "words/CO-18.mp3": {
+    "hash": "82ee2699a0242c5b",
+    "size": 11232
+  },
+  "examples/CO-17.mp3": {
+    "hash": "e17967a3291d557e",
+    "size": 18000
+  },
+  "words/CO-19.mp3": {
+    "hash": "b5b20ed866f9b045",
+    "size": 11232
+  },
+  "examples/CO-18.mp3": {
+    "hash": "60083b9693004f05",
+    "size": 18864
+  },
+  "examples/CO-19.mp3": {
+    "hash": "ada2b9d9e9135801",
+    "size": 23184
+  },
+  "words/CO-20.mp3": {
+    "hash": "f3492870c147fff2",
+    "size": 11376
+  },
+  "words/PS-02.mp3": {
+    "hash": "c1c939edb7433a37",
+    "size": 11232
+  },
+  "words/PS-03.mp3": {
+    "hash": "4713a463ca4e486f",
+    "size": 11232
+  },
+  "examples/PS-02.mp3": {
+    "hash": "0e854df7db1e318a",
+    "size": 19296
+  },
+  "examples/CO-20.mp3": {
+    "hash": "2baffb8ad9f4216c",
+    "size": 18432
+  },
+  "words/PS-04.mp3": {
+    "hash": "540a8dbf0c485974",
+    "size": 13536
+  },
+  "examples/PS-03.mp3": {
+    "hash": "4b97a3ed4d2698ca",
+    "size": 20592
+  },
+  "words/PS-08.mp3": {
+    "hash": "39d3e627f8416a47",
+    "size": 11232
+  },
+  "examples/PS-04.mp3": {
+    "hash": "20780f4b4f66b276",
+    "size": 20448
+  },
+  "words/PS-12.mp3": {
+    "hash": "5ddbd2ab0d6ce9a9",
+    "size": 12528
+  },
+  "examples/PS-08.mp3": {
+    "hash": "24c88b61f4e3e032",
+    "size": 15408
+  },
+  "words/CL-04.mp3": {
+    "hash": "84dcea11a8bf57e0",
+    "size": 13392
+  },
+  "examples/PS-12.mp3": {
+    "hash": "770ac1b400836619",
+    "size": 20304
+  },
+  "examples/CL-04.mp3": {
+    "hash": "cfe9c5c84d020f7b",
+    "size": 20160
+  },
+  "words/CL-05.mp3": {
+    "hash": "bcdc68e235cc8b69",
+    "size": 12672
+  },
+  "examples/CL-05.mp3": {
+    "hash": "6edafa4fbccc5a38",
+    "size": 17568
+  },
+  "words/CL-06.mp3": {
+    "hash": "4d81e29e36675e32",
+    "size": 11664
+  },
+  "words/LG-12.mp3": {
+    "hash": "14a3d96a3d6a00fd",
+    "size": 11232
+  },
+  "examples/CL-06.mp3": {
+    "hash": "4a1984ee7164e1bd",
+    "size": 19440
+  },
+  "examples/LG-12.mp3": {
+    "hash": "a67c32fbb89a9f83",
+    "size": 16704
+  },
+  "listening/P01-L03-A01/01.mp3": {
+    "hash": "ed3fbbab5c7e03f8",
+    "size": 58896
+  },
+  "listening/P01-L03-A01/02.mp3": {
+    "hash": "b6923be27e253d7c",
+    "size": 29520
+  },
+  "listening/P01-L03-A01/03.mp3": {
+    "hash": "00a35cd9516ad301",
+    "size": 87264
+  },
+  "listening/P01-L03-A01/04.mp3": {
+    "hash": "f88648b0a3b7c5be",
+    "size": 36576
+  },
+  "listening/P01-L03-A01/05.mp3": {
+    "hash": "2c7e51d9b6dc28a0",
+    "size": 69120
+  },
+  "listening/P01-L03-A01/06.mp3": {
+    "hash": "a6c8b1c17bdc8772",
+    "size": 35712
+  },
+  "listening/P01-L03-A01/07.mp3": {
+    "hash": "96f99a7c5df40aa7",
+    "size": 45648
+  },
+  "options/P01-L03-X01_A.mp3": {
+    "hash": "047a20ef2c751140",
+    "size": 25056
+  },
+  "prompts/P01-L03-X01.mp3": {
+    "hash": "65006aa385969bb2",
+    "size": 83520
+  },
+  "options/P01-L03-X01_C.mp3": {
+    "hash": "105fa86556c317a0",
+    "size": 18576
+  },
+  "options/P01-L03-X01_D.mp3": {
+    "hash": "2c3416b4666e9ee9",
+    "size": 23040
+  },
+  "options/P01-L03-X01_B.mp3": {
+    "hash": "9555cae11cf1a423",
+    "size": 30240
+  },
+  "options/P01-L03-D01_A.mp3": {
+    "hash": "111588080c63364f",
+    "size": 18576
+  },
+  "options/P01-L03-D01_B.mp3": {
+    "hash": "7bf963bb8204fbe5",
+    "size": 23616
+  },
+  "options/P01-L03-D01_D.mp3": {
+    "hash": "cbdb858dba5a37b8",
+    "size": 17712
+  },
+  "options/P01-L03-D01_C.mp3": {
+    "hash": "c4fca195b20ecdf5",
+    "size": 21312
+  },
+  "listening/P01-L04-A01/01.mp3": {
+    "hash": "e5bae7ee65e3165f",
+    "size": 62208
+  },
+  "listening/P01-L04-A01/03.mp3": {
+    "hash": "9a669b43adb036bd",
+    "size": 39168
+  },
+  "listening/P01-L04-A01/05.mp3": {
+    "hash": "4babbd0cc3709752",
+    "size": 40032
+  },
+  "listening/P01-L04-A01/02.mp3": {
+    "hash": "ab4a00f6fff78abe",
+    "size": 70848
+  },
+  "listening/P01-L04-A01/07.mp3": {
+    "hash": "3ed470000570120d",
+    "size": 29088
+  },
+  "listening/P01-L04-A01/06.mp3": {
+    "hash": "9f91e357e8010193",
+    "size": 48384
+  },
+  "listening/P01-L04-A02/02.mp3": {
+    "hash": "f7a72acc52d33386",
+    "size": 30096
+  },
+  "listening/P01-L04-A01/04.mp3": {
+    "hash": "6e126d80427e7c06",
+    "size": 71712
+  },
+  "listening/P01-L04-A02/03.mp3": {
+    "hash": "11b34da78fe29a2d",
+    "size": 25056
+  },
+  "listening/P01-L04-A02/01.mp3": {
+    "hash": "88d607a2c652dc4c",
+    "size": 39456
+  },
+  "listening/P01-L04-A02/05.mp3": {
+    "hash": "2faf478e3921440b",
+    "size": 18576
+  },
+  "listening/P01-L04-A02/06.mp3": {
+    "hash": "ee17767a4ed98c8c",
+    "size": 56448
+  },
+  "listening/P01-L04-A02/08.mp3": {
+    "hash": "524bc8ff7d6e772f",
+    "size": 17136
+  },
+  "listening/P01-L04-A02/04.mp3": {
+    "hash": "b30e0d61384f757a",
+    "size": 60192
+  },
+  "listening/P01-L04-A02/07.mp3": {
+    "hash": "a06c302592e8b149",
+    "size": 29088
+  },
+  "words/OF-05.mp3": {
+    "hash": "8a6aa18d92d897a0",
+    "size": 11232
+  },
+  "examples/OF-03.mp3": {
+    "hash": "eaaa4747a64c0149",
+    "size": 18000
+  },
+  "words/OF-03.mp3": {
+    "hash": "8dfdf088005290c4",
+    "size": 13392
+  },
+  "words/OF-06.mp3": {
+    "hash": "97e0358195e5fe2a",
+    "size": 12384
+  },
+  "examples/OF-05.mp3": {
+    "hash": "a0055fe34f2e11c1",
+    "size": 19872
+  },
+  "words/OF-07.mp3": {
+    "hash": "92112ad88b31d5cb",
+    "size": 11232
+  },
+  "examples/OF-06.mp3": {
+    "hash": "52f56f21782f1b58",
+    "size": 21600
+  },
+  "words/ET-13.mp3": {
+    "hash": "ba23c7e77e60a932",
+    "size": 13824
+  },
+  "examples/OF-07.mp3": {
+    "hash": "24e40ab63728864f",
+    "size": 16272
+  },
+  "words/KT-02.mp3": {
+    "hash": "95846368a4224f14",
+    "size": 12384
+  },
+  "examples/ET-13.mp3": {
+    "hash": "df9e4b04981ca9a9",
+    "size": 21600
+  },
+  "examples/KT-02.mp3": {
+    "hash": "06d2f2edfe1e2063",
+    "size": 18000
+  },
+  "words/FX-01.mp3": {
+    "hash": "5220b30f2da91939",
+    "size": 26208
+  },
+  "examples/FX-01.mp3": {
+    "hash": "1dd6c0458433eb04",
+    "size": 18864
+  },
+  "words/FX-02.mp3": {
+    "hash": "179ee801ae25ecd4",
+    "size": 30816
+  },
+  "examples/FX-02.mp3": {
+    "hash": "ab752038c1add8d6",
+    "size": 21600
+  },
+  "words/FX-03.mp3": {
+    "hash": "497bad54cd69f1ff",
+    "size": 18720
+  },
+  "examples/FX-03.mp3": {
+    "hash": "ab752038c1add8d6",
+    "size": 21600
+  },
+  "examples/FX-04.mp3": {
+    "hash": "311b85734aad1579",
+    "size": 16848
+  },
+  "words/FX-04.mp3": {
+    "hash": "32d2db6877d01332",
+    "size": 30240
+  },
+  "words/FX-05.mp3": {
+    "hash": "3ab5eeb4a8ed704b",
+    "size": 24624
+  },
+  "examples/FX-05.mp3": {
+    "hash": "c4ede4651f5e8dc9",
+    "size": 18144
+  },
+  "words/FX-06.mp3": {
+    "hash": "429c87527a319b50",
+    "size": 19728
+  },
+  "words/CS-01.mp3": {
+    "hash": "321c4703a87f2460",
+    "size": 17280
+  },
+  "words/FX-15.mp3": {
+    "hash": "5ca23c21ba5cad84",
+    "size": 13104
+  },
+  "examples/CS-01.mp3": {
+    "hash": "5db4a7d493737085",
+    "size": 16992
+  },
+  "words/CS-02.mp3": {
+    "hash": "c4f1f38470c3b477",
+    "size": 25776
+  },
+  "examples/CS-02.mp3": {
+    "hash": "eb7851eeb87283a1",
+    "size": 24768
+  },
+  "words/CS-03.mp3": {
+    "hash": "934e8047aaa41711",
+    "size": 25056
+  },
+  "listening/P02-L01-A01/01.mp3": {
+    "hash": "a3e47ae4cf44a458",
+    "size": 24912
+  },
+  "examples/CS-03.mp3": {
+    "hash": "1c2f107eaa54ccd9",
+    "size": 19008
+  },
+  "listening/P02-L01-A01/02.mp3": {
+    "hash": "167ce38d5ffbcd19",
+    "size": 61488
+  },
+  "listening/P02-L01-A01/03.mp3": {
+    "hash": "b13806861467bb9f",
+    "size": 89712
+  },
+  "listening/P02-L01-A01/05.mp3": {
+    "hash": "3a1e74f76e26883d",
+    "size": 48240
+  },
+  "words/OF-08.mp3": {
+    "hash": "52a767294f921057",
+    "size": 11232
+  },
+  "listening/P02-L01-A01/06.mp3": {
+    "hash": "414162d9caa800d1",
+    "size": 72144
+  },
+  "listening/P02-L01-A01/07.mp3": {
+    "hash": "87694e8f48396daa",
+    "size": 46800
+  },
+  "listening/P02-L01-A01/04.mp3": {
+    "hash": "9cf5a3f7d526402c",
+    "size": 67392
+  },
+  "examples/OF-08.mp3": {
+    "hash": "9ed45f880339dbc4",
+    "size": 16704
+  },
+  "words/OF-09.mp3": {
+    "hash": "415bbf467cfb57f4",
+    "size": 11232
+  },
+  "words/OF-10.mp3": {
+    "hash": "42bbc23af7954176",
+    "size": 11376
+  },
+  "examples/OF-09.mp3": {
+    "hash": "138b7439bbe62b0b",
+    "size": 18288
+  },
+  "words/OF-11.mp3": {
+    "hash": "6a8290bb90d18ce1",
+    "size": 11376
+  },
+  "words/OF-12.mp3": {
+    "hash": "4050aeae0183d6f0",
+    "size": 11232
+  },
+  "examples/OF-10.mp3": {
+    "hash": "011a7cb1b8257cf3",
+    "size": 18288
+  },
+  "examples/OF-11.mp3": {
+    "hash": "9bd1a3838a49f4ab",
+    "size": 16992
+  },
+  "examples/OF-12.mp3": {
+    "hash": "f68d64521e4bd574",
+    "size": 18864
+  },
+  "words/OF-13.mp3": {
+    "hash": "13cb31537415d250",
+    "size": 11232
+  },
+  "examples/OF-13.mp3": {
+    "hash": "a3ed00eb2d21d522",
+    "size": 19584
+  },
+  "words/FX-08.mp3": {
+    "hash": "6f2de3dcdbaa053a",
+    "size": 16560
+  },
+  "words/FX-09.mp3": {
+    "hash": "d202dfec47bbc4bb",
+    "size": 21744
+  },
+  "examples/FX-08.mp3": {
+    "hash": "d9239b727d73ef78",
+    "size": 23904
+  },
+  "examples/FX-09.mp3": {
+    "hash": "e2a4da9b7d5bfb40",
+    "size": 17424
+  },
+  "words/FX-10.mp3": {
+    "hash": "e46a5f27ac246627",
+    "size": 24912
+  },
+  "examples/FX-10.mp3": {
+    "hash": "df31f2b4cef5bd97",
+    "size": 13680
+  },
+  "examples/FX-11.mp3": {
+    "hash": "81359b0aa298209d",
+    "size": 20016
+  },
+  "words/FX-11.mp3": {
+    "hash": "5f594f624156a56b",
+    "size": 20592
+  },
+  "words/FX-12.mp3": {
+    "hash": "15ff8856d9c2e27b",
+    "size": 23328
+  },
+  "examples/FX-12.mp3": {
+    "hash": "01e28d841667160e",
+    "size": 17136
+  },
+  "words/FX-13.mp3": {
+    "hash": "eeed2bc4a0135d57",
+    "size": 21744
+  },
+  "words/FX-14.mp3": {
+    "hash": "9ff330c9643eac1f",
+    "size": 18432
+  },
+  "examples/FX-14.mp3": {
+    "hash": "3cfde33ac52409a4",
+    "size": 19584
+  },
+  "examples/CS-05.mp3": {
+    "hash": "8e1be3bbfd8dec20",
+    "size": 28512
+  },
+  "words/CS-07.mp3": {
+    "hash": "056a61ff0347b201",
+    "size": 25632
+  },
+  "words/CS-05.mp3": {
+    "hash": "a2165b4befa319b2",
+    "size": 31680
+  },
+  "words/CS-08.mp3": {
+    "hash": "42ce6c78bde62533",
+    "size": 24336
+  },
+  "examples/CS-08.mp3": {
+    "hash": "c1644dea35d8ff84",
+    "size": 19872
+  },
+  "listening/P02-L02-LR01/01.mp3": {
+    "hash": "f945f0f2d04d54d9",
+    "size": 53856
+  },
+  "listening/P02-L02-LR01/03.mp3": {
+    "hash": "516f35a6ee33dfdb",
+    "size": 12960
+  },
+  "listening/P02-L02-LR01/02.mp3": {
+    "hash": "6908e3985a763f9b",
+    "size": 48528
+  },
+  "words/OF-01.mp3": {
+    "hash": "b3223d1af58094ec",
+    "size": 11232
+  },
+  "words/OF-02.mp3": {
+    "hash": "5af8dee8a2db712d",
+    "size": 11232
+  },
+  "examples/OF-01.mp3": {
+    "hash": "1808a4cd892e570f",
+    "size": 25776
+  },
+  "listening/P02-L02-LR01/04.mp3": {
+    "hash": "705b8fee4d7ca596",
+    "size": 95904
+  },
+  "listening/P02-L02-LR01/05.mp3": {
+    "hash": "14321982a0e7e24f",
+    "size": 43344
+  },
+  "words/OF-04.mp3": {
+    "hash": "780c814082b48441",
+    "size": 11232
+  },
+  "examples/OF-02.mp3": {
+    "hash": "13da2b388abb2ca9",
+    "size": 19872
+  },
+  "words/ET-01.mp3": {
+    "hash": "a66c605f8120ba9c",
+    "size": 14256
+  },
+  "examples/OF-04.mp3": {
+    "hash": "3f9a4a152e84efb0",
+    "size": 14832
+  },
+  "examples/ET-01.mp3": {
+    "hash": "36b6b2d6665d4e72",
+    "size": 22320
+  },
+  "words/ET-11.mp3": {
+    "hash": "b88a4b19917466f6",
+    "size": 11808
+  },
+  "examples/ET-11.mp3": {
+    "hash": "a089c3c40ec0b0b5",
+    "size": 20880
+  },
+  "words/ET-12.mp3": {
+    "hash": "9e24357a1adc1844",
+    "size": 11808
+  },
+  "words/ET-02.mp3": {
+    "hash": "a265363e47bc7638",
+    "size": 11232
+  },
+  "examples/ET-12.mp3": {
+    "hash": "5ef90628ec0a7e8b",
+    "size": 18576
+  },
+  "words/ET-03.mp3": {
+    "hash": "80a38fc98025d2fe",
+    "size": 11232
+  },
+  "examples/ET-02.mp3": {
+    "hash": "14cc375853aef548",
+    "size": 20016
+  },
+  "examples/ET-03.mp3": {
+    "hash": "763a037d5eb95a3a",
+    "size": 16848
+  },
+  "words/ET-04.mp3": {
+    "hash": "9c16cb9daa5a6101",
+    "size": 11232
+  },
+  "words/ET-05.mp3": {
+    "hash": "85614f582c7cf7e7",
+    "size": 11376
+  },
+  "examples/ET-04.mp3": {
+    "hash": "2db92b8a840d9307",
+    "size": 17136
+  },
+  "words/ET-06.mp3": {
+    "hash": "98479d9c4e470d0b",
+    "size": 11232
+  },
+  "examples/ET-05.mp3": {
+    "hash": "cd7f5fe95c72d52a",
+    "size": 19296
+  },
+  "examples/ET-06.mp3": {
+    "hash": "45d6d71346a109f0",
+    "size": 16704
+  },
+  "words/ET-07.mp3": {
+    "hash": "d49478f0e94e5e41",
+    "size": 13680
+  },
+  "words/ET-08.mp3": {
+    "hash": "03840d8d80e6ccdb",
+    "size": 11232
+  },
+  "examples/ET-07.mp3": {
+    "hash": "b17a4a46ad939557",
+    "size": 19872
+  },
+  "examples/ET-08.mp3": {
+    "hash": "168bb62929edaf2a",
+    "size": 19728
+  },
+  "words/ET-09.mp3": {
+    "hash": "a29ea8a6ea34bc3b",
+    "size": 11232
+  },
+  "examples/ET-09.mp3": {
+    "hash": "db349b6d7c8fe786",
+    "size": 21168
+  },
+  "words/ET-10.mp3": {
+    "hash": "c4a6288986aad690",
+    "size": 24480
+  },
+  "words/FX-07.mp3": {
+    "hash": "d12632d6b4bc56a3",
+    "size": 31248
+  },
+  "examples/ET-10.mp3": {
+    "hash": "b24e98f164f0cbfc",
+    "size": 20448
+  },
+  "examples/FX-07.mp3": {
+    "hash": "cb0bc01b45386cea",
+    "size": 19152
+  },
+  "examples/CS-04.mp3": {
+    "hash": "d940339535b51d6e",
+    "size": 34560
+  },
+  "words/CS-04.mp3": {
+    "hash": "1e5ea81d456dd9c8",
+    "size": 24624
+  },
+  "words/CS-06.mp3": {
+    "hash": "faeef884b873f877",
+    "size": 29088
+  },
+  "examples/CS-06.mp3": {
+    "hash": "d62a356fa4612cb8",
+    "size": 29376
+  },
+  "listening/P02-L03-A01/01.mp3": {
+    "hash": "a3e47ae4cf44a458",
+    "size": 24912
+  },
+  "listening/P02-L03-A01/02.mp3": {
+    "hash": "e90739d8a47e8a7a",
+    "size": 54432
+  },
+  "listening/P02-L03-A01/04.mp3": {
+    "hash": "33d7cb0732ca85ab",
+    "size": 34128
+  },
+  "listening/P02-L03-A01/05.mp3": {
+    "hash": "4c29734d3676372e",
+    "size": 39168
+  },
+  "listening/P02-L03-A01/03.mp3": {
+    "hash": "1d6de738d7958959",
+    "size": 61776
+  },
+  "listening/P02-L03-A01/06.mp3": {
+    "hash": "ecbeb6e63d526c98",
+    "size": 31104
+  },
+  "listening/P02-L03-A01/07.mp3": {
+    "hash": "28782f72306d7fd5",
+    "size": 50112
+  },
+  "listening/P02-L03-A01/08.mp3": {
+    "hash": "934017a8c642cc41",
+    "size": 27216
+  },
+  "options/P02-L03-X01_A.mp3": {
+    "hash": "b53ccd75b0eaafae",
+    "size": 15840
+  },
+  "listening/P02-L03-A01/09.mp3": {
+    "hash": "71b368a1a37a0adb",
+    "size": 59184
+  },
+  "options/P02-L03-X01_B.mp3": {
+    "hash": "53757b975b3736f0",
+    "size": 21600
+  },
+  "options/P02-L03-X01_C.mp3": {
+    "hash": "c302116c8226a8cf",
+    "size": 20016
+  },
+  "options/P02-L03-X01_D.mp3": {
+    "hash": "e42dc01c4fecd0a5",
+    "size": 19872
+  },
+  "prompts/P02-L03-X02.mp3": {
+    "hash": "3e9a2d4211ec882f",
+    "size": 83952
+  },
+  "options/P02-L03-X02_B.mp3": {
+    "hash": "f3f53bee11ea3f7c",
+    "size": 12816
+  },
+  "prompts/P02-L03-X01.mp3": {
+    "hash": "6fd18aaa4fd777c6",
+    "size": 96048
+  },
+  "options/P02-L03-X02_A.mp3": {
+    "hash": "f83a50be498c913c",
+    "size": 22464
+  },
+  "options/P02-L03-X02_C.mp3": {
+    "hash": "3137d0b0abce28fe",
+    "size": 17856
+  },
+  "options/P02-L03-X02_D.mp3": {
+    "hash": "2a79a63e2506b999",
+    "size": 13104
+  },
+  "options/P02-L03-D01_A.mp3": {
+    "hash": "07f7617b36c33b2b",
+    "size": 22320
+  },
+  "options/P02-L03-D01_B.mp3": {
+    "hash": "ace689c3f5d1c6e1",
+    "size": 18864
+  },
+  "options/P02-L03-D01_C.mp3": {
+    "hash": "49d1b5f5b34a6075",
+    "size": 16704
+  },
+  "options/P02-L03-D01_D.mp3": {
+    "hash": "b5ecf499c1ba036e",
+    "size": 19152
+  },
+  "listening/P02-L04-A15/01.mp3": {
+    "hash": "a5c39d745582172a",
+    "size": 27072
+  },
+  "listening/P02-L04-A15/02.mp3": {
+    "hash": "dfacc871cf860d3c",
+    "size": 63936
+  },
+  "listening/P02-L04-A16/01.mp3": {
+    "hash": "4dfc56965fe59697",
+    "size": 26784
+  },
+  "listening/P02-L04-A16/03.mp3": {
+    "hash": "e12db8b9fcddc175",
+    "size": 17280
+  },
+  "listening/P02-L04-A16/02.mp3": {
+    "hash": "3184197a54e59f4b",
+    "size": 20736
+  },
+  "listening/P02-L04-A15/03.mp3": {
+    "hash": "3b37cf650b9befaf",
+    "size": 89424
+  },
+  "listening/P02-L04-A17/01.mp3": {
+    "hash": "ec56344bd7754b02",
+    "size": 31536
+  },
+  "listening/P02-L04-A16/04.mp3": {
+    "hash": "fcf7fca2e68679e2",
+    "size": 48816
+  },
+  "listening/P02-L04-A17/03.mp3": {
+    "hash": "8c9e5767460c495e",
+    "size": 53136
+  },
+  "listening/P02-L04-A17/05.mp3": {
+    "hash": "c79bd44c0c063fec",
+    "size": 31392
+  },
+  "listening/P02-L04-A17/04.mp3": {
+    "hash": "473d794915766bda",
+    "size": 37584
+  },
+  "listening/P02-L04-A17/02.mp3": {
+    "hash": "5678b90a82272721",
+    "size": 54576
+  },
+  "listening/P02-L04-A18/01.mp3": {
+    "hash": "b9cb472d5f477ced",
+    "size": 39888
+  },
+  "listening/P02-L04-A17/06.mp3": {
+    "hash": "3db37b5db94ccfe3",
+    "size": 48816
+  },
+  "listening/P02-L04-A18/03.mp3": {
+    "hash": "7507f885b5ab4d36",
+    "size": 24048
+  },
+  "listening/P02-L04-A18/02.mp3": {
+    "hash": "77535d59059de2c6",
+    "size": 38448
+  },
+  "listening/P02-L04-A18/05.mp3": {
+    "hash": "23f05f429cd69add",
+    "size": 19584
+  },
+  "listening/P02-L04-A18/04.mp3": {
+    "hash": "c805ab563762dcc3",
+    "size": 72576
+  },
+  "listening/P02-L04-A19/01.mp3": {
+    "hash": "e4ed43d6272103f7",
+    "size": 40896
+  },
+  "listening/P02-L04-A19/02.mp3": {
+    "hash": "53c31b8c69273b95",
+    "size": 71568
+  },
+  "listening/P02-L04-A19/04.mp3": {
+    "hash": "a5458cf18afd62e5",
+    "size": 29808
+  },
+  "listening/P02-L04-A20/01.mp3": {
+    "hash": "ae1ceeec1f1f883b",
+    "size": 44784
+  },
+  "listening/P02-L04-A19/03.mp3": {
+    "hash": "a00f4b8aea450bbe",
+    "size": 80064
+  },
+  "listening/P02-L04-A20/03.mp3": {
+    "hash": "caf52c395a33d167",
+    "size": 34128
+  },
+  "listening/P02-L04-A20/04.mp3": {
+    "hash": "9fa2356e6f776885",
+    "size": 44208
+  },
+  "words/TR-01.mp3": {
+    "hash": "16007f157c59ab58",
+    "size": 11232
+  },
+  "listening/P02-L04-A20/02.mp3": {
+    "hash": "faa4f358b4b9f3df",
+    "size": 115056
+  },
+  "listening/P02-L04-A20/05.mp3": {
+    "hash": "177c0e7e4680ab3f",
+    "size": 61776
+  },
+  "words/TR-02.mp3": {
+    "hash": "58dd027a55d14f67",
+    "size": 11232
+  },
+  "examples/TR-01.mp3": {
+    "hash": "8b930738fa8f2798",
+    "size": 24336
+  },
+  "examples/TR-02.mp3": {
+    "hash": "85db2877bd65f084",
+    "size": 16128
+  },
+  "listening/P02-L04-A20/06.mp3": {
+    "hash": "490fac3b9a412cfa",
+    "size": 73440
+  },
+  "words/TR-03.mp3": {
+    "hash": "b23e950f392d7c9f",
+    "size": 11232
+  },
+  "words/TR-04.mp3": {
+    "hash": "6c0b1a2807b992ab",
+    "size": 11232
+  },
+  "examples/TR-03.mp3": {
+    "hash": "037a7efa1a747400",
+    "size": 18288
+  },
+  "words/TR-05.mp3": {
+    "hash": "96b9dde1cc6318ea",
+    "size": 11232
+  },
+  "examples/TR-04.mp3": {
+    "hash": "9139ef9024f9825c",
+    "size": 17712
+  },
+  "words/TR-09.mp3": {
+    "hash": "1e47c67a2ebe9cc3",
+    "size": 11232
+  },
+  "examples/TR-09.mp3": {
+    "hash": "2f21392206e18bf9",
+    "size": 15696
+  },
+  "examples/TR-05.mp3": {
+    "hash": "5a912247a30ceafa",
+    "size": 18864
+  },
+  "words/DC-01.mp3": {
+    "hash": "9b4916f8e7408e94",
+    "size": 12240
+  },
+  "examples/DC-01.mp3": {
+    "hash": "c10c6f23f2c8be2e",
+    "size": 16272
+  },
+  "words/DC-02.mp3": {
+    "hash": "861add56eec7653d",
+    "size": 12096
+  },
+  "words/DC-03.mp3": {
+    "hash": "bf6e61fc55464dc9",
+    "size": 12096
+  },
+  "examples/DC-02.mp3": {
+    "hash": "275298f3b35762a7",
+    "size": 16560
+  },
+  "words/DC-08.mp3": {
+    "hash": "bac98f6d2eadc373",
+    "size": 11232
+  },
+  "examples/DC-03.mp3": {
+    "hash": "2c6cbf3b7497c608",
+    "size": 17712
+  },
+  "examples/DC-08.mp3": {
+    "hash": "077afe74fe6dc972",
+    "size": 20448
+  },
+  "words/CL-A01.mp3": {
+    "hash": "a26234ee735be665",
+    "size": 13968
+  },
+  "examples/CL-A01.mp3": {
+    "hash": "686a061dd2de2437",
+    "size": 18288
+  },
+  "words/CL-A02.mp3": {
+    "hash": "a7100a560f087aef",
+    "size": 14688
+  },
+  "words/CL-A03.mp3": {
+    "hash": "b0a06465a25c4420",
+    "size": 15840
+  },
+  "examples/CL-A02.mp3": {
+    "hash": "01b520e8433f8b5b",
+    "size": 19152
+  },
+  "words/NM-08.mp3": {
+    "hash": "5d4c8243e85a3105",
+    "size": 11232
+  },
+  "examples/CL-A03.mp3": {
+    "hash": "5110848b58577e6a",
+    "size": 16560
+  },
+  "words/NM-09.mp3": {
+    "hash": "a56f9d30f11ebe39",
+    "size": 11376
+  },
+  "examples/NM-08.mp3": {
+    "hash": "dbdbeab518dfbec0",
+    "size": 14976
+  },
+  "words/NM-10.mp3": {
+    "hash": "548c06028626755d",
+    "size": 11232
+  },
+  "examples/NM-09.mp3": {
+    "hash": "9a4de289a0b32284",
+    "size": 15984
+  },
+  "words/NM-11.mp3": {
+    "hash": "5891e967ceb9cf85",
+    "size": 11232
+  },
+  "examples/NM-10.mp3": {
+    "hash": "ecbbfa3a6d9690e4",
+    "size": 18864
+  },
+  "words/TR-A04.mp3": {
+    "hash": "d3abc44413295002",
+    "size": 11232
+  },
+  "examples/NM-11.mp3": {
+    "hash": "ccdff3a90a58f5e5",
+    "size": 19008
+  },
+  "words/TR-A05.mp3": {
+    "hash": "14c178768a986855",
+    "size": 11232
+  },
+  "examples/TR-A04.mp3": {
+    "hash": "240fca631ebfdbb7",
+    "size": 21168
+  },
+  "words/TM-01.mp3": {
+    "hash": "fc9350aed29b821c",
+    "size": 11664
+  },
+  "words/TM-10.mp3": {
+    "hash": "fdada22ce90696a8",
+    "size": 13824
+  },
+  "examples/TR-A05.mp3": {
+    "hash": "b30590f6bb57c39e",
+    "size": 21456
+  },
+  "examples/TM-01.mp3": {
+    "hash": "c7045e6ebafc5b1f",
+    "size": 18864
+  },
+  "examples/TM-10.mp3": {
+    "hash": "5f4b729cd9af7dd9",
+    "size": 18144
+  },
+  "listening/P03-L01-LR01/01.mp3": {
+    "hash": "5708534e89084551",
+    "size": 38880
+  },
+  "listening/P03-L01-LR01/03.mp3": {
+    "hash": "b53eea3664433e10",
+    "size": 57024
+  },
+  "listening/P03-L01-LR01/02.mp3": {
+    "hash": "5fb3cdbc9c3b5830",
+    "size": 38016
+  },
+  "listening/P03-L01-LR01/04.mp3": {
+    "hash": "f005b30ea7e1e736",
+    "size": 74448
+  },
+  "listening/P03-L01-LR01/05.mp3": {
+    "hash": "65c3b9d33dde017d",
+    "size": 51984
+  },
+  "listening/P03-L01-LR01/06.mp3": {
+    "hash": "4d5a4db45f14a526",
+    "size": 73728
+  },
+  "listening/P03-L01-LR01/08.mp3": {
+    "hash": "726cd9438588b907",
+    "size": 37440
+  },
+  "listening/P03-L01-LR01/07.mp3": {
+    "hash": "03fea2516fc79050",
+    "size": 71568
+  },
+  "words/TR-06.mp3": {
+    "hash": "6286a83002d26c63",
+    "size": 11232
+  },
+  "words/TR-07.mp3": {
+    "hash": "e6a51498624bddc7",
+    "size": 11232
+  },
+  "examples/TR-06.mp3": {
+    "hash": "35abb39ddbdaf2b8",
+    "size": 20304
+  },
+  "words/TR-08.mp3": {
+    "hash": "a2dee03dc00734b3",
+    "size": 11232
+  },
+  "examples/TR-07.mp3": {
+    "hash": "f84442fff4166662",
+    "size": 19008
+  },
+  "examples/TR-08.mp3": {
+    "hash": "05876571f8587124",
+    "size": 14976
+  },
+  "words/TR-12.mp3": {
+    "hash": "20a1b6211e83bda7",
+    "size": 12240
+  },
+  "words/TR-15.mp3": {
+    "hash": "92fcecfb10a9c159",
+    "size": 11232
+  },
+  "words/TR-16.mp3": {
+    "hash": "9a5f1bba7e72b52a",
+    "size": 11232
+  },
+  "examples/TR-15.mp3": {
+    "hash": "5af56f359b544a0b",
+    "size": 16560
+  },
+  "examples/TR-12.mp3": {
+    "hash": "08b9e0da47b0fda8",
+    "size": 16272
+  },
+  "examples/TR-16.mp3": {
+    "hash": "6fc7a1e0695f6141",
+    "size": 16128
+  },
+  "words/CL-A30.mp3": {
+    "hash": "0c807eaf8b5b6ad0",
+    "size": 12096
+  },
+  "examples/CL-A30.mp3": {
+    "hash": "fe38481f105a61ec",
+    "size": 15120
+  },
+  "words/LG-01.mp3": {
+    "hash": "23d593b92a30f57f",
+    "size": 11232
+  },
+  "words/LG-02.mp3": {
+    "hash": "75f9378ad6c58075",
+    "size": 11232
+  },
+  "examples/LG-01.mp3": {
+    "hash": "191a751de5084f8d",
+    "size": 19440
+  },
+  "words/LG-03.mp3": {
+    "hash": "89de6e85056b4904",
+    "size": 11232
+  },
+  "examples/LG-03.mp3": {
+    "hash": "cd75c59a384a7073",
+    "size": 16704
+  },
+  "examples/LG-02.mp3": {
+    "hash": "7dd3f20d62bd76f6",
+    "size": 13968
+  },
+  "words/LG-04.mp3": {
+    "hash": "e96eb87697ea5d97",
+    "size": 11232
+  },
+  "words/LG-05.mp3": {
+    "hash": "0de87503ed20c431",
+    "size": 11232
+  },
+  "examples/LG-04.mp3": {
+    "hash": "ba425d2c20c5de9b",
+    "size": 15264
+  },
+  "words/LG-06.mp3": {
+    "hash": "50ba777b58e9ef0e",
+    "size": 11232
+  },
+  "examples/LG-05.mp3": {
+    "hash": "60a7c12abff301f0",
+    "size": 17136
+  },
+  "words/LG-07.mp3": {
+    "hash": "20a6393b64955267",
+    "size": 11232
+  },
+  "examples/LG-06.mp3": {
+    "hash": "de82d17107088451",
+    "size": 17136
+  },
+  "words/LG-08.mp3": {
+    "hash": "ffb263bd9e2e3024",
+    "size": 11232
+  },
+  "examples/LG-07.mp3": {
+    "hash": "f74600cc21b34e6c",
+    "size": 15552
+  },
+  "examples/LG-08.mp3": {
+    "hash": "1c6127fdcc7242d4",
+    "size": 16128
+  },
+  "words/LG-09.mp3": {
+    "hash": "b3916c911d47eaa3",
+    "size": 11232
+  },
+  "words/LG-10.mp3": {
+    "hash": "17f3ccea1a6d103c",
+    "size": 11232
+  },
+  "words/LG-11.mp3": {
+    "hash": "870a3c4119153328",
+    "size": 11232
+  },
+  "examples/LG-09.mp3": {
+    "hash": "b7516bad54a0a5b0",
+    "size": 19872
+  },
+  "examples/LG-10.mp3": {
+    "hash": "79432cae4a443f38",
+    "size": 15120
+  },
+  "examples/LG-11.mp3": {
+    "hash": "99e03a72b6856e1d",
+    "size": 18144
+  },
+  "words/LG-13.mp3": {
+    "hash": "d7ec78e9e4029587",
+    "size": 11808
+  },
+  "words/KT-03.mp3": {
+    "hash": "db3de3528d000d7f",
+    "size": 11232
+  },
+  "words/KT-14.mp3": {
+    "hash": "5e8ea78809837917",
+    "size": 12528
+  },
+  "examples/LG-13.mp3": {
+    "hash": "8103339038044db0",
+    "size": 16128
+  },
+  "examples/KT-03.mp3": {
+    "hash": "928c0acd1ab65df2",
+    "size": 16416
+  },
+  "examples/KT-14.mp3": {
+    "hash": "a1b48b9e768b0458",
+    "size": 17136
+  },
+  "listening/P03-L02-LR01/01.mp3": {
+    "hash": "e3a2a408bd3e4b35",
+    "size": 66528
+  },
+  "listening/P03-L02-LR01/03.mp3": {
+    "hash": "5019c3c390274578",
+    "size": 16272
+  },
+  "listening/P03-L02-LR01/02.mp3": {
+    "hash": "ce125aa1c694643d",
+    "size": 73296
+  },
+  "options/P03-L02-X01_A.mp3": {
+    "hash": "4a84ee28f7388afb",
+    "size": 18288
+  },
+  "prompts/P03-L02-X01.mp3": {
+    "hash": "c57ecec0b1ebba2d",
+    "size": 71136
+  },
+  "listening/P03-L02-LR01/05.mp3": {
+    "hash": "923541c215034213",
+    "size": 55872
+  },
+  "options/P03-L02-X01_C.mp3": {
+    "hash": "cc0d023b146dc2bc",
+    "size": 11232
+  },
+  "options/P03-L02-X01_B.mp3": {
+    "hash": "0dc785bf1eb47498",
+    "size": 33984
+  },
+  "options/P03-L02-D01_A.mp3": {
+    "hash": "9e0c7b8c0e58952e",
+    "size": 19872
+  },
+  "options/P03-L02-X01_D.mp3": {
+    "hash": "a64196ebf86d8acb",
+    "size": 25632
+  },
+  "listening/P03-L02-LR01/04.mp3": {
+    "hash": "5c9eabe2b90d6704",
+    "size": 101952
+  },
+  "options/P03-L02-D01_B.mp3": {
+    "hash": "13a697079fec3811",
+    "size": 26928
+  },
+  "words/TR-10.mp3": {
+    "hash": "83fab224190229ff",
+    "size": 12672
+  },
+  "options/P03-L02-D01_D.mp3": {
+    "hash": "d17e1ba6704af500",
+    "size": 21600
+  },
+  "options/P03-L02-D01_C.mp3": {
+    "hash": "db023970c7066f80",
+    "size": 23472
+  },
+  "words/TR-11.mp3": {
+    "hash": "79bcd8e1629e6b38",
+    "size": 12528
+  },
+  "examples/TR-11.mp3": {
+    "hash": "462e34f7473e7c14",
+    "size": 16992
+  },
+  "words/TR-13.mp3": {
+    "hash": "37cafc7d0d144a30",
+    "size": 11664
+  },
+  "examples/TR-10.mp3": {
+    "hash": "99f2ed9e48ec0147",
+    "size": 16848
+  },
+  "words/TR-14.mp3": {
+    "hash": "7ffcc5494c1c373e",
+    "size": 11232
+  },
+  "examples/TR-13.mp3": {
+    "hash": "e036609559396a36",
+    "size": 15696
+  },
+  "words/TR-17.mp3": {
+    "hash": "fffd3fb0e8d1efd6",
+    "size": 11664
+  },
+  "words/TR-A15.mp3": {
+    "hash": "daee15a9a92956bb",
+    "size": 16416
+  },
+  "examples/TR-14.mp3": {
+    "hash": "e2fce9863de8da1d",
+    "size": 18144
+  },
+  "examples/TR-17.mp3": {
+    "hash": "08ef85895982e43d",
+    "size": 16128
+  },
+  "examples/TR-A15.mp3": {
+    "hash": "2787a89c043cf3da",
+    "size": 25200
+  },
+  "words/NM-12.mp3": {
+    "hash": "8510917748ef9b92",
+    "size": 12096
+  },
+  "words/NM-13.mp3": {
+    "hash": "fcd43ee40aedb1d4",
+    "size": 11376
+  },
+  "words/NM-14.mp3": {
+    "hash": "ce5894091559cb22",
+    "size": 11232
+  },
+  "examples/NM-12.mp3": {
+    "hash": "0b74168ed29965ce",
+    "size": 16272
+  },
+  "examples/NM-13.mp3": {
+    "hash": "23b78813225a6f3f",
+    "size": 19152
+  },
+  "examples/NM-14.mp3": {
+    "hash": "2bc39e369de303b7",
+    "size": 18144
+  },
+  "words/NM-16.mp3": {
+    "hash": "70e4b6990d074c19",
+    "size": 11952
+  },
+  "words/NM-15.mp3": {
+    "hash": "7c7e57ff90fde33a",
+    "size": 11232
+  },
+  "examples/NM-15.mp3": {
+    "hash": "7131584c942fa915",
+    "size": 18576
+  },
+  "words/NM-17.mp3": {
+    "hash": "8216ded4e145c673",
+    "size": 11952
+  },
+  "examples/NM-16.mp3": {
+    "hash": "7c68d346dfe92250",
+    "size": 15984
+  },
+  "words/NM-18.mp3": {
+    "hash": "2eb9f26871077bb8",
+    "size": 11232
+  },
+  "examples/NM-17.mp3": {
+    "hash": "6942423da9b9e5b2",
+    "size": 15840
+  },
+  "examples/NM-18.mp3": {
+    "hash": "7f3f32a74fbf0854",
+    "size": 16416
+  },
+  "words/NM-19.mp3": {
+    "hash": "1f66fe59a141f518",
+    "size": 11232
+  },
+  "words/NM-20.mp3": {
+    "hash": "21b292c55cf07d96",
+    "size": 11232
+  },
+  "examples/NM-19.mp3": {
+    "hash": "d37b7b914e3f0833",
+    "size": 16704
+  },
+  "words/KT-13.mp3": {
+    "hash": "55b86d4552a0f48a",
+    "size": 11232
+  },
+  "examples/NM-20.mp3": {
+    "hash": "0f189811cd0957c3",
+    "size": 18288
+  },
+  "examples/KT-13.mp3": {
+    "hash": "16797cd73e5da131",
+    "size": 17136
+  },
+  "words/KT-23.mp3": {
+    "hash": "edd803bb131a47f6",
+    "size": 11232
+  },
+  "words/CL-A17.mp3": {
+    "hash": "9fe3fdd96209c8e2",
+    "size": 12960
+  },
+  "examples/KT-23.mp3": {
+    "hash": "348466de40a9c441",
+    "size": 13680
+  },
+  "words/CL-A21.mp3": {
+    "hash": "8dc070cbed0c8dbd",
+    "size": 12960
+  },
+  "examples/CL-A17.mp3": {
+    "hash": "1775799f4ad2b58d",
+    "size": 14976
+  },
+  "examples/CL-A21.mp3": {
+    "hash": "12199c30ee0ae5c7",
+    "size": 18432
+  },
+  "listening/P03-L03-LR01/01.mp3": {
+    "hash": "1facb957805bf8e8",
+    "size": 44064
+  },
+  "listening/P03-L03-LR01/03.mp3": {
+    "hash": "4f5aca3329b3d507",
+    "size": 56304
+  },
+  "listening/P03-L03-LR01/04.mp3": {
+    "hash": "72a6fd38c932ab88",
+    "size": 66384
+  },
+  "listening/P03-L03-LR01/05.mp3": {
+    "hash": "8f599cad30117c2b",
+    "size": 38016
+  },
+  "listening/P03-L03-LR01/02.mp3": {
+    "hash": "de534df8616b79c5",
+    "size": 87840
+  },
+  "listening/P03-L04-A01/03.mp3": {
+    "hash": "cc504b237cb5f834",
+    "size": 52416
+  },
+  "listening/P03-L04-A01/01.mp3": {
+    "hash": "fb59c70453dc2f7a",
+    "size": 61488
+  },
+  "listening/P03-L04-A01/04.mp3": {
+    "hash": "894bc5c45f36695a",
+    "size": 47376
+  },
+  "listening/P03-L04-A01/02.mp3": {
+    "hash": "abcf696c164e1897",
+    "size": 96336
+  },
+  "listening/P03-L04-A02/01.mp3": {
+    "hash": "1f5e38b98aa898ee",
+    "size": 64224
+  },
+  "listening/P03-L04-A01/05.mp3": {
+    "hash": "f0d30b20c446c714",
+    "size": 52128
+  },
+  "listening/P03-L04-A02/02.mp3": {
+    "hash": "402d68a1f8af2f94",
+    "size": 46944
+  },
+  "listening/P03-L04-A02/05.mp3": {
+    "hash": "fe77a57c7eb3b2f4",
+    "size": 35280
+  },
+  "listening/P03-L04-A02/03.mp3": {
+    "hash": "a33bc7d1f0c259d2",
+    "size": 52560
+  },
+  "words/NG-01.mp3": {
+    "hash": "cda51680ffd7729d",
+    "size": 11232
+  },
+  "words/NG-02.mp3": {
+    "hash": "082775d3ca39bdbb",
+    "size": 11232
+  },
+  "examples/NG-01.mp3": {
+    "hash": "3fff832b4ae5d294",
+    "size": 17856
+  },
+  "listening/P03-L04-A02/04.mp3": {
+    "hash": "b2ae8d255f6fd90a",
+    "size": 69696
+  },
+  "listening/P03-L04-A02/06.mp3": {
+    "hash": "44cebc8277b9216a",
+    "size": 69408
+  },
+  "words/NG-10.mp3": {
+    "hash": "b807653e3b33acda",
+    "size": 12240
+  },
+  "examples/NG-02.mp3": {
+    "hash": "e378db8d7057f051",
+    "size": 18720
+  },
+  "words/NG-11.mp3": {
+    "hash": "9ee2aa7a29ebdf8c",
+    "size": 11232
+  },
+  "examples/NG-10.mp3": {
+    "hash": "95de67d7e79df902",
+    "size": 19728
+  },
+  "words/NG-12.mp3": {
+    "hash": "b576858822b5c7f1",
+    "size": 11232
+  },
+  "examples/NG-11.mp3": {
+    "hash": "d81c66408ddccb35",
+    "size": 18432
+  },
+  "words/CL-A08.mp3": {
+    "hash": "fa45cc09e13c359b",
+    "size": 16272
+  },
+  "words/NG-03.mp3": {
+    "hash": "f0efe99b3969374b",
+    "size": 11232
+  },
+  "examples/NG-12.mp3": {
+    "hash": "9cf4e122d4311707",
+    "size": 18720
+  },
+  "examples/CL-A08.mp3": {
+    "hash": "80860cebb0c37f79",
+    "size": 19728
+  },
+  "words/NG-04.mp3": {
+    "hash": "ae60f9aa5e73764c",
+    "size": 11232
+  },
+  "words/NG-05.mp3": {
+    "hash": "7cee441fb6b4ee7a",
+    "size": 11232
+  },
+  "examples/NG-04.mp3": {
+    "hash": "34cd205d7b6f379c",
+    "size": 23616
+  },
+  "examples/NG-03.mp3": {
+    "hash": "71748b3bc0e0d705",
+    "size": 19440
+  },
+  "words/NG-06.mp3": {
+    "hash": "56789877d9d4c872",
+    "size": 11232
+  },
+  "examples/NG-05.mp3": {
+    "hash": "2b58447741dd8786",
+    "size": 18144
+  },
+  "words/CL-A27.mp3": {
+    "hash": "c371140b818f65f2",
+    "size": 12240
+  },
+  "examples/NG-06.mp3": {
+    "hash": "967c136cba8ce6ad",
+    "size": 17136
+  },
+  "words/NG-07.mp3": {
+    "hash": "ec218d9bb7fdd1c4",
+    "size": 11520
+  },
+  "examples/CL-A27.mp3": {
+    "hash": "d78e470d20f8ec68",
+    "size": 19872
+  },
+  "examples/NG-07.mp3": {
+    "hash": "c9bf2cd9aa3c098e",
+    "size": 15552
+  },
+  "words/NG-08.mp3": {
+    "hash": "e26f8f4743acb4f8",
+    "size": 11232
+  },
+  "examples/NG-08.mp3": {
+    "hash": "392962fc61d3de2d",
+    "size": 13104
+  },
+  "words/NG-09.mp3": {
+    "hash": "fa6b920908d29bfc",
+    "size": 11232
+  },
+  "examples/NG-09.mp3": {
+    "hash": "37cfdd7ffa49d29f",
+    "size": 16272
+  },
+  "words/NG-13.mp3": {
+    "hash": "4518fca5b1ed2cc0",
+    "size": 11232
+  },
+  "words/NG-14.mp3": {
+    "hash": "c782ae518d750b2a",
+    "size": 11664
+  },
+  "words/NG-15.mp3": {
+    "hash": "ee08ac12766b4e26",
+    "size": 11232
+  },
+  "examples/NG-14.mp3": {
+    "hash": "ccc5e558330d565c",
+    "size": 16416
+  },
+  "examples/NG-13.mp3": {
+    "hash": "28d288ef5294eb6f",
+    "size": 16848
+  },
+  "examples/NG-15.mp3": {
+    "hash": "cd715dc7ced57747",
+    "size": 15840
+  },
+  "listening/P04-L01-LR01/01.mp3": {
+    "hash": "ca5a0f5a83fd7d66",
+    "size": 70848
+  },
+  "listening/P04-L01-LR01/03.mp3": {
+    "hash": "d19c8bc7ae612d63",
+    "size": 54144
+  },
+  "listening/P04-L01-LR01/02.mp3": {
+    "hash": "3fcb3b7ff47534e5",
+    "size": 60480
+  },
+  "listening/P04-L01-LR01/04.mp3": {
+    "hash": "24635429d11ee83f",
+    "size": 58032
+  },
+  "listening/P04-L01-LR01/05.mp3": {
+    "hash": "a3748aa264285799",
+    "size": 43632
+  },
+  "listening/P04-L01-LR01/06.mp3": {
+    "hash": "c82e3775c0746194",
+    "size": 28512
+  },
+  "listening/P04-L01-LR01/09.mp3": {
+    "hash": "728946185a8e83d0",
+    "size": 26928
+  },
+  "listening/P04-L01-LR01/07.mp3": {
+    "hash": "33b33161c58f1367",
+    "size": 44784
+  },
+  "words/IN-02.mp3": {
+    "hash": "410aee41562804ee",
+    "size": 20016
+  },
+  "examples/IN-02.mp3": {
+    "hash": "c34b127ba6f22259",
+    "size": 17424
+  },
+  "words/IN-01.mp3": {
+    "hash": "dace126599a48d53",
+    "size": 14832
+  },
+  "examples/IN-01.mp3": {
+    "hash": "9fc02a70b74e9db5",
+    "size": 13392
+  },
+  "listening/P04-L01-LR01/08.mp3": {
+    "hash": "c0d3ae77e7c1731e",
+    "size": 62496
+  },
+  "words/IN-03.mp3": {
+    "hash": "a7c6f6fb6541215e",
+    "size": 14832
+  },
+  "examples/IN-03.mp3": {
+    "hash": "98523d5627976080",
+    "size": 17568
+  },
+  "words/IN-04.mp3": {
+    "hash": "982eb5e057b31ecd",
+    "size": 21024
+  },
+  "examples/IN-04.mp3": {
+    "hash": "c5e92dadd4e185b8",
+    "size": 18144
+  },
+  "words/CL-A12.mp3": {
+    "hash": "33880fb436736a92",
+    "size": 11808
+  },
+  "words/IN-08.mp3": {
+    "hash": "b212e965ef5bc9c2",
+    "size": 18864
+  },
+  "examples/IN-08.mp3": {
+    "hash": "6f086fa75c3f4391",
+    "size": 16992
+  },
+  "words/IN-05.mp3": {
+    "hash": "555be2b6a7c8bef3",
+    "size": 17136
+  },
+  "examples/CL-A12.mp3": {
+    "hash": "eb91eb7f624b2246",
+    "size": 14400
+  },
+  "words/IN-06.mp3": {
+    "hash": "70093bc87626d143",
+    "size": 23184
+  },
+  "examples/IN-05.mp3": {
+    "hash": "b89e6f6a85d07f61",
+    "size": 18576
+  },
+  "examples/IN-06.mp3": {
+    "hash": "ab6c757e7cd9dab3",
+    "size": 19872
+  },
+  "examples/IN-07.mp3": {
+    "hash": "d07b78fe76b3e438",
+    "size": 19440
+  },
+  "words/IN-07.mp3": {
+    "hash": "75792e0319ce4ba6",
+    "size": 21456
+  },
+  "words/IN-09.mp3": {
+    "hash": "a05bbd2045bc815f",
+    "size": 26496
+  },
+  "examples/IN-09.mp3": {
+    "hash": "ba626be681648072",
+    "size": 22752
+  },
+  "words/AC-07.mp3": {
+    "hash": "90ce9cc22ebaf3c9",
+    "size": 11232
+  },
+  "examples/CS-07.mp3": {
+    "hash": "ee253e8fa20bf6c3",
+    "size": 20592
+  },
+  "words/AC-08.mp3": {
+    "hash": "dc12d60a5a97d538",
+    "size": 13248
+  },
+  "examples/AC-08.mp3": {
+    "hash": "abcbf31515828692",
+    "size": 16272
+  },
+  "examples/AC-07.mp3": {
+    "hash": "2d1996591917a3a8",
+    "size": 16992
+  },
+  "examples/AC-01.mp3": {
+    "hash": "7b80aaa1c26841e8",
+    "size": 15552
+  },
+  "words/AC-01.mp3": {
+    "hash": "2ad442458bb92153",
+    "size": 11808
+  },
+  "words/AC-02.mp3": {
+    "hash": "9f9f3cdc8e55a4cc",
+    "size": 11808
+  },
+  "words/AC-03.mp3": {
+    "hash": "3aceea12ef430139",
+    "size": 11232
+  },
+  "examples/AC-02.mp3": {
+    "hash": "a229770085776c7c",
+    "size": 14688
+  },
+  "words/AC-04.mp3": {
+    "hash": "e4d8cac65c204c7f",
+    "size": 11808
+  },
+  "examples/AC-04.mp3": {
+    "hash": "e67e04e6e14d0e89",
+    "size": 14976
+  },
+  "examples/AC-03.mp3": {
+    "hash": "0d44c157adeb2841",
+    "size": 15984
+  },
+  "listening/P04-L02-LR01/02.mp3": {
+    "hash": "317275dc64c37321",
+    "size": 14256
+  },
+  "listening/P04-L02-LR01/01.mp3": {
+    "hash": "ba6dde3a461f399e",
+    "size": 62496
+  },
+  "listening/P04-L02-LR01/03.mp3": {
+    "hash": "8534be6d59857ab7",
+    "size": 26208
+  },
+  "listening/P04-L02-LR01/04.mp3": {
+    "hash": "afc690a0a1b77a43",
+    "size": 78768
+  },
+  "listening/P04-L02-LR01/05.mp3": {
+    "hash": "510a50e9735f6d6a",
+    "size": 44640
+  },
+  "listening/P04-L02-LR01/06.mp3": {
+    "hash": "f929c543548a7f67",
+    "size": 28656
+  },
+  "listening/P04-L02-LR01/07.mp3": {
+    "hash": "dc12e3480bb73b94",
+    "size": 39888
+  },
+  "words/CT-01.mp3": {
+    "hash": "bafc96a6aa24f5ea",
+    "size": 11376
+  },
+  "listening/P04-L02-LR01/08.mp3": {
+    "hash": "999532bffc458fa5",
+    "size": 49680
+  },
+  "words/CT-02.mp3": {
+    "hash": "b9f90a8c737cae23",
+    "size": 12096
+  },
+  "listening/P04-L02-LR01/09.mp3": {
+    "hash": "acf078a599d55b9a",
+    "size": 50544
+  },
+  "examples/CT-01.mp3": {
+    "hash": "6df3942523be9001",
+    "size": 20016
+  },
+  "words/CT-03.mp3": {
+    "hash": "fad2d78b31954ff6",
+    "size": 11232
+  },
+  "examples/CT-02.mp3": {
+    "hash": "d31671ed00ea068d",
+    "size": 16704
+  },
+  "words/CT-04.mp3": {
+    "hash": "6e6da3bcadcb6e02",
+    "size": 11232
+  },
+  "examples/CT-04.mp3": {
+    "hash": "0fca55127b1320c9",
+    "size": 16128
+  },
+  "examples/CT-03.mp3": {
+    "hash": "0219cacf981bf03a",
+    "size": 16128
+  },
+  "words/CT-05.mp3": {
+    "hash": "50f3c2dd9af3ae5b",
+    "size": 11376
+  },
+  "words/CT-10.mp3": {
+    "hash": "c13b977562ced54e",
+    "size": 11232
+  },
+  "examples/CT-05.mp3": {
+    "hash": "87db4c80b8d38d13",
+    "size": 15984
+  },
+  "examples/CT-10.mp3": {
+    "hash": "5999917a58a8457c",
+    "size": 16992
+  },
+  "words/CT-06.mp3": {
+    "hash": "593d9a37aff03b24",
+    "size": 11232
+  },
+  "words/CT-07.mp3": {
+    "hash": "6878b10fcedec40e",
+    "size": 14256
+  },
+  "words/CT-08.mp3": {
+    "hash": "05285b098ba3d578",
+    "size": 11232
+  },
+  "examples/CT-06.mp3": {
+    "hash": "54698e81c426b163",
+    "size": 15552
+  },
+  "examples/CT-07.mp3": {
+    "hash": "98a02b7529e94f45",
+    "size": 18864
+  },
+  "words/CT-09.mp3": {
+    "hash": "38a5448850e5f872",
+    "size": 11232
+  },
+  "examples/CT-08.mp3": {
+    "hash": "4efbd3349be02fb8",
+    "size": 13680
+  },
+  "words/CT-11.mp3": {
+    "hash": "6a02f31cae59b873",
+    "size": 11376
+  },
+  "examples/CT-09.mp3": {
+    "hash": "ee467b8232a7649a",
+    "size": 17568
+  },
+  "words/AC-17.mp3": {
+    "hash": "da5e23df17039d80",
+    "size": 11232
+  },
+  "examples/CT-11.mp3": {
+    "hash": "d7806be50a083e19",
+    "size": 14256
+  },
+  "examples/AC-17.mp3": {
+    "hash": "33e88321368581f5",
+    "size": 14400
+  },
+  "words/AC-18.mp3": {
+    "hash": "cb6a73688480e59c",
+    "size": 11232
+  },
+  "words/CT-12.mp3": {
+    "hash": "520d9a3e23fde0e6",
+    "size": 11232
+  },
+  "examples/AC-18.mp3": {
+    "hash": "d5d031fecd00b486",
+    "size": 14832
+  },
+  "words/CT-13.mp3": {
+    "hash": "c87430abafd5a30f",
+    "size": 11232
+  },
+  "examples/CT-12.mp3": {
+    "hash": "b757e4a60f3e6d69",
+    "size": 16272
+  },
+  "words/DC-15.mp3": {
+    "hash": "2ff4451262829959",
+    "size": 11232
+  },
+  "words/DC-16.mp3": {
+    "hash": "d7c3a582bbf746d4",
+    "size": 11232
+  },
+  "examples/CT-13.mp3": {
+    "hash": "9aa6b5d3bdc67a6f",
+    "size": 18864
+  },
+  "examples/DC-15.mp3": {
+    "hash": "ab78fedfb4a9865e",
+    "size": 16704
+  },
+  "examples/DC-16.mp3": {
+    "hash": "2010d38623842c06",
+    "size": 16272
+  },
+  "listening/P04-L03-LR01/01.mp3": {
+    "hash": "90460fb8e70edbf8",
+    "size": 56592
+  },
+  "listening/P04-L03-LR01/03.mp3": {
+    "hash": "45f8e62c17d4d563",
+    "size": 72720
+  },
+  "listening/P04-L03-LR01/05.mp3": {
+    "hash": "a5d11749782518ca",
+    "size": 26928
+  },
+  "listening/P04-L03-LR01/02.mp3": {
+    "hash": "c79efa6622263e2a",
+    "size": 64800
+  },
+  "listening/P04-L03-LR01/04.mp3": {
+    "hash": "925f39c90b4ddf85",
+    "size": 45504
+  },
+  "listening/P04-L04-A01/01.mp3": {
+    "hash": "eb09f7ef5fb1bc08",
+    "size": 38736
+  },
+  "listening/P04-L03-LR01/07.mp3": {
+    "hash": "93d9395b8567acda",
+    "size": 49248
+  },
+  "listening/P04-L04-A01/03.mp3": {
+    "hash": "8ec98ed294136b5e",
+    "size": 15840
+  },
+  "listening/P04-L04-A01/02.mp3": {
+    "hash": "c4cfb12eccba4ac6",
+    "size": 81216
+  },
+  "listening/P04-L03-LR01/06.mp3": {
+    "hash": "f4b5ed437e4073f8",
+    "size": 71424
+  },
+  "listening/P04-L04-A01/04.mp3": {
+    "hash": "978c114cc2eddf57",
+    "size": 52704
+  },
+  "listening/P04-L04-A01/06.mp3": {
+    "hash": "738098a7d8846613",
+    "size": 39744
+  },
+  "listening/P04-L04-A02/01.mp3": {
+    "hash": "a0332f0944679a61",
+    "size": 32112
+  },
+  "listening/P04-L04-A01/05.mp3": {
+    "hash": "89a4f9752cc2714e",
+    "size": 60912
+  },
+  "listening/P04-L04-A02/02.mp3": {
+    "hash": "afca70303eeff00c",
+    "size": 49392
+  },
+  "listening/P04-L04-A02/03.mp3": {
+    "hash": "a75b85f59a77139e",
+    "size": 39744
+  },
+  "listening/P04-L04-A02/04.mp3": {
+    "hash": "15f647ba0baa0c6c",
+    "size": 48816
+  },
+  "listening/P04-L04-A02/05.mp3": {
+    "hash": "f596374d2537ed5d",
+    "size": 40752
+  },
+  "listening/P04-L04-A02/06.mp3": {
+    "hash": "559c748e51b1e245",
+    "size": 15120
+  }
+}

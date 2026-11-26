@@ -1,0 +1,508 @@
+{
+  "id": "P03-L04",
+  "part": "P03",
+  "title": "BÀI KIỂM TRA PART 03 (20 câu · đạt ≥ 70% = 14 câu đúng)",
+  "isTest": true,
+  "vocab": [],
+  "cards": [],
+  "confusedPairs": [],
+  "vocabQuiz": {
+    "passAt": 0,
+    "total": 0,
+    "items": []
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P03-L04-A01",
+      "title": "Bài nghe A (P03-L04-A01) — T15, T16, T17",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "中村さん、北斗産業の封筒500袋なんですが、14日の月曜日の午前中に、大阪支社へ届けられますか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "大阪なら、発送の翌営業日に着きますので、11日の金曜日に出せば、14日の午前に届きます。ただ、在庫が今は300袋しかなくて、残りの200袋は9日に入荷する予定です。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "9日に入荷なら、間に合いますね。では、11日に500袋まとめて発送してください。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "わかりました。ただ、入荷が遅れる恐れもあるので、9日に入荷したらすぐ連絡します。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "お願いします。遅れそうなら、先方に事前に連絡しないといけないので、早めに教えてください。"
+        }
+      ],
+      "translation": [
+        "*Takahashi:* Anh Nakamura, lô 500 phong bì của Hokuto Sangyo, có giao được đến chi nhánh Osaka vào sáng thứ Hai 14 không?",
+        "*Nakamura:* Osaka thì giao vào ngày làm việc kế tiếp sau khi gửi, nên gửi thứ Sáu 11 thì sáng 14 sẽ đến. Có điều tồn kho hiện chỉ 300 cái, 200 cái còn lại dự kiến về ngày 9.",
+        "*Takahashi:* Về ngày 9 thì kịp. Vậy ngày 11 hãy gửi cả 500 cái một lượt.",
+        "*Nakamura:* Tôi hiểu. Nhưng có nguy cơ hàng về trễ, nên ngày 9 hàng về tôi sẽ báo ngay.",
+        "*Takahashi:* Nhờ anh. Nếu có vẻ trễ thì phải báo trước cho bên kia, nên hãy cho tôi biết sớm."
+      ],
+      "questions": [
+        {
+          "id": "P03-L04-T15",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "現在、封筒の在庫はいくつありますか。",
+          "options": {
+            "A": "200袋",
+            "B": "300袋",
+            "C": "500袋",
+            "D": "700袋"
+          },
+          "answer": "B",
+          "explain": "`在庫が今は300袋` (200 là số sắp về)",
+          "tags": [
+            "NUMBER_TIME"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P03-L04-T16",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "封筒は、何日に発送する予定ですか。",
+          "options": {
+            "A": "12月9日",
+            "B": "12月11日",
+            "C": "12月12日",
+            "D": "12月14日"
+          },
+          "answer": "B",
+          "explain": "9 = ngày hàng về, 14 = ngày đến, **11 = ngày gửi**",
+          "tags": [
+            "NUMBER_TIME",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P03-L04-T17",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "中村さんは、この後どうしますか。",
+          "options": {
+            "A": "今日中に大阪支社へ連絡する",
+            "B": "9日に入荷したら、すぐ高橋さんに連絡する",
+            "C": "11日に北斗産業へ電話する",
+            "D": "在庫を300袋に減らす"
+          },
+          "answer": "B",
+          "explain": "`9日に入荷したらすぐ連絡します`",
+          "tags": [
+            "SPEAKER_ROLE",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        }
+      ]
+    },
+    {
+      "id": "P03-L04-A02",
+      "title": "Bài nghe B (P03-L04-A02) — T18, T19, T20",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "北斗産業の井上です。先週届いたトナーのことでご相談なのですが、1個、箱が破れていて、中身にも傷がついていまして。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "それは申し訳ございません。お手数ですが、写真をメールでお送りいただけますでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "写真はもう撮ってあります。今日中にメールで送ります。返品か交換か、どちらがいいでしょうか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "新しい商品との交換であれば、在庫がありますので、明日発送できます。返品の場合は、返金までに1週間ほどかかります。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "急いでいるので、交換でお願いします。送料はどうなりますか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "当社の不備ですので、送料は当社で負担いたします。壊れた商品は、新しい商品とは別に、着払いでお送り返しください。"
+        }
+      ],
+      "translation": [
+        "*Inoue:* Tôi là Inoue bên Hokuto Sangyo. Về mực in tuần trước giao tới, có 1 cái hộp bị rách và bên trong bị trầy.",
+        "*Nữ:* Thành thật xin lỗi. Phiền anh gửi ảnh qua email được không ạ?",
+        "*Inoue:* Tôi đã chụp ảnh rồi. Hôm nay tôi sẽ gửi email. Nên trả hàng hay đổi hàng thì tốt hơn?",
+        "*Nữ:* Nếu đổi sang hàng mới thì có tồn kho, ngày mai có thể gửi. Nếu trả hàng thì hoàn tiền mất khoảng 1 tuần.",
+        "*Inoue:* Tôi đang gấp nên xin đổi hàng. Phí vận chuyển thế nào?",
+        "*Nữ:* Do lỗi của chúng tôi nên chúng tôi chịu phí vận chuyển. Hàng hỏng xin gửi trả riêng, trả cước tại nơi nhận."
+      ],
+      "questions": [
+        {
+          "id": "P03-L04-T18",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "井上さんは、どうすることを希望しましたか。",
+          "options": {
+            "A": "返品して返金してもらう",
+            "B": "新しい商品と交換する",
+            "C": "値引きしてもらう",
+            "D": "修理してもらう"
+          },
+          "answer": "B",
+          "explain": "`急いでいるので、交換でお願いします`",
+          "tags": [
+            "SPEAKER_INTENT"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P03-L04-T19",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "井上さんが今日中にすることは何ですか。",
+          "options": {
+            "A": "壊れた商品を送り返す",
+            "B": "写真をメールで送る",
+            "C": "新しい商品を受け取る",
+            "D": "返金を申請する"
+          },
+          "answer": "B",
+          "explain": "`今日中にメールで送ります` (写真). Gửi trả hàng hỏng là việc sau",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P03-L04-T20",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "壊れた商品を送り返す送料は、だれが負担しますか。",
+          "options": {
+            "A": "井上さん",
+            "B": "さくら商事",
+            "C": "配送会社",
+            "D": "半分ずつ"
+          },
+          "answer": "B",
+          "explain": "`当社の不備ですので、送料は当社で負担` + `着払い` (người nhận = Sakura Shoji trả cước)",
+          "tags": [
+            "SPEAKER_ROLE",
+            "VOCAB_UNKNOWN"
+          ],
+          "vocabIds": []
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "R01",
+      "title": "Phần 2 — 短文読解",
+      "passageHtml": "<strong>件名：</strong> 発注のお願い（12月分）<br>株式会社ミライ商事 営業部 高橋様<br>いつもお世話になっております。北斗産業の井上です。<br>下記のとおり、発注いたします。<br>・品名：封筒（長形3号）　・数量：500袋　・希望納期：12月14日（月）午前中　・納入先：当社大阪支社<br>なお、納期の変更はできませんので、14日に間に合わない場合は、お手数ですが事前にご連絡ください。また、納品書は2部同封してください。",
+      "questions": [
+        {
+          "id": "P03-L04-T12",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "このメールの目的はどれですか。",
+          "options": {
+            "A": "見積もりを依頼する",
+            "B": "商品を注文する",
+            "C": "納期の変更を頼む",
+            "D": "返品を申し出る"
+          },
+          "answer": "B",
+          "explain": "`発注いたします` → đặt hàng",
+          "tags": [
+            "INFERENCE"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P03-L04-T13",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "納品について、合っているものはどれですか。",
+          "options": {
+            "A": "納入先は本社である",
+            "B": "14日の午後でもよい",
+            "C": "間に合わない場合は、事前に連絡が必要である",
+            "D": "納品書は1部でよい"
+          },
+          "answer": "C",
+          "explain": "`間に合わない場合は…事前にご連絡` → C. A sai (大阪支社), B sai (午前中), D sai (2部)",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P03-L04-T14",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "高橋さんは、納品書を何部同封する必要がありますか。",
+          "options": {
+            "A": "1部",
+            "B": "2部",
+            "C": "3部",
+            "D": "500部"
+          },
+          "answer": "B",
+          "explain": "`納品書は2部同封`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        }
+      ]
+    }
+  ],
+  "expression": [],
+  "grammar": [
+    {
+      "id": "P03-L04-T01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "納入先に荷物が（　）したら、受領書にサインをもらってください。",
+      "options": {
+        "A": "到着",
+        "B": "出発",
+        "C": "発注",
+        "D": "受注"
+      },
+      "answer": "A",
+      "explain": "Đến nơi → `到着` (`LG-08`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "LG-08"
+      ]
+    },
+    {
+      "id": "P03-L04-T02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "注文が殺到したため、商品の（　）が追いつかない。",
+      "options": {
+        "A": "供給",
+        "B": "需要",
+        "C": "競争",
+        "D": "投資"
+      },
+      "answer": "A",
+      "explain": "Cung không theo kịp → `供給` (`EC-06`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "EC-06"
+      ]
+    },
+    {
+      "id": "P03-L04-T03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "見積もり金額には、消費税が（　）。",
+      "options": {
+        "A": "含まれています",
+        "B": "引かれています",
+        "C": "除かれています",
+        "D": "限られています"
+      },
+      "answer": "A",
+      "explain": "`税込み` = đã bao gồm thuế (`NM-08`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "NM-08"
+      ]
+    },
+    {
+      "id": "P03-L04-T04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "納期を（　）ために、残業して作業を進めた。",
+      "options": {
+        "A": "守る",
+        "B": "破る",
+        "C": "延ばす",
+        "D": "戻す"
+      },
+      "answer": "A",
+      "explain": "`納期を守る` (`CL-A03`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L04-T05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "輸入品は（　）に時間がかかることがある。",
+      "options": {
+        "A": "通関",
+        "B": "梱包",
+        "C": "返品",
+        "D": "割引"
+      },
+      "answer": "A",
+      "explain": "`通関` = thông quan (`LG-12`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "LG-12"
+      ]
+    },
+    {
+      "id": "P03-L04-T06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "事故（　）、高速道路が通行止めになっています。",
+      "options": {
+        "A": "により",
+        "B": "おかげで",
+        "C": "ように",
+        "D": "うちに"
+      },
+      "answer": "A",
+      "explain": "`〜により` (`G1-02`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L04-T07",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "出荷の（　）、数量を確認します。",
+      "options": {
+        "A": "たびに",
+        "B": "次第",
+        "C": "うちに",
+        "D": "とたん"
+      },
+      "answer": "A",
+      "explain": "`〜たびに` = mỗi khi (`G2-07`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L04-T08",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "納品は、（　）午前中に行います。",
+      "options": {
+        "A": "原則として",
+        "B": "万一",
+        "C": "先日",
+        "D": "後ほど"
+      },
+      "answer": "A",
+      "explain": "`原則として` = về nguyên tắc (`TR-A09`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L04-T09",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "納品が1日遅れることを、取引先にメールで伝えます。最も適切なものはどれですか。",
+      "options": {
+        "A": "納品が遅れます。すみません。",
+        "B": "誠に申し訳ございませんが、納品が1日遅れる見込みでございます。",
+        "C": "納品が遅れちゃいそうです。",
+        "D": "遅れるのは私のせいではありません。"
+      },
+      "answer": "B",
+      "explain": "Xin lỗi trang trọng + `見込み` (`NM-21`). Các đáp án khác cộc, thân mật hoặc đổ lỗi",
+      "tags": [
+        "EXPRESSION_FIT"
+      ],
+      "vocabIds": [
+        "NM-21"
+      ]
+    },
+    {
+      "id": "P03-L04-T10",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "値引きを頼まれましたが、自分では決められません。最も適切なものはどれですか。",
+      "options": {
+        "A": "無理です。",
+        "B": "私の一存では決めかねますので、上司と相談の上、改めてご連絡いたします。",
+        "C": "上司に聞かないとわかりません。",
+        "D": "値引きは考えていません。"
+      },
+      "answer": "B",
+      "explain": "`決めかねます` (`G6-02`) + `〜の上` (`G5-08`) + `改めて連絡` (`FX-11`)",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [
+        "FX-11"
+      ]
+    },
+    {
+      "id": "P03-L04-T11",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "荷物を渡すとき、納品書を確認してもらいたいです。最も適切なものはどれですか。",
+      "options": {
+        "A": "納品書を見てください。",
+        "B": "お手数ですが、納品書をご確認いただけますでしょうか。",
+        "C": "納品書をご確認してください。",
+        "D": "納品書を拝見してください。"
+      },
+      "answer": "B",
+      "explain": "C sai (`ご〜する` là khiêm nhường, `KE-07`); D sai (`拝見` là khiêm nhường, không dùng cho khách)",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [
+        "KE-07"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

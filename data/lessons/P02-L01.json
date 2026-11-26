@@ -1,0 +1,605 @@
+{
+  "id": "P02-L01",
+  "part": "P02",
+  "title": "Nghe điện thoại & Nhận lời nhắn (伝言)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "OF-03",
+      "group": "Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",
+      "word": "応接室",
+      "reading": "おうせつしつ",
+      "meaning": "Phòng tiếp khách",
+      "exJp": "応接室にご案内します。",
+      "exVi": "Xin dẫn quý khách vào phòng tiếp khách.",
+      "tip": "Mời ngồi: `こちらにおかけください`"
+    },
+    {
+      "id": "OF-05",
+      "group": "Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",
+      "word": "不在",
+      "reading": "ふざい",
+      "meaning": "Không có mặt",
+      "exJp": "田中はただいま不在にしております。",
+      "exVi": "Anh Tanaka hiện không có mặt.",
+      "tip": "`不在にしております` = cách nói chuẩn"
+    },
+    {
+      "id": "OF-06",
+      "group": "Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",
+      "word": "折り返し",
+      "reading": "おりかえし",
+      "meaning": "Gọi lại ngay (phía được nhờ gọi lại)",
+      "exJp": "戻り次第、折り返しお電話します。",
+      "exVi": "Khi về tôi sẽ gọi lại ngay.",
+      "tip": "`折り返し` ≠ `かけ直す` (bên gọi tự gọi lại)"
+    },
+    {
+      "id": "OF-07",
+      "group": "Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",
+      "word": "伝言",
+      "reading": "でんごん",
+      "meaning": "Lời nhắn",
+      "exJp": "伝言を承ります。",
+      "exVi": "Tôi xin nhận lời nhắn.",
+      "tip": "`伝言を承る` (nhận) / `申し伝える` (chuyển lời)"
+    },
+    {
+      "id": "ET-13",
+      "group": "Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",
+      "word": "席を外す",
+      "reading": "せきをはずす",
+      "meaning": "Tạm rời chỗ",
+      "exJp": "課長はただいま席を外しております。",
+      "exVi": "Trưởng nhóm đang tạm rời chỗ.",
+      "tip": "Lịch sự hơn `席にいません`"
+    },
+    {
+      "id": "KT-02",
+      "group": "Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",
+      "word": "アポイント（アポ）",
+      "reading": "あぽいんと",
+      "meaning": "Cuộc hẹn",
+      "exJp": "14時にアポを取っています。",
+      "exVi": "Tôi đã hẹn lúc 14 giờ.",
+      "tip": "`アポを取る` = hẹn trước"
+    },
+    {
+      "id": "FX-01",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "いつもお世話になっております",
+      "reading": "Cảm ơn sự giúp đỡ thường xuyên",
+      "meaning": "Mở đầu điện thoại/email với đối tác",
+      "exJp": "Nội bộ dùng お疲れ様です",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-02",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "お忙しいところ恐れ入りますが",
+      "reading": "Xin lỗi làm phiền lúc anh/chị đang bận",
+      "meaning": "Trước lời nhờ: お忙しいところ恐れ入りますが、ご確認ください。",
+      "exJp": "Đệm trước lời nhờ",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-03",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "お手数をおかけしますが",
+      "reading": "Xin lỗi vì làm phiền",
+      "meaning": "Trước việc mất công: お手数をおかけしますが、ご記入ください。",
+      "exJp": "Đệm trước lời nhờ",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-04",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "恐縮ですが",
+      "reading": "Thật ngại quá, nhưng…",
+      "meaning": "恐縮ですが、お名前を伺えますか。",
+      "exJp": "Nhờ vả / mời",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-05",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "申し訳ございません",
+      "reading": "Xin lỗi (trang trọng)",
+      "meaning": "Khi gây lỗi cho khách",
+      "exJp": "Hơn hẳn すみません",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-06",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "お待たせいたしました",
+      "reading": "Xin lỗi đã để quý vị đợi",
+      "meaning": "Sau khi để khách chờ",
+      "exJp": "",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-15",
+      "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
+      "word": "失礼いたします",
+      "reading": "Xin phép",
+      "meaning": "Vào phòng, ra về, kết thúc cuộc gọi",
+      "exJp": "",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-01",
+      "group": "Nhóm C — Từ đệm (クッション言葉) (3 cụm)",
+      "word": "あいにくですが",
+      "reading": "Rất tiếc là…",
+      "meaning": "Trước khi báo vắng mặt / hết hàng / không được",
+      "exJp": "あいにく田中は不在です。",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-02",
+      "group": "Nhóm C — Từ đệm (クッション言葉) (3 cụm)",
+      "word": "せっかくですが",
+      "reading": "Thật quý hóa quá nhưng…",
+      "meaning": "Từ chối lời mời/đề xuất",
+      "exJp": "せっかくですが、その日は先約があります。",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-03",
+      "group": "Nhóm C — Từ đệm (クッション言葉) (3 cụm)",
+      "word": "お言葉に甘えて",
+      "reading": "Xin mạn phép nhận lời…",
+      "meaning": "Nhận sự giúp đỡ/lời mời",
+      "exJp": "お言葉に甘えて、いただきます。",
+      "exVi": "",
+      "tip": ""
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`折り返し` (người được nhờ gọi lại) ≠ `かけ直す` (người đã gọi tự gọi lại): chính là bẫy bài nghe `P02-L01-A01`.",
+    "`あいにくですが` (báo tin không thuận) ≠ `せっかくですが` (từ chối lời mời) ≠ `お言葉に甘えて` (nhận lời mời).",
+    "`お疲れ様です` (nội bộ) ≠ `いつもお世話になっております` (đối tác)."
+  ],
+  "vocabQuiz": {
+    "passAt": 13,
+    "total": 16,
+    "items": [
+      {
+        "id": "P02-L01-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「田中は不在にしております」はどういう意味ですか。",
+        "options": {
+          "A": "Tanaka đang nghe điện thoại",
+          "B": "Tanaka không có mặt",
+          "C": "Tanaka đã nghỉ việc",
+          "D": "Tanaka đang họp"
+        },
+        "answer": "B",
+        "explain": "不在 = không có mặt (`OF-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-05"
+        ]
+      },
+      {
+        "id": "P02-L01-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「折り返しお電話します」の意味は？",
+        "options": {
+          "A": "Gọi lại ngay cho người đã gọi/nhắn",
+          "B": "Chuyển máy sang người khác",
+          "C": "Ghi lời nhắn",
+          "D": "Cúp máy"
+        },
+        "answer": "A",
+        "explain": "折り返し (`OF-06`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-06"
+        ]
+      },
+      {
+        "id": "P02-L01-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "担当者が不在なので、（　）を承ります。",
+        "options": {
+          "A": "添付",
+          "B": "宛先",
+          "C": "伝言",
+          "D": "控え"
+        },
+        "answer": "C",
+        "explain": "`伝言を承る` (`OF-07`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "OF-07"
+        ]
+      },
+      {
+        "id": "P02-L01-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "来客を案内して、座って待っていただく部屋は？",
+        "options": {
+          "A": "応接室",
+          "B": "受付",
+          "C": "倉庫",
+          "D": "総務部"
+        },
+        "answer": "A",
+        "explain": "応接室 = phòng tiếp khách (`OF-03`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-03"
+        ]
+      },
+      {
+        "id": "P02-L01-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「席を外しております」の意味は？",
+        "options": {
+          "A": "Đã đổi chỗ ngồi",
+          "B": "Hết chỗ ngồi",
+          "C": "Đặt chỗ trước",
+          "D": "Tạm rời khỏi chỗ"
+        },
+        "answer": "D",
+        "explain": "席を外す (`ET-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-13"
+        ]
+      },
+      {
+        "id": "P02-L01-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「アポを取る」の意味は？",
+        "options": {
+          "A": "Hủy cuộc hẹn",
+          "B": "Nhận danh thiếp",
+          "C": "Trả lời điện thoại",
+          "D": "Hẹn trước cuộc gặp"
+        },
+        "answer": "D",
+        "explain": "アポイント (`KT-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "KT-02"
+        ]
+      },
+      {
+        "id": "P02-L01-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "取引先との電話で、最初のあいさつとして最も適切なのは？",
+        "options": {
+          "A": "お疲れ様でした",
+          "B": "ご苦労様です",
+          "C": "いつもお世話になっております",
+          "D": "失礼いたしました"
+        },
+        "answer": "C",
+        "explain": "`FX-01`; `お疲れ様` は社内",
+        "tags": [
+          "KEIGO_REGISTER"
+        ],
+        "vocabIds": [
+          "FX-01"
+        ]
+      },
+      {
+        "id": "P02-L01-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "相手が忙しいときに、頼みごとの前に言うのは？",
+        "options": {
+          "A": "あいにくですが",
+          "B": "せっかくですが",
+          "C": "お言葉に甘えて",
+          "D": "お忙しいところ恐れ入りますが"
+        },
+        "answer": "D",
+        "explain": "`FX-02`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-02"
+        ]
+      },
+      {
+        "id": "P02-L01-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「（　）、こちらにご記入いただけますか。」（面倒なことを頼む）",
+        "options": {
+          "A": "お手数をおかけしますが",
+          "B": "あいにくですが",
+          "C": "せっかくですが",
+          "D": "失礼いたしました"
+        },
+        "answer": "A",
+        "explain": "`FX-03`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-03"
+        ]
+      },
+      {
+        "id": "P02-L01-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「恐縮ですが」の意味は？",
+        "options": {
+          "A": "Tôi rất vui",
+          "B": "Xin chào",
+          "C": "Thật ngại quá, nhưng…",
+          "D": "Tạm biệt"
+        },
+        "answer": "C",
+        "explain": "`FX-04`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "FX-04"
+        ]
+      },
+      {
+        "id": "P02-L01-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "お客様にミスを謝るとき、最も丁寧なのは？",
+        "options": {
+          "A": "申し訳ございません",
+          "B": "すみません",
+          "C": "ごめんなさい",
+          "D": "どうも"
+        },
+        "answer": "A",
+        "explain": "`FX-05`",
+        "tags": [
+          "KEIGO_REGISTER"
+        ],
+        "vocabIds": [
+          "FX-05"
+        ]
+      },
+      {
+        "id": "P02-L01-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "お客様を待たせたあとに言うのは？",
+        "options": {
+          "A": "恐れ入ります",
+          "B": "お待たせいたしました",
+          "C": "お疲れ様でした",
+          "D": "失礼いたします"
+        },
+        "answer": "B",
+        "explain": "`FX-06`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-06"
+        ]
+      },
+      {
+        "id": "P02-L01-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "電話を終えるときの挨拶として適切なのは？",
+        "options": {
+          "A": "なるほど",
+          "B": "了解しました",
+          "C": "お待ちください",
+          "D": "それでは、失礼いたします"
+        },
+        "answer": "D",
+        "explain": "`FX-15`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-15"
+        ]
+      },
+      {
+        "id": "P02-L01-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "担当者が不在だと伝える前に言う言葉は？",
+        "options": {
+          "A": "あいにくですが",
+          "B": "お言葉に甘えて",
+          "C": "念のため",
+          "D": "差し支えなければ"
+        },
+        "answer": "A",
+        "explain": "`CS-01`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-01"
+        ]
+      },
+      {
+        "id": "P02-L01-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「（　）、その日は先約があります。」（誘いを断る）",
+        "options": {
+          "A": "お言葉に甘えて",
+          "B": "お待たせいたしました",
+          "C": "せっかくですが",
+          "D": "いつもお世話になっております"
+        },
+        "answer": "C",
+        "explain": "`CS-02`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-02"
+        ]
+      },
+      {
+        "id": "P02-L01-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "お茶を勧められて、ありがたく受けるときに言うのは？",
+        "options": {
+          "A": "せっかくですが",
+          "B": "お言葉に甘えて",
+          "C": "あいにくですが",
+          "D": "申し訳ございません"
+        },
+        "answer": "B",
+        "explain": "`CS-03`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-03"
+        ]
+      }
+    ]
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P02-L01-A01",
+      "title": "1. Bài Nghe — 聴解 (P02-L01-A01: Nhận lời nhắn khi đồng nghiệp vắng mặt)",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、株式会社さくら商事でございます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "いつもお世話になっております。東洋物産の木村と申します。恐れ入りますが、企画部の渡辺様はいらっしゃいますでしょうか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "東洋物産の木村様ですね。いつもお世話になっております。あいにく、渡辺はただいま別の電話に出ておりまして、少々お時間をいただきそうですが、いかがいたしましょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ああ、そうですか。では、後ほど私からかけ直しますので、その旨をお伝えいただけますか。15時頃であれば席におりますので。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "承知いたしました。15時頃にお電話をいただけるとのことで、渡辺に申し伝えます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "あ、いえ、こちらからかけ直すのではなく、もし可能であれば15時以降に渡辺様から折り返しいただいてもよろしいでしょうか。ちょっと外に出る用事ができまして。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "かしこまりました。それでは、15時以降に渡辺から折り返しお電話差し上げます。"
+        }
+      ],
+      "translation": [
+        "*Nữ:* Vâng, Công ty cổ phần Sakura Shoji xin nghe.",
+        "*Nam:* Cảm ơn quý công ty đã luôn giúp đỡ. Tôi là Kimura bên Toyo Bussan. Xin lỗi, anh Watanabe phòng Kế hoạch có ở đó không ạ?",
+        "*Nữ:* Anh Kimura bên Toyo Bussan phải không ạ. Rất tiếc, anh Watanabe hiện đang nghe một cuộc điện thoại khác, chắc sẽ mất chút thời gian, xin hỏi anh muốn xử lý thế nào ạ?",
+        "*Nam:* À, thế ạ. Vậy lát nữa tôi sẽ gọi lại sau, nhờ chị nhắn lại giúp nhé. Khoảng 15 giờ thì tôi có mặt ở bàn làm việc.",
+        "*Nữ:* Vâng, tôi hiểu rồi. Tôi sẽ nhắn anh Watanabe là khoảng 15 giờ anh sẽ gọi lại.",
+        "*Nam:* À không, không phải tôi gọi lại, mà nếu tiện thì nhờ anh Watanabe gọi lại cho tôi từ sau 15 giờ được không ạ? Tôi vừa có việc phải ra ngoài một chút.",
+        "*Nữ:* Vâng, tôi đã rõ. Vậy từ sau 15 giờ anh Watanabe sẽ gọi lại cho anh ạ."
+      ],
+      "questions": [
+        {
+          "id": "P02-L01-E01",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "この後、渡辺さんは何をする必要がありますか。",
+          "options": {
+            "A": "15時頃に木村様からの電話を待つ。",
+            "B": "15時以降に木村様へ折り返し電話をする。",
+            "C": "今の電話が終わり次第、すぐ木村様に電話をする。",
+            "D": "木村様にメールで用件を確認する。"
+          },
+          "answer": "B",
+          "explain": "Bẫy đổi ý giữa chừng (rất đặc trưng BJT): Ban đầu ông Kimura nói sẽ tự gọi lại lúc 15 giờ (`私からかけ直します`), nhưng ở lượt sau ông sửa lại (`こちらからかけ直すのではなく… 15時以降に渡辺様から折り返しいただいてもよろしいでしょうか`) → Watanabe phải gọi lại **từ sau 15 giờ** → **B** đúng.",
+          "tags": [
+            "DETAIL_MISS",
+            "SPEAKER_ROLE"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [],
+  "expression": [
+    {
+      "id": "P02-L01-E02",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "- **Tình huống:** Bạn dẫn khách vào phòng tiếp khách (`応接室`) nhưng trưởng phòng của bạn (ông Tanaka) đang kẹt cuộc họp chưa ra ngay được. Bạn muốn mời khách ngồi chờ và uống trà.\n- **Câu hỏi:** Câu nói nào tự nhiên và đúng phép lịch sự nhất?\n- Loại B: gọi `田中部長` (kèm chức danh) trước mặt khách\n- Loại D: gọi sếp mình là `田中様` ✗\n- Loại A: thiếu kính ngữ, ngữ điệu cộc",
+      "options": {
+        "A": "部長は会議中なので、ここに座って待ってください。お茶を飲んでください。",
+        "B": "申し訳ございませんが、ただいま田中部長が会議中でございます。恐れ入りますが、少々お待ちいただけますでしょうか。",
+        "C": "申し訳ございませんが、ただいま田中が会議中でございます。恐れ入りますが、こちらにお掛けになって少々お待ちください。",
+        "D": "あいにくですが、田中様はまだ来ません。お掛けになってお待ちください。"
+      },
+      "answer": "C",
+      "explain": "Dùng từ đệm `申し訳ございませんが` + `恐れ入りますが`, đồng thời áp dụng quy tắc `内/外`: không gắn chức danh/`様` sau tên khi nói với người ngoài → `田中部長` ✗ → `田中` ✓.",
+      "tags": [],
+      "vocabIds": []
+    }
+  ],
+  "grammar": [],
+  "depiction": [],
+  "testSections": []
+}

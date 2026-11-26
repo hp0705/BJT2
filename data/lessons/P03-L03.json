@@ -1,0 +1,900 @@
+{
+  "id": "P03-L03",
+  "part": "P03",
+  "title": "Hóa đơn, Thanh toán & Nhắc nợ",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "TR-10",
+      "group": "Nhóm A — Hóa đơn & thanh toán (6 từ)",
+      "word": "請求書",
+      "reading": "せいきゅうしょ",
+      "meaning": "Hóa đơn yêu cầu thanh toán",
+      "exJp": "請求書を発行します。",
+      "exVi": "Xuất hóa đơn.",
+      "tip": "**Bên bán** gửi"
+    },
+    {
+      "id": "TR-11",
+      "group": "Nhóm A — Hóa đơn & thanh toán (6 từ)",
+      "word": "領収書",
+      "reading": "りょうしゅうしょ",
+      "meaning": "Biên lai (đã nhận tiền)",
+      "exJp": "領収書をお渡しします。",
+      "exVi": "Xin đưa biên lai.",
+      "tip": "Chứng minh **đã nhận tiền**"
+    },
+    {
+      "id": "TR-13",
+      "group": "Nhóm A — Hóa đơn & thanh toán (6 từ)",
+      "word": "支払い",
+      "reading": "しはらい",
+      "meaning": "Thanh toán",
+      "exJp": "お支払いは月末です。",
+      "exVi": "Thanh toán vào cuối tháng.",
+      "tip": "`お支払期限` = hạn thanh toán"
+    },
+    {
+      "id": "TR-14",
+      "group": "Nhóm A — Hóa đơn & thanh toán (6 từ)",
+      "word": "振り込み",
+      "reading": "ふりこみ",
+      "meaning": "Chuyển khoản",
+      "exJp": "銀行振り込みでお願いします。",
+      "exVi": "Xin thanh toán bằng chuyển khoản.",
+      "tip": "`振込先` = tài khoản nhận"
+    },
+    {
+      "id": "TR-17",
+      "group": "Nhóm A — Hóa đơn & thanh toán (6 từ)",
+      "word": "催促",
+      "reading": "さいそく",
+      "meaning": "Nhắc, giục (thanh toán/việc)",
+      "exJp": "支払いを催促します。",
+      "exVi": "Nhắc thanh toán.",
+      "tip": "Đi kèm `CS-04`"
+    },
+    {
+      "id": "TR-A15",
+      "group": "Nhóm A — Hóa đơn & thanh toán (6 từ)",
+      "word": "振込手数料",
+      "reading": "ふりこみてすうりょう",
+      "meaning": "Phí chuyển khoản ngân hàng",
+      "exJp": "振込手数料はお客様のご負担です。",
+      "exVi": "Phí chuyển khoản do khách chịu.",
+      "tip": "Ghi `ご負担` thì khách **không trừ**"
+    },
+    {
+      "id": "NM-12",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "総額",
+      "reading": "そうがく",
+      "meaning": "Tổng số tiền",
+      "exJp": "総額を確認します。",
+      "exVi": "Xác nhận tổng số tiền.",
+      "tip": ""
+    },
+    {
+      "id": "NM-13",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "内訳",
+      "reading": "うちわけ",
+      "meaning": "Chi tiết cấu thành",
+      "exJp": "費用の内訳を説明します。",
+      "exVi": "Giải thích chi tiết cấu thành chi phí.",
+      "tip": ""
+    },
+    {
+      "id": "NM-14",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "明細",
+      "reading": "めいさい",
+      "meaning": "Bảng kê chi tiết",
+      "exJp": "請求の明細を送ります。",
+      "exVi": "Gửi bảng kê chi tiết.",
+      "tip": ""
+    },
+    {
+      "id": "NM-15",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "割増",
+      "reading": "わりまし",
+      "meaning": "Phụ phí, tính thêm",
+      "exJp": "夜間は割増料金です。",
+      "exVi": "Ban đêm tính phụ phí.",
+      "tip": "≠ `割引` (giảm giá)"
+    },
+    {
+      "id": "NM-16",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "差し引く",
+      "reading": "さしひく",
+      "meaning": "Trừ đi, khấu trừ",
+      "exJp": "手数料を差し引きます。",
+      "exVi": "Trừ phí đi.",
+      "tip": "Bẫy `振込手数料`"
+    },
+    {
+      "id": "NM-17",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "立て替える",
+      "reading": "たてかえる",
+      "meaning": "Ứng tiền trước hộ",
+      "exJp": "交通費を立て替えます。",
+      "exVi": "Ứng tiền đi lại trước.",
+      "tip": "Sau đó được hoàn lại"
+    },
+    {
+      "id": "NM-18",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "入金",
+      "reading": "にゅうきん",
+      "meaning": "Tiền đã vào tài khoản",
+      "exJp": "入金を確認しました。",
+      "exVi": "Đã xác nhận tiền vào.",
+      "tip": "Góc nhìn bên nhận"
+    },
+    {
+      "id": "NM-19",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "未払い",
+      "reading": "みはらい",
+      "meaning": "Chưa thanh toán",
+      "exJp": "先月分が未払いです。",
+      "exVi": "Tháng trước chưa thanh toán.",
+      "tip": ""
+    },
+    {
+      "id": "NM-20",
+      "group": "Nhóm B — Số tiền & tính toán (9 từ)",
+      "word": "残高",
+      "reading": "ざんだか",
+      "meaning": "Số dư",
+      "exJp": "口座の残高を確認します。",
+      "exVi": "Kiểm tra số dư tài khoản.",
+      "tip": ""
+    },
+    {
+      "id": "KT-13",
+      "group": "Nhóm C — Katakana & thủ tục (4 từ)",
+      "word": "ロット",
+      "reading": "ろっと",
+      "meaning": "Lô hàng",
+      "exJp": "最小ロットは100個です。",
+      "exVi": "Lô tối thiểu là 100 cái.",
+      "tip": "Đặt theo lô"
+    },
+    {
+      "id": "KT-23",
+      "group": "Nhóm C — Katakana & thủ tục (4 từ)",
+      "word": "オーダー",
+      "reading": "おーだー",
+      "meaning": "Đơn hàng",
+      "exJp": "オーダーを受けました。",
+      "exVi": "Đã nhận đơn hàng.",
+      "tip": "Kiểu nói katakana của `注文`"
+    },
+    {
+      "id": "CL-A17",
+      "group": "Nhóm C — Katakana & thủ tục (4 từ)",
+      "word": "照会する",
+      "reading": "しょうかいする",
+      "meaning": "Tra cứu, hỏi xác minh thông tin",
+      "exJp": "在庫を照会します。",
+      "exVi": "Tra cứu tồn kho.",
+      "tip": ""
+    },
+    {
+      "id": "CL-A21",
+      "group": "Nhóm C — Katakana & thủ tục (4 từ)",
+      "word": "再発行",
+      "reading": "さいはっこう",
+      "meaning": "Cấp lại, xuất lại",
+      "exJp": "請求書を再発行します。",
+      "exVi": "Xuất lại hóa đơn.",
+      "tip": "Khi hóa đơn sai"
+    }
+  ],
+  "cards": [
+    {
+      "id": "HM-13",
+      "html": "<strong>請求</strong> (đòi tiền) / <strong>要求</strong> (đòi hỏi mạnh) / <strong>要請</strong> (yêu cầu chính thức) / <strong>依頼</strong> (nhờ)."
+    },
+    {
+      "id": "HM-14",
+      "html": "<strong>納付</strong> (nộp thuế, phí) / <strong>納入</strong> (giao nộp hàng/tiền) / <strong>納品</strong> (giao sản phẩm)."
+    }
+  ],
+  "confusedPairs": [
+    "`請求書` (bên bán đòi tiền) ≠ `領収書` (đã nhận tiền) ≠ `納品書` (đi kèm hàng).",
+    "`入金` (tiền vào, bên nhận) ≠ `振り込み` (chuyển đi, bên gửi).",
+    "`割増` (cộng thêm) ≠ `割引` (giảm giá)."
+  ],
+  "vocabQuiz": {
+    "passAt": 17,
+    "total": 21,
+    "items": [
+      {
+        "id": "P03-L03-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「請求書」を出すのはどんなときですか。",
+        "options": {
+          "A": "買った人が、代金を払うため",
+          "B": "売った側が、代金を求めるため",
+          "C": "買った側が、注文するため",
+          "D": "売った側が、受け取ったと証明するため"
+        },
+        "answer": "B",
+        "explain": "請求書 (`TR-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-10"
+        ]
+      },
+      {
+        "id": "P03-L03-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "代金を受け取ったことを証明する書類は？",
+        "options": {
+          "A": "見積書",
+          "B": "請求書",
+          "C": "領収書",
+          "D": "発注書"
+        },
+        "answer": "C",
+        "explain": "領収書 (`TR-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-11"
+        ]
+      },
+      {
+        "id": "P03-L03-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「お支払いは月末です」の「支払い」の意味は？",
+        "options": {
+          "A": "Thanh toán",
+          "B": "Đặt hàng",
+          "C": "Trả hàng",
+          "D": "Giao hàng"
+        },
+        "answer": "A",
+        "explain": "支払い (`TR-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-13"
+        ]
+      },
+      {
+        "id": "P03-L03-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "銀行を通じて、お金を相手の口座に送ることは？",
+        "options": {
+          "A": "入金",
+          "B": "立て替え",
+          "C": "振り込み",
+          "D": "残高"
+        },
+        "answer": "C",
+        "explain": "振り込み (`TR-14`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-14"
+        ]
+      },
+      {
+        "id": "P03-L03-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "支払いの期限が過ぎたとき、早く払ってほしいと伝えることは？",
+        "options": {
+          "A": "催促",
+          "B": "照会",
+          "C": "再発行",
+          "D": "割増"
+        },
+        "answer": "A",
+        "explain": "催促 (`TR-17`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-17"
+        ]
+      },
+      {
+        "id": "P03-L03-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "銀行振り込みのときにかかる費用は？",
+        "options": {
+          "A": "運賃",
+          "B": "割増",
+          "C": "内訳",
+          "D": "振込手数料"
+        },
+        "answer": "D",
+        "explain": "振込手数料 (`TR-A15`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L03-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "費用を全部足した金額は？",
+        "options": {
+          "A": "残高",
+          "B": "総額",
+          "C": "未払い",
+          "D": "明細"
+        },
+        "answer": "B",
+        "explain": "総額 (`NM-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-12"
+        ]
+      },
+      {
+        "id": "P03-L03-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "費用が何でできているか、項目ごとに分けたものは？",
+        "options": {
+          "A": "内訳",
+          "B": "総額",
+          "C": "残高",
+          "D": "入金"
+        },
+        "answer": "A",
+        "explain": "内訳 (`NM-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-13"
+        ]
+      },
+      {
+        "id": "P03-L03-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "請求や取引の項目を、細かく書いた表は？",
+        "options": {
+          "A": "総額",
+          "B": "割増",
+          "C": "明細",
+          "D": "再発行"
+        },
+        "answer": "C",
+        "explain": "明細 (`NM-14`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-14"
+        ]
+      },
+      {
+        "id": "P03-L03-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "夜間や急ぎのときに、通常の料金に加える料金は？",
+        "options": {
+          "A": "割増",
+          "B": "小計",
+          "C": "総額",
+          "D": "内訳"
+        },
+        "answer": "A",
+        "explain": "割増 (`NM-15`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-15"
+        ]
+      },
+      {
+        "id": "P03-L03-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「手数料を差し引く」の意味は？",
+        "options": {
+          "A": "Cộng thêm phí",
+          "B": "Trừ phí đi",
+          "C": "Hoàn phí",
+          "D": "Miễn phí"
+        },
+        "answer": "B",
+        "explain": "差し引く (`NM-16`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "NM-16"
+        ]
+      },
+      {
+        "id": "P03-L03-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "自分のお金を先に払って、あとで返してもらうことは？",
+        "options": {
+          "A": "振り込み",
+          "B": "入金",
+          "C": "催促",
+          "D": "立て替える"
+        },
+        "answer": "D",
+        "explain": "立て替える (`NM-17`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-17"
+        ]
+      },
+      {
+        "id": "P03-L03-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "お金が口座に入ったことは？",
+        "options": {
+          "A": "未払い",
+          "B": "立て替え",
+          "C": "入金",
+          "D": "催促"
+        },
+        "answer": "C",
+        "explain": "入金 (`NM-18`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-18"
+        ]
+      },
+      {
+        "id": "P03-L03-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「先月分が未払いです」の意味は？",
+        "options": {
+          "A": "Đã thanh toán",
+          "B": "Chưa thanh toán",
+          "C": "Đã hoàn tiền",
+          "D": "Đã giảm giá"
+        },
+        "answer": "B",
+        "explain": "未払い (`NM-19`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-19"
+        ]
+      },
+      {
+        "id": "P03-L03-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "口座に残っているお金は？",
+        "options": {
+          "A": "総額",
+          "B": "残高",
+          "C": "内訳",
+          "D": "入金"
+        },
+        "answer": "B",
+        "explain": "残高 (`NM-20`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-20"
+        ]
+      },
+      {
+        "id": "P03-L03-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「最小ロットは100個です」の「ロット」とは？",
+        "options": {
+          "A": "Lô hàng",
+          "B": "Phí vận chuyển",
+          "C": "Hóa đơn",
+          "D": "Hạn giao"
+        },
+        "answer": "A",
+        "explain": "ロット (`KT-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "KT-13"
+        ]
+      },
+      {
+        "id": "P03-L03-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「オーダーを受ける」の意味は？",
+        "options": {
+          "A": "Nhận đơn hàng",
+          "B": "Hủy đơn",
+          "C": "Giao hàng",
+          "D": "Báo giá"
+        },
+        "answer": "A",
+        "explain": "オーダー (`KT-23`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "KT-23"
+        ]
+      },
+      {
+        "id": "P03-L03-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "在庫や状況を問い合わせて確認することは？",
+        "options": {
+          "A": "再発行",
+          "B": "催促",
+          "C": "照会する",
+          "D": "立て替える"
+        },
+        "answer": "C",
+        "explain": "照会する (`CL-A17`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L03-V19",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "請求書が間違っていたので、もう一度出してもらうことは？",
+        "options": {
+          "A": "催促",
+          "B": "照会",
+          "C": "総額",
+          "D": "再発行"
+        },
+        "answer": "D",
+        "explain": "再発行 (`CL-A21`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L03-V20",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「請求・要求・要請・依頼」のうち、お金を払ってほしいと求めるのは？",
+        "options": {
+          "A": "依頼",
+          "B": "請求",
+          "C": "要求",
+          "D": "要請"
+        },
+        "answer": "B",
+        "explain": "`HM-13`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-13"
+        ]
+      },
+      {
+        "id": "P03-L03-V21",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「納付・納入・納品」のうち、税金を納めるのは？",
+        "options": {
+          "A": "納品",
+          "B": "納入",
+          "C": "納付",
+          "D": "納期"
+        },
+        "answer": "C",
+        "explain": "`HM-14`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-14"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "`請求書` (bên bán gửi) ≠ `領収書` (xác nhận đã nhận tiền) ≠ `納品書` (kèm hàng).",
+    "`振込手数料` do ai chịu: nếu ghi `お客様のご負担` thì khách **không được** tự trừ vào số tiền chuyển.",
+    "Hạn thanh toán rơi vào **cuối tuần/lễ** → thực tế phải chuyển **trước** đó (ngân hàng nghỉ).",
+    "Nhắc nợ lịch sự: `申し上げにくいのですが…` + `行き違いでしたら`.",
+    "Phân biệt: `請求` (đòi tiền) · `依頼` (nhờ) · `要求` (đòi hỏi) · `納付` (nộp thuế) — xem `HM-13`, `HM-14`."
+  ],
+  "listening": [
+    {
+      "id": "P03-L03-LR01",
+      "title": "2. Bài Nghe–Đọc — 聴読解 (P03-L03-LR01: Hạn thanh toán & phí chuyển khoản)",
+      "doc": "<blockquote class=\"doc-quote\"><strong>請求書</strong>　請求日：12月25日（金）　<strong>お支払期限：1月31日（日）</strong></blockquote>\n<blockquote class=\"doc-quote\"></blockquote>\n<blockquote class=\"doc-quote\">| 品名 | 金額（税抜） |</blockquote>\n<blockquote class=\"doc-quote\">| --- | --- |</blockquote>\n<blockquote class=\"doc-quote\">| コピー用紙 | 18,000円 |</blockquote>\n<blockquote class=\"doc-quote\">| トナーカートリッジ | 32,000円 |</blockquote>\n<blockquote class=\"doc-quote\">| 小計 | 50,000円 |</blockquote>\n<blockquote class=\"doc-quote\">| 消費税（10%） | 5,000円 |</blockquote>\n<blockquote class=\"doc-quote\">| <strong>ご請求金額</strong> | <strong>55,000円</strong> |</blockquote>\n<blockquote class=\"doc-quote\"></blockquote>\n<blockquote class=\"doc-quote\">振込先：さくら銀行 新宿支店 普通 1234567　※<strong>振込手数料はお客様のご負担</strong>でお願いいたします。</blockquote>",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（加藤・東洋物産）",
+          "name": "加藤・東洋物産",
+          "text": "請求書を拝見したのですが、支払期限の1月31日までに振り込めば間に合いますよね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女（小林・さくら商事）",
+          "name": "小林・さくら商事",
+          "text": "はい、ただ、1月31日は日曜日ですので、銀行がお休みです。1月29日の金曜日までに、ご入金を確認できるようにお手続きいただけますでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "わかりました。それから、手数料の330円を引いて、5万4,670円を振り込んでもいいですか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "申し訳ございませんが、手数料はお客様のご負担でお願いしておりますので、ご請求金額の5万5,000円をそのままお振り込みください。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "なるほど。では、その金額で、29日までに手続きします。"
+        }
+      ],
+      "translation": [
+        "*Kato:* Tôi đã xem hóa đơn, nếu chuyển khoản trước hạn thanh toán 31/1 thì kịp đúng không ạ?",
+        "*Kobayashi:* Vâng, nhưng 31/1 là Chủ Nhật, ngân hàng nghỉ. Nhờ anh làm thủ tục để chúng tôi xác nhận tiền vào trước thứ Sáu 29/1.",
+        "*Kato:* Tôi hiểu. Còn nữa, tôi trừ phí 330 yên rồi chuyển 54.670 yên có được không?",
+        "*Kobayashi:* Xin lỗi, phí chuyển khoản chúng tôi nhờ khách hàng chịu, nên xin anh chuyển đúng số tiền yêu cầu 55.000 yên.",
+        "*Kato:* Ra vậy. Vậy tôi sẽ chuyển số tiền đó và làm thủ tục trước ngày 29."
+      ],
+      "questions": [
+        {
+          "id": "P03-L03-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "さくら商事の口座に入金してもらう金額はいくらですか。",
+          "options": {
+            "A": "50,000円",
+            "B": "54,670円",
+            "C": "55,000円",
+            "D": "55,330円"
+          },
+          "answer": "C",
+          "explain": "Hóa đơn ghi `振込手数料はお客様のご負担` → khách **không trừ** phí; số tiền tới tài khoản phải là **55.000** (`ご請求金額`). B là số khách đề nghị nhưng bị từ chối; A là chưa thuế.",
+          "tags": [
+            "NUMBER_TIME",
+            "DOCUMENT_MATCH"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P03-L03-E02",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "東洋物産は、いつまでに入金の手続きをする必要がありますか。",
+          "options": {
+            "A": "1月29日（金）",
+            "B": "1月30日（土）",
+            "C": "1月31日（日）",
+            "D": "2月1日（月）"
+          },
+          "answer": "A",
+          "explain": "Hạn ghi trên hóa đơn là 1/31 nhưng đó là Chủ Nhật; Kobayashi yêu cầu **xác nhận tiền vào trước thứ Sáu 1/29** → A.",
+          "tags": [
+            "NUMBER_TIME",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P03-L03-R01",
+      "title": "3. Bài Đọc — 短文読解 (P03-L03-R01: Email báo chênh lệch hóa đơn)",
+      "passageHtml": "<strong>件名：</strong> 【ご確認】請求書の金額について<br>さくら商事 経理部 小林様<br>いつもお世話になっております。ミライ商事の鈴木です。<br>12月25日付の請求書を拝見いたしましたところ、封筒の数量が、納品書に記載の180袋ではなく200袋で計算されておりました。お手数ですが、ご確認のうえ、請求書を再発行していただけますでしょうか。<br>なお、お支払いは、訂正後の請求書を受け取り次第、手続きいたします。",
+      "questions": [
+        {
+          "id": "P03-L03-E03",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "鈴木さんが求めていることは何ですか。",
+          "options": {
+            "A": "封筒をあと20袋追加で納品すること",
+            "B": "請求書を訂正して再発行すること",
+            "C": "納品書の数量を200袋に直すこと",
+            "D": "振込手数料を返金すること"
+          },
+          "answer": "B",
+          "explain": "Phiếu giao hàng ghi **180**, hóa đơn tính **200** → hóa đơn sai, nhờ `請求書を再発行` (`CL-A21`) → B. C sai vì phiếu giao hàng mới là bản đúng. Chưa thanh toán cho tới khi nhận bản sửa.",
+          "tags": [
+            "DETAIL_MISS",
+            "NEGATION_CONDITION"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P03-L03-X01",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "支払期限を過ぎても入金がない取引先に、確認の連絡をします。最も適切なものを選んでください。",
+      "options": {
+        "A": "お金がまだ届いていません。すぐ払ってください。",
+        "B": "申し上げにくいのですが、ご入金の確認が取れておりません。行き違いでしたら、ご容赦ください。",
+        "C": "払っていないのはそちらのミスですよね。",
+        "D": "催促します。"
+      },
+      "answer": "B",
+      "explain": "Mẫu nhắc nợ chuẩn: **từ đệm** (`申し上げにくいのですが`, `CS-04`) + **nêu sự việc, không buộc tội** (`確認が取れておりません`) + **chừa đường lui** (`行き違いでしたら`). A, C, D quá thẳng.",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [
+        "CS-04"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P03-L03-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "過去のデータ（　）、来月の発注量を決めます。",
+      "options": {
+        "A": "をもとに",
+        "B": "に対して",
+        "C": "にわたって",
+        "D": "について"
+      },
+      "answer": "A",
+      "explain": "`〜をもとに` = dựa vào (`G1-08`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L03-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "約束した（　）、納期は必ず守ります。",
+      "options": {
+        "A": "からには",
+        "B": "せいで",
+        "C": "おかげで",
+        "D": "ものの"
+      },
+      "answer": "A",
+      "explain": "`〜からには` = đã… thì phải (`G1-06`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L03-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "手数料を（　）、入金してください。",
+      "options": {
+        "A": "差し引かずに",
+        "B": "立て替えて",
+        "C": "催促して",
+        "D": "見込んで"
+      },
+      "answer": "A",
+      "explain": "`差し引く` = trừ đi (`NM-16`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "NM-16"
+      ]
+    },
+    {
+      "id": "P03-L03-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "先月分の代金が、まだ（　）です。",
+      "options": {
+        "A": "未払い",
+        "B": "入金",
+        "C": "残高",
+        "D": "内訳"
+      },
+      "answer": "A",
+      "explain": "`未払い` = chưa thanh toán (`NM-19`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "NM-19"
+      ]
+    },
+    {
+      "id": "P03-L03-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "税金を（　）する。",
+      "options": {
+        "A": "納付",
+        "B": "納品",
+        "C": "納入",
+        "D": "納期"
+      },
+      "answer": "A",
+      "explain": "Nộp thuế/phí → `納付` (`HM-14`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "HM-14"
+      ]
+    },
+    {
+      "id": "P03-L03-G06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "費用を取引先に（　）する。",
+      "options": {
+        "A": "請求",
+        "B": "要請",
+        "C": "依頼",
+        "D": "要求"
+      },
+      "answer": "A",
+      "explain": "Đòi tiền → `請求` (`HM-13`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "HM-13"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

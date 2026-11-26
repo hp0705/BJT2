@@ -1,0 +1,881 @@
+{
+  "id": "P04-L01",
+  "part": "P04",
+  "title": "Đàm phán giá & điều kiện (交渉)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "NG-01",
+      "group": "Nhóm A — Bàn bạc & đưa điều kiện (6 từ)",
+      "word": "交渉",
+      "reading": "こうしょう",
+      "meaning": "Đàm phán",
+      "exJp": "価格について交渉します。",
+      "exVi": "Đàm phán về giá.",
+      "tip": "`交渉が成立する` = đàm phán thành công"
+    },
+    {
+      "id": "NG-02",
+      "group": "Nhóm A — Bàn bạc & đưa điều kiện (6 từ)",
+      "word": "条件",
+      "reading": "じょうけん",
+      "meaning": "Điều kiện",
+      "exJp": "支払い条件を確認します。",
+      "exVi": "Xác nhận điều kiện thanh toán.",
+      "tip": "`条件付き` = có kèm điều kiện"
+    },
+    {
+      "id": "NG-10",
+      "group": "Nhóm A — Bàn bạc & đưa điều kiện (6 từ)",
+      "word": "打ち合わせ",
+      "reading": "うちあわせ",
+      "meaning": "Buổi bàn công việc",
+      "exJp": "明日10時に打ち合わせがあります。",
+      "exVi": "10 giờ mai có buổi bàn công việc.",
+      "tip": "Nhỏ, thân mật hơn `会議`"
+    },
+    {
+      "id": "NG-11",
+      "group": "Nhóm A — Bàn bạc & đưa điều kiện (6 từ)",
+      "word": "提案",
+      "reading": "ていあん",
+      "meaning": "Đề xuất",
+      "exJp": "新しいプランを提案します。",
+      "exVi": "Đề xuất kế hoạch mới.",
+      "tip": "`提案書` = bản đề xuất"
+    },
+    {
+      "id": "NG-12",
+      "group": "Nhóm A — Bàn bạc & đưa điều kiện (6 từ)",
+      "word": "要望",
+      "reading": "ようぼう",
+      "meaning": "Yêu cầu, nguyện vọng",
+      "exJp": "お客様の要望を伺います。",
+      "exVi": "Lắng nghe nguyện vọng của khách.",
+      "tip": "Nhẹ hơn `要求`"
+    },
+    {
+      "id": "CL-A08",
+      "group": "Nhóm A — Bàn bạc & đưa điều kiện (6 từ)",
+      "word": "条件を提示する",
+      "reading": "じょうけんをていじする",
+      "meaning": "Đưa ra điều kiện",
+      "exJp": "先に条件を提示してください。",
+      "exVi": "Xin hãy đưa điều kiện trước.",
+      "tip": "`提示` = đưa ra cho đối phương xem"
+    },
+    {
+      "id": "NG-03",
+      "group": "Nhóm B — Giá & nhượng bộ (5 từ)",
+      "word": "値引き",
+      "reading": "ねびき",
+      "meaning": "Giảm giá (thương lượng cho từng giao dịch)",
+      "exJp": "大量注文なので値引きします。",
+      "exVi": "Vì đặt nhiều nên giảm giá.",
+      "tip": "Giảm **theo đàm phán**"
+    },
+    {
+      "id": "NG-04",
+      "group": "Nhóm B — Giá & nhượng bộ (5 từ)",
+      "word": "割引",
+      "reading": "わりびき",
+      "meaning": "Chiết khấu (theo quy tắc, tỷ lệ)",
+      "exJp": "会員は一律10%割引です。",
+      "exVi": "Hội viên chiết khấu đồng loạt 10%.",
+      "tip": "`10%割引` = theo bảng"
+    },
+    {
+      "id": "NG-05",
+      "group": "Nhóm B — Giá & nhượng bộ (5 từ)",
+      "word": "妥協",
+      "reading": "だきょう",
+      "meaning": "Thỏa hiệp (hai bên cùng bớt)",
+      "exJp": "双方が妥協して合意した。",
+      "exVi": "Hai bên thỏa hiệp rồi đồng thuận.",
+      "tip": "Hơi tiêu cực"
+    },
+    {
+      "id": "NG-06",
+      "group": "Nhóm B — Giá & nhượng bộ (5 từ)",
+      "word": "譲歩",
+      "reading": "じょうほ",
+      "meaning": "Nhượng bộ (một bên lùi)",
+      "exJp": "こちらが価格で譲歩します。",
+      "exVi": "Phía tôi nhượng bộ về giá.",
+      "tip": "`譲歩する代わりに〜`"
+    },
+    {
+      "id": "CL-A27",
+      "group": "Nhóm B — Giá & nhượng bộ (5 từ)",
+      "word": "歩み寄る",
+      "reading": "あゆみよる",
+      "meaning": "Xích lại gần nhau (trong đàm phán)",
+      "exJp": "双方が歩み寄って解決した。",
+      "exVi": "Hai bên xích lại gần nhau và giải quyết xong.",
+      "tip": "Nghĩa tích cực"
+    },
+    {
+      "id": "NG-07",
+      "group": "Nhóm C — Kết quả đàm phán (6 từ)",
+      "word": "承諾",
+      "reading": "しょうだく",
+      "meaning": "Chấp thuận (lời đề nghị)",
+      "exJp": "ご依頼を承諾します。",
+      "exVi": "Chấp thuận lời nhờ.",
+      "tip": "Nói **đồng ý** hẳn"
+    },
+    {
+      "id": "NG-08",
+      "group": "Nhóm C — Kết quả đàm phán (6 từ)",
+      "word": "了承",
+      "reading": "りょうしょう",
+      "meaning": "Đồng ý, thông cảm",
+      "exJp": "ご了承ください。",
+      "exVi": "Xin quý vị thông cảm cho.",
+      "tip": "Hay có trong thông báo"
+    },
+    {
+      "id": "NG-09",
+      "group": "Nhóm C — Kết quả đàm phán (6 từ)",
+      "word": "検討",
+      "reading": "けんとう",
+      "meaning": "Xem xét, cân nhắc",
+      "exJp": "前向きに検討します。",
+      "exVi": "Sẽ xem xét tích cực.",
+      "tip": "**≠ đồng ý**"
+    },
+    {
+      "id": "NG-13",
+      "group": "Nhóm C — Kết quả đàm phán (6 từ)",
+      "word": "合意",
+      "reading": "ごうい",
+      "meaning": "Đồng thuận",
+      "exJp": "価格で合意に達しました。",
+      "exVi": "Đã đạt đồng thuận về giá.",
+      "tip": "`合意に達する`"
+    },
+    {
+      "id": "NG-14",
+      "group": "Nhóm C — Kết quả đàm phán (6 từ)",
+      "word": "決裂",
+      "reading": "けつれつ",
+      "meaning": "Đàm phán đổ vỡ",
+      "exJp": "交渉が決裂しました。",
+      "exVi": "Đàm phán đã đổ vỡ.",
+      "tip": "Ngược với `成立`"
+    },
+    {
+      "id": "NG-15",
+      "group": "Nhóm C — Kết quả đàm phán (6 từ)",
+      "word": "保留",
+      "reading": "ほりゅう",
+      "meaning": "Tạm gác, chưa quyết",
+      "exJp": "返事は保留にします。",
+      "exVi": "Tạm gác chưa trả lời.",
+      "tip": "**Chưa phải từ chối**"
+    }
+  ],
+  "cards": [
+    {
+      "id": "HM-10",
+      "html": "<strong>提案</strong> (đề xuất ý tưởng) / <strong>提示</strong> (đưa ra cho xem: điều kiện, giá) / <strong>提出</strong> (nộp: giấy tờ, báo cáo)."
+    },
+    {
+      "id": "HM-07",
+      "html": "<strong>承認</strong> (phê duyệt) / <strong>承諾</strong> (chấp thuận lời đề nghị) / <strong>了承</strong> (đồng ý, thông cảm) / <strong>承知</strong> (đã hiểu — nói với người trên)."
+    }
+  ],
+  "confusedPairs": [
+    "`値引き` (giảm do đàm phán) ≠ `割引` (chiết khấu theo bảng, tỷ lệ).",
+    "`妥協` (hai bên cùng bớt) ≠ `譲歩` (một bên lùi).",
+    "`検討` / `保留` ≠ `承諾` / `合意`: chưa phải đồng ý."
+  ],
+  "vocabQuiz": {
+    "passAt": 16,
+    "total": 19,
+    "items": [
+      {
+        "id": "P04-L01-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「交渉」の意味は？",
+        "options": {
+          "A": "Hủy bỏ",
+          "B": "Đàm phán",
+          "C": "Chấp thuận",
+          "D": "Đề xuất"
+        },
+        "answer": "B",
+        "explain": "交渉 (`NG-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-01"
+        ]
+      },
+      {
+        "id": "P04-L01-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約の（　）を確認する。",
+        "options": {
+          "A": "決裂",
+          "B": "保留",
+          "C": "提案",
+          "D": "条件"
+        },
+        "answer": "D",
+        "explain": "条件 (`NG-02`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "NG-02"
+        ]
+      },
+      {
+        "id": "P04-L01-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "来週月曜日に、新商品について（　）があります。",
+        "options": {
+          "A": "打ち合わせ",
+          "B": "決裂",
+          "C": "譲歩",
+          "D": "割引"
+        },
+        "answer": "A",
+        "explain": "打ち合わせ (`NG-10`) = buổi bàn công việc",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-10"
+        ]
+      },
+      {
+        "id": "P04-L01-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "新しい販売方法を（　）します。",
+        "options": {
+          "A": "保留",
+          "B": "提案",
+          "C": "了承",
+          "D": "決裂"
+        },
+        "answer": "B",
+        "explain": "提案 (`NG-11`) = đề xuất",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "NG-11"
+        ]
+      },
+      {
+        "id": "P04-L01-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「お客様のご要望を伺います」の意味は？",
+        "options": {
+          "A": "Lắng nghe nguyện vọng của khách",
+          "B": "Từ chối khách",
+          "C": "Gửi báo giá cho khách",
+          "D": "Trả hàng cho khách"
+        },
+        "answer": "A",
+        "explain": "要望 (`NG-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-12"
+        ]
+      },
+      {
+        "id": "P04-L01-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「条件を提示する」の意味は？",
+        "options": {
+          "A": "Hủy điều kiện",
+          "B": "Đưa ra điều kiện cho đối phương xem",
+          "C": "Chấp nhận điều kiện",
+          "D": "Quên điều kiện"
+        },
+        "answer": "B",
+        "explain": "`CL-A08`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P04-L01-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "100個買うので、特別に（　）してもらえませんか。",
+        "options": {
+          "A": "値引き",
+          "B": "保留",
+          "C": "決裂",
+          "D": "承諾"
+        },
+        "answer": "A",
+        "explain": "Nhờ giảm giá riêng → 値引き (`NG-03`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "NG-03"
+        ]
+      },
+      {
+        "id": "P04-L01-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会員なら、全商品が一律10%（　）になります。",
+        "options": {
+          "A": "保留",
+          "B": "提案",
+          "C": "割引",
+          "D": "決裂"
+        },
+        "answer": "C",
+        "explain": "Theo tỷ lệ cố định → 割引 (`NG-04`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "NG-04"
+        ]
+      },
+      {
+        "id": "P04-L01-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "双方が少しずつ譲って、折り合いをつけることは？",
+        "options": {
+          "A": "妥協",
+          "B": "承諾",
+          "C": "提示",
+          "D": "要望"
+        },
+        "answer": "A",
+        "explain": "妥協 (`NG-05`): cả hai cùng bớt",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-05"
+        ]
+      },
+      {
+        "id": "P04-L01-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "こちらだけが条件を下げて、相手の希望に近づけることは？",
+        "options": {
+          "A": "合意",
+          "B": "保留",
+          "C": "譲歩",
+          "D": "決裂"
+        },
+        "answer": "C",
+        "explain": "譲歩 (`NG-06`): một bên lùi",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-06"
+        ]
+      },
+      {
+        "id": "P04-L01-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「双方が歩み寄る」の意味は？",
+        "options": {
+          "A": "Hai bên cãi nhau",
+          "B": "Hai bên xích lại gần nhau",
+          "C": "Hai bên rời đi",
+          "D": "Hai bên hủy hợp đồng"
+        },
+        "answer": "B",
+        "explain": "`CL-A27`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P04-L01-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "相手の依頼を「いいですよ」と受け入れることは？",
+        "options": {
+          "A": "保留",
+          "B": "決裂",
+          "C": "検討",
+          "D": "承諾"
+        },
+        "answer": "D",
+        "explain": "承諾 (`NG-07`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-07"
+        ]
+      },
+      {
+        "id": "P04-L01-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「ご了承ください」の意味は？",
+        "options": {
+          "A": "Xin hãy từ chối",
+          "B": "Xin hãy thông cảm, chấp nhận cho",
+          "C": "Xin hãy trả lời ngay",
+          "D": "Xin hãy nộp hồ sơ"
+        },
+        "answer": "B",
+        "explain": "了承 (`NG-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-08"
+        ]
+      },
+      {
+        "id": "P04-L01-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「検討します」と言われたとき、正しい理解は？",
+        "options": {
+          "A": "必ず承諾してくれる",
+          "B": "すでに断られた",
+          "C": "契約が成立した",
+          "D": "まだ決まっていない"
+        },
+        "answer": "D",
+        "explain": "検討 (`NG-09`) = đang xem xét, chưa chốt",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "NG-09"
+        ]
+      },
+      {
+        "id": "P04-L01-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "価格について、双方が納得して（　）に達した。",
+        "options": {
+          "A": "決裂",
+          "B": "合意",
+          "C": "保留",
+          "D": "要望"
+        },
+        "answer": "B",
+        "explain": "合意 (`NG-13`): `合意に達する`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "NG-13"
+        ]
+      },
+      {
+        "id": "P04-L01-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "交渉がうまくいかず、話し合いが終わってしまうことは？",
+        "options": {
+          "A": "合意",
+          "B": "承諾",
+          "C": "提案",
+          "D": "決裂"
+        },
+        "answer": "D",
+        "explain": "決裂 (`NG-14`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-14"
+        ]
+      },
+      {
+        "id": "P04-L01-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「返事は保留にします」の意味は？",
+        "options": {
+          "A": "Từ chối ngay",
+          "B": "Đồng ý ngay",
+          "C": "Tạm gác, chưa quyết",
+          "D": "Hủy hợp đồng"
+        },
+        "answer": "C",
+        "explain": "保留 (`NG-15`): chưa phải từ chối",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NG-15"
+        ]
+      },
+      {
+        "id": "P04-L01-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "見積書や条件など、相手に「見せるために出す」ときに使う語は？",
+        "options": {
+          "A": "提案",
+          "B": "提示",
+          "C": "提出",
+          "D": "提携"
+        },
+        "answer": "B",
+        "explain": "`HM-10`: 提示 = đưa ra cho xem điều kiện, giá",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-10"
+        ]
+      },
+      {
+        "id": "P04-L01-V19",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "上司が書類を見て「いいでしょう」と、正式に認めることは？",
+        "options": {
+          "A": "承認",
+          "B": "承知",
+          "C": "了承",
+          "D": "承諾"
+        },
+        "answer": "A",
+        "explain": "`HM-07`: 承認 = phê duyệt chính thức",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-07"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "`値引き` = giảm giá do thương lượng; `割引` = chiết khấu theo bảng/tỷ lệ. Luôn xem **điều kiện kèm theo** (số lượng, thời hạn).",
+    "`検討` / `保留` = **chưa quyết**. Chỉ `承諾` / `合意` / `了承` mới là đã đồng ý.",
+    "Nói giá/điều kiện theo mốc: `〜以上` gồm mốc, `〜未満` không gồm mốc (`TR-A05`, `TR-A04`).",
+    "Ngữ pháp: `〜をめぐって` (xoay quanh), `〜にとって` (đối với), `〜次第で` (tùy vào), `〜上で` (trong việc)."
+  ],
+  "listening": [
+    {
+      "id": "P04-L01-LR01",
+      "title": "2. Bài Nghe–Đọc — 聴読解 (P04-L01-LR01)",
+      "doc": "<div class=\"doc-table-wrap\"><table class=\"doc-table\"><thead><tr><th>数量</th><th>割引率</th></tr></thead><tbody><tr><td>100個以上</td><td>5%割引</td></tr><tr><td>300個以上</td><td>10%割引</td></tr></tbody></table></div>\n<blockquote class=\"doc-quote\">【商品】コピー用紙　<strong>単価1,000円（税抜）／個</strong>　【支払い条件】<strong>月末締め・翌月末払い</strong>　【消費税】10%</blockquote>",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（木村・東洋物産）",
+          "name": "木村・東洋物産",
+          "text": "お世話になっております。先日の見積書の件でお電話しました。コピー用紙を250個お願いしたいのですが、割引について相談させてください。"
+        },
+        {
+          "speaker": "女",
+          "label": "女（山田・さくら商事）",
+          "name": "山田・さくら商事",
+          "text": "いつもありがとうございます。割引表では、100個以上で5%、300個以上で10%となっております。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "250個なので、10%にしていただくことはできませんか。予算の都合で、何とかお願いしたいのです。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "申し訳ございませんが、10%は300個以上のご注文が対象でして、250個ですと5%となります。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうですか。では、数量を300個に増やしたら、10%にしていただけますか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、300個でしたら10%で承ります。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "わかりました。それなら300個でお願いします。支払い条件は変わりませんよね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、月末締めの翌月末払いのままです。では、その内容で合意ということで、発注書をお待ちしております。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ありがとうございます。今日中にお送りします。"
+        }
+      ],
+      "translation": [
+        "*Kimura:* Cảm ơn quý công ty. Tôi gọi về bản báo giá hôm trước. Tôi muốn đặt 250 hộp giấy photo, xin trao đổi về chiết khấu.",
+        "*Yamada:* Cảm ơn anh. Theo bảng chiết khấu, từ 100 hộp là 5%, từ 300 hộp là 10%.",
+        "*Kimura:* Vì là 250 hộp nên có thể cho 10% được không? Do ngân sách, mong chị giúp.",
+        "*Yamada:* Xin lỗi, 10% chỉ áp dụng cho đơn từ 300 hộp, với 250 hộp thì là 5%.",
+        "*Kimura:* Vậy à. Nếu tăng lên 300 hộp thì có được 10% không?",
+        "*Yamada:* Vâng, 300 hộp thì chúng tôi nhận với 10%.",
+        "*Kimura:* Tôi hiểu. Vậy xin đặt 300 hộp. Điều kiện thanh toán không đổi chứ?",
+        "*Yamada:* Vâng, vẫn là chốt cuối tháng, trả cuối tháng sau. Vậy theo nội dung đó là đồng thuận, chúng tôi chờ phiếu đặt hàng.",
+        "*Kimura:* Cảm ơn chị. Hôm nay tôi sẽ gửi."
+      ],
+      "questions": [
+        {
+          "id": "P04-L01-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "合意した内容で、支払う金額（税込）はいくらですか。",
+          "options": {
+            "A": "237,500円",
+            "B": "270,000円",
+            "C": "297,000円",
+            "D": "330,000円"
+          },
+          "answer": "C",
+          "explain": "300 hộp × 1.000 = 300.000 → giảm 10% = **270.000 (chưa thuế)** → cộng thuế 10% (27.000) = **297.000**. A là 250 hộp giảm 5% chưa thuế; B là giá chưa thuế; D là 300 hộp không giảm giá, có thuế.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P04-L01-E02",
+          "questionType": "listening_reading",
+          "skill": "listening",
+          "q": "山田さんが断ったのはどれですか。",
+          "options": {
+            "A": "250個で10%割引にすること",
+            "B": "300個で10%割引にすること",
+            "C": "250個で5%割引にすること",
+            "D": "支払い条件を変えないこと"
+          },
+          "answer": "A",
+          "explain": "`10%は300個以上が対象…250個ですと5%` → từ chối **250 hộp mà 10%**. B được chấp nhận; C là mức áp dụng; D là điều Yamada xác nhận giữ nguyên.",
+          "tags": [
+            "NEGATION_CONDITION",
+            "SPEAKER_INTENT"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P04-L01-E03",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "12月に納品された分の支払い期限はいつですか。",
+          "options": {
+            "A": "12月31日",
+            "B": "1月15日",
+            "C": "1月末",
+            "D": "2月末"
+          },
+          "answer": "C",
+          "explain": "`月末締め・翌月末払い` → hàng giao trong tháng 12 được chốt cuối tháng 12 và **trả vào cuối tháng 1**.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P04-L01-R01",
+      "title": "3. Bài Đọc — 短文読解 (P04-L01-R01: Email trả lời yêu cầu giảm giá)",
+      "passageHtml": "<strong>件名：</strong> お見積もりの条件について<br>株式会社東洋物産 木村様<br>いつもお世話になっております。さくら商事の山田です。<br>ご要望いただきました単価の値引きにつきまして、社内で検討いたしましたが、現在の単価からこれ以上のお値引きは難しい状況でございます。<br>その代わり、次の2点であればご提案できます。<br>① 今月中にご発注いただいた場合、納期を2日短縮いたします。<br>② 年間契約にしていただいた場合、全商品を一律3%割引いたします。<br>ご検討のほど、よろしくお願いいたします。",
+      "questions": [
+        {
+          "id": "P04-L01-E04",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "このメールの内容と合っているものはどれですか。",
+          "options": {
+            "A": "単価をさらに値引きする。",
+            "B": "納期を2日延ばす。",
+            "C": "今月中に発注すると3%割引になる。",
+            "D": "年間契約にすると全商品が3%割引になる。"
+          },
+          "answer": "D",
+          "explain": "`年間契約…全商品を一律3%割引` → D. A sai (`難しい状況` = từ chối giảm thêm). B sai (rút **ngắn** 2 ngày). C sai: đặt trong tháng thì được **rút ngắn hạn giao**, không phải giảm 3%.",
+          "tags": [
+            "NEGATION_CONDITION",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P04-L01-X01",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "取引先から「納期を1日早めてほしい」という要望があり、対応できます。最も適切な返事を選んでください。",
+      "options": {
+        "A": "はい、大丈夫です。",
+        "B": "承知いたしました。ご要望どおり、1日早めて対応いたします。",
+        "C": "たぶんできると思います。",
+        "D": "しかたがないので、やります。"
+      },
+      "answer": "B",
+      "explain": "Đồng ý với khách: `承知いたしました` + nêu rõ nội dung sẽ làm. A suồng sã; C không chắc chắn; D thái độ không tốt.",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P04-L01-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "価格（　）、双方の意見が分かれている。",
+      "options": {
+        "A": "をめぐって",
+        "B": "にとって",
+        "C": "に対して",
+        "D": "にわたって"
+      },
+      "answer": "A",
+      "explain": "`〜をめぐって` = xoay quanh (`G6-15`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L01-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "当社（　）、この取引先は最も重要です。",
+      "options": {
+        "A": "をめぐって",
+        "B": "にとって",
+        "C": "次第",
+        "D": "上で"
+      },
+      "answer": "B",
+      "explain": "`〜にとって` = đối với góc nhìn của… (`G6-31`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L01-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "交渉の結果（　）で、契約の内容を変えるかもしれません。",
+      "options": {
+        "A": "おかげ",
+        "B": "せい",
+        "C": "次第",
+        "D": "以上"
+      },
+      "answer": "C",
+      "explain": "`〜次第で` = tùy vào (`G6-03`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L01-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "契約を結ぶ（　）、注意すべき点を確認した。",
+      "options": {
+        "A": "上で",
+        "B": "うちに",
+        "C": "ものの",
+        "D": "ばかり"
+      },
+      "answer": "A",
+      "explain": "`〜上で` = trong việc… (`G6-08`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L01-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "双方が（　）、ようやく合意に至った。",
+      "options": {
+        "A": "決裂して",
+        "B": "保留して",
+        "C": "歩み寄って",
+        "D": "撤回して"
+      },
+      "answer": "C",
+      "explain": "`歩み寄る` (`CL-A27`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L01-G06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "納期を守る代わりに、価格では（　）します。",
+      "options": {
+        "A": "決裂",
+        "B": "保留",
+        "C": "提出",
+        "D": "譲歩"
+      },
+      "answer": "D",
+      "explain": "`譲歩する代わりに` (`NG-06`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "NG-06"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

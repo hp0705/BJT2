@@ -1,0 +1,189 @@
+{
+  "version": "2.2",
+  "parts": [
+    {
+      "id": "P01",
+      "title": "Tổ chức, Chức danh & Kính ngữ 内/外",
+      "lessons": [
+        {
+          "id": "P01-L01",
+          "title": "Cơ cấu công ty & Quy tắc Kính ngữ 3 ngôi",
+          "isTest": false,
+          "vocabCount": 22,
+          "quizCount": 22,
+          "passAt": 18,
+          "listeningCount": 1,
+          "practiceCount": 2
+        },
+        {
+          "id": "P01-L02",
+          "title": "Nghe–Đọc kết hợp (聴読解) & Đọc hiểu Email có ngoại lệ",
+          "isTest": false,
+          "vocabCount": 17,
+          "quizCount": 18,
+          "passAt": 15,
+          "listeningCount": 1,
+          "practiceCount": 2
+        },
+        {
+          "id": "P01-L03",
+          "title": "Tổ chức, Chức danh & Kính ngữ 内/外 (tiếp)",
+          "isTest": false,
+          "vocabCount": 14,
+          "quizCount": 15,
+          "passAt": 12,
+          "listeningCount": 1,
+          "practiceCount": 11
+        },
+        {
+          "id": "P01-L04",
+          "title": "BÀI KIỂM TRA PART 01 (20 câu · đạt ≥ 70% = 14 câu đúng)",
+          "isTest": true,
+          "vocabCount": 0,
+          "quizCount": 0,
+          "passAt": 0,
+          "listeningCount": 2,
+          "practiceCount": 20
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "title": "Điện thoại, Tiếp khách & Từ đệm",
+      "lessons": [
+        {
+          "id": "P02-L01",
+          "title": "Nghe điện thoại & Nhận lời nhắn (伝言)",
+          "isTest": false,
+          "vocabCount": 16,
+          "quizCount": 16,
+          "passAt": 13,
+          "listeningCount": 1,
+          "practiceCount": 2
+        },
+        {
+          "id": "P02-L02",
+          "title": "Nghe–Đọc kết hợp (聴読解): Đối chiếu Lời nhắn & Lịch trình",
+          "isTest": false,
+          "vocabCount": 16,
+          "quizCount": 16,
+          "passAt": 13,
+          "listeningCount": 1,
+          "practiceCount": 2
+        },
+        {
+          "id": "P02-L03",
+          "title": "Điện thoại, Số điện thoại & Từ đệm (nâng cao)",
+          "isTest": false,
+          "vocabCount": 18,
+          "quizCount": 18,
+          "passAt": 15,
+          "listeningCount": 1,
+          "practiceCount": 12
+        },
+        {
+          "id": "P02-L04",
+          "title": "Kiểm tra PART 02 (20 câu · Pass: ≥14/20)",
+          "isTest": true,
+          "vocabCount": 0,
+          "quizCount": 0,
+          "passAt": 0,
+          "listeningCount": 6,
+          "practiceCount": 20
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "title": "Đơn hàng, Báo giá & Logistics",
+      "lessons": [
+        {
+          "id": "P03-L01",
+          "title": "Đổi đơn hàng & Bảng báo giá (見積書)",
+          "isTest": false,
+          "vocabCount": 21,
+          "quizCount": 21,
+          "passAt": 17,
+          "listeningCount": 1,
+          "practiceCount": 12
+        },
+        {
+          "id": "P03-L02",
+          "title": "Giao hàng, Lịch phát hàng & Chính sách đổi trả",
+          "isTest": false,
+          "vocabCount": 22,
+          "quizCount": 22,
+          "passAt": 18,
+          "listeningCount": 1,
+          "practiceCount": 12
+        },
+        {
+          "id": "P03-L03",
+          "title": "Hóa đơn, Thanh toán & Nhắc nợ",
+          "isTest": false,
+          "vocabCount": 19,
+          "quizCount": 21,
+          "passAt": 17,
+          "listeningCount": 1,
+          "practiceCount": 10
+        },
+        {
+          "id": "P03-L04",
+          "title": "BÀI KIỂM TRA PART 03 (20 câu · đạt ≥ 70% = 14 câu đúng)",
+          "isTest": true,
+          "vocabCount": 0,
+          "quizCount": 0,
+          "passAt": 0,
+          "listeningCount": 2,
+          "practiceCount": 20
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "Đàm phán, Hợp đồng & Ý gián tiếp",
+      "lessons": [
+        {
+          "id": "P04-L01",
+          "title": "Đàm phán giá & điều kiện (交渉)",
+          "isTest": false,
+          "vocabCount": 17,
+          "quizCount": 19,
+          "passAt": 16,
+          "listeningCount": 1,
+          "practiceCount": 11
+        },
+        {
+          "id": "P04-L02",
+          "title": "Ý gián tiếp: đồng ý, chờ duyệt, trì hoãn hay từ chối? (本音)",
+          "isTest": false,
+          "vocabCount": 18,
+          "quizCount": 19,
+          "passAt": 16,
+          "listeningCount": 1,
+          "practiceCount": 11
+        },
+        {
+          "id": "P04-L03",
+          "title": "Hợp đồng: ký kết, điều khoản & nghĩa vụ (契約)",
+          "isTest": false,
+          "vocabCount": 17,
+          "quizCount": 18,
+          "passAt": 15,
+          "listeningCount": 1,
+          "practiceCount": 11
+        },
+        {
+          "id": "P04-L04",
+          "title": "BÀI KIỂM TRA PART 04 (20 câu · đạt ≥ 14/20 = 70%)",
+          "isTest": true,
+          "vocabCount": 0,
+          "quizCount": 0,
+          "passAt": 0,
+          "listeningCount": 2,
+          "practiceCount": 20
+        }
+      ]
+    }
+  ]
+}

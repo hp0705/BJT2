@@ -1,0 +1,770 @@
+{
+  "id": "P01-L01",
+  "part": "P01",
+  "title": "Cơ cấu công ty & Quy tắc Kính ngữ 3 ngôi",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "CO-01",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "本社",
+      "reading": "ほんしゃ",
+      "meaning": "Trụ sở chính",
+      "exJp": "本社は東京にあります。",
+      "exVi": "Trụ sở chính ở Tokyo.",
+      "tip": "Đối lập với `支社` / `支店`"
+    },
+    {
+      "id": "CO-02",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "支社",
+      "reading": "ししゃ",
+      "meaning": "Chi nhánh của công ty (cấp vùng)",
+      "exJp": "来月、大阪支社へ異動します。",
+      "exVi": "Tháng sau tôi chuyển sang chi nhánh Osaka.",
+      "tip": "支 = nhánh. `社` = công ty"
+    },
+    {
+      "id": "CO-03",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "支店",
+      "reading": "してん",
+      "meaning": "Chi nhánh của ngân hàng, cửa hàng",
+      "exJp": "銀行の支店で口座を開きます。",
+      "exVi": "Mở tài khoản ở chi nhánh ngân hàng.",
+      "tip": "`店` = cửa hàng → ngân hàng, cửa hàng"
+    },
+    {
+      "id": "CO-04",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "子会社",
+      "reading": "こがいしゃ",
+      "meaning": "Công ty con",
+      "exJp": "子会社の社長に就任しました。",
+      "exVi": "Tôi nhậm chức giám đốc công ty con.",
+      "tip": "子 = con"
+    },
+    {
+      "id": "CO-05",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "親会社",
+      "reading": "おやがいしゃ",
+      "meaning": "Công ty mẹ",
+      "exJp": "親会社の方針に従います。",
+      "exVi": "Làm theo phương châm của công ty mẹ.",
+      "tip": "Đọc `おや`, không đọc `しん`"
+    },
+    {
+      "id": "CO-06",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "傘下",
+      "reading": "さんか",
+      "meaning": "Trực thuộc, dưới quyền kiểm soát",
+      "exJp": "当社は大手グループの傘下に入りました。",
+      "exVi": "Công ty chúng tôi đã vào dưới trướng tập đoàn lớn.",
+      "tip": "傘 = cái ô → \"dưới cái ô\" của tập đoàn"
+    },
+    {
+      "id": "CO-07",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "業界",
+      "reading": "ぎょうかい",
+      "meaning": "Giới, ngành (cả một lĩnh vực)",
+      "exJp": "自動車業界は競争が激しいです。",
+      "exVi": "Ngành ô tô cạnh tranh gay gắt.",
+      "tip": "界 = giới → \"cả ngành\""
+    },
+    {
+      "id": "CO-08",
+      "group": "Nhóm A — Cơ cấu công ty (8 từ)",
+      "word": "業種",
+      "reading": "ぎょうしゅ",
+      "meaning": "Loại hình ngành nghề",
+      "exJp": "業種を問わず、応募できます。",
+      "exVi": "Không phân biệt loại ngành nghề, ai cũng ứng tuyển được.",
+      "tip": "種 = loại: 製造業・小売業・サービス業"
+    },
+    {
+      "id": "CO-09",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "部署",
+      "reading": "ぶしょ",
+      "meaning": "Bộ phận, phòng ban (tên chung)",
+      "exJp": "新しい部署に配属されました。",
+      "exVi": "Tôi được phân vào bộ phận mới.",
+      "tip": "Tên chung; `〜部` là tên cụ thể"
+    },
+    {
+      "id": "CO-10",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "総務部",
+      "reading": "そうむぶ",
+      "meaning": "Phòng Tổng vụ (hành chính chung)",
+      "exJp": "総務部が備品を管理しています。",
+      "exVi": "Phòng Tổng vụ quản lý văn phòng phẩm.",
+      "tip": "Hay gửi **thông báo nội bộ, bảo trì, tiếp khách**"
+    },
+    {
+      "id": "CO-11",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "人事部",
+      "reading": "じんじぶ",
+      "meaning": "Phòng Nhân sự",
+      "exJp": "人事部が面接の日程を決めます。",
+      "exVi": "Phòng Nhân sự quyết định lịch phỏng vấn.",
+      "tip": "Tuyển dụng, thuyên chuyển, chế độ"
+    },
+    {
+      "id": "CO-12",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "経理部",
+      "reading": "けいりぶ",
+      "meaning": "Phòng Kế toán",
+      "exJp": "経理部に領収書を提出します。",
+      "exVi": "Nộp biên lai cho phòng Kế toán.",
+      "tip": "Quyết toán, sổ sách, chi phí"
+    },
+    {
+      "id": "CO-13",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "営業部",
+      "reading": "えいぎょうぶ",
+      "meaning": "Phòng Kinh doanh",
+      "exJp": "営業部が新規顧客を開拓します。",
+      "exVi": "Phòng Kinh doanh khai thác khách hàng mới.",
+      "tip": "Gặp khách, bán hàng"
+    },
+    {
+      "id": "CO-14",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "企画部",
+      "reading": "きかくぶ",
+      "meaning": "Phòng Kế hoạch",
+      "exJp": "企画部が新商品を考えます。",
+      "exVi": "Phòng Kế hoạch nghĩ ra sản phẩm mới.",
+      "tip": "Lập đề án, kế hoạch sản phẩm"
+    },
+    {
+      "id": "CO-15",
+      "group": "Nhóm B — Phòng ban (7 từ)",
+      "word": "広報部",
+      "reading": "こうほうぶ",
+      "meaning": "Phòng Quan hệ công chúng (PR)",
+      "exJp": "広報部が新商品を報道機関に発表します。",
+      "exVi": "Phòng PR công bố sản phẩm mới cho báo chí.",
+      "tip": "Phát thông tin **ra bên ngoài**"
+    },
+    {
+      "id": "PS-01",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "社長",
+      "reading": "しゃちょう",
+      "meaning": "Giám đốc, chủ tịch công ty",
+      "exJp": "社長が全社員に挨拶しました。",
+      "exVi": "Giám đốc chào toàn thể nhân viên.",
+      "tip": "Cao nhất trong thứ tự chức danh"
+    },
+    {
+      "id": "PS-05",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "部長",
+      "reading": "ぶちょう",
+      "meaning": "Trưởng phòng (cấp bộ phận lớn)",
+      "exJp": "部長に報告します。",
+      "exVi": "Báo cáo với trưởng phòng.",
+      "tip": "⚠ Nói với khách: không gắn `部長` sau tên sếp mình"
+    },
+    {
+      "id": "PS-06",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "課長",
+      "reading": "かちょう",
+      "meaning": "Trưởng nhóm / bộ phận nhỏ",
+      "exJp": "課長が会議を進行します。",
+      "exVi": "Trưởng nhóm điều hành cuộc họp.",
+      "tip": "Thứ tự: `社長` > `部長` > `課長` > `係長`"
+    },
+    {
+      "id": "PS-11",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "担当者",
+      "reading": "たんとうしゃ",
+      "meaning": "Người phụ trách",
+      "exJp": "担当者に確認してから回答します。",
+      "exVi": "Xác nhận với người phụ trách rồi mới trả lời.",
+      "tip": "Với khách nói `担当の〇〇`. ≠ `責任者`"
+    },
+    {
+      "id": "CL-01",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "取引先",
+      "reading": "とりひきさき",
+      "meaning": "Đối tác giao dịch",
+      "exJp": "取引先を訪問します。",
+      "exVi": "Đến thăm đối tác.",
+      "tip": "Gọi chung, gồm cả bên mua lẫn bên bán"
+    },
+    {
+      "id": "WK-16",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "現地法人",
+      "reading": "げんちほうじん",
+      "meaning": "Pháp nhân tại nước sở tại (công ty con ở nước ngoài)",
+      "exJp": "ベトナムに現地法人を設立しました。",
+      "exVi": "Đã lập công ty con tại Việt Nam.",
+      "tip": "現地 = tại chỗ + 法人 = pháp nhân"
+    },
+    {
+      "id": "AC-15",
+      "group": "Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",
+      "word": "共有",
+      "reading": "きょうゆう",
+      "meaning": "Chia sẻ (thông tin, tài liệu)",
+      "exJp": "資料をチームで共有します。",
+      "exVi": "Chia sẻ tài liệu trong nhóm.",
+      "tip": "Có trong bài nghe L01; gặp lại ở P07"
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`支社` (công ty) ≠ `支店` (ngân hàng, cửa hàng).",
+    "`業界` (cả giới/ngành) ≠ `業種` (loại hình nghề: 製造業, 小売業…).",
+    "`広報部` (nói ra ngoài) ≠ `営業部` (bán hàng) ≠ `企画部` (lập kế hoạch)."
+  ],
+  "vocabQuiz": {
+    "passAt": 18,
+    "total": 22,
+    "items": [
+      {
+        "id": "P01-L01-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「本社」の読み方は？",
+        "options": {
+          "A": "もとしゃ",
+          "B": "ほんじゃ",
+          "C": "ほんしゃ",
+          "D": "ぼんしゃ"
+        },
+        "answer": "C",
+        "explain": "本社 = ほんしゃ (`CO-01`)",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-01"
+        ]
+      },
+      {
+        "id": "P01-L01-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「支社」の意味は？",
+        "options": {
+          "A": "Trụ sở chính",
+          "B": "Chi nhánh của công ty",
+          "C": "Công ty con",
+          "D": "Công ty mẹ"
+        },
+        "answer": "B",
+        "explain": "支社 = chi nhánh công ty (`CO-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-02"
+        ]
+      },
+      {
+        "id": "P01-L01-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "銀行の（　）で口座を作りました。",
+        "options": {
+          "A": "本社",
+          "B": "子会社",
+          "C": "傘下",
+          "D": "支店"
+        },
+        "answer": "D",
+        "explain": "Ngân hàng/cửa hàng → `支店` (`CO-03`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CO-03"
+        ]
+      },
+      {
+        "id": "P01-L01-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「子会社」の反対の意味はどれですか。",
+        "options": {
+          "A": "親会社",
+          "B": "支社",
+          "C": "傘下",
+          "D": "業界"
+        },
+        "answer": "A",
+        "explain": "子会社 ↔ 親会社",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L01-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「親会社」の読み方は？",
+        "options": {
+          "A": "しんかいしゃ",
+          "B": "おやかいしゃ",
+          "C": "しんがいしゃ",
+          "D": "おやがいしゃ"
+        },
+        "answer": "D",
+        "explain": "おや + がいしゃ (biến âm đục) (`CO-05`)",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-05"
+        ]
+      },
+      {
+        "id": "P01-L01-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「傘下」の意味は？",
+        "options": {
+          "A": "Hợp tác ngang hàng",
+          "B": "Sáp nhập",
+          "C": "Trực thuộc, dưới quyền kiểm soát",
+          "D": "Thành lập"
+        },
+        "answer": "C",
+        "explain": "傘下 = dưới trướng (`CO-06`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-06"
+        ]
+      },
+      {
+        "id": "P01-L01-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "自動車（　）は、景気の影響を受けやすい。",
+        "options": {
+          "A": "業界",
+          "B": "部署",
+          "C": "窓口",
+          "D": "担当"
+        },
+        "answer": "A",
+        "explain": "`自動車業界` = cả ngành ô tô (`CO-07`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CO-07"
+        ]
+      },
+      {
+        "id": "P01-L01-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「製造業・小売業・サービス業」のような分類を何といいますか。",
+        "options": {
+          "A": "部署",
+          "B": "業界",
+          "C": "業種",
+          "D": "傘下"
+        },
+        "answer": "C",
+        "explain": "Loại hình ngành nghề → `業種` (`CO-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-08"
+        ]
+      },
+      {
+        "id": "P01-L01-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "新しい（　）に配属され、来週から働きます。",
+        "options": {
+          "A": "部署",
+          "B": "業種",
+          "C": "傘下",
+          "D": "親会社"
+        },
+        "answer": "A",
+        "explain": "`部署に配属される` = được phân vào bộ phận (`CO-09`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CO-09"
+        ]
+      },
+      {
+        "id": "P01-L01-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "備品の管理や来客対応など、会社全体の事務を行う部署は？",
+        "options": {
+          "A": "経理部",
+          "B": "総務部",
+          "C": "広報部",
+          "D": "企画部"
+        },
+        "answer": "B",
+        "explain": "総務部 (`CO-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-10"
+        ]
+      },
+      {
+        "id": "P01-L01-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "決算・帳簿・経費の処理をする部署は？",
+        "options": {
+          "A": "経理部",
+          "B": "総務部",
+          "C": "広報部",
+          "D": "人事部"
+        },
+        "answer": "A",
+        "explain": "経理部 = kế toán (`CO-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-12"
+        ]
+      },
+      {
+        "id": "P01-L01-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "採用・面接・異動を担当する部署は？",
+        "options": {
+          "A": "人事部",
+          "B": "経理部",
+          "C": "企画部",
+          "D": "広報部"
+        },
+        "answer": "A",
+        "explain": "人事部 (`CO-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-11"
+        ]
+      },
+      {
+        "id": "P01-L01-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "新商品の発表など、社外への情報発信を担当する部署は？",
+        "options": {
+          "A": "営業部",
+          "B": "広報部",
+          "C": "総務部",
+          "D": "人事部"
+        },
+        "answer": "B",
+        "explain": "広報部 = PR (`CO-15`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-15"
+        ]
+      },
+      {
+        "id": "P01-L01-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "新しい事業や商品の計画を立てる部署は？",
+        "options": {
+          "A": "営業部",
+          "B": "経理部",
+          "C": "広報部",
+          "D": "企画部"
+        },
+        "answer": "D",
+        "explain": "企画部 (`CO-14`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-14"
+        ]
+      },
+      {
+        "id": "P01-L01-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "顧客を訪問して商品を売り込む部署は？",
+        "options": {
+          "A": "営業部",
+          "B": "企画部",
+          "C": "総務部",
+          "D": "経理部"
+        },
+        "answer": "A",
+        "explain": "営業部 (`CO-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-13"
+        ]
+      },
+      {
+        "id": "P01-L01-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "役職が高い順に正しく並んでいるのはどれですか。",
+        "options": {
+          "A": "社長→課長→部長→係長",
+          "B": "部長→社長→課長→係長",
+          "C": "社長→部長→係長→課長",
+          "D": "社長→部長→課長→係長"
+        },
+        "answer": "D",
+        "explain": "社長 > 部長 > 課長 > 係長",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L01-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「課長」の読み方は？",
+        "options": {
+          "A": "かちょう",
+          "B": "かじょう",
+          "C": "がちょう",
+          "D": "かかりちょう"
+        },
+        "answer": "A",
+        "explain": "課長 = かちょう; `かかりちょう` là 係長",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L01-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「担当者」の意味は？",
+        "options": {
+          "A": "Người chịu trách nhiệm",
+          "B": "Người phụ trách (trực tiếp làm việc đó)",
+          "C": "Cổ đông",
+          "D": "Đồng nghiệp"
+        },
+        "answer": "B",
+        "explain": "担当者 = người phụ trách; `責任者` = người chịu trách nhiệm (`PS-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-11"
+        ]
+      },
+      {
+        "id": "P01-L01-V19",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「取引先」の意味は？",
+        "options": {
+          "A": "Đối thủ cạnh tranh",
+          "B": "Nhân viên mới",
+          "C": "Đối tác giao dịch",
+          "D": "Cổ đông"
+        },
+        "answer": "C",
+        "explain": "取引先 (`CL-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CL-01"
+        ]
+      },
+      {
+        "id": "P01-L01-V20",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「現地法人」の意味は？",
+        "options": {
+          "A": "Cổ đông nước ngoài",
+          "B": "Công ty mẹ ở Nhật",
+          "C": "Văn phòng đại diện bán hàng",
+          "D": "Pháp nhân đặt tại nước sở tại (công ty con ở nước ngoài)"
+        },
+        "answer": "D",
+        "explain": "現地法人 (`WK-16`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "WK-16"
+        ]
+      },
+      {
+        "id": "P01-L01-V21",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会議の資料をチームで（　）する。",
+        "options": {
+          "A": "共有",
+          "B": "部署",
+          "C": "業界",
+          "D": "支店"
+        },
+        "answer": "A",
+        "explain": "`資料を共有する` = chia sẻ tài liệu (`AC-15`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "AC-15"
+        ]
+      },
+      {
+        "id": "P01-L01-V22",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "親会社と子会社の関係を正しく説明しているのはどれですか。",
+        "options": {
+          "A": "子会社が親会社の株式を持つ",
+          "B": "親会社が子会社の株式を持ち、経営を支配する",
+          "C": "両社は対等である",
+          "D": "支社と同じ意味である"
+        },
+        "answer": "B",
+        "explain": "Công ty mẹ nắm cổ phần và chi phối công ty con (`CO-04`, `CO-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-04",
+          "CO-05"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "`支社` (chi nhánh công ty cấp vùng) ≠ `支店` (chi nhánh cửa hàng, ngân hàng).",
+    "`弊社` (công ty mình — nói & viết) ≠ `御社` (công ty đối tác — chỉ dùng khi **nói**) ≠ `貴社` (công ty đối tác — chỉ dùng khi **viết**).",
+    "Nói với khách (`外`) về sếp mình (`内`): **Bỏ chức danh + Dùng khiêm nhường/lịch sự**."
+  ],
+  "listening": [
+    {
+      "id": "P01-L01-A01",
+      "title": "3. Bài Nghe — 聴解 (P01-L01-A01: Xác định hành động tiếp theo)",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（営業部・佐藤）",
+          "name": "営業部・佐藤",
+          "text": "あ、高橋さん。今、少しよろしいですか。さっきABC商事の山本様からお電話があって、来週の見積書の件で、少し条件を見直したいとのことでした。"
+        },
+        {
+          "speaker": "女",
+          "label": "女（営業部・高橋）",
+          "name": "営業部・高橋",
+          "text": "えっ、もう見積書は送ったはずですよね。山本様、何か具体的な変更点はおっしゃっていましたか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "いえ、詳しくは明日改めてメールで送るとおっしゃっていました。ただ、その前に社内でどこまで値引きできるか、部長に確認しておいたほうがいいと思うんですが。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "そうですね。じゃあ、部長には私から今日中に相談しておきます。佐藤さんは、山本様からのメールが届き次第、内容を私にも共有してもらえますか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "承知しました。そうします。"
+        }
+      ],
+      "translation": [
+        "*Nam (Sato):* À, chị Takahashi, bây giờ chị có rảnh chút không? Lúc nãy anh Yamamoto bên công ty ABC gọi tới, bảo là về bản báo giá tuần sau muốn xem xét lại một chút điều kiện.",
+        "*Nữ (Takahashi):* Ơ, bản báo giá chẳng phải mình gửi rồi sao? Anh Yamamoto có nói rõ muốn sửa điểm nào không?",
+        "*Nam:* Không, anh ấy bảo chi tiết sẽ gửi lại qua email vào ngày mai. Nhưng trước đó, tôi nghĩ mình nên xác nhận trước với trưởng phòng xem nội bộ có thể giảm giá tối đa đến mức nào.",
+        "*Nữ:* Đúng rồi. Vậy để tôi trao đổi với trưởng phòng trong hôm nay. Còn anh Sato, ngay khi nhận được email của anh Yamamoto thì chia sẻ nội dung cho tôi luôn nhé.",
+        "*Nam:* Tôi hiểu rồi. Tôi sẽ làm vậy."
+      ],
+      "questions": [
+        {
+          "id": "P01-L01-E02",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "佐藤さんは、これから何をしなければなりませんか。",
+          "options": {
+            "A": "今日中に部長に値引きの相談をする。",
+            "B": "明日までに新しい見積書を山本様に送る。",
+            "C": "山本様からのメールを受け取ったら、高橋さんに共有する。",
+            "D": "山本様に電話して、具体的な変更点を聞く。"
+          },
+          "answer": "C",
+          "explain": "Bẫy chuyển vai (`SPEAKER_ROLE`): Sato đề xuất hỏi trưởng phòng, nhưng Takahashi nhận làm việc đó (`部長には私から今日中に相談しておきます` → loại A). Việc của Sato được chốt ở câu cuối: `メールが届き次第、内容を私にも共有してもらえますか` → C đúng.",
+          "tags": [
+            "SPEAKER_ROLE",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [],
+  "expression": [
+    {
+      "id": "P01-L01-E01",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "- **Tình huống:** Khách hàng (ông Yamada — công ty ABC) gọi điện hỏi gặp trưởng phòng của bạn (ông Tanaka). Ông Tanaka đang ra ngoài và 3 giờ chiều mới về.\n- **Câu hỏi:** Bạn nên trả lời ông Yamada như thế nào?",
+      "options": {
+        "A": "あいにく、田中部長は外出していらっしゃいます。3時に戻られます。",
+        "B": "あいにく、田中は外出しております。3時頃に戻る予定です。",
+        "C": "すみません、田中さんは今いません。3時に帰ってきます。",
+        "D": "あいにく、田中部長は外出されております。3時に参ります。"
+      },
+      "answer": "B",
+      "explain": "Đối phương là khách (`外`), ông Tanaka là người công ty mình (`内`) → bỏ chức danh `部長` và dùng `外出しております` (khiêm nhường/lịch sự). A và D sai vì tôn kính người nhà mình; C quá suồng sã.",
+      "tags": [],
+      "vocabIds": []
+    }
+  ],
+  "grammar": [],
+  "depiction": [],
+  "testSections": []
+}

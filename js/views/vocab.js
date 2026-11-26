@@ -1,0 +1,134 @@
+import { playSingle } from '../audio.js';
+import { addToBox1, ensureCard } from '../srs.js';
+import { getLessonState, loadState, saveState, touchStreak } from '../store.js';
+import { navigate } from '../router.js';
+
+export function renderVocab(container, ctx, lessonId, lesson) {
+  const vocab = lesson.vocab || [];
+  if (!vocab.length) {
+    container.innerHTML = `<div class="card">Bài này không có bảng từ vựng riêng.</div>`;
+    return;
+  }
+
+  let tab = 'card'; // 'card' | 'list'
+  let idx = 0;
+  let flipped = false;
+  const s = loadState();
+
+  function render() {
+    const v = vocab[idx];
+    const showReading = s.settings.showReadingOnCard;
+
+    container.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;">
+        <span class="muted">${v.group || 'Từ vựng'} · ${idx + 1}/${vocab.length}</span>
+        <div class="seg-tabs" style="width:180px;">
+          <button class="seg-tab ${tab === 'card' ? 'active' : ''}" id="tab-card">Thẻ</button>
+          <button class="seg-tab ${tab === 'list' ? 'active' : ''}" id="tab-list">Danh sách</button>
+        </div>
+      </div>
+
+      ${tab === 'card' ? `
+        <div class="card flashcard" id="flashcard">
+          <div class="word-jp">${v.word}</div>
+          ${(flipped || showReading) ? `<div class="reading-jp">${v.reading}</div>` : ''}
+          <button class="btn-audio" id="btn-play-word" aria-label="Nghe từ">🔊</button>
+
+          ${flipped ? `
+            <div class="meaning-vi">${v.meaning}</div>
+            ${v.exJp ? `
+              <div style="background:var(--surface-2);padding:12px;border-radius:12px;width:100%;text-align:left;">
+                <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+                  <strong>${v.exJp}</strong>
+                  <button class="btn-audio-sm" id="btn-play-ex" aria-label="Nghe ví dụ">🔊</button>
+                </div>
+                <div class="muted" style="margin-top:4px;">${v.exVi}</div>
+              </div>
+            ` : ''}
+            ${v.tip ? `<div class="muted" style="text-align:left;width:100%;">💡 ${v.tip}</div>` : ''}
+          ` : `<div class="muted">(Chạm thẻ để lật xem nghĩa & ví dụ)</div>`}
+        </div>
+
+        <div class="btn-row">
+          <button class="btn-bad" id="btn-not-yet">✗ Chưa nhớ</button>
+          <button class="btn-ok" id="btn-got-it">✓ Đã nhớ</button>
+        </div>
+      ` : `
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          ${vocab.map((item, i) => `
+            <div class="card" style="padding:12px 14px;">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+                <div>
+                  <strong style="font-size:1.1rem;">${item.word}</strong>
+                  <span class="muted">(${item.reading})</span>
+                  <div>${item.meaning}</div>
+                </div>
+                <button class="btn-audio-sm" data-play-idx="${i}" aria-label="Nghe ${item.word}">🔊</button>
+              </div>
+              ${item.exJp ? `<div class="muted" style="margin-top:6px;">${item.exJp} → ${item.exVi}</div>` : ''}
+            </div>
+          `).join('')}
+        </div>
+      `}
+
+      ${(lesson.cards?.length || lesson.confusedPairs?.length) && (tab === 'list' || idx === vocab.length - 1) ? `
+        <div class="card">
+          <strong>Ghi chú phân biệt & Cặp dễ nhầm</strong>
+          ${(lesson.cards || []).map((c) => `<div style="margin-top:6px;"><code>${c.id}</code> ${c.html}</div>`).join('')}
+          ${(lesson.confusedPairs || []).map((p) => `<div class="muted" style="margin-top:6px;">• ${p}</div>`).join('')}
+        </div>
+      ` : ''}
+    `;
+
+    container.querySelector('#tab-card').onclick = () => { tab = 'card'; render(); };
+    container.querySelector('#tab-list').onclick = () => { tab = 'list'; render(); };
+
+    if (tab === 'card') {
+      container.querySelector('#flashcard').onclick = (e) => {
+        if (e.target.closest('button')) return;
+        flipped = !flipped;
+        render();
+      };
+      container.querySelector('#btn-play-word').onclick = (e) => {
+        e.stopPropagation();
+        playSingle(`audio/words/${v.id}.mp3`, v.reading || v.word);
+      };
+      const exBtn = container.querySelector('#btn-play-ex');
+      if (exBtn) {
+        exBtn.onclick = (e) => {
+          e.stopPropagation();
+          playSingle(`audio/examples/${v.id}.mp3`, v.exJp);
+        };
+      }
+
+      const advance = (remembered) => {
+        touchStreak();
+        if (remembered) ensureCard(v.id);
+        else addToBox1(v.id);
+        if (idx + 1 < vocab.length) {
+          idx += 1;
+          flipped = false;
+          render();
+        } else {
+          const lp = getLessonState(lessonId);
+          lp.vocabDone = true;
+          saveState();
+          ctx.toast('Đã hoàn thành lượt học từ!');
+          navigate(`#/lesson/${lessonId}`);
+        }
+      };
+
+      container.querySelector('#btn-not-yet').onclick = () => advance(false);
+      container.querySelector('#btn-got-it').onclick = () => advance(true);
+    } else {
+      container.querySelectorAll('[data-play-idx]').forEach((btn) => {
+        btn.onclick = () => {
+          const item = vocab[Number(btn.dataset.playIdx)];
+          playSingle(`audio/words/${item.id}.mp3`, item.reading || item.word);
+        };
+      });
+    }
+  }
+
+  render();
+}

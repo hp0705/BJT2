@@ -1,0 +1,533 @@
+{
+  "id": "P01-L04",
+  "part": "P01",
+  "title": "BÀI KIỂM TRA PART 01 (20 câu · đạt ≥ 70% = 14 câu đúng)",
+  "isTest": true,
+  "vocab": [],
+  "cards": [],
+  "confusedPairs": [],
+  "vocabQuiz": {
+    "passAt": 0,
+    "total": 0,
+    "items": []
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P01-L04-A01",
+      "title": "Bài nghe A (P01-L04-A01) — T15, T16, T17",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女（田中・新入社員）",
+          "name": "田中・新入社員",
+          "text": "山本さん、今お時間よろしいですか。今日、A社の鈴木様がいらっしゃるんですが、応接室の場所がわからなくて。"
+        },
+        {
+          "speaker": "男",
+          "label": "男（山本・先輩）",
+          "name": "山本・先輩",
+          "text": "ああ、応接室は3階だよ。エレベーターを降りて左に曲がって、突き当たりだ。でも田中さん、鈴木様って、どちらの部署の方？"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "営業部の部長様です。弊社の社長との打ち合わせで来られるんです。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうか。じゃあ、受付で名刺をお預かりして、社長室にご案内するといいよ。鈴木様が来たら、まず「お待たせいたしました」と言ってね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "わかりました。案内が終わったら、山本さんに報告してもいいですか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "うん、お願い。それと、お茶の準備もしておくといいよ。先に持っていっておきますか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、すぐ準備します。ありがとうございます。"
+        }
+      ],
+      "translation": [
+        "*Tanaka:* Anh Yamamoto, anh có rảnh không ạ? Hôm nay anh Suzuki bên công ty A đến, em không biết phòng tiếp khách ở đâu.",
+        "*Yamamoto:* À, phòng tiếp khách ở tầng 3. Xuống thang máy rẽ trái, đi đến cuối. Mà chị Tanaka ơi, anh Suzuki ở phòng ban nào?",
+        "*Tanaka:* Anh ấy là trưởng phòng kinh doanh ạ. Anh ấy đến để họp với giám đốc bên mình.",
+        "*Yamamoto:* Vậy à. Thì ở lễ tân nhận danh thiếp rồi dẫn vào phòng giám đốc nhé. Khi anh Suzuki đến, trước tiên nói \"xin lỗi đã để anh chờ\" nhé.",
+        "*Tanaka:* Vâng ạ. Dẫn xong rồi em có thể báo cáo lại với anh không ạ?",
+        "*Yamamoto:* Ừ, nhờ em. À, cũng nên chuẩn bị trà nhé. Mang vào trước không?",
+        "*Tanaka:* Vâng, em chuẩn bị ngay. Cảm ơn anh ạ."
+      ],
+      "questions": [
+        {
+          "id": "P01-L04-T15",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "鈴木様は、どこの会社の何部の人ですか。",
+          "options": {
+            "A": "弊社の営業部の部長",
+            "B": "A社の営業部の部長",
+            "C": "A社の総務部の部長",
+            "D": "弊社の社長"
+          },
+          "answer": "B",
+          "explain": "`A社の…営業部の部長様`",
+          "tags": [
+            "DETAIL_MISS",
+            "SPEAKER_ROLE"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T16",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "応接室はどこにありますか。",
+          "options": {
+            "A": "1階、エレベーターを右",
+            "B": "2階、突き当たり",
+            "C": "3階、エレベーターを左、突き当たり",
+            "D": "3階、エレベーターを右"
+          },
+          "answer": "C",
+          "explain": "`3階…左に曲がって、突き当たり`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T17",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "田中さんは、この後まず何をしますか。",
+          "options": {
+            "A": "社長室に行く",
+            "B": "山本さんに報告する",
+            "C": "お茶の準備をする",
+            "D": "受付で待つ"
+          },
+          "answer": "C",
+          "explain": "`すぐ準備します` → お茶の準備が最初",
+          "tags": [
+            "SPEAKER_ROLE",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        }
+      ]
+    },
+    {
+      "id": "P01-L04-A02",
+      "title": "Bài nghe B (P01-L04-A02) — T18, T19, T20",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（木村・課長）",
+          "name": "木村・課長",
+          "text": "渡辺さん、来月の採用説明会の件なんだけど、担当者は誰になった？"
+        },
+        {
+          "speaker": "女",
+          "label": "女（渡辺）",
+          "name": "渡辺",
+          "text": "私と、あと新入社員の佐藤さんが担当になりました。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうか。説明会の日程は決まった？"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、来月15日の木曜日、14時から16時の予定です。場所は第2会議室でよろしいでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "第2会議室は何人入れるっけ？"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "最大20名ですが、今回の参加者は約30名の予定なので、大ホールをお借りしたほうがよいかと思います。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "それが良いね。大ホールの予約、取ってもらえる？"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、すぐ確認します。"
+        }
+      ],
+      "translation": [
+        "*Kimura:* Chị Watanabe, về buổi giải thích tuyển dụng tháng sau, ai phụ trách rồi?",
+        "*Watanabe:* Tôi và anh Sato nhân viên mới ạ.",
+        "*Kimura:* Vậy à. Lịch đã xếp chưa?",
+        "*Watanabe:* Vâng, dự kiến thứ Năm ngày 15 tháng sau, từ 14h đến 16h. Địa điểm phòng họp số 2 được không ạ?",
+        "*Kimura:* Phòng họp số 2 chứa được bao nhiêu người ấy nhỉ?",
+        "*Watanabe:* Tối đa 20 người, nhưng lần này dự kiến khoảng 30 người, nên có lẽ nên mượn hội trường lớn ạ.",
+        "*Kimura:* Đúng rồi. Nhờ em đặt hội trường lớn nhé.",
+        "*Watanabe:* Vâng, em kiểm tra ngay."
+      ],
+      "questions": [
+        {
+          "id": "P01-L04-T18",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "採用説明会の担当者は誰ですか。",
+          "options": {
+            "A": "木村さんと渡辺さん",
+            "B": "渡辺さんと佐藤さん",
+            "C": "木村さんと佐藤さん",
+            "D": "渡辺さん一人"
+          },
+          "answer": "B",
+          "explain": "`私と…佐藤さんが担当`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T19",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "説明会は何時間の予定ですか。",
+          "options": {
+            "A": "1時間",
+            "B": "1時間半",
+            "C": "2時間",
+            "D": "3時間"
+          },
+          "answer": "C",
+          "explain": "14時から16時 = 2時間",
+          "tags": [
+            "NUMBER_TIME"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T20",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "渡辺さんは、この後何をしますか。",
+          "options": {
+            "A": "参加者30名を集める",
+            "B": "大ホールの予約を確認する",
+            "C": "第2会議室に移動する",
+            "D": "木村さんに報告書を提出する"
+          },
+          "answer": "B",
+          "explain": "`大ホールをお借りしたほうが…` → `すぐ確認します`",
+          "tags": [
+            "SPEAKER_ROLE"
+          ],
+          "vocabIds": []
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "R01",
+      "title": "Phần 2 — 短文読解",
+      "passageHtml": "<strong>件名：</strong> 【社内通知】組織変更のお知らせ<br>社員各位<br>総務部の中村です。来月1日付けで、下記のとおり組織変更を行います。<br>・企画部を「企画部」と「マーケティング部」に分割します。<br>・経理部と総務部を統合し、「管理部」とします。<br>なお、担当者の変更については、来週中にメールでお知らせします。変更後の組織図は、来月1日以降に社内システムで確認できます。",
+      "questions": [
+        {
+          "id": "P01-L04-T11",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "この通知の目的はどれですか。",
+          "options": {
+            "A": "社員の採用を知らせる",
+            "B": "組織変更を知らせる",
+            "C": "給料の変更を知らせる",
+            "D": "新製品を紹介する"
+          },
+          "answer": "B",
+          "explain": "`組織変更を行います`",
+          "tags": [
+            "INFERENCE"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T12",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "変更後、経理部はどうなりますか。",
+          "options": {
+            "A": "そのまま残る",
+            "B": "廃止される",
+            "C": "管理部に統合される",
+            "D": "人事部になる"
+          },
+          "answer": "C",
+          "explain": "`経理部と総務部を統合し、「管理部」とします`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T13",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "担当者の変更はいつわかりますか。",
+          "options": {
+            "A": "今日",
+            "B": "来週中",
+            "C": "来月1日以降",
+            "D": "通知を見ればわかる"
+          },
+          "answer": "B",
+          "explain": "`来週中にメールでお知らせします`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P01-L04-T14",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "新しい組織図はいつ見られますか。",
+          "options": {
+            "A": "今すぐ",
+            "B": "来週中",
+            "C": "来月1日以降",
+            "D": "総務部に聞けばわかる"
+          },
+          "answer": "C",
+          "explain": "`来月1日以降に社内システムで確認できます`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        }
+      ]
+    }
+  ],
+  "expression": [],
+  "grammar": [
+    {
+      "id": "P01-L04-T01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "自社のことを取引先に対して話すときは（　）と言います。",
+      "options": {
+        "A": "御社",
+        "B": "貴社",
+        "C": "弊社",
+        "D": "先方"
+      },
+      "answer": "C",
+      "explain": "自社 = công ty mình nói với bên ngoài → `弊社`",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L04-T02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先の部長が来社されました。受付で何と言いますか。",
+      "options": {
+        "A": "部長が来ました",
+        "B": "お越しいただきました",
+        "C": "来られました",
+        "D": "参りました"
+      },
+      "answer": "B",
+      "explain": "Khách là người cần nâng → `お越しいただく` (khiêm nhường Ⅰ nâng khách)",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L04-T03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "電話で取引先の担当者が不在のとき、自社の上司について何と言いますか。",
+      "options": {
+        "A": "田中部長はただいまおりません",
+        "B": "田中はただいま外出しております",
+        "C": "田中様はただいまおりません",
+        "D": "田中部長は外出していらっしゃいます"
+      },
+      "answer": "B",
+      "explain": "`内→外`ルール: 自社人 = `田中`(役職なし) + 謙譲語",
+      "tags": [
+        "KEIGO_REGISTER",
+        "SPEAKER_ROLE"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L04-T04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "会社が別の会社と（　）して、一つの大きな会社になった。",
+      "options": {
+        "A": "合併",
+        "B": "提携",
+        "C": "傘下",
+        "D": "設立"
+      },
+      "answer": "A",
+      "explain": "`合併` = sáp nhập (`CO-18`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "CO-18"
+      ]
+    },
+    {
+      "id": "P01-L04-T05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "彼は（　）になってから、責任が増えた。",
+      "options": {
+        "A": "部署",
+        "B": "係長",
+        "C": "担当者",
+        "D": "株主"
+      },
+      "answer": "B",
+      "explain": "係長 = tổ trưởng (`PS-07`); thăng lên chức → 係長",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "PS-07"
+      ]
+    },
+    {
+      "id": "P01-L04-T06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "A社はB社の（　）にあり、B社の指示で動く。",
+      "options": {
+        "A": "傘下",
+        "B": "競合",
+        "C": "業界",
+        "D": "業種"
+      },
+      "answer": "A",
+      "explain": "`傘下` = trực thuộc (`CO-06`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "CO-06"
+      ]
+    },
+    {
+      "id": "P01-L04-T07",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（自社のメールで）来月、プロジェクトの（　）が決まりました。",
+      "options": {
+        "A": "採用",
+        "B": "設立",
+        "C": "創業",
+        "D": "見通し"
+      },
+      "answer": "D",
+      "explain": "`見通し` = dự báo (`PH-05`); triển vọng dự án",
+      "tags": [
+        "VOCAB_UNKNOWN",
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "PH-05"
+      ]
+    },
+    {
+      "id": "P01-L04-T08",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先に「社長に会いたい」と言われました。最も適切な返事はどれですか。",
+      "options": {
+        "A": "社長はいます",
+        "B": "少々お待ちください。社長にお取り次ぎいたします",
+        "C": "社長様に聞いてみます",
+        "D": "社長がすぐ来ます"
+      },
+      "answer": "B",
+      "explain": "`お取り次ぎ` = chuyển lời/chuyển máy; lịch sự và đúng ngữ pháp",
+      "tags": [
+        "KEIGO_REGISTER",
+        "EXPRESSION_FIT"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L04-T09",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "上司から「了解しました」と言われました。BJT観点から自然な言い方はどれですか。",
+      "options": {
+        "A": "了解しました（問題なし）",
+        "B": "承知いたしました",
+        "C": "かしこまりました",
+        "D": "BかCが正しい"
+      },
+      "answer": "D",
+      "explain": "上司/客 → `承知いたしました` か `かしこまりました`. `了解` は目上に使うと失礼",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L04-T10",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "山本課長は（　）です。彼は私の上司です。",
+      "options": {
+        "A": "部下",
+        "B": "同僚",
+        "C": "上司",
+        "D": "新入社員"
+      },
+      "answer": "C",
+      "explain": "山本課長 is 上司 (`PS-08`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "PS-08"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

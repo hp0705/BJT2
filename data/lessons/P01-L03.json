@@ -1,0 +1,743 @@
+{
+  "id": "P01-L03",
+  "part": "P01",
+  "title": "Tổ chức, Chức danh & Kính ngữ 内/外 (tiếp)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "CO-16",
+      "group": "Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",
+      "word": "設立",
+      "reading": "せつりつ",
+      "meaning": "Thành lập (công ty, tổ chức)",
+      "exJp": "会社を1990年に設立しました。",
+      "exVi": "Công ty được thành lập năm 1990.",
+      "tip": "Lập thành pháp nhân. ≠ `創業`"
+    },
+    {
+      "id": "CO-17",
+      "group": "Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",
+      "word": "創業",
+      "reading": "そうぎょう",
+      "meaning": "Khởi nghiệp, sáng lập kinh doanh",
+      "exJp": "創業100年の老舗です。",
+      "exVi": "Cửa hiệu lâu đời, khởi nghiệp được 100 năm.",
+      "tip": "Bắt đầu kinh doanh"
+    },
+    {
+      "id": "CO-18",
+      "group": "Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",
+      "word": "合併",
+      "reading": "がっぺい",
+      "meaning": "Sáp nhập",
+      "exJp": "A社とB社が合併します。",
+      "exVi": "Công ty A và B sáp nhập.",
+      "tip": "**Thành một công ty**"
+    },
+    {
+      "id": "CO-19",
+      "group": "Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",
+      "word": "提携",
+      "reading": "ていけい",
+      "meaning": "Hợp tác, liên kết",
+      "exJp": "海外企業と技術提携を結びました。",
+      "exVi": "Ký liên kết kỹ thuật với công ty nước ngoài.",
+      "tip": "**Vẫn là hai công ty riêng**"
+    },
+    {
+      "id": "CO-20",
+      "group": "Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",
+      "word": "業績",
+      "reading": "ぎょうせき",
+      "meaning": "Thành tích kinh doanh",
+      "exJp": "今期の業績は好調です。",
+      "exVi": "Kết quả kinh doanh kỳ này rất tốt.",
+      "tip": "Doanh thu, lợi nhuận"
+    },
+    {
+      "id": "PS-02",
+      "group": "Nhóm B — Cấp bậc & trách nhiệm (5 từ)",
+      "word": "専務",
+      "reading": "せんむ",
+      "meaning": "Phó chủ tịch điều hành (cấp cao)",
+      "exJp": "専務が出張に同行します。",
+      "exVi": "Phó chủ tịch đi công tác cùng.",
+      "tip": "`社長` > `専務` > `常務` > `取締役`"
+    },
+    {
+      "id": "PS-03",
+      "group": "Nhóm B — Cấp bậc & trách nhiệm (5 từ)",
+      "word": "常務",
+      "reading": "じょうむ",
+      "meaning": "Giám đốc điều hành",
+      "exJp": "常務が新工場を視察しました。",
+      "exVi": "Giám đốc điều hành thị sát nhà máy mới.",
+      "tip": "Dưới `専務`"
+    },
+    {
+      "id": "PS-04",
+      "group": "Nhóm B — Cấp bậc & trách nhiệm (5 từ)",
+      "word": "取締役",
+      "reading": "とりしまりやく",
+      "meaning": "Thành viên hội đồng quản trị",
+      "exJp": "取締役会で承認されました。",
+      "exVi": "Được hội đồng quản trị phê duyệt.",
+      "tip": "Đọc `とりしまりやく`"
+    },
+    {
+      "id": "PS-08",
+      "group": "Nhóm B — Cấp bậc & trách nhiệm (5 từ)",
+      "word": "上司",
+      "reading": "じょうし",
+      "meaning": "Cấp trên",
+      "exJp": "上司に相談します。",
+      "exVi": "Xin ý kiến cấp trên.",
+      "tip": "Ngược với `部下`"
+    },
+    {
+      "id": "PS-12",
+      "group": "Nhóm B — Cấp bậc & trách nhiệm (5 từ)",
+      "word": "責任者",
+      "reading": "せきにんしゃ",
+      "meaning": "Người chịu trách nhiệm",
+      "exJp": "プロジェクトの責任者は鈴木です。",
+      "exVi": "Người chịu trách nhiệm dự án là Suzuki.",
+      "tip": "≠ `担当者` (người trực tiếp làm)"
+    },
+    {
+      "id": "CL-04",
+      "group": "Nhóm C — Đối tác & thủ tục (4 từ)",
+      "word": "納入先",
+      "reading": "のうにゅうさき",
+      "meaning": "Nơi giao hàng, bên nhận hàng",
+      "exJp": "納入先に納品書を渡します。",
+      "exVi": "Giao phiếu giao hàng cho nơi nhận.",
+      "tip": "Bên **nhận** hàng"
+    },
+    {
+      "id": "CL-05",
+      "group": "Nhóm C — Đối tác & thủ tục (4 từ)",
+      "word": "仕入れ先",
+      "reading": "しいれさき",
+      "meaning": "Nhà cung cấp",
+      "exJp": "仕入れ先を変更しました。",
+      "exVi": "Đã đổi nhà cung cấp.",
+      "tip": "Bên **bán** cho mình"
+    },
+    {
+      "id": "CL-06",
+      "group": "Nhóm C — Đối tác & thủ tục (4 từ)",
+      "word": "窓口",
+      "reading": "まどぐち",
+      "meaning": "Đầu mối liên hệ",
+      "exJp": "苦情の窓口は総務部です。",
+      "exVi": "Đầu mối tiếp nhận khiếu nại là phòng Tổng vụ.",
+      "tip": "`窓口を担当する`"
+    },
+    {
+      "id": "LG-12",
+      "group": "Nhóm C — Đối tác & thủ tục (4 từ)",
+      "word": "通関",
+      "reading": "つうかん",
+      "meaning": "Thông quan",
+      "exJp": "通関に3日かかります。",
+      "exVi": "Thông quan mất 3 ngày.",
+      "tip": "Hay tạo bẫy **cộng thêm ngày** giao hàng"
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`設立` (lập pháp nhân) ≠ `創業` (bắt đầu kinh doanh).",
+    "`合併` (thành một) ≠ `提携` (vẫn hai công ty, hợp tác).",
+    "`担当者` (người làm) ≠ `責任者` (người chịu trách nhiệm).",
+    "`納入先` (bên nhận hàng) ≠ `仕入れ先` (bên cung cấp)."
+  ],
+  "vocabQuiz": {
+    "passAt": 12,
+    "total": 15,
+    "items": [
+      {
+        "id": "P01-L03-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会社を1990年に（　）しました。",
+        "options": {
+          "A": "合併",
+          "B": "設立",
+          "C": "提携",
+          "D": "傘下"
+        },
+        "answer": "B",
+        "explain": "`会社を設立する` (`CO-16`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CO-16"
+        ]
+      },
+      {
+        "id": "P01-L03-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「創業100年」の意味は？",
+        "options": {
+          "A": "Công ty con tồn tại 100 năm",
+          "B": "Bắt đầu kinh doanh được 100 năm",
+          "C": "Sáp nhập 100 lần",
+          "D": "Hợp tác 100 năm"
+        },
+        "answer": "B",
+        "explain": "創業 = khởi nghiệp, bắt đầu kinh doanh (`CO-17`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-17"
+        ]
+      },
+      {
+        "id": "P01-L03-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "A社とB社が一つの会社になることを何といいますか。",
+        "options": {
+          "A": "提携",
+          "B": "合併",
+          "C": "傘下",
+          "D": "設立"
+        },
+        "answer": "B",
+        "explain": "合併 = sáp nhập thành một (`CO-18`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-18"
+        ]
+      },
+      {
+        "id": "P01-L03-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会社は別々のまま、協力関係を結ぶことを何といいますか。",
+        "options": {
+          "A": "合併",
+          "B": "設立",
+          "C": "提携",
+          "D": "創業"
+        },
+        "answer": "C",
+        "explain": "提携 = liên kết, vẫn là hai công ty (`CO-19`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-19"
+        ]
+      },
+      {
+        "id": "P01-L03-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "今期の（　）は好調で、売上も利益も伸びました。",
+        "options": {
+          "A": "業績",
+          "B": "業界",
+          "C": "業種",
+          "D": "窓口"
+        },
+        "answer": "A",
+        "explain": "業績 = kết quả kinh doanh (`CO-20`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CO-20"
+        ]
+      },
+      {
+        "id": "P01-L03-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "地位が高い順に正しく並んでいるのはどれですか。",
+        "options": {
+          "A": "社長→常務→専務→取締役",
+          "B": "社長→専務→常務→取締役",
+          "C": "専務→社長→常務→取締役",
+          "D": "社長→専務→取締役→常務"
+        },
+        "answer": "B",
+        "explain": "社長 > 専務 > 常務 > 取締役",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L03-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「取締役」の読み方は？",
+        "options": {
+          "A": "とりしまりやく",
+          "B": "しゅうしまりやく",
+          "C": "とりしまりにん",
+          "D": "とりしめやく"
+        },
+        "answer": "A",
+        "explain": "取締役 = とりしまりやく (`PS-04`)",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-04"
+        ]
+      },
+      {
+        "id": "P01-L03-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「上司」の反対の意味はどれですか。",
+        "options": {
+          "A": "同僚",
+          "B": "株主",
+          "C": "部下",
+          "D": "顧客"
+        },
+        "answer": "C",
+        "explain": "上司 ↔ 部下 (`PS-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-08"
+        ]
+      },
+      {
+        "id": "P01-L03-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "プロジェクト全体の最終的な責任を負う人は？",
+        "options": {
+          "A": "担当者",
+          "B": "責任者",
+          "C": "同僚",
+          "D": "部下"
+        },
+        "answer": "B",
+        "explain": "責任者 (`PS-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-12"
+        ]
+      },
+      {
+        "id": "P01-L03-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "商品を届ける相手の会社を何といいますか。",
+        "options": {
+          "A": "仕入れ先",
+          "B": "納入先",
+          "C": "競合他社",
+          "D": "親会社"
+        },
+        "answer": "B",
+        "explain": "納入先 = bên nhận hàng (`CL-04`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CL-04"
+        ]
+      },
+      {
+        "id": "P01-L03-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "材料や商品を買う相手の会社を何といいますか。",
+        "options": {
+          "A": "納入先",
+          "B": "得意先",
+          "C": "仕入れ先",
+          "D": "子会社"
+        },
+        "answer": "C",
+        "explain": "仕入れ先 = nhà cung cấp (`CL-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CL-05"
+        ]
+      },
+      {
+        "id": "P01-L03-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "苦情の（　）は総務部です。",
+        "options": {
+          "A": "窓口",
+          "B": "傘下",
+          "C": "業界",
+          "D": "設立"
+        },
+        "answer": "A",
+        "explain": "`窓口` = đầu mối liên hệ (`CL-06`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CL-06"
+        ]
+      },
+      {
+        "id": "P01-L03-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「通関」の意味は？",
+        "options": {
+          "A": "Đóng gói",
+          "B": "Trả hàng",
+          "C": "Giao tận nhà",
+          "D": "Thông quan"
+        },
+        "answer": "D",
+        "explain": "通関 = thông quan (`LG-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-12"
+        ]
+      },
+      {
+        "id": "P01-L03-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「常務」の読み方は？",
+        "options": {
+          "A": "しょうむ",
+          "B": "じょうむ",
+          "C": "じょうぶ",
+          "D": "しょうぶ"
+        },
+        "answer": "B",
+        "explain": "常務 = じょうむ (`PS-03`)",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-03"
+        ]
+      },
+      {
+        "id": "P01-L03-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「A社はB社の傘下にある」と同じ意味は？",
+        "options": {
+          "A": "A社とB社は対等である",
+          "B": "A社はB社の支配下にある",
+          "C": "A社がB社を設立した",
+          "D": "A社はB社に合併された"
+        },
+        "answer": "B",
+        "explain": "傘下 = dưới quyền kiểm soát (`CO-06`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CO-06"
+        ]
+      }
+    ]
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P01-L03-A01",
+      "title": "1. Bài Nghe 3 người — 聴解 (P01-L03-A01: Chốt hành động & ngày giao)",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女（石川・当社営業課長）",
+          "name": "石川・当社営業課長",
+          "text": "山本様、本日はお忙しい中、お越しいただきありがとうございます。こちらが担当の中村でございます。"
+        },
+        {
+          "speaker": "男B",
+          "label": "男B（中村）",
+          "name": "中村",
+          "text": "中村と申します。どうぞよろしくお願いいたします。"
+        },
+        {
+          "speaker": "男",
+          "label": "男A（山本・ABC商事）",
+          "name": "山本・ABC商事",
+          "text": "ABC商事の山本です。こちらこそ、お世話になります。実は先日お願いした納期の件なのですが、部長の鈴木が、できれば来月10日までにお願いしたいと申しておりまして。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "来月10日ですか。中村、在庫の状況はどうですか。"
+        },
+        {
+          "speaker": "男B",
+          "label": "男B",
+          "name": "男B",
+          "text": "在庫は十分ございますので、来月5日には発送できます。ただ、通関に3日ほどかかりますので、到着は8日頃になるかと存じます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男A",
+          "name": "男A",
+          "text": "それでしたら問題ありません。では、その日程でお願いします。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "かしこまりました。詳しい日程は、中村が今日中にメールでご連絡いたします。"
+        }
+      ],
+      "translation": [
+        "*Ishikawa:* Anh Yamamoto, cảm ơn anh hôm nay dù bận vẫn đến. Đây là Nakamura, người phụ trách.",
+        "*Nakamura:* Tôi là Nakamura. Rất mong được anh giúp đỡ.",
+        "*Yamamoto:* Tôi là Yamamoto, công ty ABC. Thật ra về thời hạn giao hàng tôi nhờ hôm trước, trưởng phòng Suzuki bên tôi nói nếu được thì mong giao trước ngày 10 tháng sau.",
+        "*Ishikawa:* Ngày 10 tháng sau à. Nakamura, tình hình tồn kho thế nào?",
+        "*Nakamura:* Tồn kho đủ, nên ngày 5 tháng sau có thể gửi đi. Có điều thông quan mất khoảng 3 ngày, nên tôi nghĩ hàng sẽ đến khoảng ngày 8.",
+        "*Yamamoto:* Vậy thì không vấn đề gì. Vậy nhờ theo lịch đó.",
+        "*Ishikawa:* Vâng. Lịch chi tiết sẽ do Nakamura gửi email cho anh trong hôm nay."
+      ],
+      "questions": [
+        {
+          "id": "P01-L03-E01",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "この後、中村さんは何をしますか。",
+          "options": {
+            "A": "来月5日に商品を発送する。",
+            "B": "今日中に山本様へメールで日程を連絡する。",
+            "C": "鈴木部長に納期を確認する。",
+            "D": "通関の手続きを3日以内に終える。"
+          },
+          "answer": "B",
+          "explain": "Câu cuối của Ishikawa chốt việc của Nakamura: `中村が今日中にメールでご連絡いたします` → **B**. A là việc dự kiến vào tháng sau. C sai vì Suzuki là sếp của khách. D sai vì 3 ngày là thời gian thông quan.",
+          "tags": [
+            "DETAIL_MISS",
+            "SPEAKER_ROLE"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P01-L03-E02",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "荷物はいつ頃到着する予定ですか。\n**Ghi chú `内/外` trong script:** Yamamoto nói về sếp mình là `部長の鈴木が…申しておりまして` (không thêm 様/さん). Ishikawa gọi cấp dưới là `中村` (không `さん`) khi có khách.",
+          "options": {
+            "A": "来月3日頃",
+            "B": "来月5日頃",
+            "C": "来月8日頃",
+            "D": "来月10日頃"
+          },
+          "answer": "C",
+          "explain": "Bẫy 3 mốc số: 10 ngày là **mong muốn của khách**, 5 ngày là **ngày gửi đi**, 8 ngày là **ngày đến** (`到着は8日頃`) → **C**.",
+          "tags": [
+            "NUMBER_TIME",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [],
+  "expression": [
+    {
+      "id": "P01-L03-X01",
+      "questionType": "expression_listening",
+      "skill": "expression_listening",
+      "q": "あなたは受付にいます。取引先の人が来て、営業部の佐藤部長に会いたいと言っています。約束があるかどうか確認したいです。何と言いますか。",
+      "options": {
+        "A": "佐藤部長とのお約束はございますでしょうか。",
+        "B": "恐れ入りますが、佐藤とのお約束はございますでしょうか。",
+        "C": "佐藤とお約束はありますか。",
+        "D": "佐藤部長とお約束をなさいましたか。"
+      },
+      "answer": "B",
+      "explain": "Lễ tân là người công ty mình nên khi nói với khách phải gọi sếp là `佐藤` (không kèm `部長`) → loại A, D. C quá suồng sã (`ありますか`). B có từ đệm `恐れ入りますが` + `ございますでしょうか`.",
+      "tags": [],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L03-X02",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "次の文の（　）に入る最も適切なものを選んでください。\n（取引先への電話で）来週、（　）の課長の山本が御社へ伺います。",
+      "options": {
+        "A": "御社",
+        "B": "弊社",
+        "C": "貴社",
+        "D": "先方"
+      },
+      "answer": "B",
+      "explain": "Nói về công ty **mình** → `弊社`. `御社・貴社` là công ty đối tác; `先方` chỉ phía đối tác.",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P01-L03-X03",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "次の文の（　）に入る最も適切なものを選んでください。\n（取引先へのメールで）（　）におかれましては、ますますご清栄のこととお慶び申し上げます。",
+      "options": {
+        "A": "弊社",
+        "B": "貴社",
+        "C": "当社",
+        "D": "小社"
+      },
+      "answer": "B",
+      "explain": "Viết email/thư gửi đối tác → `貴社`. A, C, D đều là công ty mình.",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P01-L03-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "A社はB社の（　）で、B社がA社の株式をすべて持っている。",
+      "options": {
+        "A": "親会社",
+        "B": "子会社",
+        "C": "取引先",
+        "D": "競合他社"
+      },
+      "answer": "B",
+      "explain": "A bị B nắm 100% cổ phần → A là `子会社` (`CO-04`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "CO-04"
+      ]
+    },
+    {
+      "id": "P01-L03-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先との連絡は、すべて山田さんが（　）になっています。",
+      "options": {
+        "A": "窓口",
+        "B": "部署",
+        "C": "傘下",
+        "D": "顧客"
+      },
+      "answer": "A",
+      "explain": "`窓口` = đầu mối liên hệ (`CL-06`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "CL-06"
+      ]
+    },
+    {
+      "id": "P01-L03-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "お客様がもうすぐ（　）。",
+      "options": {
+        "A": "参ります",
+        "B": "いらっしゃいます",
+        "C": "伺います",
+        "D": "申します"
+      },
+      "answer": "B",
+      "explain": "Khách là người cần tôn kính → `いらっしゃる`. A, C, D là khiêm nhường",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L03-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（取引先に）社長の田中が、ぜひ一度ご挨拶に（　）と申しております。",
+      "options": {
+        "A": "いらっしゃりたい",
+        "B": "伺いたい",
+        "C": "お越しになりたい",
+        "D": "参られたい"
+      },
+      "answer": "B",
+      "explain": "Hành động của sếp mình khi nói với đối tác → khiêm nhường `伺う`. A, C là tôn kính; D là `参る`+`れる` chồng 2 lớp",
+      "tags": [
+        "KEIGO_REGISTER",
+        "SPEAKER_ROLE"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P01-L03-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "来月、大阪支社への（　）が決まりました。",
+      "options": {
+        "A": "異動",
+        "B": "移動",
+        "C": "変動",
+        "D": "運動"
+      },
+      "answer": "A",
+      "explain": "`異動` = thuyên chuyển nhân sự (`HR-06`); `移動` = di chuyển vị trí (`HM-04`)",
+      "tags": [
+        "VOCAB_UNKNOWN",
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "HR-06",
+        "HM-04"
+      ]
+    }
+  ],
+  "depiction": [
+    {
+      "id": "P01-L03-D01",
+      "questionType": "depiction",
+      "skill": "depiction",
+      "imageSpec": "Phòng họp, 4 người ngồi quanh bàn. Một người đàn ông đứng cạnh màn hình, tay cầm bút chỉ vào màn hình có biểu đồ. Một người phụ nữ đang ghi chép vào sổ. Hai người còn lại nhìn màn hình. Trên bàn: laptop, tài liệu giấy, chai nước.",
+      "q": "Xem mô tả/tranh và chọn nhận định đúng với nội dung.",
+      "options": {
+        "A": "男性が資料を配っています。",
+        "B": "男性が画面を指しながら説明しています。",
+        "C": "全員がパソコンに入力しています。",
+        "D": "女性が電話で話しています。"
+      },
+      "answer": "B",
+      "explain": "Người đàn ông đứng chỉ vào màn hình → B. A sai (không phát tài liệu), C sai (chỉ một số người nhìn màn hình), D sai (người phụ nữ ghi chép).",
+      "tags": [
+        "IMAGE_DETAIL",
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "testSections": []
+}

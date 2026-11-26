@@ -1,0 +1,522 @@
+{
+  "id": "P04-L04",
+  "part": "P04",
+  "title": "BÀI KIỂM TRA PART 04 (20 câu · đạt ≥ 14/20 = 70%)",
+  "isTest": true,
+  "vocab": [],
+  "cards": [],
+  "confusedPairs": [],
+  "vocabQuiz": {
+    "passAt": 0,
+    "total": 0,
+    "items": []
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P04-L04-A01",
+      "title": "Bài nghe A (P04-L04-A01) — T15, T16, T17",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "田中さん、更新のご相談の件ですが、先日のメールはご覧いただけましたか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、拝見しました。月額を9万5千円にというご要望ですね。前向きに検討しているのですが、最終的には部長の承認が必要でして。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "部長はいつ頃お戻りですか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "出張中で、来週の月曜日に戻ります。月曜日の午後には、必ずご連絡いたします。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "わかりました。もし9万5千円が難しい場合は、9万7千円ではいかがでしょうか。こちらも少し歩み寄ります。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "ありがとうございます。その点も含めて、部長に確認いたします。"
+        }
+      ],
+      "translation": [
+        "*Sato:* Chị Tanaka, về việc gia hạn, chị đã xem email hôm trước chưa?",
+        "*Tanaka:* Rồi ạ. Anh muốn phí tháng là 95.000 yên. Chúng tôi đang xem xét tích cực, nhưng cuối cùng cần trưởng phòng phê duyệt.",
+        "*Sato:* Khi nào trưởng phòng về?",
+        "*Tanaka:* Đang đi công tác, thứ Hai tuần sau về. Chiều thứ Hai chắc chắn tôi sẽ liên lạc.",
+        "*Sato:* Tôi hiểu. Nếu 95.000 khó thì 97.000 thì sao? Bên tôi cũng xích lại một chút.",
+        "*Tanaka:* Cảm ơn anh. Tôi sẽ xác nhận với trưởng phòng cả điểm đó."
+      ],
+      "questions": [
+        {
+          "id": "P04-L04-T15",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "田中さんがすぐに返事できない理由は何ですか。",
+          "options": {
+            "A": "契約書がまだできていないから",
+            "B": "在庫を確認しているから",
+            "C": "部長の承認が必要だから",
+            "D": "田中さん自身が出張中だから"
+          },
+          "answer": "C",
+          "explain": "`最終的には部長の承認が必要`. D là bẫy: người đi công tác là **trưởng phòng**",
+          "tags": [
+            "SPEAKER_INTENT",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P04-L04-T16",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "田中さんは、いつ佐藤さんに連絡しますか。",
+          "options": {
+            "A": "今日の午後",
+            "B": "月曜日の午後",
+            "C": "月曜日の午前",
+            "D": "来週の金曜日"
+          },
+          "answer": "B",
+          "explain": "`月曜日の午後には、必ずご連絡` (月曜 = ngày trưởng phòng về)",
+          "tags": [
+            "NUMBER_TIME"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P04-L04-T17",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "佐藤さんが新しく出した提案はどれですか。",
+          "options": {
+            "A": "月額97,000円",
+            "B": "月額95,000円",
+            "C": "月額100,000円",
+            "D": "契約期間を2年にする"
+          },
+          "answer": "A",
+          "explain": "`9万7千円ではいかがでしょうか` (95.000 là yêu cầu ban đầu)",
+          "tags": [
+            "NUMBER_TIME",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        }
+      ]
+    },
+    {
+      "id": "P04-L04-A02",
+      "title": "Bài nghe B (P04-L04-A02) — T18, T19, T20",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "小野さん、ミライ商事との契約書、署名と捺印は済んだ？"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、課長。昨日、原本2部に署名と捺印をして、先方に郵送しました。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "原本が戻ってきたら、1部は法務部に渡して、もう1部は営業部で保管してね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "承知しました。それから、写しは今日中に営業部全員にメールで共有しておきます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ありがとう。ただ、守秘義務があるから、社外には絶対に送らないように。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、気をつけます。"
+        }
+      ],
+      "translation": [
+        "*Nakamura:* Cô Ono, hợp đồng với Mirai Shoji đã ký tên đóng dấu xong chưa?",
+        "*Ono:* Rồi ạ, thưa trưởng nhóm. Hôm qua tôi đã ký tên, đóng dấu 2 bản gốc và gửi bưu điện cho bên kia.",
+        "*Nakamura:* Khi bản gốc quay về, 1 bản giao cho phòng pháp chế, 1 bản phòng kinh doanh giữ nhé.",
+        "*Ono:* Tôi hiểu. Ngoài ra, hôm nay tôi sẽ chia sẻ bản sao qua email cho toàn bộ phòng kinh doanh.",
+        "*Nakamura:* Cảm ơn. Nhưng vì có nghĩa vụ giữ bí mật nên tuyệt đối không được gửi ra ngoài công ty.",
+        "*Ono:* Vâng, tôi sẽ chú ý."
+      ],
+      "questions": [
+        {
+          "id": "P04-L04-T18",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "小野さんは昨日、何をしましたか。",
+          "options": {
+            "A": "写しを営業部に送った",
+            "B": "原本に署名と捺印をして郵送した",
+            "C": "契約を解約した",
+            "D": "法務部に原本を渡した"
+          },
+          "answer": "B",
+          "explain": "`昨日…原本2部に署名と捺印をして…郵送` (写し là việc làm **hôm nay**)",
+          "tags": [
+            "DETAIL_MISS",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P04-L04-T19",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "戻ってきた原本について、中村さんはどう指示しましたか。",
+          "options": {
+            "A": "2部とも法務部に渡す",
+            "B": "2部とも営業部で保管する",
+            "C": "1部は法務部に渡し、もう1部は営業部で保管する",
+            "D": "1部は先方に返す"
+          },
+          "answer": "C",
+          "explain": "`1部は法務部に渡して、もう1部は営業部で保管`",
+          "tags": [
+            "SPEAKER_INTENT"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P04-L04-T20",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "中村さんが、写しについて注意したことは何ですか。",
+          "options": {
+            "A": "全員に印刷して配ること",
+            "B": "営業部には送らないこと",
+            "C": "社外には送らないこと",
+            "D": "今日中に法務部に送ること"
+          },
+          "answer": "C",
+          "explain": "`守秘義務があるから、社外には絶対に送らないように`",
+          "tags": [
+            "SPEAKER_INTENT",
+            "KEIGO_REGISTER"
+          ],
+          "vocabIds": []
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "R01",
+      "title": "Phần 2 — 短文読解",
+      "passageHtml": "<strong>件名：</strong> 契約更新に関するご相談<br>さくら商事 田中様<br>いつもお世話になっております。ミライ商事の佐藤です。<br>現在の保守契約（2027年3月31日まで）の更新について、ご相談がございます。<br>弊社といたしましては、更新の方向で考えておりますが、月額料金を現在の100,000円から95,000円に見直していただくことが条件でございます。<br>ご検討いただき、1月15日までにご回答いただけますと幸いです。難しい場合は、今回の更新を見合わせることも考えております。",
+      "questions": [
+        {
+          "id": "P04-L04-T12",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "このメールの目的はどれですか。",
+          "options": {
+            "A": "契約を解約する",
+            "B": "条件をつけて契約の更新を相談する",
+            "C": "新しい契約を結ぶ",
+            "D": "守秘義務を確認する"
+          },
+          "answer": "B",
+          "explain": "`更新の方向…条件でございます`",
+          "tags": [
+            "INFERENCE"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P04-L04-T13",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "佐藤さんが更新の条件にしていることは何ですか。",
+          "options": {
+            "A": "1月15日までに支払うこと",
+            "B": "契約期間を延ばすこと",
+            "C": "保証期間を延ばすこと",
+            "D": "月額料金を95,000円に見直すこと"
+          },
+          "answer": "D",
+          "explain": "`月額料金を…95,000円に見直していただくことが条件`",
+          "tags": [
+            "DETAIL_MISS"
+          ],
+          "vocabIds": []
+        },
+        {
+          "id": "P04-L04-T14",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "条件が合わない場合、佐藤さんはどう考えていますか。",
+          "options": {
+            "A": "更新を見合わせることも考えている",
+            "B": "すぐに解約する",
+            "C": "損害賠償を請求する",
+            "D": "自動的に更新する"
+          },
+          "answer": "A",
+          "explain": "`今回の更新を見合わせることも考えております`",
+          "tags": [
+            "INDIRECT_INTENT"
+          ],
+          "vocabIds": []
+        }
+      ]
+    }
+  ],
+  "expression": [],
+  "grammar": [
+    {
+      "id": "P04-L04-T01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "契約書に（　）と捺印をお願いします。",
+      "options": {
+        "A": "署名",
+        "B": "提案",
+        "C": "保留",
+        "D": "決裂"
+      },
+      "answer": "A",
+      "explain": "`署名と捺印` (`CT-12`, `CT-13`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "CT-12",
+        "CT-13"
+      ]
+    },
+    {
+      "id": "P04-L04-T02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "双方が（　）、ようやく合意できた。",
+      "options": {
+        "A": "歩み寄って",
+        "B": "取り消して",
+        "C": "撤回して",
+        "D": "違反して"
+      },
+      "answer": "A",
+      "explain": "`歩み寄る` (`CL-A27`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L04-T03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "返事は（　）にして、来週お伝えします。",
+      "options": {
+        "A": "履行",
+        "B": "保留",
+        "C": "違反",
+        "D": "捺印"
+      },
+      "answer": "B",
+      "explain": "`保留にする` = tạm gác (`NG-15`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "NG-15"
+      ]
+    },
+    {
+      "id": "P04-L04-T04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "契約期間が終わりますが、同じ条件で期間を延ばしたいので、契約を（　）したいです。",
+      "options": {
+        "A": "解約",
+        "B": "違反",
+        "C": "更新",
+        "D": "撤回"
+      },
+      "answer": "C",
+      "explain": "`更新` (`CT-04`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "CT-04"
+      ]
+    },
+    {
+      "id": "P04-L04-T05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先の情報を外に漏らしてはならないという（　）があります。",
+      "options": {
+        "A": "値引き",
+        "B": "割引",
+        "C": "譲歩",
+        "D": "守秘義務"
+      },
+      "answer": "D",
+      "explain": "`守秘義務` (`CT-11`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "CT-11"
+      ]
+    },
+    {
+      "id": "P04-L04-T06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "契約に（　）して、相手に損害を与えたら、損害賠償を請求されます。",
+      "options": {
+        "A": "履行",
+        "B": "違反",
+        "C": "遵守",
+        "D": "締結"
+      },
+      "answer": "B",
+      "explain": "`契約に違反` (`CT-06`) → `損害賠償` (`CT-07`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "CT-06",
+        "CT-07"
+      ]
+    },
+    {
+      "id": "P04-L04-T07",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先から「検討いたします」と言われました。正しい理解はどれですか。",
+      "options": {
+        "A": "承諾された",
+        "B": "契約が成立した",
+        "C": "まだ決まっていない",
+        "D": "断られた"
+      },
+      "answer": "C",
+      "explain": "`検討` (`NG-09`, `IN-01`) = chưa cam kết",
+      "tags": [
+        "INDIRECT_INTENT"
+      ],
+      "vocabIds": [
+        "NG-09",
+        "IN-01"
+      ]
+    },
+    {
+      "id": "P04-L04-T08",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先から「今回は見送らせていただきます」とメールが来ました。どういう意味ですか。",
+      "options": {
+        "A": "提案を断られた",
+        "B": "提案を承諾された",
+        "C": "来週返事が来る",
+        "D": "条件を交渉したい"
+      },
+      "answer": "A",
+      "explain": "`見送る` (`IN-07`, `AC-07`) = từ chối",
+      "tags": [
+        "INDIRECT_INTENT"
+      ],
+      "vocabIds": [
+        "IN-07",
+        "AC-07"
+      ]
+    },
+    {
+      "id": "P04-L04-T09",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "私の一存では決め（　）ので、上司に相談します。",
+      "options": {
+        "A": "かねません",
+        "B": "かねます",
+        "C": "にすぎません",
+        "D": "ざるを得ません"
+      },
+      "answer": "B",
+      "explain": "`〜かねる` = khó quyết định (`G6-02`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L04-T10",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "取引先から値引きを頼まれましたが、会社の方針で応じられません。最も適切な返事はどれですか。",
+      "options": {
+        "A": "無理ですね。",
+        "B": "前向きに検討いたします。",
+        "C": "社長に聞かないとわかりません。",
+        "D": "誠に申し訳ございませんが、ご要望の値引きは難しい状況でございます。"
+      },
+      "answer": "D",
+      "explain": "Từ chối khéo: `申し訳ございませんが` + `難しい状況` (`IN-06`). B gây hiểu lầm có hy vọng",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [
+        "IN-06"
+      ]
+    },
+    {
+      "id": "P04-L04-T11",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "約束した以上、今さら契約をキャンセルする（　）。",
+      "options": {
+        "A": "にすぎません",
+        "B": "に違いありません",
+        "C": "わけにはいきません",
+        "D": "わけではありません"
+      },
+      "answer": "C",
+      "explain": "`〜わけにはいかない` = không thể (`G4-05`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

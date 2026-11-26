@@ -1,0 +1,663 @@
+{
+  "id": "P02-L04",
+  "part": "P02",
+  "title": "Kiểm tra PART 02 (20 câu · Pass: ≥14/20)",
+  "isTest": true,
+  "vocab": [],
+  "cards": [],
+  "confusedPairs": [],
+  "vocabQuiz": {
+    "passAt": 0,
+    "total": 0,
+    "items": []
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P02-L04-A15",
+      "title": "Nghe P02-L04-A15",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "恐れ入りますが、営業部の森田様はいらっしゃいますか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "ただいま森田は外出中でございまして、夕方5時頃に戻る予定でございます。よろしければ、伝言を承りましょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ありがとうございます。では、折り返しお電話いただくようお伝えください。私は山田商事の中島と申します。電話番号は03-4567-8901です。"
+        }
+      ],
+      "translation": [],
+      "questions": [
+        {
+          "id": "P02-L04-T15",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "**男：** 恐れ入りますが、営業部の森田様はいらっしゃいますか。\n**女：** ただいま森田は外出中でございまして、夕方5時頃に戻る予定でございます。よろしければ、伝言を承りましょうか。\n**男：** ありがとうございます。では、折り返しお電話いただくようお伝えください。私は山田商事の中島と申します。電話番号は03-4567-8901です。\n**Câu hỏi:** 中島さんはこの後どうしてほしいですか。",
+          "options": {
+            "A": "森田さんに直接メールを送ってほしい。",
+            "B": "森田さんに折り返し電話をしてほしい。",
+            "C": "夕方5時に自分から電話をかける。",
+            "D": "伝言メモを森田さんに渡してほしい。"
+          },
+          "answer": "B",
+          "explain": "`折り返しお電話いただくようお伝えください` = muốn Morita gọi lại. B đúng.",
+          "tags": [
+            "DETAIL_MISS",
+            "SPEAKER_ROLE"
+          ],
+          "vocabIds": [],
+          "audioId": "P02-L04-A15"
+        }
+      ]
+    },
+    {
+      "id": "P02-L04-A16",
+      "title": "Nghe P02-L04-A16",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "鈴木部長にご面会の約束をしていただいているのですが。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、お名前をお伺いできますか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "山田電機の田村と申します。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "田村様ですね。少々お待ちいただけますでしょうか。ただいまご確認いたします。"
+        }
+      ],
+      "translation": [],
+      "questions": [
+        {
+          "id": "P02-L04-T16",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "**男：** 鈴木部長にご面会の約束をしていただいているのですが。\n**女：** はい、お名前をお伺いできますか。\n**男：** 山田電機の田村と申します。\n**女：** 田村様ですね。少々お待ちいただけますでしょうか。ただいまご確認いたします。\n**Câu hỏi:** 受付の女性は次に何をしますか。",
+          "options": {
+            "A": "田村さんに名刺を渡す。",
+            "B": "鈴木部長に田村さんの来訪を確認する。",
+            "C": "田村さんを応接室に案内する。",
+            "D": "田村さんに予約の日時を聞く。"
+          },
+          "answer": "B",
+          "explain": "`ただいまご確認いたします` = đang xác nhận (với bên trong) → đi thông báo cho Suzuki Bucho biết.",
+          "tags": [
+            "KEIGO_REGISTER",
+            "EXPRESSION_FIT"
+          ],
+          "vocabIds": [],
+          "audioId": "P02-L04-A16"
+        }
+      ]
+    },
+    {
+      "id": "P02-L04-A17",
+      "title": "Nghe P02-L04-A17",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "お電話ありがとうございます。恵比寿商事でございます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "山本電気の渡辺と申します。いつもお世話になっております。購買部の中村様をお願いしたいのですが。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "中村は本日は13時頃まで打ち合わせが入っております。終わりましたらすぐに折り返させましょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ありがとうございます。でも、私も14時から会議に入りますので…。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "では、14時以降にご連絡するように申し伝えましょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうですね。会議は2時間ほどで終わると思いますので、16時以降にお電話いただければと思います。"
+        }
+      ],
+      "translation": [],
+      "questions": [
+        {
+          "id": "P02-L04-T17",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "**女：** お電話ありがとうございます。恵比寿商事でございます。\n**男：** 山本電気の渡辺と申します。いつもお世話になっております。購買部の中村様をお願いしたいのですが。\n**女：** 中村は本日は13時頃まで打ち合わせが入っております。終わりましたらすぐに折り返させましょうか。\n**男：** ありがとうございます。でも、私も14時から会議に入りますので…。\n**女：** では、14時以降にご連絡するように申し伝えましょうか。\n**男：** そうですね。会議は2時間ほどで終わると思いますので、16時以降にお電話いただければと思います。\n**Câu hỏi:** 中村さんは何時以降に渡辺さんに電話をしますか。",
+          "options": {
+            "A": "13時以降",
+            "B": "14時以降",
+            "C": "15時以降",
+            "D": "16時以降"
+          },
+          "answer": "D",
+          "explain": "Hội nghị kết thúc lúc 14 giờ, kéo dài 2 tiếng → xong khoảng 16 giờ. Watanabe yêu cầu gọi từ sau 16 giờ → D.",
+          "tags": [
+            "NUMBER_TIME",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": "P02-L04-A17"
+        }
+      ]
+    },
+    {
+      "id": "P02-L04-A18",
+      "title": "Nghe P02-L04-A18",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "お世話になっております。今日の打ち合わせの件なのですが、少し遅れそうでして。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "さようでございますか。何時頃のご到着を予定していらっしゃいますか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "2時の予定が、30分ほど遅れそうです。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "かしこまりました。では、担当の者に申し伝えておきます。恐れ入りますが、到着の5分前にもう一度お電話いただけますでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "わかりました。そうします。"
+        }
+      ],
+      "translation": [],
+      "questions": [
+        {
+          "id": "P02-L04-T18",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "**男：** お世話になっております。今日の打ち合わせの件なのですが、少し遅れそうでして。\n**女：** さようでございますか。何時頃のご到着を予定していらっしゃいますか。\n**男：** 2時の予定が、30分ほど遅れそうです。\n**女：** かしこまりました。では、担当の者に申し伝えておきます。恐れ入りますが、到着の5分前にもう一度お電話いただけますでしょうか。\n**男：** わかりました。そうします。\n**Câu hỏi:** 男性が到着する予定は何時ですか。",
+          "options": {
+            "A": "14:00",
+            "B": "14:30",
+            "C": "15:00",
+            "D": "15:30"
+          },
+          "answer": "B",
+          "explain": "14:00 (2時) + 30分遅れ = **14:30** → B.",
+          "tags": [
+            "KEIGO_REGISTER",
+            "SPEAKER_INTENT"
+          ],
+          "vocabIds": [],
+          "audioId": "P02-L04-A18"
+        }
+      ]
+    },
+    {
+      "id": "P02-L04-A19",
+      "title": "Nghe P02-L04-A19",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "すみません、先ほどご連絡いただいた件なのですが、メールの添付ファイルが開けなくて。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "ご不便をおかけして申し訳ございません。ファイルの形式はPDFでお送りしたのですが、もしよろしければ、Wordファイルで再送しましょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ありがとうございます。でも、PDFでも構いません。もう一度同じファイルを送っていただけますか。もしかしたら、ダウンロード中に問題があったのかもしれません。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "かしこまりました。ただいますぐ再送いたします。"
+        }
+      ],
+      "translation": [],
+      "questions": [
+        {
+          "id": "P02-L04-T19",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "**男：** すみません、先ほどご連絡いただいた件なのですが、メールの添付ファイルが開けなくて。\n**女：** ご不便をおかけして申し訳ございません。ファイルの形式はPDFでお送りしたのですが、もしよろしければ、Wordファイルで再送しましょうか。\n**男：** ありがとうございます。でも、PDFでも構いません。もう一度同じファイルを送っていただけますか。もしかしたら、ダウンロード中に問題があったのかもしれません。\n**女：** かしこまりました。ただいますぐ再送いたします。\n**Câu hỏi:** 男性がお願いしたことはどれですか。",
+          "options": {
+            "A": "WordファイルでメールをPDFに変換して送ること",
+            "B": "PDFファイルをもう一度送ること",
+            "C": "新しいファイル形式で再送すること",
+            "D": "ファイルをダウンロードする方法を教えること"
+          },
+          "answer": "B",
+          "explain": "Nam nói `PDFでも構いません。もう一度同じファイルを送っていただけますか` → gửi lại PDF cũ → B.",
+          "tags": [
+            "DETAIL_MISS",
+            "DOCUMENT_MATCH"
+          ],
+          "vocabIds": [],
+          "audioId": "P02-L04-A19"
+        }
+      ]
+    },
+    {
+      "id": "P02-L04-A20",
+      "title": "Nghe P02-L04-A20",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（田中部長）",
+          "name": "田中部長",
+          "text": "鈴木さん、今日の午後、東西商事の林さんが来社されるよね。準備はできてる？"
+        },
+        {
+          "speaker": "女",
+          "label": "女（鈴木）",
+          "name": "鈴木",
+          "text": "はい。応接室の準備は整っております。ただ、先ほど林さんから電話がありまして、今日は少し早めに到着される予定とのことでした。2時の約束ですが、1時45分頃にはいらっしゃるかもしれないそうです。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうか。じゃあ、少し早めに下に降りて出迎えてくれるかな。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "かしこまりました。では、1時40分に受付前でお待ちすることにします。"
+        },
+        {
+          "speaker": "ナレーター",
+          "label": "Đạt",
+          "name": "Đạt",
+          "text": "≥14/20 (≥70%) | **Chưa đạt:** Ôn lại L01–L03 và làm lại"
+        },
+        {
+          "speaker": "ナレーター",
+          "label": "",
+          "name": "",
+          "text": "⚠️ Nội dung này thuộc về PART 06 (biểu đồ doanh thu & thị phần). Tạm lưu ở đây để không mất nội dung."
+        }
+      ],
+      "translation": [],
+      "questions": [
+        {
+          "id": "P02-L04-T20",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "**男（田中部長）：** 鈴木さん、今日の午後、東西商事の林さんが来社されるよね。準備はできてる？\n**女（鈴木）：** はい。応接室の準備は整っております。ただ、先ほど林さんから電話がありまして、今日は少し早めに到着される予定とのことでした。2時の約束ですが、1時45分頃にはいらっしゃるかもしれないそうです。\n**男：** そうか。じゃあ、少し早めに下に降りて出迎えてくれるかな。\n**女：** かしこまりました。では、1時40分に受付前でお待ちすることにします。\n**Câu hỏi:** 鈴木さんは何時に受付前でお客さんを待つ予定ですか。",
+          "options": {
+            "A": "13:40",
+            "B": "13:45",
+            "C": "14:00",
+            "D": "14:15"
+          },
+          "answer": "A",
+          "explain": "Suzuki nói `1時40分に受付前でお待ちすることにします` → **13:40** → A.",
+          "tags": [
+            "DETAIL_MISS",
+            "SPEAKER_ROLE"
+          ],
+          "vocabIds": [],
+          "audioId": "P02-L04-A20"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "R01",
+      "title": "Phần 2 — Đọc hiểu",
+      "passageHtml": "<strong>件名：</strong> 【お知らせ】電話応対ガイドラインの改定について<br>社員各位<br>総務部の山田です。来月より、電話応対に関するガイドラインを以下のとおり改定いたします。<br><br><strong>1. 受電時の基本フレーズ変更</strong><br>（改定前）「はい、〇〇会社でございます。」<br>（改定後）「お電話ありがとうございます。〇〇会社でございます。」<br><br><strong>2. 伝言メモの書式統一</strong><br>伝言メモには、①受電日時、②発信者名・会社名、③用件、④折り返し希望の有無、⑤担当者名、の5項目を必ず記入してください。<br><br><strong>3. 不在時の対応</strong><br>担当者が不在の場合、①折り返し電話の提案、②伝言を承る、③後日メールでの対応、の順に確認し、顧客が希望する方法に従ってください。<br><br>なお、来月の第1週に全社員を対象とした研修を実施します。研修への参加は<strong>必須</strong>です。詳細は後日ご連絡いたします。",
+      "questions": [
+        {
+          "id": "P02-L04-T11",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "新しいガイドラインでの受電フレーズはどれですか。",
+          "options": {
+            "A": "はい、〇〇会社でございます。",
+            "B": "いつもお世話になっております。〇〇会社でございます。",
+            "C": "お電話ありがとうございます。〇〇会社でございます。",
+            "D": "〇〇会社でございます。何かご用でしょうか。"
+          },
+          "answer": "C",
+          "explain": "`改定後` → `お電話ありがとうございます。〇〇会社でございます。`",
+          "tags": [
+            "DETAIL_MISS",
+            "DOCUMENT_MATCH"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P02-L04-T12",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "伝言メモに書く必要がない項目はどれですか。",
+          "options": {
+            "A": "発信者の会社名",
+            "B": "顧客の住所",
+            "C": "受電日時",
+            "D": "折り返し希望の有無"
+          },
+          "answer": "B",
+          "explain": "5項目: ①受電日時 ②発信者名・会社名 ③用件 ④折り返し希望の有無 ⑤担当者名 → 住所は含まれていない.",
+          "tags": [
+            "DETAIL_MISS",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P02-L04-T13",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "担当者が不在の場合、最初に確認することはどれですか。",
+          "options": {
+            "A": "メールで対応するか",
+            "B": "伝言を承るか",
+            "C": "折り返し電話の提案をするか",
+            "D": "顧客の用件を詳しく聞くか"
+          },
+          "answer": "C",
+          "explain": "Thứ tự: ①折り返し電話の提案 → ②伝言を承る → ③後日メール. Đầu tiên là C.",
+          "tags": [
+            "NEGATION_CONDITION",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P02-L04-T14",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "研修について、正しいものはどれですか。",
+          "options": {
+            "A": "研修の参加は任意である。",
+            "B": "研修は今週中に行われる。",
+            "C": "研修は全社員が参加しなければならない。",
+            "D": "研修の詳細はすでに通知されている。"
+          },
+          "answer": "C",
+          "explain": "`全社員を対象とした研修… 参加は必須` → C. A `任意` ✗. B `来月の第1週` ✗. D `詳細は後日ご連絡` = chưa thông báo ✗.",
+          "tags": [
+            "DETAIL_MISS",
+            "NEGATION_CONDITION"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [],
+  "grammar": [
+    {
+      "id": "P02-L04-T01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "次の（　）に入る最も適切なものを選んでください。\n電話を受けて、相手が不在の担当者に電話したいと言っています。\n（　）、ただいま担当の者が席を外しております。",
+      "options": {
+        "A": "誠に恐れ入りますが",
+        "B": "ご苦労様ですが",
+        "C": "おかげ様で",
+        "D": "いかがでしょうか"
+      },
+      "answer": "A",
+      "explain": "`誠に恐れ入りますが` là từ đệm lịch sự nhất khi phải từ chối/thông báo tin không thuận. B dùng với người dưới. C cảm ơn sự giúp đỡ. D hỏi ý kiến.",
+      "tags": [
+        "KEIGO_REGISTER",
+        "EXPRESSION_FIT"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\n詳細が確認でき（　）、メールでご連絡いたします。",
+      "options": {
+        "A": "次第",
+        "B": "際に",
+        "C": "たびに",
+        "D": "ながら"
+      },
+      "answer": "A",
+      "explain": "`〜次第` = ngay khi ~ thì … (`G2-01`). B `際に` = vào lúc ~. C `たびに` = mỗi khi. D `ながら` = trong khi.",
+      "tags": [
+        "GRAMMAR",
+        "G2-01"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\nこちらの資料をご覧の（　）、お申し込みください。",
+      "options": {
+        "A": "上で",
+        "B": "通りに",
+        "C": "ついでに",
+        "D": "ところを"
+      },
+      "answer": "A",
+      "explain": "`ご覧の上で` = sau khi xem xong ~ (`G5-08`). B `通りに` = theo đúng. C `ついでに` = nhân thể. D `ところを` = trong khi đang.",
+      "tags": [
+        "GRAMMAR",
+        "G5-08"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "社内の人が電話に出て、外部の顧客に対して田中部長のことを述べています。正しい表現はどれですか。",
+      "options": {
+        "A": "田中部長はただいま会議中でいらっしゃいます。",
+        "B": "田中はただいま会議中でございます。",
+        "C": "田中様はただいま会議中です。",
+        "D": "田中部長は会議に出ておられます。"
+      },
+      "answer": "B",
+      "explain": "Quy tắc nội/ngoại: Nói với khách bên ngoài về người trong công ty mình → dùng tên trần (không thêm chức danh, không thêm `様`). `ございます` là dạng lịch sự phù hợp. A, D thêm chức danh ✗; C thêm `様` ✗.",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\n戻り次第、（　）お電話させていただきます。",
+      "options": {
+        "A": "折り返し",
+        "B": "取り次ぎ",
+        "C": "伝言",
+        "D": "転送"
+      },
+      "answer": "A",
+      "explain": "`折り返し電話` = gọi lại ngay sau khi trở về (`OF-06`). B `取り次ぎ` = chuyển máy. C `伝言` = lời nhắn. D `転送` = chuyển tiếp (email/cuộc gọi).",
+      "tags": [
+        "COLLOCATION",
+        "OF-06"
+      ],
+      "vocabIds": [
+        "OF-06"
+      ],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\n遠方からお越しいただき、（　）。",
+      "options": {
+        "A": "ご足労をおかけいたしました",
+        "B": "ご苦労様でした",
+        "C": "お疲れ様でした",
+        "D": "お世話になっております"
+      },
+      "answer": "A",
+      "explain": "`ご足労をおかけいたしました` (`FX-07`) = cảm ơn vì đã mất công đến (đặc biệt dành cho khách). B, C dùng với đồng nghiệp hoặc người dưới. D lời chào thông thường.",
+      "tags": [
+        "KEIGO_REGISTER",
+        "FX-07"
+      ],
+      "vocabIds": [
+        "FX-07"
+      ],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T07",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\nご不明な点が（　）、いつでもご連絡ください。",
+      "options": {
+        "A": "ございましたら",
+        "B": "ありましたら",
+        "C": "おありでしたら",
+        "D": "いらっしゃいましたら"
+      },
+      "answer": "A",
+      "explain": "`ございましたら` là dạng tôn kính/khiêm nhường của `あります` → phù hợp nhất trong văn phòng lịch sự. B `ありましたら` đúng ngữ pháp nhưng mức độ lịch sự thấp hơn. C `おありでしたら` cũng có thể, nhưng A tự nhiên hơn trong email/điện thoại doanh nghiệp.",
+      "tags": [
+        "GRAMMAR",
+        "G6-04"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T08",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "顧客から「至急、見積書を送ってほしい」と言われましたが、担当者が不在で今すぐ対応できません。最も適切な返答はどれですか。",
+      "options": {
+        "A": "担当者がいないのでできません。",
+        "B": "恐れ入りますが、ただいま担当者が不在にしております。折り返しご連絡させていただいてもよろしいでしょうか。",
+        "C": "少々お待ちください。担当者を呼んできます。",
+        "D": "見積書はメールで送ります。"
+      },
+      "answer": "B",
+      "explain": "Từ đệm `恐れ入りますが` + thông báo tình huống + đề nghị giải pháp. A cộc, thiếu lịch sự. C không phù hợp vì người phụ trách không có mặt. D không giải thích lý do trì hoãn.",
+      "tags": [
+        "EXPRESSION_FIT"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T09",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\nメールにカタログを（　）してお送りします。",
+      "options": {
+        "A": "添付",
+        "B": "転送",
+        "C": "控え",
+        "D": "配布"
+      },
+      "answer": "A",
+      "explain": "`メールに添付する` = đính kèm vào email (`OF-08`). B `転送` = forward. C `控え` = bản sao lưu. D `配布` = phát tài liệu (irl).",
+      "tags": [
+        "COLLOCATION",
+        "OF-08"
+      ],
+      "vocabIds": [
+        "OF-08"
+      ],
+      "audioId": null
+    },
+    {
+      "id": "P02-L04-T10",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "（　）に入る最も適切なものを選んでください。\nお名前を（　）もよろしいでしょうか。",
+      "options": {
+        "A": "頂戴して",
+        "B": "伺って",
+        "C": "拝見して",
+        "D": "いただいて"
+      },
+      "answer": "B",
+      "explain": "`お名前を伺う` = hỏi tên (謙譲語). `頂戴する` dùng cho đồ vật/thứ nhận được. `拝見する` = xem/đọc. `いただく` = nhận (thứ gì đó).",
+      "tags": [
+        "KEIGO_REGISTER",
+        "G6-27"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

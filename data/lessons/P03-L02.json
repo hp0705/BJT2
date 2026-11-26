@@ -1,0 +1,980 @@
+{
+  "id": "P03-L02",
+  "part": "P03",
+  "title": "Giao hàng, Lịch phát hàng & Chính sách đổi trả",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "TR-06",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "納品",
+      "reading": "のうひん",
+      "meaning": "Giao hàng, bàn giao sản phẩm",
+      "exJp": "明日、商品を納品します。",
+      "exVi": "Ngày mai tôi giao hàng.",
+      "tip": "Có `納品書` đi kèm"
+    },
+    {
+      "id": "TR-07",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "納入",
+      "reading": "のうにゅう",
+      "meaning": "Giao nộp (hàng hóa)",
+      "exJp": "部品を工場に納入します。",
+      "exVi": "Giao linh kiện cho nhà máy.",
+      "tip": "`納入先` = nơi nhận"
+    },
+    {
+      "id": "TR-08",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "在庫",
+      "reading": "ざいこ",
+      "meaning": "Hàng tồn kho",
+      "exJp": "在庫を確認します。",
+      "exVi": "Kiểm tra tồn kho.",
+      "tip": ""
+    },
+    {
+      "id": "TR-12",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "納品書",
+      "reading": "のうひんしょ",
+      "meaning": "Phiếu giao hàng",
+      "exJp": "納品書を同封します。",
+      "exVi": "Kèm theo phiếu giao hàng.",
+      "tip": "Đối chiếu số lượng"
+    },
+    {
+      "id": "TR-15",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "返品",
+      "reading": "へんぴん",
+      "meaning": "Trả hàng",
+      "exJp": "不良品を返品します。",
+      "exVi": "Trả hàng lỗi.",
+      "tip": "≠ `交換`"
+    },
+    {
+      "id": "TR-16",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "交換",
+      "reading": "こうかん",
+      "meaning": "Đổi hàng",
+      "exJp": "新品と交換します。",
+      "exVi": "Đổi lấy hàng mới.",
+      "tip": ""
+    },
+    {
+      "id": "CL-A30",
+      "group": "Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",
+      "word": "在庫切れ",
+      "reading": "ざいこぎれ",
+      "meaning": "Hết hàng tồn kho",
+      "exJp": "ただいま在庫切れです。",
+      "exVi": "Hiện đang hết hàng.",
+      "tip": "≠ `入荷` (hàng về)"
+    },
+    {
+      "id": "LG-01",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "配送",
+      "reading": "はいそう",
+      "meaning": "Giao hàng, vận chuyển",
+      "exJp": "配送予定表を確認します。",
+      "exVi": "Kiểm tra lịch giao hàng.",
+      "tip": "`配送予定表`"
+    },
+    {
+      "id": "LG-02",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "輸送",
+      "reading": "ゆそう",
+      "meaning": "Vận tải (đường dài, khối lượng lớn)",
+      "exJp": "船で輸送します。",
+      "exVi": "Vận chuyển bằng tàu.",
+      "tip": "Tàu, máy bay"
+    },
+    {
+      "id": "LG-03",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "運送",
+      "reading": "うんそう",
+      "meaning": "Vận chuyển (hàng hóa)",
+      "exJp": "運送会社に依頼します。",
+      "exVi": "Nhờ công ty vận chuyển.",
+      "tip": "`運送会社`"
+    },
+    {
+      "id": "LG-04",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "宅配",
+      "reading": "たくはい",
+      "meaning": "Giao hàng tận nhà",
+      "exJp": "宅配便で送ります。",
+      "exVi": "Gửi bằng dịch vụ giao tận nhà.",
+      "tip": ""
+    },
+    {
+      "id": "LG-05",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "梱包",
+      "reading": "こんぽう",
+      "meaning": "Đóng gói (để vận chuyển)",
+      "exJp": "割れないように梱包します。",
+      "exVi": "Đóng gói để không bị vỡ.",
+      "tip": "≠ `包装`"
+    },
+    {
+      "id": "LG-06",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "包装",
+      "reading": "ほうそう",
+      "meaning": "Bao bì, gói quà",
+      "exJp": "贈答用に包装します。",
+      "exVi": "Gói làm quà tặng.",
+      "tip": "Trang trí, làm đẹp"
+    },
+    {
+      "id": "LG-07",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "発送",
+      "reading": "はっそう",
+      "meaning": "Gửi hàng đi",
+      "exJp": "本日発送しました。",
+      "exVi": "Hôm nay đã gửi hàng đi.",
+      "tip": "≠ `到着`"
+    },
+    {
+      "id": "LG-08",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "到着",
+      "reading": "とうちゃく",
+      "meaning": "Đến nơi",
+      "exJp": "明日到着予定です。",
+      "exVi": "Dự kiến mai hàng đến.",
+      "tip": "Ngày đến ≠ ngày gửi"
+    },
+    {
+      "id": "LG-09",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "遅延",
+      "reading": "ちえん",
+      "meaning": "Chậm trễ",
+      "exJp": "台風で配送が遅延しています。",
+      "exVi": "Do bão nên giao hàng đang chậm.",
+      "tip": ""
+    },
+    {
+      "id": "LG-10",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "倉庫",
+      "reading": "そうこ",
+      "meaning": "Kho hàng",
+      "exJp": "倉庫に保管します。",
+      "exVi": "Lưu trong kho.",
+      "tip": ""
+    },
+    {
+      "id": "LG-11",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "運賃",
+      "reading": "うんちん",
+      "meaning": "Cước vận chuyển",
+      "exJp": "運賃は当社が負担します。",
+      "exVi": "Cước vận chuyển do chúng tôi chịu.",
+      "tip": ""
+    },
+    {
+      "id": "LG-12",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "通関",
+      "reading": "つうかん",
+      "meaning": "Thông quan",
+      "exJp": "通関に3日かかります。",
+      "exVi": "Thông quan mất 3 ngày.",
+      "tip": "Bẫy **cộng thêm ngày**"
+    },
+    {
+      "id": "LG-13",
+      "group": "Nhóm B — Vận chuyển & logistics (13 từ)",
+      "word": "着払い",
+      "reading": "ちゃくばらい",
+      "meaning": "Người nhận trả cước",
+      "exJp": "送料は着払いです。",
+      "exVi": "Cước do người nhận trả.",
+      "tip": "≠ `元払い`"
+    },
+    {
+      "id": "KT-03",
+      "group": "Nhóm C — Katakana kinh doanh (2 từ)",
+      "word": "キャンセル",
+      "reading": "きゃんせる",
+      "meaning": "Hủy",
+      "exJp": "注文をキャンセルします。",
+      "exVi": "Hủy đơn hàng.",
+      "tip": ""
+    },
+    {
+      "id": "KT-14",
+      "group": "Nhóm C — Katakana kinh doanh (2 từ)",
+      "word": "リードタイム",
+      "reading": "りーどたいむ",
+      "meaning": "Thời gian từ lúc đặt đến lúc giao",
+      "exJp": "リードタイムは2週間です。",
+      "exVi": "Thời gian từ đặt đến giao là 2 tuần.",
+      "tip": "Bẫy tính ngày dự kiến"
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`発送` (gửi đi) ≠ `到着` (đến nơi) ≠ `入荷` (hàng về kho) ≠ `在庫切れ` (hết hàng): 4 mốc trong một bài nghe.",
+    "`梱包` (đóng gói để vận chuyển) ≠ `包装` (gói đẹp, quà tặng).",
+    "`返品` (trả hàng) ≠ `交換` (đổi hàng).",
+    "`着払い` (người **nhận** trả) ≠ `元払い` (người **gửi** trả)."
+  ],
+  "vocabQuiz": {
+    "passAt": 18,
+    "total": 22,
+    "items": [
+      {
+        "id": "P03-L02-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「納品」の意味は？",
+        "options": {
+          "A": "Giao sản phẩm, bàn giao hàng",
+          "B": "Đặt hàng",
+          "C": "Trả hàng",
+          "D": "Báo giá"
+        },
+        "answer": "A",
+        "explain": "`TR-06`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-06"
+        ]
+      },
+      {
+        "id": "P03-L02-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "部品を工場に（　）する。",
+        "options": {
+          "A": "納期",
+          "B": "納入",
+          "C": "返品",
+          "D": "在庫"
+        },
+        "answer": "B",
+        "explain": "納入 (`TR-07`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "TR-07"
+        ]
+      },
+      {
+        "id": "P03-L02-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "倉庫にある商品の数・残りを何といいますか。",
+        "options": {
+          "A": "納期",
+          "B": "運賃",
+          "C": "在庫",
+          "D": "遅延"
+        },
+        "answer": "C",
+        "explain": "在庫 (`TR-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-08"
+        ]
+      },
+      {
+        "id": "P03-L02-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "届けた品物の内容を書き、商品に同封する書類は？",
+        "options": {
+          "A": "請求書",
+          "B": "納品書",
+          "C": "見積書",
+          "D": "領収書"
+        },
+        "answer": "B",
+        "explain": "納品書 (`TR-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-12"
+        ]
+      },
+      {
+        "id": "P03-L02-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "商品を相手に戻すことは？",
+        "options": {
+          "A": "交換",
+          "B": "納品",
+          "C": "発送",
+          "D": "返品"
+        },
+        "answer": "D",
+        "explain": "返品 (`TR-15`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-15"
+        ]
+      },
+      {
+        "id": "P03-L02-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "不良品を新しい商品に取り替えることは？",
+        "options": {
+          "A": "交換",
+          "B": "返品",
+          "C": "到着",
+          "D": "在庫"
+        },
+        "answer": "A",
+        "explain": "交換 (`TR-16`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-16"
+        ]
+      },
+      {
+        "id": "P03-L02-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「配送予定表」の「配送」の意味は？",
+        "options": {
+          "A": "Đóng gói",
+          "B": "Giao hàng, vận chuyển",
+          "C": "Nhập kho",
+          "D": "Thông quan"
+        },
+        "answer": "B",
+        "explain": "配送 (`LG-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-01"
+        ]
+      },
+      {
+        "id": "P03-L02-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "船や飛行機などで、遠くへ大量に運ぶことは？",
+        "options": {
+          "A": "宅配",
+          "B": "梱包",
+          "C": "輸送",
+          "D": "包装"
+        },
+        "answer": "C",
+        "explain": "輸送 (`LG-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-02"
+        ]
+      },
+      {
+        "id": "P03-L02-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「運送会社」の「運送」の意味は？",
+        "options": {
+          "A": "Giao tận nhà",
+          "B": "Đóng gói",
+          "C": "Vận chuyển hàng hóa",
+          "D": "Gửi bưu điện"
+        },
+        "answer": "C",
+        "explain": "運送 (`LG-03`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-03"
+        ]
+      },
+      {
+        "id": "P03-L02-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "家まで荷物を届けるサービスは？",
+        "options": {
+          "A": "宅配",
+          "B": "倉庫",
+          "C": "通関",
+          "D": "運賃"
+        },
+        "answer": "A",
+        "explain": "宅配 (`LG-04`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-04"
+        ]
+      },
+      {
+        "id": "P03-L02-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "割れないように、箱に入れて荷造りすることは？",
+        "options": {
+          "A": "包装",
+          "B": "梱包",
+          "C": "発送",
+          "D": "到着"
+        },
+        "answer": "B",
+        "explain": "梱包 (`LG-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-05"
+        ]
+      },
+      {
+        "id": "P03-L02-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "プレゼント用にきれいに包むことは？",
+        "options": {
+          "A": "梱包",
+          "B": "輸送",
+          "C": "包装",
+          "D": "遅延"
+        },
+        "answer": "C",
+        "explain": "包装 (`LG-06`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-06"
+        ]
+      },
+      {
+        "id": "P03-L02-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "荷物を送り出すことは？",
+        "options": {
+          "A": "到着",
+          "B": "発送",
+          "C": "納期",
+          "D": "在庫"
+        },
+        "answer": "B",
+        "explain": "発送 (`LG-07`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-07"
+        ]
+      },
+      {
+        "id": "P03-L02-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "荷物が目的地に着くことは？",
+        "options": {
+          "A": "発送",
+          "B": "輸送",
+          "C": "配送",
+          "D": "到着"
+        },
+        "answer": "D",
+        "explain": "到着 (`LG-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-08"
+        ]
+      },
+      {
+        "id": "P03-L02-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「配送が遅延しています」の意味は？",
+        "options": {
+          "A": "Giao hàng đang bị chậm",
+          "B": "Giao hàng sớm",
+          "C": "Giao hàng đã hủy",
+          "D": "Giao miễn phí"
+        },
+        "answer": "A",
+        "explain": "遅延 (`LG-09`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-09"
+        ]
+      },
+      {
+        "id": "P03-L02-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "商品を保管する建物は？",
+        "options": {
+          "A": "工場",
+          "B": "倉庫",
+          "C": "受付",
+          "D": "応接室"
+        },
+        "answer": "B",
+        "explain": "倉庫 (`LG-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-10"
+        ]
+      },
+      {
+        "id": "P03-L02-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "荷物を運ぶためにかかる費用は？",
+        "options": {
+          "A": "運賃",
+          "B": "内訳",
+          "C": "在庫",
+          "D": "納期"
+        },
+        "answer": "A",
+        "explain": "運賃 (`LG-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-11"
+        ]
+      },
+      {
+        "id": "P03-L02-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "輸入品が国内に入るために必要な手続きは？",
+        "options": {
+          "A": "梱包",
+          "B": "返品",
+          "C": "通関",
+          "D": "発送"
+        },
+        "answer": "C",
+        "explain": "通関 (`LG-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-12"
+        ]
+      },
+      {
+        "id": "P03-L02-V19",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「送料は着払いです」で、送料を払うのは？",
+        "options": {
+          "A": "送る人",
+          "B": "受け取る人",
+          "C": "配送会社",
+          "D": "払わない"
+        },
+        "answer": "B",
+        "explain": "着払い (`LG-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "LG-13"
+        ]
+      },
+      {
+        "id": "P03-L02-V20",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "注文を取り消すことは？",
+        "options": {
+          "A": "キャンセル",
+          "B": "リードタイム",
+          "C": "在庫",
+          "D": "納品"
+        },
+        "answer": "A",
+        "explain": "キャンセル (`KT-03`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "KT-03"
+        ]
+      },
+      {
+        "id": "P03-L02-V21",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「リードタイム」の意味は？",
+        "options": {
+          "A": "Hạn thanh toán",
+          "B": "Cước vận chuyển",
+          "C": "Thời gian từ đặt đến giao hàng",
+          "D": "Số lượng tồn"
+        },
+        "answer": "C",
+        "explain": "リードタイム (`KT-14`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "KT-14"
+        ]
+      },
+      {
+        "id": "P03-L02-V22",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「ただいま在庫切れです」の意味は？",
+        "options": {
+          "A": "Hàng còn nhiều",
+          "B": "Hàng đã giao",
+          "C": "Hàng bị hỏng",
+          "D": "Hiện hết hàng tồn kho"
+        },
+        "answer": "D",
+        "explain": "在庫切れ (`CL-A30`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      }
+    ]
+  },
+  "notes": [
+    "`在庫切れ` (hết hàng) ≠ `入荷` (hàng về kho) ≠ `発送` (gửi đi) ≠ `到着` (đến nơi): bẫy 4 mốc thời gian trong cùng một bài nghe.",
+    "`前倒し` = dời **sớm** hơn; `後ろ倒し` = dời **muộn** hơn.",
+    "`着払い` = **người nhận** trả cước. `リードタイム` = thời gian từ đặt hàng đến giao hàng.",
+    "`〜場合には` (`G2-05`), `〜際(に)` (`G2-02`) là điểm ngữ pháp trong thông báo đổi trả."
+  ],
+  "listening": [
+    {
+      "id": "P03-L02-LR01",
+      "title": "2. Bài Nghe–Đọc — 聴読解 (P03-L02-LR01: Đổi ngày phát hàng)",
+      "doc": "<div class=\"doc-table-wrap\"><table class=\"doc-table\"><thead><tr><th>納入先</th><th>品名</th><th>数量</th><th>発送日</th><th>到着予定</th></tr></thead><tbody><tr><td>東洋物産</td><td>コピー用紙</td><td>30箱</td><td>12/2（水）</td><td>12/4（金）</td></tr><tr><td>北斗産業</td><td>トナー</td><td>10個</td><td>12/3（木）</td><td>12/7（月）</td></tr><tr><td>ミライ商事</td><td>封筒</td><td>200袋</td><td>12/4（金）</td><td>12/8（火）</td></tr></tbody></table></div>\n<blockquote class=\"doc-quote\">※ 到着予定は<strong>発送日の翌々営業日</strong>（土日祝を除く）。配送は営業日のみ。</blockquote>",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "中村さん、ミライ商事の封筒の件なんですが、先方から、12月8日では間に合わないので、7日までに届けてほしいと言われまして。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "7日ですか。そうなると、発送を前倒しにしないといけませんね。表では4日発送で8日着ですが、3日に出せば7日の月曜に着くはずです。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "3日に発送できますか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "在庫は倉庫にありますが、3日は荷物が多いので、午前10時までに梱包を終えれば便に間に合います。梱包は私のほうで朝一番に手配しておきます。ただ、送り状は営業のほうで今日中に作成してもらえますか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "わかりました。送り状は私が今日中に作成して、ミライ商事には7日に届くと連絡しておきます。"
+        }
+      ],
+      "translation": [
+        "*Takahashi:* Anh Nakamura, về lô phong bì của Mirai Shoji, bên họ nói ngày 8 thì không kịp, nhờ giao đến trước ngày 7.",
+        "*Nakamura:* Ngày 7 à. Vậy phải dời ngày gửi lên sớm. Trong bảng là gửi ngày 4, đến ngày 8, nhưng nếu gửi ngày 3 thì sẽ đến thứ Hai ngày 7.",
+        "*Takahashi:* Gửi ngày 3 được không?",
+        "*Nakamura:* Hàng có trong kho, nhưng ngày 3 nhiều hàng, nếu đóng gói xong trước 10 giờ sáng thì kịp chuyến. Phần đóng gói tôi sẽ sắp xếp ngay đầu giờ. Có điều, phiếu gửi hàng nhờ phía kinh doanh làm trong hôm nay được không?",
+        "*Takahashi:* Tôi hiểu rồi. Phiếu gửi hàng tôi sẽ làm trong hôm nay, và báo cho Mirai Shoji là ngày 7 sẽ đến."
+      ],
+      "questions": [
+        {
+          "id": "P03-L02-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "ミライ商事の封筒は、いつ発送されますか。",
+          "options": {
+            "A": "12月3日",
+            "B": "12月4日",
+            "C": "12月7日",
+            "D": "12月8日"
+          },
+          "answer": "A",
+          "explain": "Bảng ghi 12/4 nhưng đó là **lịch cũ**. Audio đổi sang `3日に出せば7日の月曜に着く` và cả hai chốt làm theo đó → **A**. B là bẫy tài liệu; C, D là ngày đến.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P03-L02-E02",
+          "questionType": "listening_reading",
+          "skill": "listening",
+          "q": "高橋さんは、この後何をしますか。",
+          "options": {
+            "A": "12月3日に封筒を倉庫から発送する。",
+            "B": "今日中に送り状を作成し、ミライ商事に連絡する。",
+            "C": "倉庫で朝一番に梱包作業をする。",
+            "D": "ミライ商事に、8日に届くと連絡する。"
+          },
+          "answer": "B",
+          "explain": "Việc của Takahashi: `送り状は私が今日中に作成して、ミライ商事には7日に届くと連絡` → **B**. A, C là việc của Nakamura (kho). D sai vì ngày đến đã đổi thành 7.",
+          "tags": [
+            "SPEAKER_ROLE",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P03-L02-R01",
+      "title": "3. Bài Đọc — 短文読解 (P03-L02-R01: Thông báo đổi trả)",
+      "passageHtml": "<strong>【返品・交換のご案内】</strong><br>商品到着後<strong>8日以内</strong>（到着日を含む）にご連絡いただいた場合に限り、返品・交換を承ります。ただし、次の場合は対応いたしかねます。<br>・開封済みの商品（不良品を除く）<br>・お客様のご都合による返品で、商品代金が3,000円<strong>未満</strong>のもの<br>返品送料は、当社の不備による場合は当社が、お客様のご都合による場合はお客様がご負担ください。",
+      "questions": [
+        {
+          "id": "P03-L02-E03",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "この案内の内容と合っているものはどれですか。",
+          "options": {
+            "A": "到着から10日後でも、不良品なら交換できる。",
+            "B": "商品代金が2,500円の場合、お客様の都合では返品できない。",
+            "C": "開封済みの不良品は、返品できない。",
+            "D": "お客様の都合で返品する場合、送料は当社が負担する。"
+          },
+          "answer": "B",
+          "explain": "`3,000円未満` không nhận → 2.500 yên không được → **B**. A sai (quá 8 ngày). C sai (`不良品を除く` → hàng lỗi vẫn nhận dù đã mở). D sai (lý do khách → khách trả cước).",
+          "tags": [
+            "NEGATION_CONDITION"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P03-L02-E04",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "商品が12月4日に届いた場合、連絡の期限はいつですか。",
+          "options": {
+            "A": "12月10日",
+            "B": "12月11日",
+            "C": "12月12日",
+            "D": "12月13日"
+          },
+          "answer": "B",
+          "explain": "`到着日を含む8日以内` → 12/4 là ngày 1, **12/11 là ngày thứ 8** → B. Nếu đếm từ ngày hôm sau sẽ nhầm thành 12/12.",
+          "tags": [
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P03-L02-X01",
+      "questionType": "expression_listening",
+      "skill": "expression_listening",
+      "q": "- **Audio dẫn đề:** お客様から「在庫切れの商品は、いつ入りますか」と聞かれましたが、あなたは入荷日がわかりません。何と言いますか。",
+      "options": {
+        "A": "来週ぐらいに入ると思います。",
+        "B": "ただいま確認してまいりますので、少々お待ちいただけますでしょうか。",
+        "C": "わかりません。",
+        "D": "入荷したら、お客様から連絡してください。"
+      },
+      "answer": "B",
+      "explain": "Không biết thì **không đoán** (A), không trả lời cộc (C), không đẩy việc cho khách (D). Dùng mẫu `ただいま確認してまいります` (`CS-08`).",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [
+        "CS-08"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P03-L02-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "荷物が届き（　）、すぐにご連絡ください。",
+      "options": {
+        "A": "次第",
+        "B": "うちに",
+        "C": "たびに",
+        "D": "最中に"
+      },
+      "answer": "A",
+      "explain": "`〜次第` = ngay khi… (`G2-01`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L02-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "納期が遅れる（　）、事前にご連絡ください。",
+      "options": {
+        "A": "場合には",
+        "B": "うちに",
+        "C": "たびに",
+        "D": "最中に"
+      },
+      "answer": "A",
+      "explain": "`〜場合には` = trong trường hợp (`G2-05`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L02-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "ご利用の（　）は、予約が必要です。",
+      "options": {
+        "A": "際",
+        "B": "最中",
+        "C": "とたん",
+        "D": "次第"
+      },
+      "answer": "A",
+      "explain": "`〜際(は)` = khi (`G2-02`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L02-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "在庫（　）のため、お届けまでに2週間かかります。",
+      "options": {
+        "A": "切れ",
+        "B": "外れ",
+        "C": "抜け",
+        "D": "落ち"
+      },
+      "answer": "A",
+      "explain": "`在庫切れ` (`CL-A30`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L02-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "「リードタイム」の意味として正しいものはどれですか。",
+      "options": {
+        "A": "発注から納品までの期間",
+        "B": "商品の値段",
+        "C": "荷物の重さ",
+        "D": "支払いの期限"
+      },
+      "answer": "A",
+      "explain": "`KT-14`",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "KT-14"
+      ]
+    },
+    {
+      "id": "P03-L02-G06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "「送料は着払いです」とは、どういう意味ですか。",
+      "options": {
+        "A": "送る人が払う",
+        "B": "受け取る人が払う",
+        "C": "送料は無料",
+        "D": "代金を後で払う"
+      },
+      "answer": "B",
+      "explain": "`着払い` = người nhận trả cước (`LG-13`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "LG-13"
+      ]
+    }
+  ],
+  "depiction": [
+    {
+      "id": "P03-L02-D01",
+      "questionType": "depiction",
+      "skill": "depiction",
+      "imageSpec": "Kho hàng. Phía trước, một nữ nhân viên cầm bảng kẹp giấy, nhìn tờ phiếu (伝票) bên cạnh chồng thùng carton. Phía sau, một nam nhân viên đang xếp thùng lên xe tải. Có giá kệ chứa hộp.",
+      "q": "Xem mô tả/tranh và chọn nhận định đúng với nội dung.",
+      "options": {
+        "A": "女性が荷物を梱包しています。",
+        "B": "女性が伝票を見ながら荷物を確認しています。",
+        "C": "男性が荷物を倉庫に運び入れています。",
+        "D": "二人とも荷物をトラックに積んでいます。"
+      },
+      "answer": "B",
+      "explain": "Nữ đang nhìn phiếu bên chồng thùng (`伝票`, `確認`). A sai (không đóng gói), C sai (nam đang **xếp lên** xe, không đưa vào kho), D sai (chỉ nam xếp hàng).",
+      "tags": [
+        "IMAGE_DETAIL",
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "testSections": []
+}

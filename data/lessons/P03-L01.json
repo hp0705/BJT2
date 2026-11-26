@@ -1,0 +1,967 @@
+{
+  "id": "P03-L01",
+  "part": "P03",
+  "title": "Đổi đơn hàng & Bảng báo giá (見積書)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "TR-01",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "取引",
+      "reading": "とりひき",
+      "meaning": "Giao dịch",
+      "exJp": "新しい取引先と取引を始めます。",
+      "exVi": "Bắt đầu giao dịch với đối tác mới.",
+      "tip": "`取引先` = đối tác"
+    },
+    {
+      "id": "TR-02",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meaning": "Đơn đặt hàng",
+      "exJp": "商品を注文します。",
+      "exVi": "Tôi đặt hàng.",
+      "tip": "`ご注文確定` = xác nhận đơn"
+    },
+    {
+      "id": "TR-03",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "発注",
+      "reading": "はっちゅう",
+      "meaning": "Đặt hàng (bên mua)",
+      "exJp": "メーカーに部品を発注します。",
+      "exVi": "Đặt linh kiện với nhà sản xuất.",
+      "tip": "Ngược với `受注`"
+    },
+    {
+      "id": "TR-04",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "受注",
+      "reading": "じゅちゅう",
+      "meaning": "Nhận đơn (bên bán)",
+      "exJp": "大口の受注が決まりました。",
+      "exVi": "Đã chốt được đơn hàng lớn.",
+      "tip": "受 = nhận"
+    },
+    {
+      "id": "TR-05",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "納期",
+      "reading": "のうき",
+      "meaning": "Hạn giao hàng",
+      "exJp": "納期は5営業日以内です。",
+      "exVi": "Hạn giao là trong 5 ngày làm việc.",
+      "tip": "Bẫy đếm `営業日`"
+    },
+    {
+      "id": "TR-09",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "見積もり",
+      "reading": "みつもり",
+      "meaning": "Báo giá, ước tính",
+      "exJp": "見積もりをお願いします。",
+      "exVi": "Xin cho báo giá.",
+      "tip": "Văn bản = `見積書`"
+    },
+    {
+      "id": "DC-01",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "見積書",
+      "reading": "みつもりしょ",
+      "meaning": "Bản báo giá",
+      "exJp": "見積書を送付します。",
+      "exVi": "Gửi bản báo giá.",
+      "tip": "Bên bán gửi"
+    },
+    {
+      "id": "DC-02",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "注文書",
+      "reading": "ちゅうもんしょ",
+      "meaning": "Đơn đặt hàng (văn bản)",
+      "exJp": "注文書にサインします。",
+      "exVi": "Ký đơn đặt hàng.",
+      "tip": ""
+    },
+    {
+      "id": "DC-03",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "発注書",
+      "reading": "はっちゅうしょ",
+      "meaning": "Phiếu đặt hàng (bên mua phát hành)",
+      "exJp": "発注書をメールで送ります。",
+      "exVi": "Gửi phiếu đặt hàng qua email.",
+      "tip": "Bên **mua** phát hành"
+    },
+    {
+      "id": "DC-08",
+      "group": "Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",
+      "word": "検収",
+      "reading": "けんしゅう",
+      "meaning": "Nghiệm thu, kiểm hàng",
+      "exJp": "納品後、すぐに検収します。",
+      "exVi": "Giao hàng xong là kiểm hàng ngay.",
+      "tip": "Kiểm số lượng & chất lượng"
+    },
+    {
+      "id": "CL-A01",
+      "group": "Nhóm B — Cụm collocation về báo giá & hạn giao (3 cụm)",
+      "word": "見積もりを出す",
+      "reading": "みつもりをだす",
+      "meaning": "Gửi / xuất báo giá",
+      "exJp": "明日までに見積もりを出します。",
+      "exVi": "Ngày mai tôi gửi báo giá.",
+      "tip": ""
+    },
+    {
+      "id": "CL-A02",
+      "group": "Nhóm B — Cụm collocation về báo giá & hạn giao (3 cụm)",
+      "word": "納期に間に合う",
+      "reading": "のうきにまにあう",
+      "meaning": "Kịp hạn giao hàng",
+      "exJp": "納期に間に合うよう急ぎます。",
+      "exVi": "Làm gấp để kịp hạn giao.",
+      "tip": ""
+    },
+    {
+      "id": "CL-A03",
+      "group": "Nhóm B — Cụm collocation về báo giá & hạn giao (3 cụm)",
+      "word": "納期を厳守する",
+      "reading": "のうきをげんしゅする",
+      "meaning": "Tuân thủ nghiêm ngặt hạn giao",
+      "exJp": "納期を厳守してください。",
+      "exVi": "Xin tuân thủ nghiêm hạn giao.",
+      "tip": ""
+    },
+    {
+      "id": "NM-08",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "税込み",
+      "reading": "ぜいこみ",
+      "meaning": "Đã gồm thuế",
+      "exJp": "価格は税込みです。",
+      "exVi": "Giá đã gồm thuế.",
+      "tip": "≠ `税抜き`"
+    },
+    {
+      "id": "NM-09",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "税抜き",
+      "reading": "ぜいぬき",
+      "meaning": "Chưa gồm thuế",
+      "exJp": "税抜きで50,000円です。",
+      "exVi": "50.000 yên chưa gồm thuế.",
+      "tip": "Mốc miễn phí ship thường tính theo **税抜**"
+    },
+    {
+      "id": "NM-10",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "合計",
+      "reading": "ごうけい",
+      "meaning": "Tổng cộng",
+      "exJp": "合計金額を確認します。",
+      "exVi": "Xác nhận tổng số tiền.",
+      "tip": ""
+    },
+    {
+      "id": "NM-11",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "小計",
+      "reading": "しょうけい",
+      "meaning": "Tổng phụ (chưa thuế)",
+      "exJp": "小計に消費税を加えます。",
+      "exVi": "Cộng thuế vào tổng phụ.",
+      "tip": "`小計` + thuế = `合計`"
+    },
+    {
+      "id": "TR-A04",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "未満",
+      "reading": "みまん",
+      "meaning": "Dưới (không gồm mốc)",
+      "exJp": "3,000円未満は返品できません。",
+      "exVi": "Dưới 3.000 yên không trả được.",
+      "tip": "3,000 yên **không** thuộc 未満"
+    },
+    {
+      "id": "TR-A05",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "以上",
+      "reading": "いじょう",
+      "meaning": "Từ… trở lên (gồm mốc)",
+      "exJp": "50,000円以上は送料無料です。",
+      "exVi": "Từ 50.000 yên trở lên miễn phí ship.",
+      "tip": "50,000 yên **thuộc** 以上"
+    },
+    {
+      "id": "TM-01",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "営業日",
+      "reading": "えいぎょうび",
+      "meaning": "Ngày làm việc",
+      "exJp": "5営業日以内にお届けします。",
+      "exVi": "Giao trong 5 ngày làm việc.",
+      "tip": "Không tính T7, CN, lễ"
+    },
+    {
+      "id": "TM-10",
+      "group": "Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",
+      "word": "翌営業日",
+      "reading": "よくえいぎょうび",
+      "meaning": "Ngày làm việc kế tiếp",
+      "exJp": "翌営業日に発送します。",
+      "exVi": "Gửi vào ngày làm việc kế tiếp.",
+      "tip": "Thứ Sáu → **thứ Hai**"
+    }
+  ],
+  "cards": [
+    {
+      "id": "HM-12",
+      "html": "<strong>期限</strong> (hạn chót) / <strong>期日</strong> (ngày đã định) / <strong>納期</strong> (hạn giao hàng)."
+    },
+    {
+      "id": "HM-15",
+      "html": "<strong>見積もり</strong> (báo giá chính thức) / <strong>概算</strong> (ước tính sơ bộ, <code>NM-23</code>)."
+    }
+  ],
+  "confusedPairs": [],
+  "vocabQuiz": {
+    "passAt": 17,
+    "total": 21,
+    "items": [
+      {
+        "id": "P03-L01-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「取引」の意味は？",
+        "options": {
+          "A": "Giao dịch",
+          "B": "Nhà cung cấp",
+          "C": "Đối thủ",
+          "D": "Hợp đồng"
+        },
+        "answer": "A",
+        "explain": "取引 (`TR-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-01"
+        ]
+      },
+      {
+        "id": "P03-L01-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「ご注文確定」の意味は？",
+        "options": {
+          "A": "Xác nhận đơn hàng",
+          "B": "Hủy đơn hàng",
+          "C": "Báo giá",
+          "D": "Giao hàng"
+        },
+        "answer": "A",
+        "explain": "注文 (`TR-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-02"
+        ]
+      },
+      {
+        "id": "P03-L01-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "買う側が、メーカーに部品を（　）する。",
+        "options": {
+          "A": "受注",
+          "B": "発注",
+          "C": "納品",
+          "D": "請求"
+        },
+        "answer": "B",
+        "explain": "買う側 = 発注 (`TR-03`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "TR-03"
+        ]
+      },
+      {
+        "id": "P03-L01-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "売る側が、注文を受けることは？",
+        "options": {
+          "A": "発注",
+          "B": "検収",
+          "C": "返品",
+          "D": "受注"
+        },
+        "answer": "D",
+        "explain": "売る側 = 受注 (`TR-04`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-04"
+        ]
+      },
+      {
+        "id": "P03-L01-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「納期」の意味は？",
+        "options": {
+          "A": "Hạn giao hàng",
+          "B": "Hạn thanh toán",
+          "C": "Hạn hiệu lực",
+          "D": "Hạn họp"
+        },
+        "answer": "A",
+        "explain": "納期 (`TR-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-05"
+        ]
+      },
+      {
+        "id": "P03-L01-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "見積もりの金額や条件を書いた書類は？",
+        "options": {
+          "A": "請求書",
+          "B": "見積書",
+          "C": "納品書",
+          "D": "領収書"
+        },
+        "answer": "B",
+        "explain": "見積もり (`TR-09`) → 見積書 (`DC-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "TR-09",
+          "DC-01"
+        ]
+      },
+      {
+        "id": "P03-L01-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "買う側が、正式に注文するために出す書類は？",
+        "options": {
+          "A": "見積書",
+          "B": "領収書",
+          "C": "納品書",
+          "D": "発注書"
+        },
+        "answer": "D",
+        "explain": "発注書 (`DC-03`); 注文書 (`DC-02`) cũng là đơn đặt hàng",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "DC-03",
+          "DC-02"
+        ]
+      },
+      {
+        "id": "P03-L01-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "商品が届いたとき、数や品質を確認して受け取ることは？",
+        "options": {
+          "A": "検収",
+          "B": "発注",
+          "C": "催促",
+          "D": "返品"
+        },
+        "answer": "A",
+        "explain": "検収 (`DC-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "DC-08"
+        ]
+      },
+      {
+        "id": "P03-L01-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「見積もりを出す」の意味は？",
+        "options": {
+          "A": "Hủy báo giá",
+          "B": "Gửi báo giá",
+          "C": "Nhận báo giá",
+          "D": "Từ chối báo giá"
+        },
+        "answer": "B",
+        "explain": "`CL-A01`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L01-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「納期に間に合う」の意味は？",
+        "options": {
+          "A": "Giao hàng trễ",
+          "B": "Kịp hạn giao hàng",
+          "C": "Đổi hạn giao",
+          "D": "Hủy đơn"
+        },
+        "answer": "B",
+        "explain": "`CL-A02`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L01-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「納期を厳守する」の意味は？",
+        "options": {
+          "A": "Tuân thủ nghiêm ngặt hạn giao",
+          "B": "Kéo dài hạn giao",
+          "C": "Hỏi lại hạn giao",
+          "D": "Bỏ qua hạn giao"
+        },
+        "answer": "A",
+        "explain": "`CL-A03`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L01-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「価格は税込みです」の意味は？",
+        "options": {
+          "A": "Chưa gồm thuế",
+          "B": "Đã gồm thuế",
+          "C": "Giảm thuế",
+          "D": "Miễn thuế"
+        },
+        "answer": "B",
+        "explain": "税込み (`NM-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-08"
+        ]
+      },
+      {
+        "id": "P03-L01-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「税抜き10,000円」の意味は？",
+        "options": {
+          "A": "Đã gồm thuế, 10.000 yên",
+          "B": "10.000 yên chưa gồm thuế",
+          "C": "Giảm 10.000 yên",
+          "D": "Thuế là 10.000 yên"
+        },
+        "answer": "B",
+        "explain": "税抜き (`NM-09`)",
+        "tags": [
+          "NUMBER_TIME"
+        ],
+        "vocabIds": [
+          "NM-09"
+        ]
+      },
+      {
+        "id": "P03-L01-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "見積書で、全部を足した最終的な金額は？",
+        "options": {
+          "A": "内訳",
+          "B": "明細",
+          "C": "小計",
+          "D": "合計"
+        },
+        "answer": "D",
+        "explain": "合計 (`NM-10`); 小計 (`NM-11`) là tổng phụ chưa thuế",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "NM-10",
+          "NM-11"
+        ]
+      },
+      {
+        "id": "P03-L01-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「3,000円未満」に含まれないのはどれですか。",
+        "options": {
+          "A": "2,999円",
+          "B": "2,500円",
+          "C": "3,000円",
+          "D": "1,000円"
+        },
+        "answer": "C",
+        "explain": "未満 không gồm mốc (`TR-A04`)",
+        "tags": [
+          "NEGATION_CONDITION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L01-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「50,000円以上は送料無料」で、無料になるのは？",
+        "options": {
+          "A": "49,999円",
+          "B": "50,000円",
+          "C": "40,000円",
+          "D": "30,000円"
+        },
+        "answer": "B",
+        "explain": "以上 gồm mốc (`TR-A05`)",
+        "tags": [
+          "NEGATION_CONDITION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P03-L01-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「5営業日以内」に数えない日は？",
+        "options": {
+          "A": "月曜日",
+          "B": "水曜日",
+          "C": "金曜日",
+          "D": "日曜日"
+        },
+        "answer": "D",
+        "explain": "営業日 không tính T7, CN, lễ (`TM-01`)",
+        "tags": [
+          "NUMBER_TIME"
+        ],
+        "vocabIds": [
+          "TM-01"
+        ]
+      },
+      {
+        "id": "P03-L01-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "12月4日（金）の「翌営業日」はいつですか。",
+        "options": {
+          "A": "12月5日（土）",
+          "B": "12月6日（日）",
+          "C": "12月7日（月）",
+          "D": "12月8日（火）"
+        },
+        "answer": "C",
+        "explain": "翌営業日 bỏ qua T7, CN (`TM-10`)",
+        "tags": [
+          "NUMBER_TIME"
+        ],
+        "vocabIds": [
+          "TM-10"
+        ]
+      },
+      {
+        "id": "P03-L01-V19",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「提出の（　）は今月末です。」（hạn chót nộp）",
+        "options": {
+          "A": "納期",
+          "B": "期限",
+          "C": "期日",
+          "D": "見積"
+        },
+        "answer": "B",
+        "explain": "`HM-12`: 期限 = hạn chót; 納期 = hạn giao hàng",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-12"
+        ]
+      },
+      {
+        "id": "P03-L01-V20",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "正式な見積書の前に、おおよその金額を出すことは？",
+        "options": {
+          "A": "概算",
+          "B": "小計",
+          "C": "合計",
+          "D": "検収"
+        },
+        "answer": "A",
+        "explain": "`HM-15`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "HM-15"
+        ]
+      },
+      {
+        "id": "P03-L01-V21",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "税抜30,000円、消費税10%のとき、税込の金額は？",
+        "options": {
+          "A": "30,000円",
+          "B": "31,000円",
+          "C": "33,000円",
+          "D": "3,000円"
+        },
+        "answer": "C",
+        "explain": "30,000 + 3,000 = 33,000 (`NM-08`, `NM-09`)",
+        "tags": [
+          "NUMBER_TIME"
+        ],
+        "vocabIds": [
+          "NM-08",
+          "NM-09"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "`発注` = bên **mua** đặt hàng; `受注` = bên **bán** nhận đơn. `納品` = giao sản phẩm; `検収` = bên nhận kiểm hàng.",
+    "`税込み` = đã gồm thuế; `税抜き` = chưa gồm thuế. Luôn xem **mốc điều kiện** (miễn phí vận chuyển) tính theo **税抜 hay 税込**.",
+    "`〜以上` gồm mốc; `〜未満` không gồm mốc. `営業日` không tính T7, CN, lễ.",
+    "Nói lý do chính thức: `〜のため`, `〜により`; kết quả tốt: `〜おかげで`."
+  ],
+  "listening": [
+    {
+      "id": "P03-L01-LR01",
+      "title": "2. Bài Nghe–Đọc — 聴読解 (P03-L01-LR01)",
+      "doc": "<div class=\"doc-table-wrap\"><table class=\"doc-table\"><thead><tr><th>品名</th><th>単価（税抜）</th><th>数量</th><th>金額（税抜）</th></tr></thead><tbody><tr><td>コピー用紙（500枚入り）</td><td>600円</td><td>100箱</td><td>60,000円</td></tr><tr><td>トナーカートリッジ</td><td>8,000円</td><td>5個</td><td>40,000円</td></tr><tr><td><strong>小計（税抜）</strong></td><td></td><td></td><td><strong>100,000円</strong></td></tr><tr><td>消費税（10%）</td><td></td><td></td><td>10,000円</td></tr><tr><td><strong>合計（税込）</strong></td><td></td><td></td><td><strong>110,000円</strong></td></tr></tbody></table></div>\n<blockquote class=\"doc-quote\">【備考】① 納期：ご注文確定の<strong>翌営業日を1日目</strong>として<strong>5営業日以内</strong>。 ② 送料：<strong>税抜合計50,000円以上</strong>のご注文は無料、<strong>50,000円未満</strong>は1,100円（税込）。 ③ 有効期限：12月18日まで。</blockquote>",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（木村・東洋物産）",
+          "name": "木村・東洋物産",
+          "text": "お世話になっております。先日いただいた見積書の件でご連絡いたしました。"
+        },
+        {
+          "speaker": "女",
+          "label": "女（山田・さくら商事）",
+          "name": "山田・さくら商事",
+          "text": "いつもお世話になっております。木村様、見積書の件ですね。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "ええ。社内で見直しまして、コピー用紙を100箱から30箱に、それからトナーは5個から4個に減らしたいのです。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "コピー用紙が30箱、トナーが4個ですね。承知いたしました。念のため確認ですが、単価は変わらないということでよろしいでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "はい、そのままで結構です。あと、送料なんですが、数を減らすと有料になってしまうでしょうか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "少々お待ちください。……お待たせいたしました。新しい合計は、税抜でちょうど5万円になりますので、送料は無料のままでございます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "それは助かります。では、その内容で正式に発注します。今日は12月1日ですので、発注書を本日中にメールでお送りします。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "ありがとうございます。発注書を確認次第、手配いたします。"
+        }
+      ],
+      "translation": [
+        "*Kimura:* Cảm ơn quý công ty. Tôi liên lạc về bản báo giá hôm trước.",
+        "*Yamada:* Cảm ơn anh. Anh Kimura, về bản báo giá phải không ạ.",
+        "*Kimura:* Vâng. Sau khi xem lại nội bộ, chúng tôi muốn giảm giấy photo từ 100 hộp xuống 30 hộp, và mực từ 5 xuống 4 hộp.",
+        "*Yamada:* Giấy 30 hộp, mực 4 cái. Tôi hiểu rồi. Để chắc chắn, đơn giá không đổi, đúng không ạ?",
+        "*Kimura:* Vâng, giữ nguyên. Còn phí vận chuyển, nếu giảm số lượng thì có bị tính phí không?",
+        "*Yamada:* Xin chờ một chút... Xin lỗi để anh chờ. Tổng mới là đúng 50.000 yên chưa thuế, nên phí vận chuyển vẫn miễn phí.",
+        "*Kimura:* Thế thì tốt quá. Vậy tôi chính thức đặt hàng theo nội dung đó. Hôm nay là 1/12, tôi sẽ gửi phiếu đặt hàng qua email trong hôm nay.",
+        "*Yamada:* Cảm ơn anh. Ngay khi xác nhận phiếu đặt hàng, chúng tôi sẽ sắp xếp."
+      ],
+      "questions": [
+        {
+          "id": "P03-L01-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "新しい合計金額（税込）はいくらですか。",
+          "options": {
+            "A": "50,000円",
+            "B": "55,000円",
+            "C": "88,000円",
+            "D": "110,000円"
+          },
+          "answer": "B",
+          "explain": "Giấy 600 × 30 = 18.000; mực 8.000 × 4 = 32.000 → tổng **50.000 chưa thuế**. Cộng thuế 10% (5.000) = **55.000** → B. A là giá chưa thuế, D là giá cũ.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P03-L01-E02",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "送料はどうなりますか。",
+          "options": {
+            "A": "無料になる。",
+            "B": "1,100円かかる。",
+            "C": "半額になる。",
+            "D": "税込合計によって決まる。"
+          },
+          "answer": "A",
+          "explain": "Điều kiện ghi `税抜合計50,000円以上は無料`. Tổng mới đúng **50.000 chưa thuế** → `以上` gồm mốc → **miễn phí**. D sai vì mốc tính theo 税抜, không phải 税込.",
+          "tags": [
+            "NEGATION_CONDITION",
+            "DOCUMENT_MATCH"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P03-L01-E03",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "発注が12月1日に確定した場合、最も遅い納品日はいつですか。",
+          "options": {
+            "A": "12月7日（月）",
+            "B": "12月8日（火）",
+            "C": "12月9日（水）",
+            "D": "12月10日（木）"
+          },
+          "answer": "B",
+          "explain": "Tính từ ngày **hôm sau** (12/2) là ngày thứ 1 và chỉ đếm **営業日**: 12/2 (1), 12/3 (2), 12/4 (3), **12/7 (4)**, **12/8 (5)** — bỏ qua T7, CN (12/5–6) → **B**.",
+          "tags": [
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P03-L01-R01",
+      "title": "3. Bài Đọc — 短文読解 (P03-L01-R01: Email báo trễ giao hàng)",
+      "passageHtml": "<strong>件名：</strong> 【お詫び】ご注文品の納期遅延について<br>株式会社東洋物産 木村様<br>いつもお世話になっております。さくら商事の山田です。<br>12月4日（金）にお届け予定でございました貴社ご注文品（トナーカートリッジ）につきまして、メーカーの在庫不足により、納品が遅れる見込みでございます。<br>新たな納期は12月10日（木）を予定しておりますが、入荷の連絡があり次第、改めてご連絡いたします。なお、コピー用紙につきましては、予定どおり12月4日にお届けいたします。<br>お急ぎの場合は、在庫のある他社製品への交換も可能でございます。ただし、その場合は単価が10％高くなります。<br>ご迷惑をおかけし、誠に申し訳ございません。",
+      "questions": [
+        {
+          "id": "P03-L01-E04",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "このメールの内容と合っているものはどれですか。",
+          "options": {
+            "A": "コピー用紙も12月10日に遅れる。",
+            "B": "トナーは12月10日に必ず届く。",
+            "C": "他社製品に交換すると、単価が上がる。",
+            "D": "木村様は他社製品に交換しなければならない。"
+          },
+          "answer": "C",
+          "explain": "`ただし、その場合は単価が10％高くなります` → C. A sai (giấy vẫn giao 12/4). B sai vì chỉ là `予定` (dự kiến), sẽ báo lại khi có hàng. D sai vì đổi hàng là **tùy chọn** (`可能`).",
+          "tags": [
+            "NEGATION_CONDITION",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P03-L01-X01",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "取引先から「注文した商品がまだ届かない」という電話がありました。最初の返事として最も適切なものを選んでください。",
+      "options": {
+        "A": "申し訳ございません。ただちに状況を確認いたします。",
+        "B": "そうですか。では、もう少し待ってください。",
+        "C": "私は担当ではないので、わかりません。",
+        "D": "配送会社に聞いてください。"
+      },
+      "answer": "A",
+      "explain": "Lời đầu tiên khi khách phàn nàn: **xin lỗi + hành động ngay** (`ただちに確認`). B, C, D đẩy trách nhiệm hoặc thiếu lịch sự.",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P03-L01-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "台風（　）、荷物の到着が遅れております。",
+      "options": {
+        "A": "のため",
+        "B": "のおかげで",
+        "C": "ように",
+        "D": "にわたって"
+      },
+      "answer": "A",
+      "explain": "`〜のため` = vì (lý do trang trọng, `G1-01`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L01-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "田中さん（　）、契約を取ることができました。",
+      "options": {
+        "A": "のおかげで",
+        "B": "のせいで",
+        "C": "によって",
+        "D": "のために"
+      },
+      "answer": "A",
+      "explain": "Kết quả **tốt** → `おかげで` (`G1-03`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L01-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "事故（　）、電車が大幅に遅れております。",
+      "options": {
+        "A": "により",
+        "B": "おかげで",
+        "C": "につれて",
+        "D": "に対して"
+      },
+      "answer": "A",
+      "explain": "`〜により` = do (nguyên nhân sự cố, `G1-02`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L01-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "一度引き受けた（　）、最後まで責任を持ちます。",
+      "options": {
+        "A": "以上は",
+        "B": "ばかりに",
+        "C": "せいで",
+        "D": "ものの"
+      },
+      "answer": "A",
+      "explain": "`〜以上(は)` = một khi đã… thì (`G1-05`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L01-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "調査結果（　）、新商品の価格を決めました。",
+      "options": {
+        "A": "に基づいて",
+        "B": "に対して",
+        "C": "にわたって",
+        "D": "について"
+      },
+      "answer": "A",
+      "explain": "`〜に基づいて` = dựa trên (`G1-07`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P03-L01-G06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "当社はメーカーに部品を（　）しました。",
+      "options": {
+        "A": "受注",
+        "B": "発注",
+        "C": "納入",
+        "D": "請求"
+      },
+      "answer": "B",
+      "explain": "Bên mua đặt hàng → `発注` (`TR-03`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "TR-03"
+      ]
+    },
+    {
+      "id": "P03-L01-G07",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "商品が届いたら、まず数と品質を（　）してください。",
+      "options": {
+        "A": "検収",
+        "B": "請求",
+        "C": "返品",
+        "D": "催促"
+      },
+      "answer": "A",
+      "explain": "`検収` = nghiệm thu, kiểm hàng khi nhận (`DC-08`)",
+      "tags": [
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": [
+        "DC-08"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}

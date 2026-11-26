@@ -1,0 +1,639 @@
+{
+  "id": "P01-L02",
+  "part": "P01",
+  "title": "Nghe–Đọc kết hợp (聴読解) & Đọc hiểu Email có ngoại lệ",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "PS-07",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "係長",
+      "reading": "かかりちょう",
+      "meaning": "Tổ trưởng",
+      "exJp": "係長が新人の指導を担当します。",
+      "exVi": "Tổ trưởng phụ trách hướng dẫn người mới.",
+      "tip": "Dưới `課長`"
+    },
+    {
+      "id": "PS-09",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "部下",
+      "reading": "ぶか",
+      "meaning": "Cấp dưới",
+      "exJp": "部下の相談に乗ります。",
+      "exVi": "Tư vấn cho cấp dưới.",
+      "tip": "Ngược với `上司`"
+    },
+    {
+      "id": "PS-10",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "同僚",
+      "reading": "どうりょう",
+      "meaning": "Đồng nghiệp",
+      "exJp": "同僚と昼食に行きます。",
+      "exVi": "Đi ăn trưa với đồng nghiệp.",
+      "tip": "Cùng cấp"
+    },
+    {
+      "id": "PS-13",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "株主",
+      "reading": "かぶぬし",
+      "meaning": "Cổ đông",
+      "exJp": "株主総会で決算を報告します。",
+      "exVi": "Báo cáo quyết toán tại đại hội cổ đông.",
+      "tip": "株 = cổ phiếu"
+    },
+    {
+      "id": "PS-14",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "従業員",
+      "reading": "じゅうぎょういん",
+      "meaning": "Nhân viên, người lao động (nói chung)",
+      "exJp": "従業員は約500人です。",
+      "exVi": "Có khoảng 500 nhân viên.",
+      "tip": "Bao gồm cả 正社員, 契約社員, 派遣社員"
+    },
+    {
+      "id": "PS-15",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "正社員",
+      "reading": "せいしゃいん",
+      "meaning": "Nhân viên chính thức",
+      "exJp": "契約社員から正社員になりました。",
+      "exVi": "Tôi đã chuyển từ nhân viên hợp đồng thành chính thức.",
+      "tip": "Không giới hạn thời hạn"
+    },
+    {
+      "id": "PS-16",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "契約社員",
+      "reading": "けいやくしゃいん",
+      "meaning": "Nhân viên hợp đồng",
+      "exJp": "契約社員の更新は年に一度です。",
+      "exVi": "Gia hạn hợp đồng mỗi năm một lần.",
+      "tip": "Có **thời hạn** hợp đồng"
+    },
+    {
+      "id": "PS-17",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "派遣社員",
+      "reading": "はけんしゃいん",
+      "meaning": "Nhân viên phái cử",
+      "exJp": "派遣社員が受付を担当しています。",
+      "exVi": "Nhân viên phái cử phụ trách lễ tân.",
+      "tip": "Thuộc công ty phái cử"
+    },
+    {
+      "id": "PS-18",
+      "group": "Nhóm A — Nhân viên & hình thức làm việc (9 từ)",
+      "word": "新入社員",
+      "reading": "しんにゅうしゃいん",
+      "meaning": "Nhân viên mới vào",
+      "exJp": "新入社員研修は4月に始まります。",
+      "exVi": "Đào tạo nhân viên mới bắt đầu vào tháng 4.",
+      "tip": "Vừa vào công ty (thường tháng 4)"
+    },
+    {
+      "id": "CL-02",
+      "group": "Nhóm B — Khách hàng & đối thủ (3 từ)",
+      "word": "得意先",
+      "reading": "とくいさき",
+      "meaning": "Khách hàng quen, khách lớn",
+      "exJp": "得意先に新商品を紹介します。",
+      "exVi": "Giới thiệu sản phẩm mới cho khách quen.",
+      "tip": "Bên mua, quan hệ lâu năm"
+    },
+    {
+      "id": "CL-03",
+      "group": "Nhóm B — Khách hàng & đối thủ (3 từ)",
+      "word": "顧客",
+      "reading": "こきゃく",
+      "meaning": "Khách hàng",
+      "exJp": "顧客のニーズを分析します。",
+      "exVi": "Phân tích nhu cầu của khách hàng.",
+      "tip": "Văn viết; nói thường dùng `お客様`"
+    },
+    {
+      "id": "CL-07",
+      "group": "Nhóm B — Khách hàng & đối thủ (3 từ)",
+      "word": "競合他社",
+      "reading": "きょうごうたしゃ",
+      "meaning": "Đối thủ cạnh tranh",
+      "exJp": "競合他社より価格が安いです。",
+      "exVi": "Giá rẻ hơn đối thủ.",
+      "tip": "競合 = cạnh tranh + 他社 = công ty khác"
+    },
+    {
+      "id": "NEW-P01-01",
+      "group": "Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ)",
+      "word": "実施する",
+      "reading": "じっしする",
+      "meaning": "Thực hiện, tiến hành",
+      "exJp": "来月、研修を実施します。",
+      "exVi": "Tháng sau sẽ tiến hành đào tạo.",
+      "tip": "Dùng cho bảo trì, đào tạo, khảo sát"
+    },
+    {
+      "id": "NEW-P01-02",
+      "group": "Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ)",
+      "word": "定例",
+      "reading": "ていれい",
+      "meaning": "Định kỳ",
+      "exJp": "定例会議は毎週月曜日です。",
+      "exVi": "Họp định kỳ vào thứ Hai hàng tuần.",
+      "tip": "`定例会議`"
+    },
+    {
+      "id": "NEW-P01-03",
+      "group": "Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ)",
+      "word": "経費精算",
+      "reading": "けいひせいさん",
+      "meaning": "Quyết toán chi phí",
+      "exJp": "出張費の経費精算を申請します。",
+      "exVi": "Nộp đơn quyết toán chi phí công tác.",
+      "tip": "Hay đi kèm hạn nộp `〜までに`"
+    },
+    {
+      "id": "NEW-P01-04",
+      "group": "Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ)",
+      "word": "押さえる（会議室を〜）",
+      "reading": "おさえる",
+      "meaning": "Giữ chỗ, đặt trước (phòng họp)",
+      "exJp": "会議室を押さえておきます。",
+      "exVi": "Tôi sẽ đặt sẵn phòng họp.",
+      "tip": "Nghĩa mở rộng của `押さえる`"
+    },
+    {
+      "id": "NEW-P01-05",
+      "group": "Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ)",
+      "word": "空き",
+      "reading": "あき",
+      "meaning": "Chỗ trống, khung giờ trống",
+      "exJp": "午後は会議室に空きがあります。",
+      "exVi": "Buổi chiều phòng họp còn trống.",
+      "tip": "Trong lịch: `空き` = trống"
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`取引先` (mọi đối tác) ≠ `得意先` (khách quen lớn) ≠ `顧客` (khách hàng, văn viết).",
+    "`正社員` (không thời hạn) ≠ `契約社員` (có thời hạn) ≠ `派遣社員` (do công ty phái cử)."
+  ],
+  "vocabQuiz": {
+    "passAt": 15,
+    "total": 18,
+    "items": [
+      {
+        "id": "P01-L02-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「係長」の読み方は？",
+        "options": {
+          "A": "かかりちょう",
+          "B": "けいちょう",
+          "C": "かかりじょう",
+          "D": "ぎょうちょう"
+        },
+        "answer": "A",
+        "explain": "係長 = かかりちょう (`PS-07`)",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-07"
+        ]
+      },
+      {
+        "id": "P01-L02-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「部下」の意味は？",
+        "options": {
+          "A": "Cấp trên",
+          "B": "Cấp dưới",
+          "C": "Đồng nghiệp",
+          "D": "Khách hàng"
+        },
+        "answer": "B",
+        "explain": "部下 = cấp dưới (`PS-09`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-09"
+        ]
+      },
+      {
+        "id": "P01-L02-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「同僚」の意味は？",
+        "options": {
+          "A": "Đồng nghiệp",
+          "B": "Cấp dưới",
+          "C": "Cổ đông",
+          "D": "Nhân viên mới"
+        },
+        "answer": "A",
+        "explain": "同僚 (`PS-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-10"
+        ]
+      },
+      {
+        "id": "P01-L02-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「株主」の意味は？",
+        "options": {
+          "A": "Chủ tịch",
+          "B": "Khách hàng",
+          "C": "Cổ đông",
+          "D": "Nhà cung cấp"
+        },
+        "answer": "C",
+        "explain": "株主 (`PS-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-13"
+        ]
+      },
+      {
+        "id": "P01-L02-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "この会社で働く（　）は、全部で500人です。",
+        "options": {
+          "A": "株主",
+          "B": "従業員",
+          "C": "得意先",
+          "D": "顧客"
+        },
+        "answer": "B",
+        "explain": "従業員 = nhân viên nói chung (`PS-14`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "PS-14"
+        ]
+      },
+      {
+        "id": "P01-L02-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "派遣会社から来て働く人を何といいますか。",
+        "options": {
+          "A": "正社員",
+          "B": "契約社員",
+          "C": "派遣社員",
+          "D": "新入社員"
+        },
+        "answer": "C",
+        "explain": "派遣社員 (`PS-17`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-17"
+        ]
+      },
+      {
+        "id": "P01-L02-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "期間を決めて雇用契約を結んで働く人は？",
+        "options": {
+          "A": "契約社員",
+          "B": "正社員",
+          "C": "派遣社員",
+          "D": "株主"
+        },
+        "answer": "A",
+        "explain": "契約社員 (`PS-16`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-16"
+        ]
+      },
+      {
+        "id": "P01-L02-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "期間の定めなく、会社に直接雇われている人は？",
+        "options": {
+          "A": "派遣社員",
+          "B": "契約社員",
+          "C": "新入社員",
+          "D": "正社員"
+        },
+        "answer": "D",
+        "explain": "正社員 (`PS-15`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-15"
+        ]
+      },
+      {
+        "id": "P01-L02-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "4月に入社したばかりの社員を何といいますか。",
+        "options": {
+          "A": "新入社員",
+          "B": "同僚",
+          "C": "部下",
+          "D": "株主"
+        },
+        "answer": "A",
+        "explain": "新入社員 (`PS-18`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "PS-18"
+        ]
+      },
+      {
+        "id": "P01-L02-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「得意先」の説明として正しいのは？",
+        "options": {
+          "A": "長く取引があり、大切にしている顧客",
+          "B": "商品を仕入れる会社",
+          "C": "競争している会社",
+          "D": "会社の株を持つ人"
+        },
+        "answer": "A",
+        "explain": "得意先 = khách quen lớn (`CL-02`); B là `仕入れ先`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CL-02"
+        ]
+      },
+      {
+        "id": "P01-L02-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「顧客」の意味は？",
+        "options": {
+          "A": "Khách hàng",
+          "B": "Đối thủ",
+          "C": "Người nhận hàng",
+          "D": "Nhà cung cấp"
+        },
+        "answer": "A",
+        "explain": "顧客 (`CL-03`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CL-03"
+        ]
+      },
+      {
+        "id": "P01-L02-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「競合他社」の意味は？",
+        "options": {
+          "A": "Công ty mẹ",
+          "B": "Đối tác",
+          "C": "Đối thủ cạnh tranh",
+          "D": "Công ty con"
+        },
+        "answer": "C",
+        "explain": "競合他社 (`CL-07`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CL-07"
+        ]
+      },
+      {
+        "id": "P01-L02-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "来月、全社員向けの研修を（　）します。",
+        "options": {
+          "A": "経費",
+          "B": "実施",
+          "C": "定例",
+          "D": "空き"
+        },
+        "answer": "B",
+        "explain": "`研修を実施する`",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L02-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「定例会議」とはどんな会議ですか。",
+        "options": {
+          "A": "Họp đột xuất",
+          "B": "Họp định kỳ",
+          "C": "Họp bị hủy",
+          "D": "Họp ngoài công ty"
+        },
+        "answer": "B",
+        "explain": "定例 = định kỳ",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L02-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "今月分の（　）がお済みでない方は、18時までに申請してください。",
+        "options": {
+          "A": "定例",
+          "B": "空き",
+          "C": "経費精算",
+          "D": "実施"
+        },
+        "answer": "C",
+        "explain": "経費精算 = quyết toán chi phí",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L02-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「会議室を押さえる」の意味は？",
+        "options": {
+          "A": "Giữ chỗ, đặt trước phòng họp",
+          "B": "Dọn phòng họp",
+          "C": "Hủy phòng họp",
+          "D": "Mượn chìa khóa phòng họp"
+        },
+        "answer": "A",
+        "explain": "`押さえる` = giữ chỗ",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L02-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会議室の予定表にある「空き」の意味は？",
+        "options": {
+          "A": "Đã kín",
+          "B": "Trống",
+          "C": "Bị hủy",
+          "D": "Đang bảo trì"
+        },
+        "answer": "B",
+        "explain": "空き = trống",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": []
+      },
+      {
+        "id": "P01-L02-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「契約社員」の読み方は？",
+        "options": {
+          "A": "けいやくしゃいん",
+          "B": "けいやくしゃゆう",
+          "C": "かいやくしゃいん",
+          "D": "けいやくじんいん"
+        },
+        "answer": "A",
+        "explain": "契約 = けいやく (không phải かいやく = hủy hợp đồng)",
+        "tags": [
+          "READING_UNKNOWN"
+        ],
+        "vocabIds": []
+      }
+    ]
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P01-L02-LR01",
+      "title": "1. Bài Nghe – Đọc kết hợp — 聴読解 (P01-L02-LR01)",
+      "doc": "<div class=\"doc-table-wrap\"><table class=\"doc-table\"><thead><tr><th>Khung giờ</th><th>Phòng họp A (tối đa 10 người)</th><th>Phòng họp B (tối đa 4 người)</th></tr></thead><tbody><tr><td>10:00 – 11:30</td><td>営業部 定例会議 (6 người)</td><td>空き (Trống)</td></tr><tr><td>13:00 – 14:30</td><td>空き (Trống)</td><td>人事部 面接 (3 người)</td></tr><tr><td>15:00 – 16:30</td><td>企画部 打ち合わせ (8 người)</td><td>空き (Trống)</td></tr></tbody></table></div>",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "明日、取引先のK社から3名いらっしゃる件ですが、会議室はどこを押さえましょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "こちらからも部長と私、それに高橋さんの3名が出るから、合計6名になるね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "じゃあ、B会議室は狭すぎますね。時間は午後をご希望だそうです。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうか。ただ、部長は14時半から外出の予定があるんだ。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "わかりました。では、部長のご予定に間に合う時間で予約しておきます。"
+        }
+      ],
+      "translation": [
+        "*Nữ:* Về việc ngày mai có 3 vị khách từ đối tác công ty K đến, mình nên đặt phòng họp nào ạ?",
+        "*Nam:* Phía mình cũng có trưởng phòng, tôi và chị Takahashi là 3 người, tổng cộng 6 người nhé.",
+        "*Nữ:* Vậy thì phòng B quá chật rồi. Phía khách mong muốn họp vào buổi chiều ạ.",
+        "*Nam:* Vậy à. Nhưng trưởng phòng có lịch ra ngoài từ 14 giờ 30 đấy.",
+        "*Nữ:* Em hiểu rồi. Vậy em sẽ đặt khung giờ kịp lịch của trưởng phòng ạ."
+      ],
+      "questions": [
+        {
+          "id": "P01-L02-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "2人はどの会議室を何時に予約しますか。",
+          "options": {
+            "A": "会議室A、10:00 – 11:30",
+            "B": "会議室A、13:00 – 14:30",
+            "C": "会議室B、13:00 – 14:30",
+            "D": "会議室A、15:00 – 16:30"
+          },
+          "answer": "B",
+          "explain": "Audio cho biết tổng **6 người** → loại Phòng B (trên bảng ghi tối đa 4 người). Khách muốn **buổi chiều** → loại 10:00–11:30. Trưởng phòng **ra ngoài từ 14:30** → loại 15:00–16:30. Đối chiếu bảng: Phòng A khung **13:00–14:30** đang trống (`空き`) → Chọn **B**.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P01-L02-R01",
+      "title": "2. Bài Đọc hiểu Email — 読解 (P01-L02-R01: Bắt ngoại lệ ただし)",
+      "passageHtml": "<strong>件名：</strong> 【ご案内】社内システムメンテナンスに伴うサービス停止について<br><strong>本文：</strong><br>社員各位<br>お疲れ様です。総務部の鈴木です。<br>下記の日程で社内システムのメンテナンスを実施いたします。<br>・日時：11月28日（土） 22:00 ～ 11月29日（日） 6:00<br>・影響範囲：社内メール、勤怠管理システム、経費精算システム<br>※ただし、<strong>社内メールの受信のみ</strong>通常通り行われます（送信はできません）。<br>つきましては、今月分の経費精算がお済みでない方は、11月28日（土）の18:00までに申請を完了していただきますようお願いいたします。ご不便をおかけいたしますが、ご理解のほどよろしくお願いいたします。",
+      "questions": [
+        {
+          "id": "P01-L02-E02",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "このメールの内容と合っているものはどれですか。",
+          "options": {
+            "A": "メンテナンス中は、社内メールを一切受信できなくなる。",
+            "B": "経費精算の申請は、11月28日の22:00までに終わらせる必要がある。",
+            "C": "メンテナンス中でも、社内メールの受信だけは可能である。",
+            "D": "11月29日の朝6:00以降も、勤怠管理システムは使えない。"
+          },
+          "answer": "C",
+          "explain": "Email ghi rõ ngoại lệ `ただし、社内メールの受信のみ通常通り行われます` → C đúng, A sai. B sai vì hạn nộp quyết toán là **18:00** ngày 28/11 (không phải 22:00). D sai vì bảo trì kết thúc lúc 6:00 sáng 29/11.",
+          "tags": [
+            "NEGATION_CONDITION",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [],
+  "grammar": [],
+  "depiction": [],
+  "testSections": []
+}

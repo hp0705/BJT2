@@ -1,0 +1,890 @@
+{
+  "id": "P02-L03",
+  "part": "P02",
+  "title": "Điện thoại, Số điện thoại & Từ đệm (nâng cao)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "OF-01",
+      "group": "Nhóm A — Tiếp khách tại công ty (6 từ)",
+      "word": "来客",
+      "reading": "らいきゃく",
+      "meaning": "Khách đến thăm",
+      "exJp": "来客があるので、応接室を予約します。",
+      "exVi": "Có khách đến nên tôi đặt phòng tiếp khách.",
+      "tip": "`来客対応` = tiếp khách; ≠ `訪問`"
+    },
+    {
+      "id": "OF-02",
+      "group": "Nhóm A — Tiếp khách tại công ty (6 từ)",
+      "word": "受付",
+      "reading": "うけつけ",
+      "meaning": "Quầy lễ tân",
+      "exJp": "受付でお名前をお伝えください。",
+      "exVi": "Xin cho biết tên tại quầy lễ tân.",
+      "tip": "≠ `応接室` (phòng tiếp khách)"
+    },
+    {
+      "id": "OF-04",
+      "group": "Nhóm A — Tiếp khách tại công ty (6 từ)",
+      "word": "名刺",
+      "reading": "めいし",
+      "meaning": "Danh thiếp",
+      "exJp": "名刺を差し出します。",
+      "exVi": "Đưa danh thiếp ra.",
+      "tip": "≠ `名札` (thẻ tên/thẻ khách)"
+    },
+    {
+      "id": "ET-01",
+      "group": "Nhóm A — Tiếp khách tại công ty (6 từ)",
+      "word": "名刺交換",
+      "reading": "めいしこうかん",
+      "meaning": "Trao đổi danh thiếp",
+      "exJp": "初対面ではまず名刺交換をします。",
+      "exVi": "Lần đầu gặp thì trước hết trao đổi danh thiếp.",
+      "tip": "Nghi thức cơ bản"
+    },
+    {
+      "id": "ET-11",
+      "group": "Nhóm A — Tiếp khách tại công ty (6 từ)",
+      "word": "お出迎え",
+      "reading": "おでむかえ",
+      "meaning": "Đón khách",
+      "exJp": "玄関でお客様をお出迎えします。",
+      "exVi": "Đón khách ở sảnh.",
+      "tip": "Ngược với `お見送り`"
+    },
+    {
+      "id": "ET-12",
+      "group": "Nhóm A — Tiếp khách tại công ty (6 từ)",
+      "word": "お見送り",
+      "reading": "おみおくり",
+      "meaning": "Tiễn khách",
+      "exJp": "エレベーターまでお見送りします。",
+      "exVi": "Tiễn khách đến thang máy.",
+      "tip": "Sau khi họp xong"
+    },
+    {
+      "id": "ET-02",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "上座",
+      "reading": "かみざ",
+      "meaning": "Chỗ ngồi danh dự (xa cửa)",
+      "exJp": "お客様を上座にご案内します。",
+      "exVi": "Mời khách ngồi chỗ danh dự.",
+      "tip": "Dành cho **khách**"
+    },
+    {
+      "id": "ET-03",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "下座",
+      "reading": "しもざ",
+      "meaning": "Chỗ ngồi thấp (gần cửa)",
+      "exJp": "私は下座に座ります。",
+      "exVi": "Tôi ngồi chỗ gần cửa.",
+      "tip": "Dành cho **mình**"
+    },
+    {
+      "id": "ET-04",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "接待",
+      "reading": "せったい",
+      "meaning": "Chiêu đãi khách",
+      "exJp": "取引先を接待します。",
+      "exVi": "Chiêu đãi đối tác.",
+      "tip": "Thường kèm ăn uống"
+    },
+    {
+      "id": "ET-05",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "会食",
+      "reading": "かいしょく",
+      "meaning": "Dùng bữa cùng nhau (công việc)",
+      "exJp": "会食で今後の話をしました。",
+      "exVi": "Bàn chuyện sắp tới trong bữa ăn.",
+      "tip": "Nhẹ hơn `接待`"
+    },
+    {
+      "id": "ET-06",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "手土産",
+      "reading": "てみやげ",
+      "meaning": "Quà biếu nhỏ khi đến thăm",
+      "exJp": "手土産を持って伺います。",
+      "exVi": "Mang quà nhỏ đến thăm.",
+      "tip": "手 + お土産"
+    },
+    {
+      "id": "ET-07",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "挨拶回り",
+      "reading": "あいさつまわり",
+      "meaning": "Đi chào thăm các nơi",
+      "exJp": "新任の挨拶回りをします。",
+      "exVi": "Đi chào thăm các nơi khi nhận chức.",
+      "tip": "Khi nhậm chức/chuyển công tác"
+    },
+    {
+      "id": "ET-08",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "訪問",
+      "reading": "ほうもん",
+      "meaning": "Đến thăm (mình đi)",
+      "exJp": "来週、御社を訪問します。",
+      "exVi": "Tuần sau tôi đến thăm quý công ty.",
+      "tip": "≠ `来訪`"
+    },
+    {
+      "id": "ET-09",
+      "group": "Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",
+      "word": "来訪",
+      "reading": "らいほう",
+      "meaning": "Đến thăm (người khác tới mình)",
+      "exJp": "来訪者は受付で記入してください。",
+      "exVi": "Người đến thăm xin ghi tại lễ tân.",
+      "tip": "≠ `訪問`"
+    },
+    {
+      "id": "ET-10",
+      "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
+      "word": "報連相（ほうれんそう）",
+      "reading": "Báo cáo – Liên lạc – Bàn bạc",
+      "meaning": "新入社員は報連相を徹底します。→ Nhân viên mới thực hiện triệt để báo-liên-bàn.",
+      "exJp": "報告・連絡・相談",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-07",
+      "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
+      "word": "ご足労をおかけして",
+      "reading": "Cảm ơn/xin lỗi vì khách mất công đến",
+      "meaning": "本日はご足労をおかけして、申し訳ございません。",
+      "exJp": "Dành cho khách đến thăm",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-04",
+      "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
+      "word": "申し上げにくいのですが",
+      "reading": "Thật khó nói nhưng…",
+      "meaning": "申し上げにくいのですが、お支払いが遅れています。",
+      "exJp": "Đệm trước khi nhắc nợ, góp ý, từ chối",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-06",
+      "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
+      "word": "ご足労いただき恐縮です",
+      "reading": "Rất ngại vì để quý vị mất công đến",
+      "meaning": "本日はご足労いただき恐縮です。",
+      "exJp": "Trang trọng hơn FX-07",
+      "exVi": "",
+      "tip": ""
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`上座` (xa cửa, cho khách) ≠ `下座` (gần cửa, cho mình).",
+    "`訪問` (mình đi) ≠ `来訪` (người khác đến).",
+    "`接待` (chiêu đãi có chủ ý) ≠ `会食` (ăn chung, nhẹ hơn).",
+    "`名刺` (danh thiếp) ≠ `名札` (thẻ tên/thẻ khách)."
+  ],
+  "vocabQuiz": {
+    "passAt": 15,
+    "total": 18,
+    "items": [
+      {
+        "id": "P02-L03-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「来客対応」の意味は？",
+        "options": {
+          "A": "Tiếp khách đến thăm",
+          "B": "Đi thăm khách",
+          "C": "Gọi điện cho khách",
+          "D": "Gửi hàng cho khách"
+        },
+        "answer": "A",
+        "explain": "来客 (`OF-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-01"
+        ]
+      },
+      {
+        "id": "P02-L03-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会社の入口で、来客を最初に迎える場所は？",
+        "options": {
+          "A": "応接室",
+          "B": "受付",
+          "C": "倉庫",
+          "D": "総務部"
+        },
+        "answer": "B",
+        "explain": "受付 (`OF-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-02"
+        ]
+      },
+      {
+        "id": "P02-L03-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "自分の会社名・名前を書いて、初対面の人と交換するものは？",
+        "options": {
+          "A": "名札",
+          "B": "履歴書",
+          "C": "請求書",
+          "D": "名刺"
+        },
+        "answer": "D",
+        "explain": "名刺 (`OF-04`); 名札 = thẻ tên",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-04"
+        ]
+      },
+      {
+        "id": "P02-L03-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "初対面の相手に、あいさつのときに最初にすることは？",
+        "options": {
+          "A": "接待",
+          "B": "お見送り",
+          "C": "名刺交換",
+          "D": "会食"
+        },
+        "answer": "C",
+        "explain": "名刺交換 (`ET-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-01"
+        ]
+      },
+      {
+        "id": "P02-L03-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "お客様に座っていただく、入口から遠い席は？",
+        "options": {
+          "A": "下座",
+          "B": "上座",
+          "C": "受付",
+          "D": "来訪"
+        },
+        "answer": "B",
+        "explain": "上座 (`ET-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-02"
+        ]
+      },
+      {
+        "id": "P02-L03-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "入口に近い、自分たちが座る席は？",
+        "options": {
+          "A": "上座",
+          "B": "受付",
+          "C": "応接室",
+          "D": "下座"
+        },
+        "answer": "D",
+        "explain": "下座 (`ET-03`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-03"
+        ]
+      },
+      {
+        "id": "P02-L03-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "取引先に感謝を伝えるため、食事などでもてなすことは？",
+        "options": {
+          "A": "挨拶回り",
+          "B": "接待",
+          "C": "来訪",
+          "D": "報連相"
+        },
+        "answer": "B",
+        "explain": "接待 (`ET-04`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-04"
+        ]
+      },
+      {
+        "id": "P02-L03-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「会食」の意味は？",
+        "options": {
+          "A": "Bữa ăn cùng nhau trong công việc",
+          "B": "Họp buổi sáng",
+          "C": "Đặt hàng",
+          "D": "Tiễn khách"
+        },
+        "answer": "A",
+        "explain": "会食 (`ET-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-05"
+        ]
+      },
+      {
+        "id": "P02-L03-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "訪問するときに持っていく小さな贈り物は？",
+        "options": {
+          "A": "名札",
+          "B": "控え",
+          "C": "手土産",
+          "D": "伝言"
+        },
+        "answer": "C",
+        "explain": "手土産 (`ET-06`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-06"
+        ]
+      },
+      {
+        "id": "P02-L03-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "新任のとき、取引先などをまわってあいさつすることは？",
+        "options": {
+          "A": "挨拶回り",
+          "B": "報連相",
+          "C": "来客",
+          "D": "郵送"
+        },
+        "answer": "A",
+        "explain": "挨拶回り (`ET-07`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-07"
+        ]
+      },
+      {
+        "id": "P02-L03-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「訪問」の説明として正しいのは？",
+        "options": {
+          "A": "相手が自分のところへ来ること",
+          "B": "自分が相手のところへ行くこと",
+          "C": "電話をかけること",
+          "D": "メールを送ること"
+        },
+        "answer": "B",
+        "explain": "訪問 (`ET-08`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-08"
+        ]
+      },
+      {
+        "id": "P02-L03-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「来訪」の説明として正しいのは？",
+        "options": {
+          "A": "自分が相手のところへ行くこと",
+          "B": "電話をかけること",
+          "C": "約束を取り消すこと",
+          "D": "相手が自分のところへ来ること"
+        },
+        "answer": "D",
+        "explain": "来訪 (`ET-09`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-09"
+        ]
+      },
+      {
+        "id": "P02-L03-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「報連相」は何の略ですか。",
+        "options": {
+          "A": "報告・連絡・相談",
+          "B": "報告・連絡・提案",
+          "C": "報酬・連絡・相談",
+          "D": "報告・連携・相談"
+        },
+        "answer": "A",
+        "explain": "報連相 (`ET-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-10"
+        ]
+      },
+      {
+        "id": "P02-L03-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "玄関でお客様を迎えることを何といいますか。",
+        "options": {
+          "A": "お見送り",
+          "B": "接待",
+          "C": "お出迎え",
+          "D": "訪問"
+        },
+        "answer": "C",
+        "explain": "お出迎え (`ET-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-11"
+        ]
+      },
+      {
+        "id": "P02-L03-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "会議のあと、エレベーターまでお客様を送ることは？",
+        "options": {
+          "A": "お出迎え",
+          "B": "お見送り",
+          "C": "来訪",
+          "D": "会食"
+        },
+        "answer": "B",
+        "explain": "お見送り (`ET-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "ET-12"
+        ]
+      },
+      {
+        "id": "P02-L03-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "遠くから来てくれたお客様に、お詫びと感謝を込めて言うのは？",
+        "options": {
+          "A": "お疲れ様でした",
+          "B": "ご苦労様です",
+          "C": "失礼いたします",
+          "D": "ご足労をおかけして、申し訳ございません"
+        },
+        "answer": "D",
+        "explain": "`FX-07`; `ご苦労様` は目上に不可",
+        "tags": [
+          "KEIGO_REGISTER"
+        ],
+        "vocabIds": [
+          "FX-07"
+        ]
+      },
+      {
+        "id": "P02-L03-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "相手に言いにくいことを伝える前に言うのは？",
+        "options": {
+          "A": "申し上げにくいのですが",
+          "B": "ご足労いただき恐縮です",
+          "C": "お言葉に甘えて",
+          "D": "失礼いたします"
+        },
+        "answer": "A",
+        "explain": "`CS-04`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-04"
+        ]
+      },
+      {
+        "id": "P02-L03-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "来てくれたお客様への感謝・恐縮を表すのは？",
+        "options": {
+          "A": "念のため確認ですが",
+          "B": "申し上げにくいのですが",
+          "C": "ご足労いただき恐縮です",
+          "D": "あいにくですが"
+        },
+        "answer": "C",
+        "explain": "`CS-06`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-06"
+        ]
+      }
+    ]
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P02-L03-A01",
+      "title": "1. Bài Nghe — 聴解 (P02-L03-A01: Ghi số điện thoại bị sửa giữa chừng)",
+      "doc": "",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、株式会社さくら商事でございます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "いつもお世話になっております。東洋物産の木村と申します。営業部の田中様はいらっしゃいますでしょうか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "いつもお世話になっております。あいにく田中は本日出張で不在にしておりまして、明日の午後に戻る予定でございます。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "そうですか。では、戻られましたらご連絡いただきたいのですが。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "かしこまりました。念のため、お電話番号をお願いできますでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "はい、ゼロさんの、ごーにーきゅーいちの、ななよんゼロはちです。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "復唱いたします。ゼロさんの、ごーにーいちきゅうの、ななよんゼロはち、でよろしいでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "いえ、ごーにーいちきゅうではなく、ごーにーきゅーいちです。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "失礼いたしました。ゼロさんの、ごーにーきゅーいちの、ななよんゼロはち、ですね。田中に申し伝えます。"
+        }
+      ],
+      "translation": [
+        "*Nữ:* Vâng, Công ty cổ phần Sakura Shoji xin nghe.",
+        "*Nam:* Cảm ơn quý công ty luôn giúp đỡ. Tôi là Kimura bên Toyo Bussan. Anh Tanaka phòng kinh doanh có ở đó không ạ?",
+        "*Nữ:* Cảm ơn anh. Rất tiếc hôm nay anh Tanaka đi công tác, không có mặt, dự kiến chiều mai sẽ về.",
+        "*Nam:* Vậy à. Khi anh ấy về, nhờ anh ấy liên lạc lại cho tôi.",
+        "*Nữ:* Vâng. Để chắc chắn, xin anh cho số điện thoại.",
+        "*Nam:* Vâng, 03-5291-7408.",
+        "*Nữ:* Tôi xin nhắc lại: 03-5219-7408, đúng không ạ?",
+        "*Nam:* Không, không phải 5219 mà là 5291.",
+        "*Nữ:* Xin lỗi anh. 03-5291-7408 phải không ạ. Tôi sẽ nhắn lại cho anh Tanaka."
+      ],
+      "questions": [
+        {
+          "id": "P02-L03-E01",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "木村さんの電話番号はどれですか。",
+          "options": {
+            "A": "03-5219-7408",
+            "B": "03-5291-7408",
+            "C": "03-5291-7048",
+            "D": "03-5219-7048"
+          },
+          "answer": "B",
+          "explain": "Lễ tân nhắc lại sai `5219`, ông Kimura sửa thành `5291` → loại A, D. Đuôi `7408` (なな・よん・ゼロ・はち) → loại C (`7048`).",
+          "tags": [
+            "NUMBER_TIME",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P02-L03-E02",
+          "questionType": "listening",
+          "skill": "listening",
+          "q": "田中さんは、いつ会社に戻りますか。",
+          "options": {
+            "A": "今日の午後",
+            "B": "明日の午前",
+            "C": "明日の午後",
+            "D": "明後日"
+          },
+          "answer": "C",
+          "explain": "`本日出張で不在… 明日の午後に戻る予定` → **C**.",
+          "tags": [
+            "DETAIL_MISS",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P02-L03-R01",
+      "title": "4. Bài Đọc — 短文読解 (P02-L03-R01: Thông báo thay đổi quy định có điều kiện ngoại lệ)",
+      "passageHtml": "<strong>件名：</strong> 【ご案内】来客受付ルールの変更について<br>社員各位<br>総務部の高橋です。12月1日より、来客受付の方法が次のとおり変わります。<br>１．受付時間：9:00～17:30（土日祝日を除く）<br>２．事前予約のない来客は、受付ではお取り次ぎいたしません。ただし、取引先の役員の方に限り、予約がなくても応接室でお待ちいただけます。<br>３．駐車場は、事前に申請のあった車に限り利用できます。<br>つきましては、お客様をお呼びする際は、前日までに総務部へ「来客予約票」をご提出ください。",
+      "questions": [
+        {
+          "id": "P02-L03-E03",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "この通知の内容と合っているものはどれですか。\n- **Giải thích:**\n- B ✓: `ただし、取引先の役員の方に限り…応接室でお待ちいただけます`\n- A ✗: `土日祝日を除く` → thứ 7 không tiếp khách\n- C ✗: không đặt trước → không chuyển máy (ngoại lệ chỉ dành cho 役員)\n- D ✗: phải nộp `前日までに` (trước ngày hôm trước), không phải sáng hôm đó",
+          "options": {
+            "A": "土曜日も9:00から17:30まで受付が開いている。",
+            "B": "取引先の役員なら、予約がなくても応接室で待つことができる。",
+            "C": "予約のない来客は、全員受付で担当者に取り次いでもらえる。",
+            "D": "来客予約票は、来客当日の朝に出せばよい。"
+          },
+          "answer": "B",
+          "explain": "",
+          "tags": [
+            "NEGATION_CONDITION",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P02-L03-X01",
+      "questionType": "expression_listening",
+      "skill": "expression_listening",
+      "q": "- **Audio dẫn đề:** 電話を受けています。相手は田中さんと話したいと言っていますが、田中さんは今、席にいません。何と言いますか。\n- **Lựa chọn (đọc bằng audio):**",
+      "options": {
+        "A": "田中は席にいません。",
+        "B": "あいにく田中は席を外しております。",
+        "C": "田中さんは席を外されています。",
+        "D": "田中部長は席におられません。"
+      },
+      "answer": "B",
+      "explain": "`あいにく` (từ đệm) + `田中` (không thêm `さん`/`様`) + `外しております` (khiêm nhường khi nói về người trong công ty mình). C dùng `さん` và tôn kính cho người nhà ✗; D thêm chức danh ✗; A thiếu từ đệm, nghe cộc.",
+      "tags": [
+        "KEIGO_REGISTER",
+        "EXPRESSION_FIT"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    },
+    {
+      "id": "P02-L03-X02",
+      "questionType": "expression_listening",
+      "skill": "expression_listening",
+      "q": "- **Audio dẫn đề:** お客様が遠いところからわざわざ来てくださいました。お礼を言いたいです。何と言いますか。\n- **Lựa chọn (đọc bằng audio):**",
+      "options": {
+        "A": "ご足労いただき、ありがとうございます。",
+        "B": "ご苦労様です。",
+        "C": "わざわざ来てくれて、どうも。",
+        "D": "お疲れ様でした。"
+      },
+      "answer": "A",
+      "explain": "`ご足労` (`FX-07`) dùng để cảm ơn người phải mất công đến. `ご苦労様` dùng với người dưới hoặc ngang hàng, không dùng với khách ✗; C suồng sã ✗; D lời chào kết thúc việc ✗.",
+      "tags": [
+        "KEIGO_REGISTER",
+        "EXPRESSION_FIT"
+      ],
+      "vocabIds": [
+        "FX-07"
+      ],
+      "audioId": null
+    },
+    {
+      "id": "P02-L03-X03",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "顧客から「明日の午前中に納品してほしい」と言われましたが、対応できません。最も適切な返事を選んでください。",
+      "options": {
+        "A": "できません。",
+        "B": "あいにくですが、明日の午前中は難しい状況でございます。午後であれば対応可能ですが、いかがでしょうか。",
+        "C": "それは無理です。",
+        "D": "私にはわかりません。"
+      },
+      "answer": "B",
+      "explain": "Mẫu từ chối chuẩn BJT: **từ đệm** (`あいにくですが`) + **cách nói gián tiếp** (`難しい状況`) + **phương án thay thế** (`午後であれば`). Các đáp án còn lại trực tiếp/cộc, thiếu phương án thay thế.",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": [],
+      "audioId": null
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P02-L03-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "担当者に確認し、わかり（　）、ご連絡いたします。",
+      "options": {
+        "A": "次第",
+        "B": "たびに",
+        "C": "際に",
+        "D": "うちに"
+      },
+      "answer": "A",
+      "explain": "`〜次第` = ngay khi… (`G2-01`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P02-L03-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "資料をご確認の（　）、ご返信ください。",
+      "options": {
+        "A": "上",
+        "B": "際",
+        "C": "間",
+        "D": "最中"
+      },
+      "answer": "A",
+      "explain": "`ご確認の上` = sau khi xác nhận (`G5-08`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P02-L03-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "戻り次第、（　）お電話させます。",
+      "options": {
+        "A": "折り返し",
+        "B": "取り次ぎ",
+        "C": "伝言",
+        "D": "転送"
+      },
+      "answer": "A",
+      "explain": "`折り返し電話` = gọi lại (`OF-06`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "OF-06"
+      ]
+    },
+    {
+      "id": "P02-L03-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "メールに見積書を（　）しましたので、ご確認ください。",
+      "options": {
+        "A": "添付",
+        "B": "宛先",
+        "C": "控え",
+        "D": "郵送"
+      },
+      "answer": "A",
+      "explain": "`メールに添付する` (`OF-08`); `郵送` là gửi bưu điện",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "OF-08"
+      ]
+    },
+    {
+      "id": "P02-L03-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "お名前を（　）もよろしいでしょうか。",
+      "options": {
+        "A": "頂戴して",
+        "B": "伺って",
+        "C": "お聞きになって",
+        "D": "拝見して"
+      },
+      "answer": "B",
+      "explain": "Hỏi tên khách dùng `伺う`. `頂戴` cho đồ vật ✗; `お聞きになる` = tôn kính cho hành động người khác, không tự dùng ✗; `拝見` = xem ✗",
+      "tags": [
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "depiction": [
+    {
+      "id": "P02-L03-D01",
+      "questionType": "depiction",
+      "skill": "depiction",
+      "imageSpec": "Quầy lễ tân có biển 「受付」. Một nhân viên nữ phía sau quầy đưa thẻ khách (名札) cho một người đàn ông mặc vest, tay phải xách cặp. Phía sau có ghế chờ, một người ngồi đọc báo.",
+      "q": "Xem mô tả/tranh và chọn nhận định đúng với nội dung.",
+      "options": {
+        "A": "女性が来客に名札を渡しています。",
+        "B": "男性が名刺を受け取っています。",
+        "C": "二人が握手をしています。",
+        "D": "男性が荷物を預けています。"
+      },
+      "answer": "A",
+      "explain": "Hành động chính trong tranh là nhân viên nữ **đưa thẻ khách (名札)** cho người đàn ông → A. B (danh thiếp `名刺` ≠ thẻ khách `名札`), C (không có bắt tay), D (không có gửi hành lý).",
+      "tags": [
+        "IMAGE_DETAIL",
+        "VOCAB_UNKNOWN"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "testSections": []
+}

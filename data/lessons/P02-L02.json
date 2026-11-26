@@ -1,0 +1,591 @@
+{
+  "id": "P02-L02",
+  "part": "P02",
+  "title": "Nghe–Đọc kết hợp (聴読解): Đối chiếu Lời nhắn & Lịch trình",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "OF-08",
+      "group": "Nhóm A — Email, tài liệu & thủ tục (6 từ)",
+      "word": "添付",
+      "reading": "てんぷ",
+      "meaning": "Đính kèm",
+      "exJp": "見積書を添付しました。",
+      "exVi": "Tôi đã đính kèm báo giá.",
+      "tip": "`メールに添付する`"
+    },
+    {
+      "id": "OF-09",
+      "group": "Nhóm A — Email, tài liệu & thủ tục (6 từ)",
+      "word": "転送",
+      "reading": "てんそう",
+      "meaning": "Chuyển tiếp (forward / chuyển cuộc gọi)",
+      "exJp": "メールを部長に転送します。",
+      "exVi": "Tôi forward email cho trưởng phòng.",
+      "tip": "`メール／電話を転送する`"
+    },
+    {
+      "id": "OF-10",
+      "group": "Nhóm A — Email, tài liệu & thủ tục (6 từ)",
+      "word": "宛先",
+      "reading": "あてさき",
+      "meaning": "Địa chỉ nhận, người nhận",
+      "exJp": "宛先を間違えないでください。",
+      "exVi": "Xin đừng nhầm người nhận.",
+      "tip": "Ô `To` của email"
+    },
+    {
+      "id": "OF-11",
+      "group": "Nhóm A — Email, tài liệu & thủ tục (6 từ)",
+      "word": "郵送",
+      "reading": "ゆうそう",
+      "meaning": "Gửi qua bưu điện",
+      "exJp": "契約書を郵送します。",
+      "exVi": "Tôi gửi hợp đồng qua bưu điện.",
+      "tip": "≠ gửi email/fax"
+    },
+    {
+      "id": "OF-12",
+      "group": "Nhóm A — Email, tài liệu & thủ tục (6 từ)",
+      "word": "控え",
+      "reading": "ひかえ",
+      "meaning": "Bản lưu",
+      "exJp": "契約書の控えを保管します。",
+      "exVi": "Lưu bản sao hợp đồng.",
+      "tip": "Bản **mình giữ** để đối chiếu"
+    },
+    {
+      "id": "OF-13",
+      "group": "Nhóm A — Email, tài liệu & thủ tục (6 từ)",
+      "word": "押印",
+      "reading": "おういん",
+      "meaning": "Đóng dấu",
+      "exJp": "契約書に押印をお願いします。",
+      "exVi": "Xin đóng dấu vào hợp đồng.",
+      "tip": "= `捺印` (`CT-13`)"
+    },
+    {
+      "id": "FX-08",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "差し支えなければ",
+      "reading": "Nếu không phiền",
+      "meaning": "差し支えなければ、お名前を伺えますか。→ Nếu không phiền, cho tôi biết tên được không?",
+      "exJp": "Hỏi ý một cách nhẹ nhàng",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-09",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "取り急ぎ",
+      "reading": "Gấp xin báo trước",
+      "meaning": "Cuối email ngắn: 取り急ぎ、ご連絡まで。",
+      "exJp": "Chi tiết gửi sau",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-10",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "追ってご連絡いたします",
+      "reading": "Sau đó sẽ liên lạc tiếp",
+      "meaning": "詳細は追ってご連絡いたします。→ Chi tiết sẽ báo sau.",
+      "exJp": "Báo thêm thông tin",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-11",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "改めてご連絡いたします",
+      "reading": "Sẽ liên lạc lại sau",
+      "meaning": "確認後、改めてご連絡いたします。→ Xác nhận xong sẽ liên lạc lại.",
+      "exJp": "Liên lạc lại lần khác",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-12",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "ご確認のほど、よろしくお願いいたします",
+      "reading": "Xin vui lòng xác nhận",
+      "meaning": "Kết thư gửi tài liệu",
+      "exJp": "〜のほど (G5-03)",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-13",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "ご検討のほど、よろしくお願いいたします",
+      "reading": "Rất mong quý vị xem xét",
+      "meaning": "Kết thư gửi đề xuất",
+      "exJp": "",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "FX-14",
+      "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
+      "word": "以後、気をつけます",
+      "reading": "Từ nay tôi sẽ chú ý",
+      "meaning": "Xin lỗi sau khi mắc lỗi",
+      "exJp": "Cam kết không tái phạm",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-05",
+      "group": "Nhóm C — Từ đệm xác nhận & từ chối (3 cụm)",
+      "word": "念のため確認ですが",
+      "reading": "Tôi xin xác nhận lại cho chắc",
+      "meaning": "念のため確認ですが、15時でよろしいですか。→ 15 giờ đúng không ạ?",
+      "exJp": "Kiểm tra lại số/giờ/địa chỉ",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-07",
+      "group": "Nhóm C — Từ đệm xác nhận & từ chối (3 cụm)",
+      "word": "お力になれず申し訳ございません",
+      "reading": "Xin lỗi vì không thể giúp được",
+      "meaning": "Từ chối rõ ràng nhưng lịch sự",
+      "exJp": "",
+      "exVi": "",
+      "tip": ""
+    },
+    {
+      "id": "CS-08",
+      "group": "Nhóm C — Từ đệm xác nhận & từ chối (3 cụm)",
+      "word": "ただいま確認してまいります",
+      "reading": "Tôi xin phép đi kiểm tra ngay",
+      "meaning": "Khi cần xác nhận rồi quay lại báo",
+      "exJp": "まいります = khiêm nhường",
+      "exVi": "",
+      "tip": ""
+    }
+  ],
+  "cards": [],
+  "confusedPairs": [
+    "`追って` (sẽ báo **thêm** sau) ≠ `改めて` (sẽ liên lạc **lại**, làm lại một lần nữa).",
+    "`転送` (chuyển tiếp) ≠ `添付` (đính kèm) ≠ `郵送` (gửi bưu điện).",
+    "`控え` (bản mình giữ) ≠ `原本` (bản gốc)."
+  ],
+  "vocabQuiz": {
+    "passAt": 13,
+    "total": 16,
+    "items": [
+      {
+        "id": "P02-L02-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "メールにファイルを付けて送ることは？",
+        "options": {
+          "A": "転送",
+          "B": "添付",
+          "C": "郵送",
+          "D": "控え"
+        },
+        "answer": "B",
+        "explain": "添付 (`OF-08`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "OF-08"
+        ]
+      },
+      {
+        "id": "P02-L02-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "受け取ったメールをそのまま別の人に送ることは？",
+        "options": {
+          "A": "添付",
+          "B": "宛先",
+          "C": "転送",
+          "D": "押印"
+        },
+        "answer": "C",
+        "explain": "転送 (`OF-09`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "OF-09"
+        ]
+      },
+      {
+        "id": "P02-L02-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "メールの「宛先」とは何ですか。",
+        "options": {
+          "A": "Người nhận",
+          "B": "Tiêu đề",
+          "C": "Tệp đính kèm",
+          "D": "Chữ ký"
+        },
+        "answer": "A",
+        "explain": "宛先 (`OF-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-10"
+        ]
+      },
+      {
+        "id": "P02-L02-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「郵送」の意味は？",
+        "options": {
+          "A": "Gửi email",
+          "B": "Gửi fax",
+          "C": "Gửi qua bưu điện",
+          "D": "Giao tận tay"
+        },
+        "answer": "C",
+        "explain": "郵送 (`OF-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-11"
+        ]
+      },
+      {
+        "id": "P02-L02-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約書の（　）を自分の会社で保管します。",
+        "options": {
+          "A": "宛先",
+          "B": "控え",
+          "C": "郵送",
+          "D": "添付"
+        },
+        "answer": "B",
+        "explain": "控え = bản lưu (`OF-12`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "OF-12"
+        ]
+      },
+      {
+        "id": "P02-L02-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "書類に印鑑を押すことは？",
+        "options": {
+          "A": "添付",
+          "B": "転送",
+          "C": "郵送",
+          "D": "押印"
+        },
+        "answer": "D",
+        "explain": "押印 = 捺印 (`OF-13`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "OF-13"
+        ]
+      },
+      {
+        "id": "P02-L02-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「差し支えなければ」の使い方として適切なのは？",
+        "options": {
+          "A": "相手を断るとき",
+          "B": "「もしよろしければ」と質問・依頼するとき",
+          "C": "謝るとき",
+          "D": "電話を切るとき"
+        },
+        "answer": "B",
+        "explain": "`FX-08`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-08"
+        ]
+      },
+      {
+        "id": "P02-L02-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "メールの最後の「取り急ぎ、ご連絡まで」の意味は？",
+        "options": {
+          "A": "Báo gấp trước, chi tiết sẽ gửi sau",
+          "B": "Chúc sức khỏe",
+          "C": "Cảm ơn rất nhiều",
+          "D": "Xin nghỉ phép"
+        },
+        "answer": "A",
+        "explain": "`FX-09`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "FX-09"
+        ]
+      },
+      {
+        "id": "P02-L02-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「詳細は（　）ご連絡いたします。」",
+        "options": {
+          "A": "以後",
+          "B": "念のため",
+          "C": "差し支えなければ",
+          "D": "追って"
+        },
+        "answer": "D",
+        "explain": "`追って` = sẽ báo thêm sau (`FX-10`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "FX-10"
+        ]
+      },
+      {
+        "id": "P02-L02-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「改めてご連絡いたします」の意味は？",
+        "options": {
+          "A": "Sẽ liên lạc lại sau (lần khác)",
+          "B": "Xin lỗi",
+          "C": "Xin nhận",
+          "D": "Sẽ không liên lạc nữa"
+        },
+        "answer": "A",
+        "explain": "`FX-11`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "FX-11"
+        ]
+      },
+      {
+        "id": "P02-L02-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "資料を送ったあとのメールの結びとして適切なのは？",
+        "options": {
+          "A": "お待たせいたしました",
+          "B": "あいにくですが",
+          "C": "ご確認のほど、よろしくお願いいたします",
+          "D": "失礼いたしました"
+        },
+        "answer": "C",
+        "explain": "`FX-12`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-12"
+        ]
+      },
+      {
+        "id": "P02-L02-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "提案書を送ったあとの結びは？",
+        "options": {
+          "A": "以後、気をつけます",
+          "B": "ご検討のほど、よろしくお願いいたします",
+          "C": "念のため確認ですが",
+          "D": "お待たせいたしました"
+        },
+        "answer": "B",
+        "explain": "`FX-13`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-13"
+        ]
+      },
+      {
+        "id": "P02-L02-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "ミスを謝ったあと、再発しないと伝える言葉は？",
+        "options": {
+          "A": "取り急ぎ",
+          "B": "追って",
+          "C": "差し支えなければ",
+          "D": "以後、気をつけます"
+        },
+        "answer": "D",
+        "explain": "`FX-14`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "FX-14"
+        ]
+      },
+      {
+        "id": "P02-L02-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「念のため確認ですが」の意味は？",
+        "options": {
+          "A": "Tôi xin xác nhận lại cho chắc",
+          "B": "Tôi từ chối",
+          "C": "Tôi xin về trước",
+          "D": "Cảm ơn"
+        },
+        "answer": "A",
+        "explain": "`CS-05`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CS-05"
+        ]
+      },
+      {
+        "id": "P02-L02-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "依頼を断るとき、丁寧に言うのは？",
+        "options": {
+          "A": "念のため確認ですが",
+          "B": "お力になれず申し訳ございません",
+          "C": "お待たせいたしました",
+          "D": "差し支えなければ"
+        },
+        "answer": "B",
+        "explain": "`CS-07`",
+        "tags": [
+          "EXPRESSION_FIT"
+        ],
+        "vocabIds": [
+          "CS-07"
+        ]
+      },
+      {
+        "id": "P02-L02-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「ただいま確認してまいります」の意味は？",
+        "options": {
+          "A": "Tôi đã kiểm tra xong",
+          "B": "Tôi sẽ không kiểm tra",
+          "C": "Tôi xin phép đi kiểm tra ngay bây giờ",
+          "D": "Tôi sẽ hỏi lại sau"
+        },
+        "answer": "C",
+        "explain": "`CS-08`",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CS-08"
+        ]
+      }
+    ]
+  },
+  "notes": [],
+  "listening": [
+    {
+      "id": "P02-L02-LR01",
+      "title": "1. Bài Nghe–Đọc kết hợp (P02-L02-LR01)",
+      "doc": "<blockquote class=\"doc-quote\"><strong>【伝言メモ】</strong></blockquote>\n<blockquote class=\"doc-quote\">・日時：11月27日（金） 10:30</blockquote>\n<blockquote class=\"doc-quote\">・相手：A社 営業部 中村様</blockquote>\n<blockquote class=\"doc-quote\">・用件：新商品のサンプル送付について</blockquote>\n<blockquote class=\"doc-quote\">・伝言：本日中に折り返しお電話がほしいとのこと（直通：03-1234-5678）</blockquote>\n<blockquote class=\"doc-quote\">・対応期限：<strong>17:00まで</strong>（17:00以降は外出されるそうです）</blockquote>",
+      "lines": [
+        {
+          "speaker": "男",
+          "label": "男（担当者）",
+          "name": "担当者",
+          "text": "あ、鈴木さん、この伝言メモありがとう。A社の中村様からだね。今すぐ電話しようかな。"
+        },
+        {
+          "speaker": "女",
+          "label": "女（鈴木）",
+          "name": "鈴木",
+          "text": "あっ、すみません！さっき中村様からもう一度メールが来まして、予定が変わったそうです。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "えっ、そうなの？"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい。急な会議が入ったため、今日は16時までしか席にいらっしゃらないそうです。それで、もし16時までに電話が難しければ、明日の午前中にメールで回答してほしいとのことでした。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "なるほど。今15時半だから、ギリギリ間に合うね。今すぐかけてみるよ。"
+        }
+      ],
+      "translation": [
+        "*Nam:* À, Suzuki, cảm ơn tờ giấy nhắn nhé. Từ anh Nakamura công ty A nhỉ. Để tôi gọi ngay bây giờ xem.",
+        "*Nữ:* Á, xin lỗi anh! Lúc nãy anh Nakamura vừa gửi thêm một email nữa, bảo là lịch có thay đổi ạ.",
+        "*Nam:* Ơ, vậy à?",
+        "*Nữ:* Vâng. Vì có cuộc họp đột xuất nên hôm nay anh ấy chỉ ở bàn đến 16 giờ thôi ạ. Nên nếu khó gọi trước 16 giờ thì nhờ anh trả lời qua email vào sáng mai.",
+        "*Nam:* Ra vậy. Bây giờ là 15 giờ 30 nên vừa kịp sát nút đấy. Tôi gọi ngay bây giờ đây."
+      ],
+      "questions": [
+        {
+          "id": "P02-L02-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "男性はこれからどうしますか。\n- A: dùng giờ cũ trên giấy nhắn ✗\n- C: chỉ gửi email nếu không gọi kịp trước 16:00 ✗\n- D: đề bài hỏi hành động tiếp theo, không phải nội dung cuộc gọi ✗",
+          "options": {
+            "A": "17:00までに中村様に電話をする。",
+            "B": "今すぐ中村様に電話をする。",
+            "C": "明日の午前中に中村様へメールを送る。",
+            "D": "今すぐ中村様へサンプルを送る。"
+          },
+          "answer": "B",
+          "explain": "Bẫy kinh điển BJT — giấy nhắn ghi hạn **17:00**, nhưng audio cập nhật thông tin mới: hạn thực tế đổi thành **16:00**. Vì hiện tại mới **15:30** (`今15時半だから、ギリギリ間に合うね。今すぐかけてみるよ`), người đàn ông quyết định **gọi điện ngay bây giờ** → **B**",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [],
+  "expression": [
+    {
+      "id": "P02-L02-E02",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "- **Tình huống:** Đọc 4 phản hồi điện thoại bên dưới và chọn câu phù hợp nhất với tình huống: **Người gọi hỏi đến Mr. Sato, nhưng Mr. Sato đang họp. Bạn muốn đề nghị gọi lại sau.**\n- **Giải thích:**\n- **B** đúng: từ đệm `申し訳ございませんが` + nêu tình huống + chủ động đề nghị gọi lại (`終わり次第こちらからお電話させていただく`)\n- A: thiếu từ đệm, mệnh lệnh cộc `かけ直してください`\n- C: gọi người trong công ty mình là `佐藤様` ✗ (vi phạm quy tắc nội/ngoại)\n- D: thiếu từ đệm, cộc, thiếu lịch sự",
+      "options": {
+        "A": "佐藤は会議中です。後でかけ直してください。",
+        "B": "申し訳ございませんが、ただいま佐藤は会議中でございます。よろしければ、終わり次第こちらからお電話させていただくことも可能ですが、いかがでしょうか。",
+        "C": "佐藤様はただいま会議に出席されております。ご用件を承ります。",
+        "D": "佐藤は席にいません。折り返しお電話ください。"
+      },
+      "answer": "B",
+      "explain": "",
+      "tags": [],
+      "vocabIds": []
+    }
+  ],
+  "grammar": [],
+  "depiction": [],
+  "testSections": []
+}

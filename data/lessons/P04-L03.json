@@ -1,0 +1,853 @@
+{
+  "id": "P04-L03",
+  "part": "P04",
+  "title": "Hợp đồng: ký kết, điều khoản & nghĩa vụ (契約)",
+  "isTest": false,
+  "vocab": [
+    {
+      "id": "CT-01",
+      "group": "Nhóm A — Vòng đời hợp đồng (6 từ)",
+      "word": "契約",
+      "reading": "けいやく",
+      "meaning": "Hợp đồng",
+      "exJp": "来月、契約を結びます。",
+      "exVi": "Tháng sau ký hợp đồng.",
+      "tip": "`契約を結ぶ`"
+    },
+    {
+      "id": "CT-02",
+      "group": "Nhóm A — Vòng đời hợp đồng (6 từ)",
+      "word": "契約書",
+      "reading": "けいやくしょ",
+      "meaning": "Bản hợp đồng",
+      "exJp": "契約書を作成します。",
+      "exVi": "Soạn bản hợp đồng.",
+      "tip": "Văn bản của `契約`"
+    },
+    {
+      "id": "CT-03",
+      "group": "Nhóm A — Vòng đời hợp đồng (6 từ)",
+      "word": "締結",
+      "reading": "ていけつ",
+      "meaning": "Ký kết",
+      "exJp": "契約を締結しました。",
+      "exVi": "Đã ký kết hợp đồng.",
+      "tip": "Từ trang trọng của `結ぶ`"
+    },
+    {
+      "id": "CT-04",
+      "group": "Nhóm A — Vòng đời hợp đồng (6 từ)",
+      "word": "更新",
+      "reading": "こうしん",
+      "meaning": "Gia hạn",
+      "exJp": "契約を更新します。",
+      "exVi": "Gia hạn hợp đồng.",
+      "tip": "`自動更新` = tự động gia hạn"
+    },
+    {
+      "id": "CT-05",
+      "group": "Nhóm A — Vòng đời hợp đồng (6 từ)",
+      "word": "解約",
+      "reading": "かいやく",
+      "meaning": "Hủy hợp đồng",
+      "exJp": "来月で解約します。",
+      "exVi": "Hủy hợp đồng vào tháng sau.",
+      "tip": "Ngược với `締結`"
+    },
+    {
+      "id": "CT-10",
+      "group": "Nhóm A — Vòng đời hợp đồng (6 từ)",
+      "word": "規約",
+      "reading": "きやく",
+      "meaning": "Điều khoản, quy ước",
+      "exJp": "利用規約に同意します。",
+      "exVi": "Đồng ý với điều khoản sử dụng.",
+      "tip": "`利用規約`"
+    },
+    {
+      "id": "CT-06",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "違反",
+      "reading": "いはん",
+      "meaning": "Vi phạm",
+      "exJp": "契約に違反しました。",
+      "exVi": "Đã vi phạm hợp đồng.",
+      "tip": "`契約違反`"
+    },
+    {
+      "id": "CT-07",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "損害賠償",
+      "reading": "そんがいばいしょう",
+      "meaning": "Bồi thường thiệt hại",
+      "exJp": "損害賠償を請求します。",
+      "exVi": "Yêu cầu bồi thường thiệt hại.",
+      "tip": "Hệ quả của `違反`"
+    },
+    {
+      "id": "CT-08",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "責任",
+      "reading": "せきにん",
+      "meaning": "Trách nhiệm",
+      "exJp": "責任を負います。",
+      "exVi": "Chịu trách nhiệm.",
+      "tip": "`責任を負う`"
+    },
+    {
+      "id": "CT-09",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "保証",
+      "reading": "ほしょう",
+      "meaning": "Bảo đảm, bảo hành",
+      "exJp": "1年間の保証があります。",
+      "exVi": "Có bảo hành 1 năm.",
+      "tip": "Xem thẻ `HM-03`"
+    },
+    {
+      "id": "CT-11",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "守秘義務",
+      "reading": "しゅひぎむ",
+      "meaning": "Nghĩa vụ giữ bí mật",
+      "exJp": "守秘義務を負います。",
+      "exVi": "Có nghĩa vụ giữ bí mật.",
+      "tip": "Thường **kéo dài sau khi hợp đồng kết thúc**"
+    },
+    {
+      "id": "AC-17",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "遵守",
+      "reading": "じゅんしゅ",
+      "meaning": "Tuân thủ",
+      "exJp": "規則を遵守します。",
+      "exVi": "Tuân thủ quy tắc.",
+      "tip": "`法令遵守`"
+    },
+    {
+      "id": "AC-18",
+      "group": "Nhóm B — Nghĩa vụ & trách nhiệm (7 từ)",
+      "word": "履行",
+      "reading": "りこう",
+      "meaning": "Thực hiện nghĩa vụ (hợp đồng)",
+      "exJp": "契約を履行します。",
+      "exVi": "Thực hiện hợp đồng.",
+      "tip": "`契約の履行`"
+    },
+    {
+      "id": "CT-12",
+      "group": "Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",
+      "word": "署名",
+      "reading": "しょめい",
+      "meaning": "Ký tên",
+      "exJp": "契約書に署名します。",
+      "exVi": "Ký tên vào hợp đồng.",
+      "tip": "Viết tên tay"
+    },
+    {
+      "id": "CT-13",
+      "group": "Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",
+      "word": "捺印",
+      "reading": "なついん",
+      "meaning": "Đóng dấu",
+      "exJp": "署名と捺印をお願いします。",
+      "exVi": "Xin ký tên và đóng dấu.",
+      "tip": "Đồng nghĩa `押印` (`OF-13`)"
+    },
+    {
+      "id": "DC-15",
+      "group": "Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",
+      "word": "原本",
+      "reading": "げんぽん",
+      "meaning": "Bản gốc",
+      "exJp": "原本は郵送します。",
+      "exVi": "Bản gốc gửi bưu điện.",
+      "tip": "Có chữ ký/dấu thật"
+    },
+    {
+      "id": "DC-16",
+      "group": "Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",
+      "word": "写し",
+      "reading": "うつし",
+      "meaning": "Bản sao",
+      "exJp": "写しをメールで送ります。",
+      "exVi": "Gửi bản sao qua email.",
+      "tip": "= `コピー`"
+    }
+  ],
+  "cards": [
+    {
+      "id": "HM-03",
+      "html": "<strong>保証</strong> (bảo đảm, bảo hành) / <strong>保障</strong> (bảo đảm an ninh, xã hội) / <strong>補償</strong> (bồi thường)."
+    }
+  ],
+  "confusedPairs": [
+    "`締結` (ký kết) ↔ `解約` (hủy) ↔ `更新` (gia hạn).",
+    "`署名` (ký tên) ≠ `捺印` (đóng dấu): thường cần **cả hai**.",
+    "`原本` (bản gốc) ≠ `写し` (bản sao).",
+    "`履行` (thực hiện nghĩa vụ) ↔ `違反` (vi phạm)."
+  ],
+  "vocabQuiz": {
+    "passAt": 15,
+    "total": 18,
+    "items": [
+      {
+        "id": "P04-L03-V01",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「契約」の意味は？",
+        "options": {
+          "A": "Hợp đồng",
+          "B": "Đề xuất",
+          "C": "Giảm giá",
+          "D": "Báo giá"
+        },
+        "answer": "A",
+        "explain": "契約 (`CT-01`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-01"
+        ]
+      },
+      {
+        "id": "P04-L03-V02",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約の内容を書いた書類は？",
+        "options": {
+          "A": "見積書",
+          "B": "納品書",
+          "C": "契約書",
+          "D": "領収書"
+        },
+        "answer": "C",
+        "explain": "契約書 (`CT-02`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-02"
+        ]
+      },
+      {
+        "id": "P04-L03-V03",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「契約を締結する」の意味は？",
+        "options": {
+          "A": "Hủy hợp đồng",
+          "B": "Gia hạn hợp đồng",
+          "C": "Vi phạm hợp đồng",
+          "D": "Ký kết hợp đồng"
+        },
+        "answer": "D",
+        "explain": "締結 (`CT-03`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CT-03"
+        ]
+      },
+      {
+        "id": "P04-L03-V04",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約の期間が終わるとき、同じ条件で期間を延ばすことは？",
+        "options": {
+          "A": "解約",
+          "B": "更新",
+          "C": "違反",
+          "D": "履行"
+        },
+        "answer": "B",
+        "explain": "更新 (`CT-04`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-04"
+        ]
+      },
+      {
+        "id": "P04-L03-V05",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約を途中でやめることは？",
+        "options": {
+          "A": "解約",
+          "B": "更新",
+          "C": "締結",
+          "D": "署名"
+        },
+        "answer": "A",
+        "explain": "解約 (`CT-05`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-05"
+        ]
+      },
+      {
+        "id": "P04-L03-V06",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「利用規約に同意する」の「規約」の意味は？",
+        "options": {
+          "A": "Báo giá",
+          "B": "Hóa đơn",
+          "C": "Biên lai",
+          "D": "Điều khoản"
+        },
+        "answer": "D",
+        "explain": "規約 (`CT-10`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-10"
+        ]
+      },
+      {
+        "id": "P04-L03-V07",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約で決めたことを守らないことは？",
+        "options": {
+          "A": "履行",
+          "B": "遵守",
+          "C": "違反",
+          "D": "更新"
+        },
+        "answer": "C",
+        "explain": "違反 (`CT-06`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-06"
+        ]
+      },
+      {
+        "id": "P04-L03-V08",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約違反で相手に損害を与えたとき、請求されるものは？",
+        "options": {
+          "A": "割引",
+          "B": "損害賠償",
+          "C": "値引き",
+          "D": "保証"
+        },
+        "answer": "B",
+        "explain": "損害賠償 (`CT-07`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CT-07"
+        ]
+      },
+      {
+        "id": "P04-L03-V09",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「責任を負う」の意味は？",
+        "options": {
+          "A": "Chịu trách nhiệm",
+          "B": "Từ chối",
+          "C": "Giảm giá",
+          "D": "Hủy bỏ"
+        },
+        "answer": "A",
+        "explain": "責任 (`CT-08`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CT-08"
+        ]
+      },
+      {
+        "id": "P04-L03-V10",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「この商品には1年間の（　）があります。」（bảo hành）",
+        "options": {
+          "A": "補償",
+          "B": "保障",
+          "C": "責任",
+          "D": "保証"
+        },
+        "answer": "D",
+        "explain": "保証 (`CT-09`); 補償 = bồi thường",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CT-09"
+        ]
+      },
+      {
+        "id": "P04-L03-V11",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "取引で知った相手の情報を、外に漏らしてはいけない義務は？",
+        "options": {
+          "A": "損害賠償",
+          "B": "規約",
+          "C": "守秘義務",
+          "D": "遵守"
+        },
+        "answer": "C",
+        "explain": "守秘義務 (`CT-11`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-11"
+        ]
+      },
+      {
+        "id": "P04-L03-V12",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「法令を遵守する」の意味は？",
+        "options": {
+          "A": "Vi phạm pháp luật",
+          "B": "Tuân thủ pháp luật",
+          "C": "Hủy pháp luật",
+          "D": "Sửa pháp luật"
+        },
+        "answer": "B",
+        "explain": "遵守 (`AC-17`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "AC-17"
+        ]
+      },
+      {
+        "id": "P04-L03-V13",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "契約で決めた義務を、実際に行うことは？",
+        "options": {
+          "A": "履行",
+          "B": "解約",
+          "C": "違反",
+          "D": "撤回"
+        },
+        "answer": "A",
+        "explain": "履行 (`AC-18`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "AC-18"
+        ]
+      },
+      {
+        "id": "P04-L03-V14",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "自分の名前を手で書くことは？",
+        "options": {
+          "A": "捺印",
+          "B": "原本",
+          "C": "署名",
+          "D": "写し"
+        },
+        "answer": "C",
+        "explain": "署名 (`CT-12`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "CT-12"
+        ]
+      },
+      {
+        "id": "P04-L03-V15",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「契約書に捺印する」の意味は？",
+        "options": {
+          "A": "Ký tên",
+          "B": "Gửi bản sao",
+          "C": "Hủy hợp đồng",
+          "D": "Đóng dấu"
+        },
+        "answer": "D",
+        "explain": "捺印 (`CT-13`) = 押印 (`OF-13`)",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "CT-13",
+          "OF-13"
+        ]
+      },
+      {
+        "id": "P04-L03-V16",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "署名と捺印がある、元の書類は？",
+        "options": {
+          "A": "写し",
+          "B": "原本",
+          "C": "規約",
+          "D": "見積書"
+        },
+        "answer": "B",
+        "explain": "原本 (`DC-15`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "DC-15"
+        ]
+      },
+      {
+        "id": "P04-L03-V17",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "「契約書の写しをメールで送る」の「写し」の意味は？",
+        "options": {
+          "A": "Bản sao",
+          "B": "Bản gốc",
+          "C": "Bản nháp",
+          "D": "Bản dịch"
+        },
+        "answer": "A",
+        "explain": "写し (`DC-16`)",
+        "tags": [
+          "VOCAB_UNKNOWN"
+        ],
+        "vocabIds": [
+          "DC-16"
+        ]
+      },
+      {
+        "id": "P04-L03-V18",
+        "questionType": "vocab",
+        "skill": "vocab",
+        "q": "事故の被害に対してお金で埋め合わせることは？",
+        "options": {
+          "A": "保証",
+          "B": "保障",
+          "C": "補償",
+          "D": "保存"
+        },
+        "answer": "C",
+        "explain": "`HM-03`: 補償 = bồi thường",
+        "tags": [
+          "COLLOCATION"
+        ],
+        "vocabIds": [
+          "HM-03"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Văn phong hợp đồng: `〜ものとする` = quy ước là… (`G6-19`); `〜上で` = trong việc… (`G6-08`).",
+    "**Điều khoản nghĩa vụ giữ bí mật** thường **còn hiệu lực sau khi hợp đồng kết thúc**: luôn kiểm tra thời hạn.",
+    "**Tự động gia hạn:** nếu không báo hủy bằng văn bản **trước hạn** thì hợp đồng tiếp tục. Luôn đọc mốc `〜までに`.",
+    "`原本` (có chữ ký/dấu thật) thường gửi bưu điện; `写し` gửi trước qua email để xem."
+  ],
+  "listening": [
+    {
+      "id": "P04-L03-LR01",
+      "title": "2. Bài Nghe–Đọc — 聴読解 (P04-L03-LR01)",
+      "doc": "<blockquote class=\"doc-quote\"><strong>第3条（契約期間）</strong> 本契約の期間は、2026年4月1日から2027年3月31日までの1年間とする。ただし、期間満了の2か月前までに、いずれの当事者からも書面による解約の申し出がない場合は、同一条件でさらに1年間更新されるものとする。</blockquote>\n<blockquote class=\"doc-quote\"><strong>第5条（守秘義務）</strong> 両当事者は、本契約の内容を第三者に漏らしてはならない。この義務は、契約終了後も2年間有効とする。</blockquote>\n<blockquote class=\"doc-quote\"><strong>第7条（損害賠償）</strong> 本契約に違反した当事者は、相手方に生じた損害を賠償するものとする。</blockquote>",
+      "lines": [
+        {
+          "speaker": "女",
+          "label": "女（小野・さくら商事）",
+          "name": "小野・さくら商事",
+          "text": "佐藤様、先日お送りした契約書の件でお電話いたしました。内容はご確認いただけましたでしょうか。"
+        },
+        {
+          "speaker": "男",
+          "label": "男（佐藤・ミライ商事）",
+          "name": "佐藤・ミライ商事",
+          "text": "はい、確認しました。第3条の更新について、念のため確認ですが、何もしなければ自動的に更新されるということですよね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい。ただし、更新なさらない場合は、期間満了の2か月前、つまり2027年の1月末までに、書面でお申し出ください。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "わかりました。それから、第5条の守秘義務は、契約が終わったあとも続くのでしょうか。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "はい、契約終了後も2年間は有効です。"
+        },
+        {
+          "speaker": "男",
+          "label": "男",
+          "name": "男",
+          "text": "了解しました。署名と捺印はもう済ませています。原本は2部、今日郵送します。先にスキャンした写しをメールでお送りしますね。"
+        },
+        {
+          "speaker": "女",
+          "label": "女",
+          "name": "女",
+          "text": "ありがとうございます。原本が届き次第、当社も捺印して、1部をお返しいたします。"
+        }
+      ],
+      "translation": [
+        "*Ono:* Anh Sato, tôi gọi về bản hợp đồng đã gửi hôm trước. Anh đã xem nội dung chưa ạ?",
+        "*Sato:* Rồi. Về việc gia hạn ở Điều 3, để chắc chắn: nếu không làm gì thì sẽ tự động gia hạn, đúng không?",
+        "*Ono:* Vâng. Có điều, nếu không muốn gia hạn thì xin báo bằng văn bản trước khi hết hạn 2 tháng, tức là trước cuối tháng 1 năm 2027.",
+        "*Sato:* Tôi hiểu. Còn nghĩa vụ giữ bí mật ở Điều 5 có tiếp tục sau khi hợp đồng kết thúc không?",
+        "*Ono:* Có, vẫn có hiệu lực 2 năm sau khi kết thúc hợp đồng.",
+        "*Sato:* Rõ rồi. Tôi đã ký tên và đóng dấu xong. Bản gốc 2 bản hôm nay tôi gửi bưu điện. Trước đó tôi sẽ gửi bản sao đã scan qua email.",
+        "*Ono:* Cảm ơn anh. Khi bản gốc đến, bên tôi cũng sẽ đóng dấu và gửi lại 1 bản."
+      ],
+      "questions": [
+        {
+          "id": "P04-L03-E01",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "契約を更新しない場合、いつまでに書面で申し出なければなりませんか。",
+          "options": {
+            "A": "2026年4月1日",
+            "B": "2027年1月末",
+            "C": "2027年3月31日",
+            "D": "2027年4月1日"
+          },
+          "answer": "B",
+          "explain": "Điều 3: `期間満了の2か月前まで` — hết hạn 31/3/2027 trừ 2 tháng = **cuối tháng 1/2027** (Ono cũng nói `1月末`). C là ngày hết hạn, không phải hạn báo hủy.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "NUMBER_TIME"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P04-L03-E02",
+          "questionType": "listening_reading",
+          "skill": "listening_reading",
+          "q": "守秘義務は、いつまで有効ですか。",
+          "options": {
+            "A": "契約期間中だけ",
+            "B": "契約終了後も1年間",
+            "C": "契約終了後も2年間",
+            "D": "期限はない"
+          },
+          "answer": "C",
+          "explain": "Điều 5: `契約終了後も2年間有効`, Ono xác nhận lại trong hội thoại. B là bẫy số.",
+          "tags": [
+            "DOCUMENT_MATCH",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        },
+        {
+          "id": "P04-L03-E03",
+          "questionType": "listening_reading",
+          "skill": "listening",
+          "q": "佐藤さんが今日メールで送るものはどれですか。",
+          "options": {
+            "A": "原本",
+            "B": "解約通知書",
+            "C": "契約書の修正案",
+            "D": "写し"
+          },
+          "answer": "D",
+          "explain": "`先にスキャンした写しをメールで` → **bản sao**. `原本` (2 bản) thì **gửi bưu điện** hôm nay (`郵送`).",
+          "tags": [
+            "SPEAKER_INTENT",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "P04-L03-R01",
+      "title": "3. Bài Đọc — 短文読解 (P04-L03-R01: Thông báo sửa đổi điều khoản)",
+      "passageHtml": "<strong>件名：</strong> 【重要】会員規約改定のお知らせ<br>会員の皆様へ<br>2027年4月1日より、会員規約の一部を改定いたします。主な変更点は、解約時の手数料を廃止することです。<br>4月1日以降もサービスをご利用になる場合は、改定後の規約に同意したものとみなします。<br>改定後の規約に同意されない場合は、3月31日までに解約のお手続きをお願いいたします。<br>なお、すでにお支払いいただいた年会費は、原則として返金いたしませんので、ご了承ください。",
+      "questions": [
+        {
+          "id": "P04-L03-E04",
+          "questionType": "short_reading",
+          "skill": "reading",
+          "q": "改定後の規約に同意しない場合、会員はどうしなければなりませんか。",
+          "options": {
+            "A": "4月1日以降に電話をする。",
+            "B": "何もしなくてよい。",
+            "C": "3月31日までに解約の手続きをする。",
+            "D": "年会費の返金を申請する。"
+          },
+          "answer": "C",
+          "explain": "`同意されない場合は、3月31日までに解約のお手続き`. B sai: nếu không làm gì thì bị coi là **đồng ý** (`同意したものとみなします`). D sai: phí năm **nguyên tắc không hoàn lại** (`ご了承ください`).",
+          "tags": [
+            "NEGATION_CONDITION",
+            "DETAIL_MISS"
+          ],
+          "vocabIds": [],
+          "audioId": null
+        }
+      ]
+    }
+  ],
+  "expression": [
+    {
+      "id": "P04-L03-X01",
+      "questionType": "expression_reading",
+      "skill": "expression_reading",
+      "q": "取引先に、契約書への署名と捺印をお願いするメールを書きます。最も適切な表現を選んでください。",
+      "options": {
+        "A": "契約書に名前を書いて、ハンコを押してください。",
+        "B": "お手数ですが、ご署名とご捺印をお願い申し上げます。",
+        "C": "サインとハンコ、よろしく。",
+        "D": "署名と捺印をしなければなりません。"
+      },
+      "answer": "B",
+      "explain": "Nhờ khách: `お手数ですが` + `ご署名とご捺印をお願い申し上げます`. A, C suồng sã; D là mệnh lệnh, thiếu kính ngữ.",
+      "tags": [
+        "EXPRESSION_FIT",
+        "KEIGO_REGISTER"
+      ],
+      "vocabIds": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "P04-L03-G01",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "費用は甲が負担する（　）。",
+      "options": {
+        "A": "ことにする",
+        "B": "わけではない",
+        "C": "ものとする",
+        "D": "にすぎない"
+      },
+      "answer": "C",
+      "explain": "`〜ものとする` = quy ước là… (`G6-19`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L03-G02",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "本契約に（　）した場合、損害賠償を請求することができる。",
+      "options": {
+        "A": "更新",
+        "B": "違反",
+        "C": "締結",
+        "D": "遵守"
+      },
+      "answer": "B",
+      "explain": "`契約に違反する` (`CT-06`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "CT-06"
+      ]
+    },
+    {
+      "id": "P04-L03-G03",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "契約書に定められた義務を、確実に（　）する。",
+      "options": {
+        "A": "履行",
+        "B": "解約",
+        "C": "捺印",
+        "D": "署名"
+      },
+      "answer": "A",
+      "explain": "`義務を履行する` (`AC-18`)",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "AC-18"
+      ]
+    },
+    {
+      "id": "P04-L03-G04",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "契約を解除する（　）、事前に書面で通知する必要がある。",
+      "options": {
+        "A": "うちに",
+        "B": "上では",
+        "C": "ものの",
+        "D": "ばかり"
+      },
+      "answer": "B",
+      "explain": "`〜上では` = trong việc… (`G6-08`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L03-G05",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "当社（　）、この契約の更新は大きな意味を持つ。",
+      "options": {
+        "A": "をめぐって",
+        "B": "につれて",
+        "C": "にとって",
+        "D": "に対して"
+      },
+      "answer": "C",
+      "explain": "`〜にとって` = đối với (`G6-31`)",
+      "tags": [
+        "GRAMMAR"
+      ],
+      "vocabIds": []
+    },
+    {
+      "id": "P04-L03-G06",
+      "questionType": "grammar_vocab",
+      "skill": "grammar",
+      "q": "製品に不具合があれば無料で修理する（　）がついています。",
+      "options": {
+        "A": "保証",
+        "B": "補償",
+        "C": "保障",
+        "D": "保存"
+      },
+      "answer": "A",
+      "explain": "`HM-03`: 保証 = bảo hành",
+      "tags": [
+        "COLLOCATION"
+      ],
+      "vocabIds": [
+        "HM-03"
+      ]
+    }
+  ],
+  "depiction": [],
+  "testSections": []
+}
