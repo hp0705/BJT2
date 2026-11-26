@@ -636,72 +636,72 @@
     "size": 18000
   },
   "words/FX-01.mp3": {
-    "hash": "5220b30f2da91939",
-    "size": 26208
+    "hash": "ef605590c3b61e97",
+    "size": 19440
   },
   "examples/FX-01.mp3": {
     "hash": "1dd6c0458433eb04",
     "size": 18864
   },
   "words/FX-02.mp3": {
-    "hash": "179ee801ae25ecd4",
-    "size": 30816
+    "hash": "1d27a1644168653c",
+    "size": 21168
   },
   "examples/FX-02.mp3": {
-    "hash": "ab752038c1add8d6",
-    "size": 21600
+    "hash": "07ab9e9f685e782e",
+    "size": 41328
   },
   "words/FX-03.mp3": {
-    "hash": "497bad54cd69f1ff",
-    "size": 18720
+    "hash": "fe88b68d42ac205c",
+    "size": 17856
   },
   "examples/FX-03.mp3": {
-    "hash": "ab752038c1add8d6",
-    "size": 21600
+    "hash": "999e5154b17287b1",
+    "size": 38448
   },
   "examples/FX-04.mp3": {
-    "hash": "311b85734aad1579",
-    "size": 16848
+    "hash": "bb9a43aa8af479ec",
+    "size": 22320
   },
   "words/FX-04.mp3": {
-    "hash": "32d2db6877d01332",
-    "size": 30240
+    "hash": "ea7278fd47a2d903",
+    "size": 13536
   },
   "words/FX-05.mp3": {
-    "hash": "3ab5eeb4a8ed704b",
-    "size": 24624
+    "hash": "0bb67f9e9f04d56a",
+    "size": 16416
   },
   "examples/FX-05.mp3": {
     "hash": "c4ede4651f5e8dc9",
     "size": 18144
   },
   "words/FX-06.mp3": {
-    "hash": "429c87527a319b50",
-    "size": 19728
+    "hash": "7e90110e92a7545b",
+    "size": 15696
   },
   "words/CS-01.mp3": {
-    "hash": "321c4703a87f2460",
-    "size": 17280
+    "hash": "9e0e86114a7958ad",
+    "size": 13248
   },
   "words/FX-15.mp3": {
-    "hash": "5ca23c21ba5cad84",
-    "size": 13104
+    "hash": "43a52ceebc0e0267",
+    "size": 14976
   },
   "examples/CS-01.mp3": {
     "hash": "5db4a7d493737085",
     "size": 16992
   },
   "words/CS-02.mp3": {
-    "hash": "c4f1f38470c3b477",
-    "size": 25776
+    "hash": "377fa4aada11946e",
+    "size": 13824
   },
   "examples/CS-02.mp3": {
-    "hash": "eb7851eeb87283a1",
-    "size": 24768
+    "hash": "a8a2fd384a1caaaf",
+    "size": 22896
   },
   "words/CS-03.mp3": {
-    "hash": "934e8047aaa41711",
-    "size": 25056
+    "hash": "1bc3e68caee9d9c3",
+    "size": 15408
   },
   "listening/P02-L01-A01/01.mp3": {
     "hash": "a3e47ae4cf44a458",
@@ -784,72 +784,72 @@
     "size": 19584
   },
   "words/FX-08.mp3": {
-    "hash": "6f2de3dcdbaa053a",
-    "size": 16560
+    "hash": "17a4524824badaa2",
+    "size": 15408
   },
   "words/FX-09.mp3": {
-    "hash": "d202dfec47bbc4bb",
-    "size": 21744
+    "hash": "73b85e442eb5f905",
+    "size": 12096
   },
   "examples/FX-08.mp3": {
-    "hash": "d9239b727d73ef78",
-    "size": 23904
+    "hash": "fd77145615b8c767",
+    "size": 24048
   },
   "examples/FX-09.mp3": {
-    "hash": "e2a4da9b7d5bfb40",
-    "size": 17424
+    "hash": "9c4360410ce7d617",
+    "size": 30960
   },
   "words/FX-10.mp3": {
-    "hash": "e46a5f27ac246627",
-    "size": 24912
+    "hash": "a70a0ccc1145643b",
+    "size": 17856
   },
   "examples/FX-10.mp3": {
-    "hash": "df31f2b4cef5bd97",
-    "size": 13680
-  },
-  "examples/FX-11.mp3": {
-    "hash": "81359b0aa298209d",
+    "hash": "b60aba9d475eddaf",
     "size": 20016
   },
+  "examples/FX-11.mp3": {
+    "hash": "2685f3335754c0f2",
+    "size": 22608
+  },
   "words/FX-11.mp3": {
-    "hash": "5f594f624156a56b",
-    "size": 20592
+    "hash": "8cb26d6441d26055",
+    "size": 19296
   },
   "words/FX-12.mp3": {
-    "hash": "15ff8856d9c2e27b",
-    "size": 23328
+    "hash": "cadb5c611d8413d3",
+    "size": 26784
   },
   "examples/FX-12.mp3": {
     "hash": "01e28d841667160e",
     "size": 17136
   },
   "words/FX-13.mp3": {
-    "hash": "eeed2bc4a0135d57",
-    "size": 21744
+    "hash": "55327f81f9a84852",
+    "size": 26928
   },
   "words/FX-14.mp3": {
-    "hash": "9ff330c9643eac1f",
-    "size": 18432
+    "hash": "8547418996870584",
+    "size": 17136
   },
   "examples/FX-14.mp3": {
     "hash": "3cfde33ac52409a4",
     "size": 19584
   },
   "examples/CS-05.mp3": {
-    "hash": "8e1be3bbfd8dec20",
-    "size": 28512
+    "hash": "61232191be08d708",
+    "size": 27216
   },
   "words/CS-07.mp3": {
-    "hash": "056a61ff0347b201",
-    "size": 25632
+    "hash": "a54519bac920bf34",
+    "size": 23328
   },
   "words/CS-05.mp3": {
-    "hash": "a2165b4befa319b2",
-    "size": 31680
+    "hash": "d3203ddeb9ac7826",
+    "size": 17712
   },
   "words/CS-08.mp3": {
-    "hash": "42ce6c78bde62533",
-    "size": 24336
+    "hash": "7879e59b75e6cd2b",
+    "size": 19584
   },
   "examples/CS-08.mp3": {
     "hash": "c1644dea35d8ff84",
@@ -988,36 +988,36 @@
     "size": 21168
   },
   "words/ET-10.mp3": {
-    "hash": "c4a6288986aad690",
-    "size": 24480
+    "hash": "fbb0587e4b9c96a3",
+    "size": 18288
   },
   "words/FX-07.mp3": {
-    "hash": "d12632d6b4bc56a3",
-    "size": 31248
+    "hash": "730df20f02abf8f0",
+    "size": 16416
   },
   "examples/ET-10.mp3": {
-    "hash": "b24e98f164f0cbfc",
-    "size": 20448
+    "hash": "ba70908334e9fe3e",
+    "size": 24480
   },
   "examples/FX-07.mp3": {
-    "hash": "cb0bc01b45386cea",
-    "size": 19152
+    "hash": "490aa1ea5869f51b",
+    "size": 28368
   },
   "examples/CS-04.mp3": {
-    "hash": "d940339535b51d6e",
-    "size": 34560
+    "hash": "abbece6ec1aaad08",
+    "size": 26784
   },
   "words/CS-04.mp3": {
-    "hash": "1e5ea81d456dd9c8",
-    "size": 24624
+    "hash": "b21f0b54ba7c9761",
+    "size": 17568
   },
   "words/CS-06.mp3": {
-    "hash": "faeef884b873f877",
-    "size": 29088
+    "hash": "eb0efe6f971f04be",
+    "size": 20592
   },
   "examples/CS-06.mp3": {
-    "hash": "d62a356fa4612cb8",
-    "size": 29376
+    "hash": "23c5cd97d413d4ae",
+    "size": 22320
   },
   "listening/P02-L03-A01/01.mp3": {
     "hash": "a3e47ae4cf44a458",

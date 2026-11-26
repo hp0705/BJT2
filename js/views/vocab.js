@@ -32,7 +32,7 @@ export function renderVocab(container, ctx, lessonId, lesson) {
       ${tab === 'card' ? `
         <div class="card flashcard" id="flashcard">
           <div class="word-jp">${v.word}</div>
-          ${(flipped || showReading) ? `<div class="reading-jp">${v.reading}</div>` : ''}
+          ${(flipped || showReading) && v.reading ? `<div class="reading-jp">${v.reading}</div>` : ''}
           <button class="btn-audio" id="btn-play-word" aria-label="Nghe từ">🔊</button>
 
           ${flipped ? `
@@ -61,7 +61,7 @@ export function renderVocab(container, ctx, lessonId, lesson) {
               <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
                 <div>
                   <strong style="font-size:1.1rem;">${item.word}</strong>
-                  <span class="muted">(${item.reading})</span>
+                  ${item.reading ? `<span class="muted">(${item.reading})</span>` : ''}
                   <div>${item.meaning}</div>
                 </div>
                 <button class="btn-audio-sm" data-play-idx="${i}" aria-label="Nghe ${item.word}">🔊</button>

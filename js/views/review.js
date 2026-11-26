@@ -68,7 +68,7 @@ export function renderReview(container, ctx) {
           <div class="word-jp">${vocab.word}</div>
           <button class="btn-audio" id="srs-audio" aria-label="Nghe">🔊</button>
           ${flipped ? `
-            <div class="reading-jp">${vocab.reading}</div>
+            ${vocab.reading ? `<div class="reading-jp">${vocab.reading}</div>` : ''}
             <div class="meaning-vi">${vocab.meaning}</div>
             ${vocab.exJp ? `<div class="muted">${vocab.exJp}<br>${vocab.exVi}</div>` : ''}
           ` : `<div class="muted">${t('tap_flip')}</div>`}
@@ -109,7 +109,7 @@ export function renderReview(container, ctx) {
         <div class="muted">${idx + 1} / ${dueList.length} · Trắc nghiệm Hộp ${card.box}</div>
         <div class="card" style="text-align:center;">
           <div class="word-jp">${vocab.word}</div>
-          <div class="reading-jp">${vocab.reading}</div>
+          ${vocab.reading ? `<div class="reading-jp">${vocab.reading}</div>` : ''}
           <button class="btn-audio-sm" id="mc-audio" style="margin-top:8px;">🔊</button>
         </div>
         <div class="option-list">

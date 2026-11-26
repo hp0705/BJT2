@@ -68,101 +68,101 @@
       "id": "FX-08",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "差し支えなければ",
-      "reading": "Nếu không phiền",
-      "meaning": "差し支えなければ、お名前を伺えますか。→ Nếu không phiền, cho tôi biết tên được không?",
-      "exJp": "Hỏi ý một cách nhẹ nhàng",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Nếu không phiền",
+      "exJp": "差し支えなければ、お名前を伺えますか。",
+      "exVi": "Nếu không phiền, cho tôi biết tên được không?",
+      "tip": "Hỏi ý một cách nhẹ nhàng"
     },
     {
       "id": "FX-09",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "取り急ぎ",
-      "reading": "Gấp xin báo trước",
-      "meaning": "Cuối email ngắn: 取り急ぎ、ご連絡まで。",
-      "exJp": "Chi tiết gửi sau",
+      "reading": "",
+      "meaning": "Gấp xin báo trước",
+      "exJp": "Cuối email ngắn: 取り急ぎ、ご連絡まで。",
       "exVi": "",
-      "tip": ""
+      "tip": "Chi tiết gửi sau"
     },
     {
       "id": "FX-10",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "追ってご連絡いたします",
-      "reading": "Sau đó sẽ liên lạc tiếp",
-      "meaning": "詳細は追ってご連絡いたします。→ Chi tiết sẽ báo sau.",
-      "exJp": "Báo thêm thông tin",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Sau đó sẽ liên lạc tiếp",
+      "exJp": "詳細は追ってご連絡いたします。",
+      "exVi": "Chi tiết sẽ báo sau.",
+      "tip": "Báo thêm thông tin"
     },
     {
       "id": "FX-11",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "改めてご連絡いたします",
-      "reading": "Sẽ liên lạc lại sau",
-      "meaning": "確認後、改めてご連絡いたします。→ Xác nhận xong sẽ liên lạc lại.",
-      "exJp": "Liên lạc lại lần khác",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Sẽ liên lạc lại sau",
+      "exJp": "確認後、改めてご連絡いたします。",
+      "exVi": "Xác nhận xong sẽ liên lạc lại.",
+      "tip": "Liên lạc lại lần khác"
     },
     {
       "id": "FX-12",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "ご確認のほど、よろしくお願いいたします",
-      "reading": "Xin vui lòng xác nhận",
-      "meaning": "Kết thư gửi tài liệu",
-      "exJp": "〜のほど (G5-03)",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Xin vui lòng xác nhận",
+      "exJp": "",
+      "exVi": "Kết thư gửi tài liệu",
+      "tip": "`〜のほど` (`G5-03`)"
     },
     {
       "id": "FX-13",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "ご検討のほど、よろしくお願いいたします",
-      "reading": "Rất mong quý vị xem xét",
-      "meaning": "Kết thư gửi đề xuất",
+      "reading": "",
+      "meaning": "Rất mong quý vị xem xét",
       "exJp": "",
-      "exVi": "",
+      "exVi": "Kết thư gửi đề xuất",
       "tip": ""
     },
     {
       "id": "FX-14",
       "group": "Nhóm B — Cụm dùng trong email & liên lạc (7 cụm)",
       "word": "以後、気をつけます",
-      "reading": "Từ nay tôi sẽ chú ý",
-      "meaning": "Xin lỗi sau khi mắc lỗi",
-      "exJp": "Cam kết không tái phạm",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Từ nay tôi sẽ chú ý",
+      "exJp": "",
+      "exVi": "Xin lỗi sau khi mắc lỗi",
+      "tip": "Cam kết không tái phạm"
     },
     {
       "id": "CS-05",
       "group": "Nhóm C — Từ đệm xác nhận & từ chối (3 cụm)",
       "word": "念のため確認ですが",
-      "reading": "Tôi xin xác nhận lại cho chắc",
-      "meaning": "念のため確認ですが、15時でよろしいですか。→ 15 giờ đúng không ạ?",
-      "exJp": "Kiểm tra lại số/giờ/địa chỉ",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Tôi xin xác nhận lại cho chắc",
+      "exJp": "念のため確認ですが、15時でよろしいですか。",
+      "exVi": "15 giờ đúng không ạ?",
+      "tip": "Kiểm tra lại số/giờ/địa chỉ"
     },
     {
       "id": "CS-07",
       "group": "Nhóm C — Từ đệm xác nhận & từ chối (3 cụm)",
       "word": "お力になれず申し訳ございません",
-      "reading": "Xin lỗi vì không thể giúp được",
-      "meaning": "Từ chối rõ ràng nhưng lịch sự",
+      "reading": "",
+      "meaning": "Xin lỗi vì không thể giúp được",
       "exJp": "",
-      "exVi": "",
+      "exVi": "Từ chối rõ ràng nhưng lịch sự",
       "tip": ""
     },
     {
       "id": "CS-08",
       "group": "Nhóm C — Từ đệm xác nhận & từ chối (3 cụm)",
       "word": "ただいま確認してまいります",
-      "reading": "Tôi xin phép đi kiểm tra ngay",
-      "meaning": "Khi cần xác nhận rồi quay lại báo",
-      "exJp": "まいります = khiêm nhường",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Tôi xin phép đi kiểm tra ngay",
+      "exJp": "",
+      "exVi": "Khi cần xác nhận rồi quay lại báo",
+      "tip": "`まいります` = khiêm nhường"
     }
   ],
   "cards": [],
@@ -547,7 +547,7 @@
           "id": "P02-L02-E01",
           "questionType": "listening_reading",
           "skill": "listening_reading",
-          "q": "男性はこれからどうしますか。\n- A: dùng giờ cũ trên giấy nhắn ✗\n- C: chỉ gửi email nếu không gọi kịp trước 16:00 ✗\n- D: đề bài hỏi hành động tiếp theo, không phải nội dung cuộc gọi ✗",
+          "q": "男性はこれからどうしますか。",
           "options": {
             "A": "17:00までに中村様に電話をする。",
             "B": "今すぐ中村様に電話をする。",
@@ -555,7 +555,7 @@
             "D": "今すぐ中村様へサンプルを送る。"
           },
           "answer": "B",
-          "explain": "Bẫy kinh điển BJT — giấy nhắn ghi hạn **17:00**, nhưng audio cập nhật thông tin mới: hạn thực tế đổi thành **16:00**. Vì hiện tại mới **15:30** (`今15時半だから、ギリギリ間に合うね。今すぐかけてみるよ`), người đàn ông quyết định **gọi điện ngay bây giờ** → **B**",
+          "explain": "Bẫy kinh điển BJT — giấy nhắn ghi hạn **17:00**, nhưng audio cập nhật thông tin mới: hạn thực tế đổi thành **16:00**. Vì hiện tại mới **15:30** (`今15時半だから、ギリギリ間に合うね。今すぐかけてみるよ`), người đàn ông quyết định **gọi điện ngay bây giờ** → **B**\n- A: dùng giờ cũ trên giấy nhắn ✗\n- C: chỉ gửi email nếu không gọi kịp trước 16:00 ✗\n- D: đề bài hỏi hành động tiếp theo, không phải nội dung cuộc gọi ✗",
           "tags": [
             "DOCUMENT_MATCH",
             "NUMBER_TIME"
@@ -572,7 +572,7 @@
       "id": "P02-L02-E02",
       "questionType": "expression_reading",
       "skill": "expression_reading",
-      "q": "- **Tình huống:** Đọc 4 phản hồi điện thoại bên dưới và chọn câu phù hợp nhất với tình huống: **Người gọi hỏi đến Mr. Sato, nhưng Mr. Sato đang họp. Bạn muốn đề nghị gọi lại sau.**\n- **Giải thích:**\n- **B** đúng: từ đệm `申し訳ございませんが` + nêu tình huống + chủ động đề nghị gọi lại (`終わり次第こちらからお電話させていただく`)\n- A: thiếu từ đệm, mệnh lệnh cộc `かけ直してください`\n- C: gọi người trong công ty mình là `佐藤様` ✗ (vi phạm quy tắc nội/ngoại)\n- D: thiếu từ đệm, cộc, thiếu lịch sự",
+      "q": "Đọc 4 phản hồi điện thoại bên dưới và chọn câu phù hợp nhất với tình huống: **Người gọi hỏi đến Mr. Sato, nhưng Mr. Sato đang họp. Bạn muốn đề nghị gọi lại sau.**",
       "options": {
         "A": "佐藤は会議中です。後でかけ直してください。",
         "B": "申し訳ございませんが、ただいま佐藤は会議中でございます。よろしければ、終わり次第こちらからお電話させていただくことも可能ですが、いかがでしょうか。",
@@ -580,8 +580,11 @@
         "D": "佐藤は席にいません。折り返しお電話ください。"
       },
       "answer": "B",
-      "explain": "",
-      "tags": [],
+      "explain": "- **B** đúng: từ đệm `申し訳ございませんが` + nêu tình huống + chủ động đề nghị gọi lại (`終わり次第こちらからお電話させていただく`)\n- A: thiếu từ đệm, mệnh lệnh cộc `かけ直してください`\n- C: gọi người trong công ty mình là `佐藤様` ✗ (vi phạm quy tắc nội/ngoại)\n- D: thiếu từ đệm, cộc, thiếu lịch sự",
+      "tags": [
+        "KEIGO_REGISTER",
+        "EXPRESSION_FIT"
+      ],
       "vocabIds": []
     }
   ],

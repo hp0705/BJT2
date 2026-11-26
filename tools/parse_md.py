@@ -90,11 +90,19 @@ def parse_table_rows(lines: list[str]) -> list[list[str]]:
 
 
 def split_example(raw: str) -> tuple[str, str]:
-    """Split 'JP sentence → VN meaning' into (exJp, exVi)."""
+    """Split 'JP sentence → VN meaning' into (exJp, exVi).
+    If there is no '→', put pure-Vietnamese usage notes into exVi (leaving exJp empty so TTS skips it).
+    """
     if "→" in raw:
         jp, vi = raw.split("→", 1)
         return strip_md(jp), strip_md(vi)
-    return strip_md(raw), ""
+    cleaned = strip_md(raw)
+    if not cleaned:
+        return "", ""
+    # Check if string contains Japanese characters
+    if re.search(r"[\u3040-\u30ff\u4e00-\u9fff]", cleaned):
+        return cleaned, ""
+    return "", cleaned
 
 
 def parse_options_inline(raw: str) -> dict[str, str]:
@@ -229,7 +237,8 @@ def parse_question_blocks(lines: list[str], default_qtype: str, default_skill: s
             q_lines: list[str] = []
             opts: dict[str, str] = {}
             ans = ""
-            explain = ""
+            explain_lines: list[str] = []
+            in_explain = False
             extra_audio = ""
 
             while i < n:
@@ -251,6 +260,23 @@ def parse_question_blocks(lines: list[str], default_qtype: str, default_skill: s
                     i += 1
                     continue
 
+                # Explanation line: - **Giải thích:** ... (may be multi-line)
+                exp_m = re.match(r"^(?:-\s*)?\*\*Giải thích:\*\*\s*(.*)$", cur)
+                if exp_m:
+                    in_explain = True
+                    if exp_m.group(1).strip():
+                        explain_lines.append(exp_m.group(1).strip())
+                    i += 1
+                    continue
+
+                if in_explain:
+                    if cur == "---":
+                        break
+                    if cur:
+                        explain_lines.append(cur)
+                    i += 1
+                    continue
+
                 # Option bullet: - A. ... or   - A. ...
                 om = re.match(r"^-\s*([A-D])\.\s*(.+)$", cur)
                 if om:
@@ -268,20 +294,15 @@ def parse_question_blocks(lines: list[str], default_qtype: str, default_skill: s
                     ans = ans_m.group(1)
                     rest = ans_m.group(2).strip()
                     if rest.startswith("|"):
-                        explain = rest.lstrip("|").strip()
-                    i += 1
-                    continue
-
-                # Explanation line: - **Giải thích:** ...
-                exp_m = re.match(r"^(?:-\s*)?\*\*Giải thích:\*\*\s*(.+)$", cur)
-                if exp_m:
-                    explain = exp_m.group(1).strip()
+                        explain_lines.append(rest.lstrip("|").strip())
                     i += 1
                     continue
 
                 if cur and cur != "---" and not cur.startswith("**Script") and not cur.startswith("**Dịch"):
                     q_lines.append(cur.lstrip("> ").strip())
                 i += 1
+
+            explain = "\n".join(explain_lines).strip()
 
             qtype = default_qtype
             if skill == "expression_listening":
@@ -417,15 +438,24 @@ def parse_vocab_section(lines: list[str], lesson: dict[str, Any]) -> None:
                 while i < n and lines[i].strip().startswith("|"):
                     tbl.append(lines[i])
                     i += 1
+                # Detect columns by header row instead of fixed indices
+                headers = [c.strip().lower() for c in tbl[0].strip().strip("|").split("|")]
+                idx_word = next((k for k, h in enumerate(headers) if "từ" in h or "cụm" in h), 1)
+                idx_read = next((k for k, h in enumerate(headers) if "cách đọc" in h), None)
+                idx_mean = next((k for k, h in enumerate(headers) if "nghĩa" in h), None)
+                idx_ex = next((k for k, h in enumerate(headers) if "ví dụ" in h or "dùng khi nào" in h), None)
+                idx_tip = next((k for k, h in enumerate(headers) if "mẹo" in h or "ghi chú" in h or "bẫy" in h), None)
+
                 for cells in parse_table_rows(tbl):
-                    if len(cells) < 5:
+                    if len(cells) < 4:
                         continue
                     vid = strip_md(cells[0])
-                    word = strip_md(cells[1])
-                    reading = strip_md(cells[2])
-                    meaning = strip_md(cells[3])
-                    ex_jp, ex_vi = split_example(cells[4])
-                    tip = cells[5].strip() if len(cells) > 5 else ""
+                    word = strip_md(cells[idx_word]) if idx_word < len(cells) else ""
+                    reading = strip_md(cells[idx_read]) if (idx_read is not None and idx_read < len(cells)) else ""
+                    meaning = strip_md(cells[idx_mean]) if (idx_mean is not None and idx_mean < len(cells)) else ""
+                    raw_ex = cells[idx_ex] if (idx_ex is not None and idx_ex < len(cells)) else ""
+                    ex_jp, ex_vi = split_example(raw_ex)
+                    tip = cells[idx_tip].strip() if (idx_tip is not None and idx_tip < len(cells)) else ""
                     lesson["vocab"].append({
                         "id": vid,
                         "group": cur_group,
@@ -563,37 +593,52 @@ def parse_expression_section(sec_title: str, lines: list[str]) -> list[dict[str,
     if qs:
         return qs
 
-    # Single-question section
+    # Single-question section (e.g. P01-L01-E01, P02-L02-E02, P04-L01-X01)
     if id_m:
         qid = id_m.group(1)
         tags = extract_tags(sec_title)
         if qid in tags:
             tags.remove(qid)
-        prompt = []
+        prompt: list[str] = []
         opts: dict[str, str] = {}
         ans = ""
-        explain = ""
+        explain_lines: list[str] = []
+        in_explain = False
         for line in lines:
             cur = line.strip()
+            exp_m = re.match(r"^(?:-\s*)?\*\*Giải thích:\*\*\s*(.*)$", cur)
+            if exp_m:
+                in_explain = True
+                if exp_m.group(1).strip():
+                    explain_lines.append(exp_m.group(1).strip())
+                continue
+            if in_explain:
+                if cur == "---":
+                    break
+                if cur:
+                    explain_lines.append(cur)
+                continue
+            if cur.startswith("- **Error Tags:") or "**Error Tags:**" in cur:
+                tags.extend(extract_tags(cur))
+                if cur.startswith("- **Skill:**"):
+                    continue
             om = re.match(r"^-\s*([A-D])\.\s*(.+)$", cur)
             if om:
                 opts[om.group(1)] = om.group(2).strip()
                 continue
-            ans_m = re.match(r"^(?:-\s*)?\*\*Đáp án:\*\*\s*\*\*([A-D])\*\*", cur)
+            ans_m = re.match(r"^(?:-\s*)?\*\*(?:Đáp án|答え):\*\*\s*\*\*([A-D])\*\*", cur)
             if ans_m:
                 ans = ans_m.group(1)
                 continue
-            exp_m = re.match(r"^(?:-\s*)?\*\*Giải thích:\*\*\s*(.+)$", cur)
-            if exp_m:
-                explain = exp_m.group(1).strip()
-                continue
             if cur.startswith("- **Skill:") or cur.startswith("- **Lựa chọn"):
                 continue
-            if cur.startswith("- **Người dẫn đề"):
-                prompt.append(re.sub(r"^-\s*\*\*Người dẫn đề[^:]*:\*\*\s*", "", cur))
+            if cur.startswith("- **Người dẫn đề") or cur.startswith("- **Tình huống:") or cur.startswith("- **Câu hỏi:"):
+                prompt.append(re.sub(r"^-\s*\*\*[^*]+\*\*\s*", "", cur))
                 continue
             if cur and cur != "---":
                 prompt.append(cur)
+        explain = "\n".join(explain_lines).strip()
+        tags = list(dict.fromkeys(tags))
         return [{
             "id": qid,
             "questionType": default_skill,
@@ -881,7 +926,7 @@ def main() -> int:
             warnings.append(f"{lid}: vocab not mentioned in quiz: {', '.join(missing_v)}")
 
     index_data = {
-        "version": "2.2",
+        "version": "2.2.2",
         "parts": [parts_map[k] for k in sorted(parts_map.keys())],
     }
     (DATA_DIR / "index.json").write_text(json.dumps(index_data, ensure_ascii=False, indent=2), encoding="utf-8")

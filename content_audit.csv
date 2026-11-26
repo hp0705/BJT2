@@ -1,0 +1,675 @@
+﻿ID,Type,Part,Lesson,Group_Skill,Japanese,Reading,Vietnamese,Example_JP,Example_VI,Tip_Explain,Answer,Tags,Status,Error_Types,Description,Suggestion,Confidence,JLPT_Est,BJT_Relevance
+CO-01,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),本社,ほんしゃ,Trụ sở chính,本社は東京にあります。,Trụ sở chính ở Tokyo.,Đối lập với `支社` / `支店`,,,OK,,,,3,N2/N3,CAO
+CO-02,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),支社,ししゃ,Chi nhánh của công ty (cấp vùng),来月、大阪支社へ異動します。,Tháng sau tôi chuyển sang chi nhánh Osaka.,支 = nhánh. `社` = công ty,,,OK,,,,3,N2/N3,CAO
+CO-03,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),支店,してん,"Chi nhánh của ngân hàng, cửa hàng",銀行の支店で口座を開きます。,Mở tài khoản ở chi nhánh ngân hàng.,"`店` = cửa hàng → ngân hàng, cửa hàng",,,OK,,,,3,N2/N3,CAO
+CO-04,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),子会社,こがいしゃ,Công ty con,子会社の社長に就任しました。,Tôi nhậm chức giám đốc công ty con.,子 = con,,,OK,,,,3,N2/N3,CAO
+CO-05,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),親会社,おやがいしゃ,Công ty mẹ,親会社の方針に従います。,Làm theo phương châm của công ty mẹ.,"Đọc `おや`, không đọc `しん`",,,OK,,,,3,N2/N3,CAO
+CO-06,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),傘下,さんか,"Trực thuộc, dưới quyền kiểm soát",当社は大手グループの傘下に入りました。,Công ty chúng tôi đã vào dưới trướng tập đoàn lớn.,"傘 = cái ô → ""dưới cái ô"" của tập đoàn",,,OK,,,,3,N2/N3,CAO
+CO-07,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),業界,ぎょうかい,"Giới, ngành (cả một lĩnh vực)",自動車業界は競争が激しいです。,Ngành ô tô cạnh tranh gay gắt.,"界 = giới → ""cả ngành""",,,OK,,,,3,N2/N3,CAO
+CO-08,vocab,P01,P01-L01,Nhóm A — Cơ cấu công ty (8 từ),業種,ぎょうしゅ,Loại hình ngành nghề,業種を問わず、応募できます。,"Không phân biệt loại ngành nghề, ai cũng ứng tuyển được.",種 = loại: 製造業・小売業・サービス業,,,OK,,,,3,N2/N3,CAO
+CO-09,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),部署,ぶしょ,"Bộ phận, phòng ban (tên chung)",新しい部署に配属されました。,Tôi được phân vào bộ phận mới.,Tên chung; `〜部` là tên cụ thể,,,OK,,,,3,N2/N3,CAO
+CO-10,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),総務部,そうむぶ,Phòng Tổng vụ (hành chính chung),総務部が備品を管理しています。,Phòng Tổng vụ quản lý văn phòng phẩm.,"Hay gửi **thông báo nội bộ, bảo trì, tiếp khách**",,,OK,,,,3,N2/N3,CAO
+CO-11,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),人事部,じんじぶ,Phòng Nhân sự,人事部が面接の日程を決めます。,Phòng Nhân sự quyết định lịch phỏng vấn.,"Tuyển dụng, thuyên chuyển, chế độ",,,OK,,,,3,N2/N3,CAO
+CO-12,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),経理部,けいりぶ,Phòng Kế toán,経理部に領収書を提出します。,Nộp biên lai cho phòng Kế toán.,"Quyết toán, sổ sách, chi phí",,,OK,,,,3,N2/N3,CAO
+CO-13,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),営業部,えいぎょうぶ,Phòng Kinh doanh,営業部が新規顧客を開拓します。,Phòng Kinh doanh khai thác khách hàng mới.,"Gặp khách, bán hàng",,,OK,,,,3,N2/N3,CAO
+CO-14,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),企画部,きかくぶ,Phòng Kế hoạch,企画部が新商品を考えます。,Phòng Kế hoạch nghĩ ra sản phẩm mới.,"Lập đề án, kế hoạch sản phẩm",,,OK,,,,3,N2/N3,CAO
+CO-15,vocab,P01,P01-L01,Nhóm B — Phòng ban (7 từ),広報部,こうほうぶ,Phòng Quan hệ công chúng (PR),広報部が新商品を報道機関に発表します。,Phòng PR công bố sản phẩm mới cho báo chí.,Phát thông tin **ra bên ngoài**,,,OK,,,,3,N2/N3,CAO
+PS-01,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",社長,しゃちょう,"Giám đốc, chủ tịch công ty",社長が全社員に挨拶しました。,Giám đốc chào toàn thể nhân viên.,Cao nhất trong thứ tự chức danh,,,OK,,,,3,N4/N3,VỪA
+PS-05,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",部長,ぶちょう,Trưởng phòng (cấp bộ phận lớn),部長に報告します。,Báo cáo với trưởng phòng.,⚠ Nói với khách: không gắn `部長` sau tên sếp mình,,,OK,,,,3,N4/N3,VỪA
+PS-06,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",課長,かちょう,Trưởng nhóm / bộ phận nhỏ,課長が会議を進行します。,Trưởng nhóm điều hành cuộc họp.,Thứ tự: `社長` > `部長` > `課長` > `係長`,,,OK,,,,3,N4/N3,VỪA
+PS-11,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",担当者,たんとうしゃ,Người phụ trách,担当者に確認してから回答します。,Xác nhận với người phụ trách rồi mới trả lời.,Với khách nói `担当の〇〇`. ≠ `責任者`,,,OK,,,,3,N2/N3,CAO
+CL-01,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",取引先,とりひきさき,Đối tác giao dịch,取引先を訪問します。,Đến thăm đối tác.,"Gọi chung, gồm cả bên mua lẫn bên bán",,,OK,,,,3,N2/N3,CAO
+WK-16,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",現地法人,げんちほうじん,Pháp nhân tại nước sở tại (công ty con ở nước ngoài),ベトナムに現地法人を設立しました。,Đã lập công ty con tại Việt Nam.,現地 = tại chỗ + 法人 = pháp nhân,,,OK,,,,3,N2/N3,CAO
+AC-15,vocab,P01,P01-L01,"Nhóm C — Chức danh, người & quan hệ công việc (7 từ)",共有,きょうゆう,"Chia sẻ (thông tin, tài liệu)",資料をチームで共有します。,Chia sẻ tài liệu trong nhóm.,Có trong bài nghe L01; gặp lại ở P07,,,OK,,,,3,N2/N3,CAO
+P01-L01-V01,vocabQuiz,P01,P01-L01,vocab,「本社」の読み方は？,,,A.もとしゃ | B.ほんじゃ | C.ほんしゃ | D.ぼんしゃ,,本社 = ほんしゃ (`CO-01`),C,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V02,vocabQuiz,P01,P01-L01,vocab,「支社」の意味は？,,,A.Trụ sở chính | B.Chi nhánh của công ty | C.Công ty con | D.Công ty mẹ,,支社 = chi nhánh công ty (`CO-02`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V03,vocabQuiz,P01,P01-L01,vocab,銀行の（　）で口座を作りました。,,,A.本社 | B.子会社 | C.傘下 | D.支店,,Ngân hàng/cửa hàng → `支店` (`CO-03`),D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L01-V04,vocabQuiz,P01,P01-L01,vocab,「子会社」の反対の意味はどれですか。,,,A.親会社 | B.支社 | C.傘下 | D.業界,,子会社 ↔ 親会社,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V05,vocabQuiz,P01,P01-L01,vocab,「親会社」の読み方は？,,,A.しんかいしゃ | B.おやかいしゃ | C.しんがいしゃ | D.おやがいしゃ,,おや + がいしゃ (biến âm đục) (`CO-05`),D,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V06,vocabQuiz,P01,P01-L01,vocab,「傘下」の意味は？,,,"A.Hợp tác ngang hàng | B.Sáp nhập | C.Trực thuộc, dưới quyền kiểm soát | D.Thành lập",,傘下 = dưới trướng (`CO-06`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V07,vocabQuiz,P01,P01-L01,vocab,自動車（　）は、景気の影響を受けやすい。,,,A.業界 | B.部署 | C.窓口 | D.担当,,`自動車業界` = cả ngành ô tô (`CO-07`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L01-V08,vocabQuiz,P01,P01-L01,vocab,「製造業・小売業・サービス業」のような分類を何といいますか。,,,A.部署 | B.業界 | C.業種 | D.傘下,,Loại hình ngành nghề → `業種` (`CO-08`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V09,vocabQuiz,P01,P01-L01,vocab,新しい（　）に配属され、来週から働きます。,,,A.部署 | B.業種 | C.傘下 | D.親会社,,`部署に配属される` = được phân vào bộ phận (`CO-09`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L01-V10,vocabQuiz,P01,P01-L01,vocab,備品の管理や来客対応など、会社全体の事務を行う部署は？,,,A.経理部 | B.総務部 | C.広報部 | D.企画部,,総務部 (`CO-10`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V11,vocabQuiz,P01,P01-L01,vocab,決算・帳簿・経費の処理をする部署は？,,,A.経理部 | B.総務部 | C.広報部 | D.人事部,,経理部 = kế toán (`CO-12`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V12,vocabQuiz,P01,P01-L01,vocab,採用・面接・異動を担当する部署は？,,,A.人事部 | B.経理部 | C.企画部 | D.広報部,,人事部 (`CO-11`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V13,vocabQuiz,P01,P01-L01,vocab,新商品の発表など、社外への情報発信を担当する部署は？,,,A.営業部 | B.広報部 | C.総務部 | D.人事部,,広報部 = PR (`CO-15`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V14,vocabQuiz,P01,P01-L01,vocab,新しい事業や商品の計画を立てる部署は？,,,A.営業部 | B.経理部 | C.広報部 | D.企画部,,企画部 (`CO-14`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V15,vocabQuiz,P01,P01-L01,vocab,顧客を訪問して商品を売り込む部署は？,,,A.営業部 | B.企画部 | C.総務部 | D.経理部,,営業部 (`CO-13`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V16,vocabQuiz,P01,P01-L01,vocab,役職が高い順に正しく並んでいるのはどれですか。,,,A.社長→課長→部長→係長 | B.部長→社長→課長→係長 | C.社長→部長→係長→課長 | D.社長→部長→課長→係長,,社長 > 部長 > 課長 > 係長,D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V17,vocabQuiz,P01,P01-L01,vocab,「課長」の読み方は？,,,A.かちょう | B.かじょう | C.がちょう | D.かかりちょう,,課長 = かちょう; `かかりちょう` là 係長,A,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V18,vocabQuiz,P01,P01-L01,vocab,「担当者」の意味は？,,,A.Người chịu trách nhiệm | B.Người phụ trách (trực tiếp làm việc đó) | C.Cổ đông | D.Đồng nghiệp,,担当者 = người phụ trách; `責任者` = người chịu trách nhiệm (`PS-11`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V19,vocabQuiz,P01,P01-L01,vocab,「取引先」の意味は？,,,A.Đối thủ cạnh tranh | B.Nhân viên mới | C.Đối tác giao dịch | D.Cổ đông,,取引先 (`CL-01`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V20,vocabQuiz,P01,P01-L01,vocab,「現地法人」の意味は？,,,A.Cổ đông nước ngoài | B.Công ty mẹ ở Nhật | C.Văn phòng đại diện bán hàng | D.Pháp nhân đặt tại nước sở tại (công ty con ở nước ngoài),,現地法人 (`WK-16`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-V21,vocabQuiz,P01,P01-L01,vocab,会議の資料をチームで（　）する。,,,A.共有 | B.部署 | C.業界 | D.支店,,`資料を共有する` = chia sẻ tài liệu (`AC-15`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L01-V22,vocabQuiz,P01,P01-L01,vocab,親会社と子会社の関係を正しく説明しているのはどれですか。,,,A.子会社が親会社の株式を持つ | B.親会社が子会社の株式を持ち、経営を支配する | C.両社は対等である | D.支社と同じ意味である,,"Công ty mẹ nắm cổ phần và chi phối công ty con (`CO-04`, `CO-05`)",B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L01-E02,listening:P01-L01-A01,P01,P01-L01,listening,佐藤さんは、これから何をしなければなりませんか。,,,A.今日中に部長に値引きの相談をする。 | B.明日までに新しい見積書を山本様に送る。 | C.山本様からのメールを受け取ったら、高橋さんに共有する。 | D.山本様に電話して、具体的な変更点を聞く。,,"Bẫy chuyển vai (`SPEAKER_ROLE`): Sato đề xuất hỏi trưởng phòng, nhưng Takahashi nhận làm việc đó (`部長には私から今日中に相談しておきます` → loại A). Việc của Sato được chốt ở câu cuối: `メールが届き次第、内容を私にも共有してもらえますか` → C đúng.",C,"SPEAKER_ROLE, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P01-L01-E01,expression,P01,P01-L01,expression_reading,"Khách hàng (ông Yamada — công ty ABC) gọi điện hỏi gặp trưởng phòng của bạn (ông Tanaka). Ông Tanaka đang ra ngoài và 3 giờ chiều mới về.
+Bạn nên trả lời ông Yamada như thế nào?",,,A.あいにく、田中部長は外出していらっしゃいます。3時に戻られます。 | B.あいにく、田中は外出しております。3時頃に戻る予定です。 | C.すみません、田中さんは今いません。3時に帰ってきます。 | D.あいにく、田中部長は外出されております。3時に参ります。,,"Đối phương là khách (`外`), ông Tanaka là người công ty mình (`内`) → bỏ chức danh `部長` và dùng `外出しております` (khiêm nhường/lịch sự). A và D sai vì tôn kính người nhà mình; C quá suồng sã.",B,"KEIGO_REGISTER, SPEAKER_ROLE",OK,,,,3,N2,CAO
+PS-07,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),係長,かかりちょう,Tổ trưởng,係長が新人の指導を担当します。,Tổ trưởng phụ trách hướng dẫn người mới.,Dưới `課長`,,,OK,,,,3,N2/N3,CAO
+PS-09,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),部下,ぶか,Cấp dưới,部下の相談に乗ります。,Tư vấn cho cấp dưới.,Ngược với `上司`,,,OK,,,,3,N2/N3,CAO
+PS-10,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),同僚,どうりょう,Đồng nghiệp,同僚と昼食に行きます。,Đi ăn trưa với đồng nghiệp.,Cùng cấp,,,OK,,,,3,N2/N3,CAO
+PS-13,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),株主,かぶぬし,Cổ đông,株主総会で決算を報告します。,Báo cáo quyết toán tại đại hội cổ đông.,株 = cổ phiếu,,,OK,,,,3,N2/N3,CAO
+PS-14,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),従業員,じゅうぎょういん,"Nhân viên, người lao động (nói chung)",従業員は約500人です。,Có khoảng 500 nhân viên.,"Bao gồm cả 正社員, 契約社員, 派遣社員",,,OK,,,,3,N2/N3,CAO
+PS-15,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),正社員,せいしゃいん,Nhân viên chính thức,契約社員から正社員になりました。,Tôi đã chuyển từ nhân viên hợp đồng thành chính thức.,Không giới hạn thời hạn,,,OK,,,,3,N2/N3,CAO
+PS-16,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),契約社員,けいやくしゃいん,Nhân viên hợp đồng,契約社員の更新は年に一度です。,Gia hạn hợp đồng mỗi năm một lần.,Có **thời hạn** hợp đồng,,,OK,,,,3,N2/N3,CAO
+PS-17,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),派遣社員,はけんしゃいん,Nhân viên phái cử,派遣社員が受付を担当しています。,Nhân viên phái cử phụ trách lễ tân.,Thuộc công ty phái cử,,,OK,,,,3,N2/N3,CAO
+PS-18,vocab,P01,P01-L02,Nhóm A — Nhân viên & hình thức làm việc (9 từ),新入社員,しんにゅうしゃいん,Nhân viên mới vào,新入社員研修は4月に始まります。,Đào tạo nhân viên mới bắt đầu vào tháng 4.,Vừa vào công ty (thường tháng 4),,,OK,,,,3,N2/N3,CAO
+CL-02,vocab,P01,P01-L02,Nhóm B — Khách hàng & đối thủ (3 từ),得意先,とくいさき,"Khách hàng quen, khách lớn",得意先に新商品を紹介します。,Giới thiệu sản phẩm mới cho khách quen.,"Bên mua, quan hệ lâu năm",,,OK,,,,3,N2/N3,CAO
+CL-03,vocab,P01,P01-L02,Nhóm B — Khách hàng & đối thủ (3 từ),顧客,こきゃく,Khách hàng,顧客のニーズを分析します。,Phân tích nhu cầu của khách hàng.,Văn viết; nói thường dùng `お客様`,,,OK,,,,3,N2/N3,CAO
+CL-07,vocab,P01,P01-L02,Nhóm B — Khách hàng & đối thủ (3 từ),競合他社,きょうごうたしゃ,Đối thủ cạnh tranh,競合他社より価格が安いです。,Giá rẻ hơn đối thủ.,競合 = cạnh tranh + 他社 = công ty khác,,,OK,,,,3,N2/N3,CAO
+NEW-P01-01,vocab,P01,P01-L02,Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ),実施する,じっしする,"Thực hiện, tiến hành",来月、研修を実施します。,Tháng sau sẽ tiến hành đào tạo.,"Dùng cho bảo trì, đào tạo, khảo sát",,,OK,,,,3,N2/N3,CAO
+NEW-P01-02,vocab,P01,P01-L02,Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ),定例,ていれい,Định kỳ,定例会議は毎週月曜日です。,Họp định kỳ vào thứ Hai hàng tuần.,`定例会議`,,,OK,,,,3,N2/N3,CAO
+NEW-P01-03,vocab,P01,P01-L02,Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ),経費精算,けいひせいさん,Quyết toán chi phí,出張費の経費精算を申請します。,Nộp đơn quyết toán chi phí công tác.,Hay đi kèm hạn nộp `〜までに`,,,OK,,,,3,N2/N3,CAO
+NEW-P01-04,vocab,P01,P01-L02,Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ),押さえる（会議室を〜）,おさえる,"Giữ chỗ, đặt trước (phòng họp)",会議室を押さえておきます。,Tôi sẽ đặt sẵn phòng họp.,Nghĩa mở rộng của `押さえる`,,,OK,,,,3,N2/N3,CAO
+NEW-P01-05,vocab,P01,P01-L02,Nhóm C — Từ trong thông báo nội bộ & lịch phòng họp (5 từ),空き,あき,"Chỗ trống, khung giờ trống",午後は会議室に空きがあります。,Buổi chiều phòng họp còn trống.,Trong lịch: `空き` = trống,,,OK,,,,3,N2/N3,CAO
+P01-L02-V01,vocabQuiz,P01,P01-L02,vocab,「係長」の読み方は？,,,A.かかりちょう | B.けいちょう | C.かかりじょう | D.ぎょうちょう,,係長 = かかりちょう (`PS-07`),A,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V02,vocabQuiz,P01,P01-L02,vocab,「部下」の意味は？,,,A.Cấp trên | B.Cấp dưới | C.Đồng nghiệp | D.Khách hàng,,部下 = cấp dưới (`PS-09`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V03,vocabQuiz,P01,P01-L02,vocab,「同僚」の意味は？,,,A.Đồng nghiệp | B.Cấp dưới | C.Cổ đông | D.Nhân viên mới,,同僚 (`PS-10`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V04,vocabQuiz,P01,P01-L02,vocab,「株主」の意味は？,,,A.Chủ tịch | B.Khách hàng | C.Cổ đông | D.Nhà cung cấp,,株主 (`PS-13`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V05,vocabQuiz,P01,P01-L02,vocab,この会社で働く（　）は、全部で500人です。,,,A.株主 | B.従業員 | C.得意先 | D.顧客,,従業員 = nhân viên nói chung (`PS-14`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L02-V06,vocabQuiz,P01,P01-L02,vocab,派遣会社から来て働く人を何といいますか。,,,A.正社員 | B.契約社員 | C.派遣社員 | D.新入社員,,派遣社員 (`PS-17`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V07,vocabQuiz,P01,P01-L02,vocab,期間を決めて雇用契約を結んで働く人は？,,,A.契約社員 | B.正社員 | C.派遣社員 | D.株主,,契約社員 (`PS-16`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V08,vocabQuiz,P01,P01-L02,vocab,期間の定めなく、会社に直接雇われている人は？,,,A.派遣社員 | B.契約社員 | C.新入社員 | D.正社員,,正社員 (`PS-15`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V09,vocabQuiz,P01,P01-L02,vocab,4月に入社したばかりの社員を何といいますか。,,,A.新入社員 | B.同僚 | C.部下 | D.株主,,新入社員 (`PS-18`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V10,vocabQuiz,P01,P01-L02,vocab,「得意先」の説明として正しいのは？,,,A.長く取引があり、大切にしている顧客 | B.商品を仕入れる会社 | C.競争している会社 | D.会社の株を持つ人,,得意先 = khách quen lớn (`CL-02`); B là `仕入れ先`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V11,vocabQuiz,P01,P01-L02,vocab,「顧客」の意味は？,,,A.Khách hàng | B.Đối thủ | C.Người nhận hàng | D.Nhà cung cấp,,顧客 (`CL-03`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V12,vocabQuiz,P01,P01-L02,vocab,「競合他社」の意味は？,,,A.Công ty mẹ | B.Đối tác | C.Đối thủ cạnh tranh | D.Công ty con,,競合他社 (`CL-07`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V13,vocabQuiz,P01,P01-L02,vocab,来月、全社員向けの研修を（　）します。,,,A.経費 | B.実施 | C.定例 | D.空き,,`研修を実施する`,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L02-V14,vocabQuiz,P01,P01-L02,vocab,「定例会議」とはどんな会議ですか。,,,A.Họp đột xuất | B.Họp định kỳ | C.Họp bị hủy | D.Họp ngoài công ty,,定例 = định kỳ,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V15,vocabQuiz,P01,P01-L02,vocab,今月分の（　）がお済みでない方は、18時までに申請してください。,,,A.定例 | B.空き | C.経費精算 | D.実施,,経費精算 = quyết toán chi phí,C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L02-V16,vocabQuiz,P01,P01-L02,vocab,「会議室を押さえる」の意味は？,,,"A.Giữ chỗ, đặt trước phòng họp | B.Dọn phòng họp | C.Hủy phòng họp | D.Mượn chìa khóa phòng họp",,`押さえる` = giữ chỗ,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V17,vocabQuiz,P01,P01-L02,vocab,会議室の予定表にある「空き」の意味は？,,,A.Đã kín | B.Trống | C.Bị hủy | D.Đang bảo trì,,空き = trống,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-V18,vocabQuiz,P01,P01-L02,vocab,「契約社員」の読み方は？,,,A.けいやくしゃいん | B.けいやくしゃゆう | C.かいやくしゃいん | D.けいやくじんいん,,契約 = けいやく (không phải かいやく = hủy hợp đồng),A,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L02-E01,listening:P01-L02-LR01,P01,P01-L02,listening_reading,2人はどの会議室を何時に予約しますか。,,,A.会議室A、10:00 – 11:30 | B.会議室A、13:00 – 14:30 | C.会議室B、13:00 – 14:30 | D.会議室A、15:00 – 16:30,,Audio cho biết tổng **6 người** → loại Phòng B (trên bảng ghi tối đa 4 người). Khách muốn **buổi chiều** → loại 10:00–11:30. Trưởng phòng **ra ngoài từ 14:30** → loại 15:00–16:30. Đối chiếu bảng: Phòng A khung **13:00–14:30** đang trống (`空き`) → Chọn **B**.,B,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P01-L02-E02,reading:P01-L02-R01,P01,P01-L02,reading,このメールの内容と合っているものはどれですか。,,,A.メンテナンス中は、社内メールを一切受信できなくなる。 | B.経費精算の申請は、11月28日の22:00までに終わらせる必要がある。 | C.メンテナンス中でも、社内メールの受信だけは可能である。 | D.11月29日の朝6:00以降も、勤怠管理システムは使えない。,,"Email ghi rõ ngoại lệ `ただし、社内メールの受信のみ通常通り行われます` → C đúng, A sai. B sai vì hạn nộp quyết toán là **18:00** ngày 28/11 (không phải 22:00). D sai vì bảo trì kết thúc lúc 6:00 sáng 29/11.",C,"NEGATION_CONDITION, NUMBER_TIME",OK,,,,3,N2/N3,CAO
+CO-16,vocab,P01,P01-L03,"Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",設立,せつりつ,"Thành lập (công ty, tổ chức)",会社を1990年に設立しました。,Công ty được thành lập năm 1990.,Lập thành pháp nhân. ≠ `創業`,,,OK,,,,3,N2/N3,CAO
+CO-17,vocab,P01,P01-L03,"Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",創業,そうぎょう,"Khởi nghiệp, sáng lập kinh doanh",創業100年の老舗です。,"Cửa hiệu lâu đời, khởi nghiệp được 100 năm.",Bắt đầu kinh doanh,,,OK,,,,3,N2/N3,CAO
+CO-18,vocab,P01,P01-L03,"Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",合併,がっぺい,Sáp nhập,A社とB社が合併します。,Công ty A và B sáp nhập.,**Thành một công ty**,,,OK,,,,3,N2/N3,CAO
+CO-19,vocab,P01,P01-L03,"Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",提携,ていけい,"Hợp tác, liên kết",海外企業と技術提携を結びました。,Ký liên kết kỹ thuật với công ty nước ngoài.,**Vẫn là hai công ty riêng**,,,OK,,,,3,N2/N3,CAO
+CO-20,vocab,P01,P01-L03,"Nhóm A — Lập, sáp nhập, hợp tác (5 từ)",業績,ぎょうせき,Thành tích kinh doanh,今期の業績は好調です。,Kết quả kinh doanh kỳ này rất tốt.,"Doanh thu, lợi nhuận",,,OK,,,,3,N2/N3,CAO
+PS-02,vocab,P01,P01-L03,Nhóm B — Cấp bậc & trách nhiệm (5 từ),専務,せんむ,Phó chủ tịch điều hành (cấp cao),専務が出張に同行します。,Phó chủ tịch đi công tác cùng.,`社長` > `専務` > `常務` > `取締役`,,,OK,,,,3,N2/N3,CAO
+PS-03,vocab,P01,P01-L03,Nhóm B — Cấp bậc & trách nhiệm (5 từ),常務,じょうむ,Giám đốc điều hành,常務が新工場を視察しました。,Giám đốc điều hành thị sát nhà máy mới.,Dưới `専務`,,,OK,,,,3,N2/N3,CAO
+PS-04,vocab,P01,P01-L03,Nhóm B — Cấp bậc & trách nhiệm (5 từ),取締役,とりしまりやく,Thành viên hội đồng quản trị,取締役会で承認されました。,Được hội đồng quản trị phê duyệt.,Đọc `とりしまりやく`,,,OK,,,,3,N2/N3,CAO
+PS-08,vocab,P01,P01-L03,Nhóm B — Cấp bậc & trách nhiệm (5 từ),上司,じょうし,Cấp trên,上司に相談します。,Xin ý kiến cấp trên.,Ngược với `部下`,,,OK,,,,3,N2/N3,CAO
+PS-12,vocab,P01,P01-L03,Nhóm B — Cấp bậc & trách nhiệm (5 từ),責任者,せきにんしゃ,Người chịu trách nhiệm,プロジェクトの責任者は鈴木です。,Người chịu trách nhiệm dự án là Suzuki.,≠ `担当者` (người trực tiếp làm),,,OK,,,,3,N2/N3,CAO
+CL-04,vocab,P01,P01-L03,Nhóm C — Đối tác & thủ tục (4 từ),納入先,のうにゅうさき,"Nơi giao hàng, bên nhận hàng",納入先に納品書を渡します。,Giao phiếu giao hàng cho nơi nhận.,Bên **nhận** hàng,,,OK,,,,3,N2/N3,CAO
+CL-05,vocab,P01,P01-L03,Nhóm C — Đối tác & thủ tục (4 từ),仕入れ先,しいれさき,Nhà cung cấp,仕入れ先を変更しました。,Đã đổi nhà cung cấp.,Bên **bán** cho mình,,,OK,,,,3,N2/N3,CAO
+CL-06,vocab,P01,P01-L03,Nhóm C — Đối tác & thủ tục (4 từ),窓口,まどぐち,Đầu mối liên hệ,苦情の窓口は総務部です。,Đầu mối tiếp nhận khiếu nại là phòng Tổng vụ.,`窓口を担当する`,,,OK,,,,3,N2/N3,CAO
+LG-12,vocab,P01,P01-L03,Nhóm C — Đối tác & thủ tục (4 từ),通関,つうかん,Thông quan,通関に3日かかります。,Thông quan mất 3 ngày.,Hay tạo bẫy **cộng thêm ngày** giao hàng,,,CẦN XEM,trùng,Trùng từ '通関' với P03-L02:LG-12,,3,N2/N3,CAO
+P01-L03-V01,vocabQuiz,P01,P01-L03,vocab,会社を1990年に（　）しました。,,,A.合併 | B.設立 | C.提携 | D.傘下,,`会社を設立する` (`CO-16`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L03-V02,vocabQuiz,P01,P01-L03,vocab,「創業100年」の意味は？,,,A.Công ty con tồn tại 100 năm | B.Bắt đầu kinh doanh được 100 năm | C.Sáp nhập 100 lần | D.Hợp tác 100 năm,,"創業 = khởi nghiệp, bắt đầu kinh doanh (`CO-17`)",B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V03,vocabQuiz,P01,P01-L03,vocab,A社とB社が一つの会社になることを何といいますか。,,,A.提携 | B.合併 | C.傘下 | D.設立,,合併 = sáp nhập thành một (`CO-18`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V04,vocabQuiz,P01,P01-L03,vocab,会社は別々のまま、協力関係を結ぶことを何といいますか。,,,A.合併 | B.設立 | C.提携 | D.創業,,"提携 = liên kết, vẫn là hai công ty (`CO-19`)",C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V05,vocabQuiz,P01,P01-L03,vocab,今期の（　）は好調で、売上も利益も伸びました。,,,A.業績 | B.業界 | C.業種 | D.窓口,,業績 = kết quả kinh doanh (`CO-20`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L03-V06,vocabQuiz,P01,P01-L03,vocab,地位が高い順に正しく並んでいるのはどれですか。,,,A.社長→常務→専務→取締役 | B.社長→専務→常務→取締役 | C.専務→社長→常務→取締役 | D.社長→専務→取締役→常務,,社長 > 専務 > 常務 > 取締役,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V07,vocabQuiz,P01,P01-L03,vocab,「取締役」の読み方は？,,,A.とりしまりやく | B.しゅうしまりやく | C.とりしまりにん | D.とりしめやく,,取締役 = とりしまりやく (`PS-04`),A,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V08,vocabQuiz,P01,P01-L03,vocab,「上司」の反対の意味はどれですか。,,,A.同僚 | B.株主 | C.部下 | D.顧客,,上司 ↔ 部下 (`PS-08`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V09,vocabQuiz,P01,P01-L03,vocab,プロジェクト全体の最終的な責任を負う人は？,,,A.担当者 | B.責任者 | C.同僚 | D.部下,,責任者 (`PS-12`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V10,vocabQuiz,P01,P01-L03,vocab,商品を届ける相手の会社を何といいますか。,,,A.仕入れ先 | B.納入先 | C.競合他社 | D.親会社,,納入先 = bên nhận hàng (`CL-04`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V11,vocabQuiz,P01,P01-L03,vocab,材料や商品を買う相手の会社を何といいますか。,,,A.納入先 | B.得意先 | C.仕入れ先 | D.子会社,,仕入れ先 = nhà cung cấp (`CL-05`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V12,vocabQuiz,P01,P01-L03,vocab,苦情の（　）は総務部です。,,,A.窓口 | B.傘下 | C.業界 | D.設立,,`窓口` = đầu mối liên hệ (`CL-06`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L03-V13,vocabQuiz,P01,P01-L03,vocab,「通関」の意味は？,,,A.Đóng gói | B.Trả hàng | C.Giao tận nhà | D.Thông quan,,通関 = thông quan (`LG-12`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V14,vocabQuiz,P01,P01-L03,vocab,「常務」の読み方は？,,,A.しょうむ | B.じょうむ | C.じょうぶ | D.しょうぶ,,常務 = じょうむ (`PS-03`),B,READING_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-V15,vocabQuiz,P01,P01-L03,vocab,「A社はB社の傘下にある」と同じ意味は？,,,A.A社とB社は対等である | B.A社はB社の支配下にある | C.A社がB社を設立した | D.A社はB社に合併された,,傘下 = dưới quyền kiểm soát (`CO-06`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-E01,listening:P01-L03-A01,P01,P01-L03,listening,この後、中村さんは何をしますか。,,,A.来月5日に商品を発送する。 | B.今日中に山本様へメールで日程を連絡する。 | C.鈴木部長に納期を確認する。 | D.通関の手続きを3日以内に終える。,,Câu cuối của Ishikawa chốt việc của Nakamura: `中村が今日中にメールでご連絡いたします` → **B**. A là việc dự kiến vào tháng sau. C sai vì Suzuki là sếp của khách. D sai vì 3 ngày là thời gian thông quan.,B,"DETAIL_MISS, SPEAKER_ROLE",OK,,,,3,N2/N3,CAO
+P01-L03-E02,listening:P01-L03-A01,P01,P01-L03,listening,荷物はいつ頃到着する予定ですか。,,,A.来月3日頃 | B.来月5日頃 | C.来月8日頃 | D.来月10日頃,,"Bẫy 3 mốc số: 10 ngày là **mong muốn của khách**, 5 ngày là **ngày gửi đi**, 8 ngày là **ngày đến** (`到着は8日頃`) → **C**.
+> **Ghi chú `内/外` trong script:** Yamamoto nói về sếp mình là `部長の鈴木が…申しておりまして` (không thêm 様/さん). Ishikawa gọi cấp dưới là `中村` (không `さん`) khi có khách.",C,"NUMBER_TIME, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P01-L03-X01,expression,P01,P01-L03,expression_listening,あなたは受付にいます。取引先の人が来て、営業部の佐藤部長に会いたいと言っています。約束があるかどうか確認したいです。何と言いますか。,,,A.佐藤部長とのお約束はございますでしょうか。 | B.恐れ入りますが、佐藤とのお約束はございますでしょうか。 | C.佐藤とお約束はありますか。 | D.佐藤部長とお約束をなさいましたか。,,"Lễ tân là người công ty mình nên khi nói với khách phải gọi sếp là `佐藤` (không kèm `部長`) → loại A, D. C quá suồng sã (`ありますか`). B có từ đệm `恐れ入りますが` + `ございますでしょうか`.",B,,OK,,,,3,N2/N3,CAO
+P01-L03-X02,expression,P01,P01-L03,expression_reading,"次の文の（　）に入る最も適切なものを選んでください。
+（取引先への電話で）来週、（　）の課長の山本が御社へ伺います。",,,A.御社 | B.弊社 | C.貴社 | D.先方,,Nói về công ty **mình** → `弊社`. `御社・貴社` là công ty đối tác; `先方` chỉ phía đối tác.,B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P01-L03-X03,expression,P01,P01-L03,expression_reading,"次の文の（　）に入る最も適切なものを選んでください。
+（取引先へのメールで）（　）におかれましては、ますますご清栄のこととお慶び申し上げます。",,,A.弊社 | B.貴社 | C.当社 | D.小社,,"Viết email/thư gửi đối tác → `貴社`. A, C, D đều là công ty mình.",B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P01-L03-G01,grammar,P01,P01-L03,grammar,A社はB社の（　）で、B社がA社の株式をすべて持っている。,,,A.親会社 | B.子会社 | C.取引先 | D.競合他社,,A bị B nắm 100% cổ phần → A là `子会社` (`CO-04`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L03-G02,grammar,P01,P01-L03,grammar,取引先との連絡は、すべて山田さんが（　）になっています。,,,A.窓口 | B.部署 | C.傘下 | D.顧客,,`窓口` = đầu mối liên hệ (`CL-06`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P01-L03-G03,grammar,P01,P01-L03,grammar,お客様がもうすぐ（　）。,,,A.参ります | B.いらっしゃいます | C.伺います | D.申します,,"Khách là người cần tôn kính → `いらっしゃる`. A, C, D là khiêm nhường",B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P01-L03-G04,grammar,P01,P01-L03,grammar,（取引先に）社長の田中が、ぜひ一度ご挨拶に（　）と申しております。,,,A.いらっしゃりたい | B.伺いたい | C.お越しになりたい | D.参られたい,,"Hành động của sếp mình khi nói với đối tác → khiêm nhường `伺う`. A, C là tôn kính; D là `参る`+`れる` chồng 2 lớp",B,"KEIGO_REGISTER, SPEAKER_ROLE",OK,,,,3,N2,CAO
+P01-L03-G05,grammar,P01,P01-L03,grammar,来月、大阪支社への（　）が決まりました。,,,A.異動 | B.移動 | C.変動 | D.運動,,`異動` = thuyên chuyển nhân sự (`HR-06`); `移動` = di chuyển vị trí (`HM-04`),A,"VOCAB_UNKNOWN, COLLOCATION",OK,,,,3,N2/N3,CAO
+P01-L03-D01,depiction,P01,P01-L03,depiction,Xem mô tả/tranh và chọn nhận định đúng với nội dung.,,,A.男性が資料を配っています。 | B.男性が画面を指しながら説明しています。 | C.全員がパソコンに入力しています。 | D.女性が電話で話しています。,,"Người đàn ông đứng chỉ vào màn hình → B. A sai (không phát tài liệu), C sai (chỉ một số người nhìn màn hình), D sai (người phụ nữ ghi chép).",B,"IMAGE_DETAIL, VOCAB_UNKNOWN",OK,,,,3,N2/N3,CAO
+P01-L04-T15,listening:P01-L04-A01,P01,P01-L04,listening,鈴木様は、どこの会社の何部の人ですか。,,,A.弊社の営業部の部長 | B.A社の営業部の部長 | C.A社の総務部の部長 | D.弊社の社長,,`A社の…営業部の部長様`,B,"DETAIL_MISS, SPEAKER_ROLE",OK,,,,3,N2/N3,CAO
+P01-L04-T16,listening:P01-L04-A01,P01,P01-L04,listening,応接室はどこにありますか。,,,A.1階、エレベーターを右 | B.2階、突き当たり | C.3階、エレベーターを左、突き当たり | D.3階、エレベーターを右,,`3階…左に曲がって、突き当たり`,C,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P01-L04-T17,listening:P01-L04-A01,P01,P01-L04,listening,田中さんは、この後まず何をしますか。,,,A.社長室に行く | B.山本さんに報告する | C.お茶の準備をする | D.受付で待つ,,`すぐ準備します` → お茶の準備が最初,C,"SPEAKER_ROLE, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P01-L04-T18,listening:P01-L04-A02,P01,P01-L04,listening,採用説明会の担当者は誰ですか。,,,A.木村さんと渡辺さん | B.渡辺さんと佐藤さん | C.木村さんと佐藤さん | D.渡辺さん一人,,`私と…佐藤さんが担当`,B,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P01-L04-T19,listening:P01-L04-A02,P01,P01-L04,listening,説明会は何時間の予定ですか。,,,A.1時間 | B.1時間半 | C.2時間 | D.3時間,,14時から16時 = 2時間,C,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P01-L04-T20,listening:P01-L04-A02,P01,P01-L04,listening,渡辺さんは、この後何をしますか。,,,A.参加者30名を集める | B.大ホールの予約を確認する | C.第2会議室に移動する | D.木村さんに報告書を提出する,,`大ホールをお借りしたほうが…` → `すぐ確認します`,B,SPEAKER_ROLE,OK,,,,3,N2/N3,CAO
+P01-L04-T11,reading:R01,P01,P01-L04,reading,この通知の目的はどれですか。,,,A.社員の採用を知らせる | B.組織変更を知らせる | C.給料の変更を知らせる | D.新製品を紹介する,,`組織変更を行います`,B,INFERENCE,OK,,,,3,N2/N3,CAO
+P01-L04-T12,reading:R01,P01,P01-L04,reading,変更後、経理部はどうなりますか。,,,A.そのまま残る | B.廃止される | C.管理部に統合される | D.人事部になる,,`経理部と総務部を統合し、「管理部」とします`,C,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P01-L04-T13,reading:R01,P01,P01-L04,reading,担当者の変更はいつわかりますか。,,,A.今日 | B.来週中 | C.来月1日以降 | D.通知を見ればわかる,,`来週中にメールでお知らせします`,B,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P01-L04-T14,reading:R01,P01,P01-L04,reading,新しい組織図はいつ見られますか。,,,A.今すぐ | B.来週中 | C.来月1日以降 | D.総務部に聞けばわかる,,`来月1日以降に社内システムで確認できます`,C,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P01-L04-T01,grammar,P01,P01-L04,grammar,自社のことを取引先に対して話すときは（　）と言います。,,,A.御社 | B.貴社 | C.弊社 | D.先方,,自社 = công ty mình nói với bên ngoài → `弊社`,C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L04-T02,grammar,P01,P01-L04,grammar,取引先の部長が来社されました。受付で何と言いますか。,,,A.部長が来ました | B.お越しいただきました | C.来られました | D.参りました,,Khách là người cần nâng → `お越しいただく` (khiêm nhường Ⅰ nâng khách),B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P01-L04-T03,grammar,P01,P01-L04,grammar,電話で取引先の担当者が不在のとき、自社の上司について何と言いますか。,,,A.田中部長はただいまおりません | B.田中はただいま外出しております | C.田中様はただいまおりません | D.田中部長は外出していらっしゃいます,,`内→外`ルール: 自社人 = `田中`(役職なし) + 謙譲語,B,"KEIGO_REGISTER, SPEAKER_ROLE",OK,,,,3,N2,CAO
+P01-L04-T04,grammar,P01,P01-L04,grammar,会社が別の会社と（　）して、一つの大きな会社になった。,,,A.合併 | B.提携 | C.傘下 | D.設立,,`合併` = sáp nhập (`CO-18`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L04-T05,grammar,P01,P01-L04,grammar,彼は（　）になってから、責任が増えた。,,,A.部署 | B.係長 | C.担当者 | D.株主,,係長 = tổ trưởng (`PS-07`); thăng lên chức → 係長,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L04-T06,grammar,P01,P01-L04,grammar,A社はB社の（　）にあり、B社の指示で動く。,,,A.傘下 | B.競合 | C.業界 | D.業種,,`傘下` = trực thuộc (`CO-06`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P01-L04-T07,grammar,P01,P01-L04,grammar,（自社のメールで）来月、プロジェクトの（　）が決まりました。,,,A.採用 | B.設立 | C.創業 | D.見通し,,`見通し` = dự báo (`PH-05`); triển vọng dự án,D,"VOCAB_UNKNOWN, COLLOCATION",OK,,,,3,N2/N3,CAO
+P01-L04-T08,grammar,P01,P01-L04,grammar,取引先に「社長に会いたい」と言われました。最も適切な返事はどれですか。,,,A.社長はいます | B.少々お待ちください。社長にお取り次ぎいたします | C.社長様に聞いてみます | D.社長がすぐ来ます,,`お取り次ぎ` = chuyển lời/chuyển máy; lịch sự và đúng ngữ pháp,B,"KEIGO_REGISTER, EXPRESSION_FIT",OK,,,,3,N2,CAO
+P01-L04-T09,grammar,P01,P01-L04,grammar,上司から仕事を頼まれました。返事として最も適切なものはどれですか。,,,A.了解しました（問題なし） | B.承知いたしました | C.かしこまりました | D.BかCが正しい,,上司/客 → `承知いたしました` か `かしこまりました`. `了解` は目上に使うと失礼,D,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P01-L04-T10,grammar,P01,P01-L04,grammar,山本課長は（　）です。彼は私の上司です。,,,A.部下 | B.同僚 | C.上司 | D.新入社員,,山本課長 is 上司 (`PS-08`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+OF-03,vocab,P02,P02-L01,"Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",応接室,おうせつしつ,Phòng tiếp khách,応接室にご案内します。,Xin dẫn quý khách vào phòng tiếp khách.,Mời ngồi: `こちらにおかけください`,,,OK,,,,3,N2/N3,CAO
+OF-05,vocab,P02,P02-L01,"Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",不在,ふざい,Không có mặt,田中はただいま不在にしております。,Anh Tanaka hiện không có mặt.,`不在にしております` = cách nói chuẩn,,,OK,,,,3,N2/N3,CAO
+OF-06,vocab,P02,P02-L01,"Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",折り返し,おりかえし,Gọi lại ngay (phía được nhờ gọi lại),戻り次第、折り返しお電話します。,Khi về tôi sẽ gọi lại ngay.,`折り返し` ≠ `かけ直す` (bên gọi tự gọi lại),,,OK,,,,3,N2/N3,CAO
+OF-07,vocab,P02,P02-L01,"Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",伝言,でんごん,Lời nhắn,伝言を承ります。,Tôi xin nhận lời nhắn.,`伝言を承る` (nhận) / `申し伝える` (chuyển lời),,,OK,,,,3,N2/N3,CAO
+ET-13,vocab,P02,P02-L01,"Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",席を外す,せきをはずす,Tạm rời chỗ,課長はただいま席を外しております。,Trưởng nhóm đang tạm rời chỗ.,Lịch sự hơn `席にいません`,,,OK,,,,3,N2/N3,CAO
+KT-02,vocab,P02,P02-L01,"Nhóm A — Điện thoại, lời nhắn & tiếp khách (6 từ)",アポイント（アポ）,あぽいんと,Cuộc hẹn,14時にアポを取っています。,Tôi đã hẹn lúc 14 giờ.,`アポを取る` = hẹn trước,,,OK,,,,3,N2/N3,CAO
+FX-01,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),いつもお世話になっております,,Cảm ơn sự giúp đỡ thường xuyên,,Mở đầu điện thoại/email với đối tác,Nội bộ dùng `お疲れ様です`,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+FX-02,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),お忙しいところ恐れ入りますが,,Xin lỗi làm phiền lúc anh/chị đang bận,Trước lời nhờ: お忙しいところ恐れ入りますが、ご確認ください。,,Đệm trước lời nhờ,,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+FX-03,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),お手数をおかけしますが,,Xin lỗi vì làm phiền,Trước việc mất công: お手数をおかけしますが、ご記入ください。,,Đệm trước lời nhờ,,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+FX-04,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),恐縮ですが,,"Thật ngại quá, nhưng…",恐縮ですが、お名前を伺えますか。,,Nhờ vả / mời,,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+FX-05,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),申し訳ございません,,Xin lỗi (trang trọng),,Khi gây lỗi cho khách,Hơn hẳn `すみません`,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+FX-06,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),お待たせいたしました,,Xin lỗi đã để quý vị đợi,,Sau khi để khách chờ,,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+FX-15,vocab,P02,P02-L01,Nhóm B — Cụm lịch sự cố định (7 cụm),失礼いたします,,Xin phép,,"Vào phòng, ra về, kết thúc cuộc gọi",,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+CS-01,vocab,P02,P02-L01,Nhóm C — Từ đệm (クッション言葉) (3 cụm),あいにくですが,,Rất tiếc là…,,Trước khi báo vắng mặt / hết hàng / không được,あいにく田中は不在です。,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+CS-02,vocab,P02,P02-L01,Nhóm C — Từ đệm (クッション言葉) (3 cụm),せっかくですが,,Thật quý hóa quá nhưng…,,Từ chối lời mời/đề xuất,せっかくですが、その日は先約があります。,,,SAI,thiếu trường; trùng; đọc,"Thiếu reading | Thiếu exJp | Trùng từ 'せっかくですが' với P04-L02:CS-02 | Khác cách đọc giữa các bài: {'', 'せっかくですが'}",,3,N2/N3,CAO
+CS-03,vocab,P02,P02-L01,Nhóm C — Từ đệm (クッション言葉) (3 cụm),お言葉に甘えて,,Xin mạn phép nhận lời…,,Nhận sự giúp đỡ/lời mời,お言葉に甘えて、いただきます。,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+P02-L01-V01,vocabQuiz,P02,P02-L01,vocab,「田中は不在にしております」はどういう意味ですか。,,,A.Tanaka đang nghe điện thoại | B.Tanaka không có mặt | C.Tanaka đã nghỉ việc | D.Tanaka đang họp,,不在 = không có mặt (`OF-05`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L01-V02,vocabQuiz,P02,P02-L01,vocab,「折り返しお電話します」の意味は？,,,A.Gọi lại ngay cho người đã gọi/nhắn | B.Chuyển máy sang người khác | C.Ghi lời nhắn | D.Cúp máy,,折り返し (`OF-06`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L01-V03,vocabQuiz,P02,P02-L01,vocab,担当者が不在なので、（　）を承ります。,,,A.添付 | B.宛先 | C.伝言 | D.控え,,`伝言を承る` (`OF-07`),C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L01-V04,vocabQuiz,P02,P02-L01,vocab,来客を案内して、座って待っていただく部屋は？,,,A.応接室 | B.受付 | C.倉庫 | D.総務部,,応接室 = phòng tiếp khách (`OF-03`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L01-V05,vocabQuiz,P02,P02-L01,vocab,「席を外しております」の意味は？,,,A.Đã đổi chỗ ngồi | B.Hết chỗ ngồi | C.Đặt chỗ trước | D.Tạm rời khỏi chỗ,,席を外す (`ET-13`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L01-V06,vocabQuiz,P02,P02-L01,vocab,「アポを取る」の意味は？,,,A.Hủy cuộc hẹn | B.Nhận danh thiếp | C.Trả lời điện thoại | D.Hẹn trước cuộc gặp,,アポイント (`KT-02`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L01-V07,vocabQuiz,P02,P02-L01,vocab,取引先との電話で、最初のあいさつとして最も適切なのは？,,,A.お疲れ様でした | B.ご苦労様です | C.いつもお世話になっております | D.失礼いたしました,,`FX-01`; `お疲れ様` は社内,C,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P02-L01-V08,vocabQuiz,P02,P02-L01,vocab,相手が忙しいときに、頼みごとの前に言うのは？,,,A.あいにくですが | B.せっかくですが | C.お言葉に甘えて | D.お忙しいところ恐れ入りますが,,`FX-02`,D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-V09,vocabQuiz,P02,P02-L01,vocab,「（　）、こちらにご記入いただけますか。」（面倒なことを頼む）,,,A.お手数をおかけしますが | B.あいにくですが | C.せっかくですが | D.失礼いたしました,,`FX-03`,A,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-V10,vocabQuiz,P02,P02-L01,vocab,「恐縮ですが」の意味は？,,,"A.Tôi rất vui | B.Xin chào | C.Thật ngại quá, nhưng… | D.Tạm biệt",,`FX-04`,C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L01-V11,vocabQuiz,P02,P02-L01,vocab,お客様にミスを謝るとき、最も丁寧なのは？,,,A.申し訳ございません | B.すみません | C.ごめんなさい | D.どうも,,`FX-05`,A,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P02-L01-V12,vocabQuiz,P02,P02-L01,vocab,お客様を待たせたあとに言うのは？,,,A.恐れ入ります | B.お待たせいたしました | C.お疲れ様でした | D.失礼いたします,,`FX-06`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-V13,vocabQuiz,P02,P02-L01,vocab,電話を終えるときの挨拶として適切なのは？,,,A.なるほど | B.了解しました | C.お待ちください | D.それでは、失礼いたします,,`FX-15`,D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-V14,vocabQuiz,P02,P02-L01,vocab,担当者が不在だと伝える前に言う言葉は？,,,A.あいにくですが | B.お言葉に甘えて | C.念のため | D.差し支えなければ,,`CS-01`,A,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-V15,vocabQuiz,P02,P02-L01,vocab,「（　）、その日は先約があります。」（誘いを断る）,,,A.お言葉に甘えて | B.お待たせいたしました | C.せっかくですが | D.いつもお世話になっております,,`CS-02`,C,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-V16,vocabQuiz,P02,P02-L01,vocab,お茶を勧められて、ありがたく受けるときに言うのは？,,,A.せっかくですが | B.お言葉に甘えて | C.あいにくですが | D.申し訳ございません,,`CS-03`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L01-E01,listening:P02-L01-A01,P02,P02-L01,listening,この後、渡辺さんは何をする必要がありますか。,,,A.15時頃に木村様からの電話を待つ。 | B.15時以降に木村様へ折り返し電話をする。 | C.今の電話が終わり次第、すぐ木村様に電話をする。 | D.木村様にメールで用件を確認する。,,"Bẫy đổi ý giữa chừng (rất đặc trưng BJT): Ban đầu ông Kimura nói sẽ tự gọi lại lúc 15 giờ (`私からかけ直します`), nhưng ở lượt sau ông sửa lại (`こちらからかけ直すのではなく… 15時以降に渡辺様から折り返しいただいてもよろしいでしょうか`) → Watanabe phải gọi lại **từ sau 15 giờ** → **B** đúng.",B,"DETAIL_MISS, SPEAKER_ROLE",OK,,,,3,N2/N3,CAO
+P02-L01-E02,expression,P02,P02-L01,expression_reading,"Bạn dẫn khách vào phòng tiếp khách (`応接室`) nhưng trưởng phòng của bạn (ông Tanaka) đang kẹt cuộc họp chưa ra ngay được. Bạn muốn mời khách ngồi chờ và uống trà.
+Câu nói nào tự nhiên và đúng phép lịch sự nhất?",,,A.部長は会議中なので、ここに座って待ってください。お茶を飲んでください。 | B.申し訳ございませんが、ただいま田中部長が会議中でございます。恐れ入りますが、少々お待ちいただけますでしょうか。 | C.申し訳ございませんが、ただいま田中が会議中でございます。恐れ入りますが、こちらにお掛けになって少々お待ちください。 | D.あいにくですが、田中様はまだ来ません。お掛けになってお待ちください。,,"Dùng từ đệm `申し訳ございませんが` + `恐れ入りますが`, đồng thời áp dụng quy tắc `内/外`: không gắn chức danh/`様` sau tên khi nói với người ngoài → `田中部長` ✗ → `田中` ✓.
+- Loại B: gọi `田中部長` (kèm chức danh) trước mặt khách
+- Loại D: gọi sếp mình là `田中様` ✗
+- Loại A: thiếu kính ngữ, ngữ điệu cộc",C,"KEIGO_REGISTER, SPEAKER_INTENT",OK,,,,3,N2,CAO
+OF-08,vocab,P02,P02-L02,"Nhóm A — Email, tài liệu & thủ tục (6 từ)",添付,てんぷ,Đính kèm,見積書を添付しました。,Tôi đã đính kèm báo giá.,`メールに添付する`,,,OK,,,,3,N2/N3,CAO
+OF-09,vocab,P02,P02-L02,"Nhóm A — Email, tài liệu & thủ tục (6 từ)",転送,てんそう,Chuyển tiếp (forward / chuyển cuộc gọi),メールを部長に転送します。,Tôi forward email cho trưởng phòng.,`メール／電話を転送する`,,,OK,,,,3,N2/N3,CAO
+OF-10,vocab,P02,P02-L02,"Nhóm A — Email, tài liệu & thủ tục (6 từ)",宛先,あてさき,"Địa chỉ nhận, người nhận",宛先を間違えないでください。,Xin đừng nhầm người nhận.,Ô `To` của email,,,OK,,,,3,N2/N3,CAO
+OF-11,vocab,P02,P02-L02,"Nhóm A — Email, tài liệu & thủ tục (6 từ)",郵送,ゆうそう,Gửi qua bưu điện,契約書を郵送します。,Tôi gửi hợp đồng qua bưu điện.,≠ gửi email/fax,,,OK,,,,3,N2/N3,CAO
+OF-12,vocab,P02,P02-L02,"Nhóm A — Email, tài liệu & thủ tục (6 từ)",控え,ひかえ,Bản lưu,契約書の控えを保管します。,Lưu bản sao hợp đồng.,Bản **mình giữ** để đối chiếu,,,OK,,,,3,N2/N3,CAO
+OF-13,vocab,P02,P02-L02,"Nhóm A — Email, tài liệu & thủ tục (6 từ)",押印,おういん,Đóng dấu,契約書に押印をお願いします。,Xin đóng dấu vào hợp đồng.,= `捺印` (`CT-13`),,,OK,,,,3,N2/N3,CAO
+FX-08,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),差し支えなければ,,Nếu không phiền,差し支えなければ、お名前を伺えますか。,"Nếu không phiền, cho tôi biết tên được không?",Hỏi ý một cách nhẹ nhàng,,,SAI,thiếu trường,Thiếu reading,,3,N2/N3,CAO
+FX-09,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),取り急ぎ,,Gấp xin báo trước,Cuối email ngắn: 取り急ぎ、ご連絡まで。,,Chi tiết gửi sau,,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+FX-10,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),追ってご連絡いたします,,Sau đó sẽ liên lạc tiếp,詳細は追ってご連絡いたします。,Chi tiết sẽ báo sau.,Báo thêm thông tin,,,SAI,thiếu trường,Thiếu reading,,3,N2/N3,CAO
+FX-11,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),改めてご連絡いたします,,Sẽ liên lạc lại sau,確認後、改めてご連絡いたします。,Xác nhận xong sẽ liên lạc lại.,Liên lạc lại lần khác,,,SAI,thiếu trường,Thiếu reading,,3,N2/N3,CAO
+FX-12,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),ご確認のほど、よろしくお願いいたします,,Xin vui lòng xác nhận,,Kết thư gửi tài liệu,`〜のほど` (`G5-03`),,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+FX-13,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),ご検討のほど、よろしくお願いいたします,,Rất mong quý vị xem xét,,Kết thư gửi đề xuất,,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+FX-14,vocab,P02,P02-L02,Nhóm B — Cụm dùng trong email & liên lạc (7 cụm),以後、気をつけます,,Từ nay tôi sẽ chú ý,,Xin lỗi sau khi mắc lỗi,Cam kết không tái phạm,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+CS-05,vocab,P02,P02-L02,Nhóm C — Từ đệm xác nhận & từ chối (3 cụm),念のため確認ですが,,Tôi xin xác nhận lại cho chắc,念のため確認ですが、15時でよろしいですか。,15 giờ đúng không ạ?,Kiểm tra lại số/giờ/địa chỉ,,,SAI,thiếu trường,Thiếu reading,,3,N2/N3,CAO
+CS-07,vocab,P02,P02-L02,Nhóm C — Từ đệm xác nhận & từ chối (3 cụm),お力になれず申し訳ございません,,Xin lỗi vì không thể giúp được,,Từ chối rõ ràng nhưng lịch sự,,,,SAI,thiếu trường; trùng; đọc; dịch,"Thiếu reading | Thiếu exJp | Trùng từ 'お力になれず申し訳ございません' với P04-L02:CS-07 | Khác cách đọc giữa các bài: {'', 'おちからになれずもうしわけございません'} | Khác nghĩa Việt giữa các bài: {'Xin lỗi vì không thể giúp được', 'Xin lỗi vì không giúp được'}",,2,N2/N3,CAO
+CS-08,vocab,P02,P02-L02,Nhóm C — Từ đệm xác nhận & từ chối (3 cụm),ただいま確認してまいります,,Tôi xin phép đi kiểm tra ngay,,Khi cần xác nhận rồi quay lại báo,`まいります` = khiêm nhường,,,SAI,thiếu trường,Thiếu reading | Thiếu exJp,,3,N2/N3,CAO
+P02-L02-V01,vocabQuiz,P02,P02-L02,vocab,メールにファイルを付けて送ることは？,,,A.転送 | B.添付 | C.郵送 | D.控え,,添付 (`OF-08`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L02-V02,vocabQuiz,P02,P02-L02,vocab,受け取ったメールをそのまま別の人に送ることは？,,,A.添付 | B.宛先 | C.転送 | D.押印,,転送 (`OF-09`),C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L02-V03,vocabQuiz,P02,P02-L02,vocab,メールの「宛先」とは何ですか。,,,A.Người nhận | B.Tiêu đề | C.Tệp đính kèm | D.Chữ ký,,宛先 (`OF-10`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-V04,vocabQuiz,P02,P02-L02,vocab,「郵送」の意味は？,,,A.Gửi email | B.Gửi fax | C.Gửi qua bưu điện | D.Giao tận tay,,郵送 (`OF-11`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-V05,vocabQuiz,P02,P02-L02,vocab,契約書の（　）を自分の会社で保管します。,,,A.宛先 | B.控え | C.郵送 | D.添付,,控え = bản lưu (`OF-12`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L02-V06,vocabQuiz,P02,P02-L02,vocab,書類に印鑑を押すことは？,,,A.添付 | B.転送 | C.郵送 | D.押印,,押印 = 捺印 (`OF-13`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-V07,vocabQuiz,P02,P02-L02,vocab,「差し支えなければ」の使い方として適切なのは？,,,A.相手を断るとき | B.「もしよろしければ」と質問・依頼するとき | C.謝るとき | D.電話を切るとき,,`FX-08`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L02-V08,vocabQuiz,P02,P02-L02,vocab,メールの最後の「取り急ぎ、ご連絡まで」の意味は？,,,"A.Báo gấp trước, chi tiết sẽ gửi sau | B.Chúc sức khỏe | C.Cảm ơn rất nhiều | D.Xin nghỉ phép",,`FX-09`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-V09,vocabQuiz,P02,P02-L02,vocab,「詳細は（　）ご連絡いたします。」,,,A.以後 | B.念のため | C.差し支えなければ | D.追って,,`追って` = sẽ báo thêm sau (`FX-10`),D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L02-V10,vocabQuiz,P02,P02-L02,vocab,「改めてご連絡いたします」の意味は？,,,A.Sẽ liên lạc lại sau (lần khác) | B.Xin lỗi | C.Xin nhận | D.Sẽ không liên lạc nữa,,`FX-11`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-V11,vocabQuiz,P02,P02-L02,vocab,資料を送ったあとのメールの結びとして適切なのは？,,,A.お待たせいたしました | B.あいにくですが | C.ご確認のほど、よろしくお願いいたします | D.失礼いたしました,,`FX-12`,C,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L02-V12,vocabQuiz,P02,P02-L02,vocab,提案書を送ったあとの結びは？,,,A.以後、気をつけます | B.ご検討のほど、よろしくお願いいたします | C.念のため確認ですが | D.お待たせいたしました,,`FX-13`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L02-V13,vocabQuiz,P02,P02-L02,vocab,ミスを謝ったあと、再発しないと伝える言葉は？,,,A.取り急ぎ | B.追って | C.差し支えなければ | D.以後、気をつけます,,`FX-14`,D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L02-V14,vocabQuiz,P02,P02-L02,vocab,「念のため確認ですが」の意味は？,,,A.Tôi xin xác nhận lại cho chắc | B.Tôi từ chối | C.Tôi xin về trước | D.Cảm ơn,,`CS-05`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-V15,vocabQuiz,P02,P02-L02,vocab,依頼を断るとき、丁寧に言うのは？,,,A.念のため確認ですが | B.お力になれず申し訳ございません | C.お待たせいたしました | D.差し支えなければ,,`CS-07`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L02-V16,vocabQuiz,P02,P02-L02,vocab,「ただいま確認してまいります」の意味は？,,,A.Tôi đã kiểm tra xong | B.Tôi sẽ không kiểm tra | C.Tôi xin phép đi kiểm tra ngay bây giờ | D.Tôi sẽ hỏi lại sau,,`CS-08`,C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L02-E01,listening:P02-L02-LR01,P02,P02-L02,listening_reading,男性はこれからどうしますか。,,,A.17:00までに中村様に電話をする。 | B.今すぐ中村様に電話をする。 | C.明日の午前中に中村様へメールを送る。 | D.今すぐ中村様へサンプルを送る。,,"Bẫy kinh điển BJT — giấy nhắn ghi hạn **17:00**, nhưng audio cập nhật thông tin mới: hạn thực tế đổi thành **16:00**. Vì hiện tại mới **15:30** (`今15時半だから、ギリギリ間に合うね。今すぐかけてみるよ`), người đàn ông quyết định **gọi điện ngay bây giờ** → **B**
+- A: dùng giờ cũ trên giấy nhắn ✗
+- C: chỉ gửi email nếu không gọi kịp trước 16:00 ✗
+- D: đề bài hỏi hành động tiếp theo, không phải nội dung cuộc gọi ✗",B,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P02-L02-E02,expression,P02,P02-L02,expression_reading,"Đọc 4 phản hồi điện thoại bên dưới và chọn câu phù hợp nhất với tình huống: **Người gọi hỏi đến Mr. Sato, nhưng Mr. Sato đang họp. Bạn muốn đề nghị gọi lại sau.**",,,A.佐藤は会議中です。後でかけ直してください。 | B.申し訳ございませんが、ただいま佐藤は会議中でございます。よろしければ、終わり次第こちらからお電話させていただくことも可能ですが、いかがでしょうか。 | C.佐藤様はただいま会議に出席されております。ご用件を承ります。 | D.佐藤は席にいません。折り返しお電話ください。,,"- **B** đúng: từ đệm `申し訳ございませんが` + nêu tình huống + chủ động đề nghị gọi lại (`終わり次第こちらからお電話させていただく`)
+- A: thiếu từ đệm, mệnh lệnh cộc `かけ直してください`
+- C: gọi người trong công ty mình là `佐藤様` ✗ (vi phạm quy tắc nội/ngoại)
+- D: thiếu từ đệm, cộc, thiếu lịch sự",B,"KEIGO_REGISTER, EXPRESSION_FIT",OK,,,,3,N2,CAO
+OF-01,vocab,P02,P02-L03,Nhóm A — Tiếp khách tại công ty (6 từ),来客,らいきゃく,Khách đến thăm,来客があるので、応接室を予約します。,Có khách đến nên tôi đặt phòng tiếp khách.,`来客対応` = tiếp khách; ≠ `訪問`,,,OK,,,,3,N2/N3,CAO
+OF-02,vocab,P02,P02-L03,Nhóm A — Tiếp khách tại công ty (6 từ),受付,うけつけ,Quầy lễ tân,受付でお名前をお伝えください。,Xin cho biết tên tại quầy lễ tân.,≠ `応接室` (phòng tiếp khách),,,OK,,,,3,N2/N3,CAO
+OF-04,vocab,P02,P02-L03,Nhóm A — Tiếp khách tại công ty (6 từ),名刺,めいし,Danh thiếp,名刺を差し出します。,Đưa danh thiếp ra.,≠ `名札` (thẻ tên/thẻ khách),,,OK,,,,3,N2/N3,CAO
+ET-01,vocab,P02,P02-L03,Nhóm A — Tiếp khách tại công ty (6 từ),名刺交換,めいしこうかん,Trao đổi danh thiếp,初対面ではまず名刺交換をします。,Lần đầu gặp thì trước hết trao đổi danh thiếp.,Nghi thức cơ bản,,,OK,,,,3,N2/N3,CAO
+ET-11,vocab,P02,P02-L03,Nhóm A — Tiếp khách tại công ty (6 từ),お出迎え,おでむかえ,Đón khách,玄関でお客様をお出迎えします。,Đón khách ở sảnh.,Ngược với `お見送り`,,,OK,,,,3,N2/N3,CAO
+ET-12,vocab,P02,P02-L03,Nhóm A — Tiếp khách tại công ty (6 từ),お見送り,おみおくり,Tiễn khách,エレベーターまでお見送りします。,Tiễn khách đến thang máy.,Sau khi họp xong,,,OK,,,,3,N2/N3,CAO
+ET-02,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",上座,かみざ,Chỗ ngồi danh dự (xa cửa),お客様を上座にご案内します。,Mời khách ngồi chỗ danh dự.,Dành cho **khách**,,,OK,,,,3,N2/N3,CAO
+ET-03,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",下座,しもざ,Chỗ ngồi thấp (gần cửa),私は下座に座ります。,Tôi ngồi chỗ gần cửa.,Dành cho **mình**,,,OK,,,,3,N2/N3,CAO
+ET-04,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",接待,せったい,Chiêu đãi khách,取引先を接待します。,Chiêu đãi đối tác.,Thường kèm ăn uống,,,OK,,,,3,N2/N3,CAO
+ET-05,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",会食,かいしょく,Dùng bữa cùng nhau (công việc),会食で今後の話をしました。,Bàn chuyện sắp tới trong bữa ăn.,Nhẹ hơn `接待`,,,OK,,,,3,N2/N3,CAO
+ET-06,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",手土産,てみやげ,Quà biếu nhỏ khi đến thăm,手土産を持って伺います。,Mang quà nhỏ đến thăm.,手 + お土産,,,OK,,,,3,N2/N3,CAO
+ET-07,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",挨拶回り,あいさつまわり,Đi chào thăm các nơi,新任の挨拶回りをします。,Đi chào thăm các nơi khi nhận chức.,Khi nhậm chức/chuyển công tác,,,OK,,,,3,N2/N3,CAO
+ET-08,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",訪問,ほうもん,Đến thăm (mình đi),来週、御社を訪問します。,Tuần sau tôi đến thăm quý công ty.,≠ `来訪`,,,OK,,,,3,N2/N3,CAO
+ET-09,vocab,P02,P02-L03,"Nhóm B — Chỗ ngồi, chiêu đãi & đi thăm (8 từ)",来訪,らいほう,Đến thăm (người khác tới mình),来訪者は受付で記入してください。,Người đến thăm xin ghi tại lễ tân.,≠ `訪問`,,,OK,,,,3,N2/N3,CAO
+ET-10,vocab,P02,P02-L03,Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục),報連相（ほうれんそう）,,Báo cáo – Liên lạc – Bàn bạc,新入社員は報連相を徹底します。,Nhân viên mới thực hiện triệt để báo-liên-bàn.,報告・連絡・相談,,,SAI,thiếu trường,Thiếu reading,,3,N2/N3,CAO
+FX-07,vocab,P02,P02-L03,Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục),ご足労をおかけして,,Cảm ơn/xin lỗi vì khách mất công đến,本日はご足労をおかけして、申し訳ございません。,,Dành cho **khách đến thăm**,,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+CS-04,vocab,P02,P02-L03,Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục),申し上げにくいのですが,,Thật khó nói nhưng…,申し上げにくいのですが、お支払いが遅れています。,,"Đệm trước khi nhắc nợ, góp ý, từ chối",,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+CS-06,vocab,P02,P02-L03,Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục),ご足労いただき恐縮です,,Rất ngại vì để quý vị mất công đến,本日はご足労いただき恐縮です。,,Trang trọng hơn `FX-07`,,,SAI,thiếu trường,Thiếu reading | Thiếu exVi,,3,N2/N3,CAO
+P02-L03-V01,vocabQuiz,P02,P02-L03,vocab,「来客対応」の意味は？,,,A.Tiếp khách đến thăm | B.Đi thăm khách | C.Gọi điện cho khách | D.Gửi hàng cho khách,,来客 (`OF-01`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V02,vocabQuiz,P02,P02-L03,vocab,会社の入口で、来客を最初に迎える場所は？,,,A.応接室 | B.受付 | C.倉庫 | D.総務部,,受付 (`OF-02`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V03,vocabQuiz,P02,P02-L03,vocab,自分の会社名・名前を書いて、初対面の人と交換するものは？,,,A.名札 | B.履歴書 | C.請求書 | D.名刺,,名刺 (`OF-04`); 名札 = thẻ tên,D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V04,vocabQuiz,P02,P02-L03,vocab,初対面の相手に、あいさつのときに最初にすることは？,,,A.接待 | B.お見送り | C.名刺交換 | D.会食,,名刺交換 (`ET-01`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V05,vocabQuiz,P02,P02-L03,vocab,お客様に座っていただく、入口から遠い席は？,,,A.下座 | B.上座 | C.受付 | D.来訪,,上座 (`ET-02`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V06,vocabQuiz,P02,P02-L03,vocab,入口に近い、自分たちが座る席は？,,,A.上座 | B.受付 | C.応接室 | D.下座,,下座 (`ET-03`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V07,vocabQuiz,P02,P02-L03,vocab,取引先に感謝を伝えるため、食事などでもてなすことは？,,,A.挨拶回り | B.接待 | C.来訪 | D.報連相,,接待 (`ET-04`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V08,vocabQuiz,P02,P02-L03,vocab,「会食」の意味は？,,,A.Bữa ăn cùng nhau trong công việc | B.Họp buổi sáng | C.Đặt hàng | D.Tiễn khách,,会食 (`ET-05`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V09,vocabQuiz,P02,P02-L03,vocab,訪問するときに持っていく小さな贈り物は？,,,A.名札 | B.控え | C.手土産 | D.伝言,,手土産 (`ET-06`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V10,vocabQuiz,P02,P02-L03,vocab,新任のとき、取引先などをまわってあいさつすることは？,,,A.挨拶回り | B.報連相 | C.来客 | D.郵送,,挨拶回り (`ET-07`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V11,vocabQuiz,P02,P02-L03,vocab,「訪問」の説明として正しいのは？,,,A.相手が自分のところへ来ること | B.自分が相手のところへ行くこと | C.電話をかけること | D.メールを送ること,,訪問 (`ET-08`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V12,vocabQuiz,P02,P02-L03,vocab,「来訪」の説明として正しいのは？,,,A.自分が相手のところへ行くこと | B.電話をかけること | C.約束を取り消すこと | D.相手が自分のところへ来ること,,来訪 (`ET-09`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V13,vocabQuiz,P02,P02-L03,vocab,「報連相」は何の略ですか。,,,A.報告・連絡・相談 | B.報告・連絡・提案 | C.報酬・連絡・相談 | D.報告・連携・相談,,報連相 (`ET-10`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V14,vocabQuiz,P02,P02-L03,vocab,玄関でお客様を迎えることを何といいますか。,,,A.お見送り | B.接待 | C.お出迎え | D.訪問,,お出迎え (`ET-11`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V15,vocabQuiz,P02,P02-L03,vocab,会議のあと、エレベーターまでお客様を送ることは？,,,A.お出迎え | B.お見送り | C.来訪 | D.会食,,お見送り (`ET-12`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P02-L03-V16,vocabQuiz,P02,P02-L03,vocab,遠くから来てくれたお客様に、お詫びと感謝を込めて言うのは？,,,A.お疲れ様でした | B.ご苦労様です | C.失礼いたします | D.ご足労をおかけして、申し訳ございません,,`FX-07`; `ご苦労様` は目上に不可,D,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P02-L03-V17,vocabQuiz,P02,P02-L03,vocab,相手に言いにくいことを伝える前に言うのは？,,,A.申し上げにくいのですが | B.ご足労いただき恐縮です | C.お言葉に甘えて | D.失礼いたします,,`CS-04`,A,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L03-V18,vocabQuiz,P02,P02-L03,vocab,来てくれたお客様への感謝・恐縮を表すのは？,,,A.念のため確認ですが | B.申し上げにくいのですが | C.ご足労いただき恐縮です | D.あいにくですが,,`CS-06`,C,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L03-E01,listening:P02-L03-A01,P02,P02-L03,listening,木村さんの電話番号はどれですか。,,,A.03-5219-7408 | B.03-5291-7408 | C.03-5291-7048 | D.03-5219-7048,,"Lễ tân nhắc lại sai `5219`, ông Kimura sửa thành `5291` → loại A, D. Đuôi `7408` (なな・よん・ゼロ・はち) → loại C (`7048`).",B,"NUMBER_TIME, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P02-L03-E02,listening:P02-L03-A01,P02,P02-L03,listening,田中さんは、いつ会社に戻りますか。,,,A.今日の午後 | B.明日の午前 | C.明日の午後 | D.明後日,,`本日出張で不在… 明日の午後に戻る予定` → **C**.,C,"DETAIL_MISS, NUMBER_TIME",OK,,,,3,N2/N3,CAO
+P02-L03-E03,reading:P02-L03-R01,P02,P02-L03,reading,この通知の内容と合っているものはどれですか。,,,A.土曜日も9:00から17:30まで受付が開いている。 | B.取引先の役員なら、予約がなくても応接室で待つことができる。 | C.予約のない来客は、全員受付で担当者に取り次いでもらえる。 | D.来客予約票は、来客当日の朝に出せばよい。,,"- B ✓: `ただし、取引先の役員の方に限り…応接室でお待ちいただけます`
+- A ✗: `土日祝日を除く` → thứ 7 không tiếp khách
+- C ✗: không đặt trước → không chuyển máy (ngoại lệ chỉ dành cho 役員)
+- D ✗: phải nộp `前日までに` (trước ngày hôm trước), không phải sáng hôm đó",B,"NEGATION_CONDITION, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P02-L03-X01,expression,P02,P02-L03,expression_listening,"- **Audio dẫn đề:** 電話を受けています。相手は田中さんと話したいと言っていますが、田中さんは今、席にいません。何と言いますか。
+- **Lựa chọn (đọc bằng audio):**",,,A.田中は席にいません。 | B.あいにく田中は席を外しております。 | C.田中さんは席を外されています。 | D.田中部長は席におられません。,,"`あいにく` (từ đệm) + `田中` (không thêm `さん`/`様`) + `外しております` (khiêm nhường khi nói về người trong công ty mình). C dùng `さん` và tôn kính cho người nhà ✗; D thêm chức danh ✗; A thiếu từ đệm, nghe cộc.",B,"KEIGO_REGISTER, EXPRESSION_FIT",OK,,,,3,N2,CAO
+P02-L03-X02,expression,P02,P02-L03,expression_listening,"- **Audio dẫn đề:** お客様が遠いところからわざわざ来てくださいました。お礼を言いたいです。何と言いますか。
+- **Lựa chọn (đọc bằng audio):**",,,A.ご足労いただき、ありがとうございます。 | B.ご苦労様です。 | C.わざわざ来てくれて、どうも。 | D.お疲れ様でした。,,"`ご足労` (`FX-07`) dùng để cảm ơn người phải mất công đến. `ご苦労様` dùng với người dưới hoặc ngang hàng, không dùng với khách ✗; C suồng sã ✗; D lời chào kết thúc việc ✗.",A,"KEIGO_REGISTER, EXPRESSION_FIT",OK,,,,3,N2,CAO
+P02-L03-X03,expression,P02,P02-L03,expression_reading,顧客から「明日の午前中に納品してほしい」と言われましたが、対応できません。最も適切な返事を選んでください。,,,A.できません。 | B.あいにくですが、明日の午前中は難しい状況でございます。午後であれば対応可能ですが、いかがでしょうか。 | C.それは無理です。 | D.私にはわかりません。,,"Mẫu từ chối chuẩn BJT: **từ đệm** (`あいにくですが`) + **cách nói gián tiếp** (`難しい状況`) + **phương án thay thế** (`午後であれば`). Các đáp án còn lại trực tiếp/cộc, thiếu phương án thay thế.",B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P02-L03-G01,grammar,P02,P02-L03,grammar,担当者に確認し、わかり（　）、ご連絡いたします。,,,A.次第 | B.たびに | C.際に | D.うちに,,`〜次第` = ngay khi… (`G2-01`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P02-L03-G02,grammar,P02,P02-L03,grammar,資料をご確認の（　）、ご返信ください。,,,A.上 | B.際 | C.間 | D.最中,,`ご確認の上` = sau khi xác nhận (`G5-08`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P02-L03-G03,grammar,P02,P02-L03,grammar,戻り次第、（　）お電話させます。,,,A.折り返し | B.取り次ぎ | C.伝言 | D.転送,,`折り返し電話` = gọi lại (`OF-06`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L03-G04,grammar,P02,P02-L03,grammar,メールに見積書を（　）しましたので、ご確認ください。,,,A.添付 | B.宛先 | C.控え | D.郵送,,`メールに添付する` (`OF-08`); `郵送` là gửi bưu điện,A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P02-L03-G05,grammar,P02,P02-L03,grammar,お名前を（　）もよろしいでしょうか。,,,A.頂戴して | B.伺って | C.お聞きになって | D.拝見して,,"Hỏi tên khách dùng `伺う`. `頂戴` cho đồ vật ✗; `お聞きになる` = tôn kính cho hành động người khác, không tự dùng ✗; `拝見` = xem ✗",B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P02-L03-D01,depiction,P02,P02-L03,depiction,Xem mô tả/tranh và chọn nhận định đúng với nội dung.,,,A.女性が来客に名札を渡しています。 | B.男性が名刺を受け取っています。 | C.二人が握手をしています。 | D.男性が荷物を預けています。,,"Hành động chính trong tranh là nhân viên nữ **đưa thẻ khách (名札)** cho người đàn ông → A. B (danh thiếp `名刺` ≠ thẻ khách `名札`), C (không có bắt tay), D (không có gửi hành lý).",A,"IMAGE_DETAIL, VOCAB_UNKNOWN",OK,,,,3,N2/N3,CAO
+P02-L04-T15,listening:P02-L04-A15,P02,P02-L04,listening,"**男：** 恐れ入りますが、営業部の森田様はいらっしゃいますか。
+**女：** ただいま森田は外出中でございまして、夕方5時頃に戻る予定でございます。よろしければ、伝言を承りましょうか。
+**男：** ありがとうございます。では、折り返しお電話いただくようお伝えください。私は山田商事の中島と申します。電話番号は03-4567-8901です。
+**Câu hỏi:** 中島さんはこの後どうしてほしいですか。",,,A.森田さんに直接メールを送ってほしい。 | B.森田さんに折り返し電話をしてほしい。 | C.夕方5時に自分から電話をかける。 | D.伝言メモを森田さんに渡してほしい。,,`折り返しお電話いただくようお伝えください` = muốn Morita gọi lại. B đúng.,B,"DETAIL_MISS, SPEAKER_ROLE",OK,,,,3,N2/N3,CAO
+P02-L04-T16,listening:P02-L04-A16,P02,P02-L04,listening,"**男：** 鈴木部長にご面会の約束をしていただいているのですが。
+**女：** はい、お名前をお伺いできますか。
+**男：** 山田電機の田村と申します。
+**女：** 田村様ですね。少々お待ちいただけますでしょうか。ただいまご確認いたします。
+**Câu hỏi:** 受付の女性は次に何をしますか。",,,A.田村さんに名刺を渡す。 | B.鈴木部長に田村さんの来訪を確認する。 | C.田村さんを応接室に案内する。 | D.田村さんに予約の日時を聞く。,,`ただいまご確認いたします` = đang xác nhận (với bên trong) → đi thông báo cho Suzuki Bucho biết.,B,"KEIGO_REGISTER, EXPRESSION_FIT",OK,,,,3,N2,CAO
+P02-L04-T17,listening:P02-L04-A17,P02,P02-L04,listening,"**女：** お電話ありがとうございます。恵比寿商事でございます。
+**男：** 山本電気の渡辺と申します。いつもお世話になっております。購買部の中村様をお願いしたいのですが。
+**女：** 中村は本日は13時頃まで打ち合わせが入っております。終わりましたらすぐに折り返させましょうか。
+**男：** ありがとうございます。でも、私も14時から会議に入りますので…。
+**女：** では、14時以降にご連絡するように申し伝えましょうか。
+**男：** そうですね。会議は2時間ほどで終わると思いますので、16時以降にお電話いただければと思います。
+**Câu hỏi:** 中村さんは何時以降に渡辺さんに電話をしますか。",,,A.13時以降 | B.14時以降 | C.15時以降 | D.16時以降,,"Hội nghị kết thúc lúc 14 giờ, kéo dài 2 tiếng → xong khoảng 16 giờ. Watanabe yêu cầu gọi từ sau 16 giờ → D.",D,"NUMBER_TIME, DETAIL_MISS",SAI,chính tả,"Chính tả sai '折り返させましょうか' (dư 'さ', đúng là '折り返しましょうか')",Sửa thành 折り返しましょうか,3,N2/N3,CAO
+P02-L04-T18,listening:P02-L04-A18,P02,P02-L04,listening,"**男：** お世話になっております。今日の打ち合わせの件なのですが、少し遅れそうでして。
+**女：** さようでございますか。何時頃のご到着を予定していらっしゃいますか。
+**男：** 2時の予定が、30分ほど遅れそうです。
+**女：** かしこまりました。では、担当の者に申し伝えておきます。恐れ入りますが、到着の5分前にもう一度お電話いただけますでしょうか。
+**男：** わかりました。そうします。
+**Câu hỏi:** 男性が到着する予定は何時ですか。",,,A.14:00 | B.14:30 | C.15:00 | D.15:30,,14:00 (2時) + 30分遅れ = **14:30** → B.,B,"KEIGO_REGISTER, SPEAKER_INTENT",OK,,,,3,N2,CAO
+P02-L04-T19,listening:P02-L04-A19,P02,P02-L04,listening,"**男：** すみません、先ほどご連絡いただいた件なのですが、メールの添付ファイルが開けなくて。
+**女：** ご不便をおかけして申し訳ございません。ファイルの形式はPDFでお送りしたのですが、もしよろしければ、Wordファイルで再送しましょうか。
+**男：** ありがとうございます。でも、PDFでも構いません。もう一度同じファイルを送っていただけますか。もしかしたら、ダウンロード中に問題があったのかもしれません。
+**女：** かしこまりました。ただいますぐ再送いたします。
+**Câu hỏi:** 男性がお願いしたことはどれですか。",,,A.WordファイルでメールをPDFに変換して送ること | B.PDFファイルをもう一度送ること | C.新しいファイル形式で再送すること | D.ファイルをダウンロードする方法を教えること,,Nam nói `PDFでも構いません。もう一度同じファイルを送っていただけますか` → gửi lại PDF cũ → B.,B,"DETAIL_MISS, DOCUMENT_MATCH",OK,,,,3,N2,CAO
+P02-L04-T20,listening:P02-L04-A20,P02,P02-L04,listening,"**男（田中部長）：** 鈴木さん、今日の午後、東西商事の林さんが来社されるよね。準備はできてる？
+**女（鈴木）：** はい。応接室の準備は整っております。ただ、先ほど林さんから電話がありまして、今日は少し早めに到着される予定とのことでした。2時の約束ですが、1時45分頃にはいらっしゃるかもしれないそうです。
+**男：** そうか。じゃあ、少し早めに下に降りて出迎えてくれるかな。
+**女：** かしこまりました。では、1時40分に受付前でお待ちすることにします。
+**Câu hỏi:** 鈴木さんは何時に受付前でお客さんを待つ予定ですか。",,,A.13:40 | B.13:45 | C.14:00 | D.14:15,,Suzuki nói `1時40分に受付前でお待ちすることにします` → **13:40** → A.,A,"DETAIL_MISS, SPEAKER_ROLE",OK,,,,3,N2/N3,CAO
+P02-L04-T11,reading:R01,P02,P02-L04,reading,新しいガイドラインでの受電フレーズはどれですか。,,,A.はい、〇〇会社でございます。 | B.いつもお世話になっております。〇〇会社でございます。 | C.お電話ありがとうございます。〇〇会社でございます。 | D.〇〇会社でございます。何かご用でしょうか。,,`改定後` → `お電話ありがとうございます。〇〇会社でございます。`,C,"DETAIL_MISS, DOCUMENT_MATCH",OK,,,,3,N2,CAO
+P02-L04-T12,reading:R01,P02,P02-L04,reading,伝言メモに書く必要がない項目はどれですか。,,,A.発信者の会社名 | B.顧客の住所 | C.受電日時 | D.折り返し希望の有無,,5項目: ①受電日時 ②発信者名・会社名 ③用件 ④折り返し希望の有無 ⑤担当者名 → 住所は含まれていない.,B,"DETAIL_MISS, NUMBER_TIME",OK,,,,3,N2/N3,CAO
+P02-L04-T13,reading:R01,P02,P02-L04,reading,担当者が不在の場合、最初に確認することはどれですか。,,,A.メールで対応するか | B.伝言を承るか | C.折り返し電話の提案をするか | D.顧客の用件を詳しく聞くか,,Thứ tự: ①折り返し電話の提案 → ②伝言を承る → ③後日メール. Đầu tiên là C.,C,"NEGATION_CONDITION, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P02-L04-T14,reading:R01,P02,P02-L04,reading,研修について、正しいものはどれですか。,,,A.研修の参加は任意である。 | B.研修は今週中に行われる。 | C.研修は全社員が参加しなければならない。 | D.研修の詳細はすでに通知されている。,,`全社員を対象とした研修… 参加は必須` → C. A `任意` ✗. B `来月の第1週` ✗. D `詳細は後日ご連絡` = chưa thông báo ✗.,C,"DETAIL_MISS, NEGATION_CONDITION",OK,,,,3,N2/N3,CAO
+P02-L04-T01,grammar,P02,P02-L04,grammar,"次の（　）に入る最も適切なものを選んでください。
+電話を受けて、相手が不在の担当者に電話したいと言っています。
+（　）、ただいま担当の者が席を外しております。",,,A.誠に恐れ入りますが | B.ご苦労様ですが | C.おかげ様で | D.いかがでしょうか,,`誠に恐れ入りますが` là từ đệm lịch sự nhất khi phải từ chối/thông báo tin không thuận. B dùng với người dưới. C cảm ơn sự giúp đỡ. D hỏi ý kiến.,A,"KEIGO_REGISTER, EXPRESSION_FIT",OK,,,,3,N2,CAO
+P02-L04-T02,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+詳細が確認でき（　）、メールでご連絡いたします。",,,A.次第 | B.際に | C.たびに | D.ながら,,`〜次第` = ngay khi ~ thì … (`G2-01`). B `際に` = vào lúc ~. C `たびに` = mỗi khi. D `ながら` = trong khi.,A,"GRAMMAR, G2-01",OK,,,,3,N2/N3,CAO
+P02-L04-T03,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+こちらの資料をご覧の（　）、お申し込みください。",,,A.上で | B.通りに | C.ついでに | D.ところを,,`ご覧の上で` = sau khi xem xong ~ (`G5-08`). B `通りに` = theo đúng. C `ついでに` = nhân thể. D `ところを` = trong khi đang.,A,"GRAMMAR, G5-08",OK,,,,3,N2/N3,CAO
+P02-L04-T04,grammar,P02,P02-L04,grammar,社内の人が電話に出て、外部の顧客に対して田中部長のことを述べています。正しい表現はどれですか。,,,A.田中部長はただいま会議中でいらっしゃいます。 | B.田中はただいま会議中でございます。 | C.田中様はただいま会議中です。 | D.田中部長は会議に出ておられます。,,"Quy tắc nội/ngoại: Nói với khách bên ngoài về người trong công ty mình → dùng tên trần (không thêm chức danh, không thêm `様`). `ございます` là dạng lịch sự phù hợp. A, D thêm chức danh ✗; C thêm `様` ✗.",B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+P02-L04-T05,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+戻り次第、（　）お電話させていただきます。",,,A.折り返し | B.取り次ぎ | C.伝言 | D.転送,,`折り返し電話` = gọi lại ngay sau khi trở về (`OF-06`). B `取り次ぎ` = chuyển máy. C `伝言` = lời nhắn. D `転送` = chuyển tiếp (email/cuộc gọi).,A,"COLLOCATION, OF-06",OK,,,,3,N2/N3,CAO
+P02-L04-T06,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+遠方からお越しいただき、（　）。",,,A.ご足労をおかけいたしました | B.ご苦労様でした | C.お疲れ様でした | D.お世話になっております,,"`ご足労をおかけいたしました` (`FX-07`) = cảm ơn vì đã mất công đến (đặc biệt dành cho khách). B, C dùng với đồng nghiệp hoặc người dưới. D lời chào thông thường.",A,"KEIGO_REGISTER, FX-07",OK,,,,3,N2,CAO
+P02-L04-T07,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+ご不明な点が（　）、いつでもご連絡ください。",,,A.ございましたら | B.ありましたら | C.おありでしたら | D.いらっしゃいましたら,,"`ございましたら` là dạng tôn kính/khiêm nhường của `あります` → phù hợp nhất trong văn phòng lịch sự. B `ありましたら` đúng ngữ pháp nhưng mức độ lịch sự thấp hơn. C `おありでしたら` cũng có thể, nhưng A tự nhiên hơn trong email/điện thoại doanh nghiệp.",A,"GRAMMAR, G6-04",OK,,,,3,N2/N3,CAO
+P02-L04-T08,grammar,P02,P02-L04,grammar,顧客から「至急、見積書を送ってほしい」と言われましたが、担当者が不在で今すぐ対応できません。最も適切な返答はどれですか。,,,A.担当者がいないのでできません。 | B.恐れ入りますが、ただいま担当者が不在にしております。折り返しご連絡させていただいてもよろしいでしょうか。 | C.少々お待ちください。担当者を呼んできます。 | D.見積書はメールで送ります。,,"Từ đệm `恐れ入りますが` + thông báo tình huống + đề nghị giải pháp. A cộc, thiếu lịch sự. C không phù hợp vì người phụ trách không có mặt. D không giải thích lý do trì hoãn.",B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P02-L04-T09,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+メールにカタログを（　）してお送りします。",,,A.添付 | B.転送 | C.控え | D.配布,,`メールに添付する` = đính kèm vào email (`OF-08`). B `転送` = forward. C `控え` = bản sao lưu. D `配布` = phát tài liệu (irl).,A,"COLLOCATION, OF-08",OK,,,,3,N2/N3,CAO
+P02-L04-T10,grammar,P02,P02-L04,grammar,"（　）に入る最も適切なものを選んでください。
+お名前を（　）もよろしいでしょうか。",,,A.頂戴して | B.伺って | C.拝見して | D.いただいて,,`お名前を伺う` = hỏi tên (謙譲語). `頂戴する` dùng cho đồ vật/thứ nhận được. `拝見する` = xem/đọc. `いただく` = nhận (thứ gì đó).,B,"KEIGO_REGISTER, G6-27",OK,,,,3,N2,CAO
+TR-01,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",取引,とりひき,Giao dịch,新しい取引先と取引を始めます。,Bắt đầu giao dịch với đối tác mới.,`取引先` = đối tác,,,OK,,,,3,N2/N3,CAO
+TR-02,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",注文,ちゅうもん,Đơn đặt hàng,商品を注文します。,Tôi đặt hàng.,`ご注文確定` = xác nhận đơn,,,OK,,,,3,N2/N3,CAO
+TR-03,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",発注,はっちゅう,Đặt hàng (bên mua),メーカーに部品を発注します。,Đặt linh kiện với nhà sản xuất.,Ngược với `受注`,,,OK,,,,3,N2/N3,CAO
+TR-04,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",受注,じゅちゅう,Nhận đơn (bên bán),大口の受注が決まりました。,Đã chốt được đơn hàng lớn.,受 = nhận,,,OK,,,,3,N2/N3,CAO
+TR-05,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",納期,のうき,Hạn giao hàng,納期は5営業日以内です。,Hạn giao là trong 5 ngày làm việc.,Bẫy đếm `営業日`,,,OK,,,,3,N2/N3,CAO
+TR-09,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",見積もり,みつもり,"Báo giá, ước tính",見積もりをお願いします。,Xin cho báo giá.,Văn bản = `見積書`,,,OK,,,,3,N2/N3,CAO
+DC-01,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",見積書,みつもりしょ,Bản báo giá,見積書を送付します。,Gửi bản báo giá.,Bên bán gửi,,,OK,,,,3,N2/N3,CAO
+DC-02,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",注文書,ちゅうもんしょ,Đơn đặt hàng (văn bản),注文書にサインします。,Ký đơn đặt hàng.,,,,OK,,,,3,N2/N3,CAO
+DC-03,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",発注書,はっちゅうしょ,Phiếu đặt hàng (bên mua phát hành),発注書をメールで送ります。,Gửi phiếu đặt hàng qua email.,Bên **mua** phát hành,,,OK,,,,3,N2/N3,CAO
+DC-08,vocab,P03,P03-L01,"Nhóm A — Giao dịch, đơn hàng & chứng từ (10 từ)",検収,けんしゅう,"Nghiệm thu, kiểm hàng",納品後、すぐに検収します。,Giao hàng xong là kiểm hàng ngay.,Kiểm số lượng & chất lượng,,,OK,,,,3,N2/N3,CAO
+CL-A01,vocab,P03,P03-L01,Nhóm B — Cụm collocation về báo giá & hạn giao (3 cụm),見積もりを出す,みつもりをだす,Gửi / xuất báo giá,明日までに見積もりを出します。,Ngày mai tôi gửi báo giá.,,,,OK,,,,3,N2/N3,CAO
+CL-A02,vocab,P03,P03-L01,Nhóm B — Cụm collocation về báo giá & hạn giao (3 cụm),納期に間に合う,のうきにまにあう,Kịp hạn giao hàng,納期に間に合うよう急ぎます。,Làm gấp để kịp hạn giao.,,,,OK,,,,3,N2/N3,CAO
+CL-A03,vocab,P03,P03-L01,Nhóm B — Cụm collocation về báo giá & hạn giao (3 cụm),納期を厳守する,のうきをげんしゅする,Tuân thủ nghiêm ngặt hạn giao,納期を厳守してください。,Xin tuân thủ nghiêm hạn giao.,,,,OK,,,,3,N2/N3,CAO
+NM-08,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",税込み,ぜいこみ,Đã gồm thuế,価格は税込みです。,Giá đã gồm thuế.,≠ `税抜き`,,,OK,,,,3,N2/N3,CAO
+NM-09,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",税抜き,ぜいぬき,Chưa gồm thuế,"税抜きで50,000円です。",50.000 yên chưa gồm thuế.,Mốc miễn phí ship thường tính theo **税抜**,,,OK,,,,3,N2/N3,CAO
+NM-10,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",合計,ごうけい,Tổng cộng,合計金額を確認します。,Xác nhận tổng số tiền.,,,,OK,,,,3,N2/N3,CAO
+NM-11,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",小計,しょうけい,Tổng phụ (chưa thuế),小計に消費税を加えます。,Cộng thuế vào tổng phụ.,`小計` + thuế = `合計`,,,OK,,,,3,N2/N3,CAO
+TR-A04,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",未満,みまん,Dưới (không gồm mốc),"3,000円未満は返品できません。",Dưới 3.000 yên không trả được.,"3,000 yên **không** thuộc 未満",,,OK,,,,3,N2/N3,CAO
+TR-A05,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",以上,いじょう,Từ… trở lên (gồm mốc),"50,000円以上は送料無料です。",Từ 50.000 yên trở lên miễn phí ship.,"50,000 yên **thuộc** 以上",,,OK,,,,3,N2/N3,CAO
+TM-01,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",営業日,えいぎょうび,Ngày làm việc,5営業日以内にお届けします。,Giao trong 5 ngày làm việc.,"Không tính T7, CN, lễ",,,OK,,,,3,N2/N3,CAO
+TM-10,vocab,P03,P03-L01,"Nhóm C — Số tiền, thuế & mốc điều kiện (8 từ)",翌営業日,よくえいぎょうび,Ngày làm việc kế tiếp,翌営業日に発送します。,Gửi vào ngày làm việc kế tiếp.,Thứ Sáu → **thứ Hai**,,,OK,,,,3,N2/N3,CAO
+P03-L01-V01,vocabQuiz,P03,P03-L01,vocab,「取引」の意味は？,,,A.Giao dịch | B.Nhà cung cấp | C.Đối thủ | D.Hợp đồng,,取引 (`TR-01`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V02,vocabQuiz,P03,P03-L01,vocab,「ご注文確定」の意味は？,,,A.Xác nhận đơn hàng | B.Hủy đơn hàng | C.Báo giá | D.Giao hàng,,注文 (`TR-02`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V03,vocabQuiz,P03,P03-L01,vocab,買う側が、メーカーに部品を（　）する。,,,A.受注 | B.発注 | C.納品 | D.請求,,買う側 = 発注 (`TR-03`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L01-V04,vocabQuiz,P03,P03-L01,vocab,売る側が、注文を受けることは？,,,A.発注 | B.検収 | C.返品 | D.受注,,売る側 = 受注 (`TR-04`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V05,vocabQuiz,P03,P03-L01,vocab,「納期」の意味は？,,,A.Hạn giao hàng | B.Hạn thanh toán | C.Hạn hiệu lực | D.Hạn họp,,納期 (`TR-05`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V06,vocabQuiz,P03,P03-L01,vocab,見積もりの金額や条件を書いた書類は？,,,A.請求書 | B.見積書 | C.納品書 | D.領収書,,見積もり (`TR-09`) → 見積書 (`DC-01`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V07,vocabQuiz,P03,P03-L01,vocab,買う側が、正式に注文するために出す書類は？,,,A.見積書 | B.領収書 | C.納品書 | D.発注書,,発注書 (`DC-03`); 注文書 (`DC-02`) cũng là đơn đặt hàng,D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V08,vocabQuiz,P03,P03-L01,vocab,商品が届いたとき、数や品質を確認して受け取ることは？,,,A.検収 | B.発注 | C.催促 | D.返品,,検収 (`DC-08`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V09,vocabQuiz,P03,P03-L01,vocab,「見積もりを出す」の意味は？,,,A.Hủy báo giá | B.Gửi báo giá | C.Nhận báo giá | D.Từ chối báo giá,,`CL-A01`,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L01-V10,vocabQuiz,P03,P03-L01,vocab,「納期に間に合う」の意味は？,,,A.Giao hàng trễ | B.Kịp hạn giao hàng | C.Đổi hạn giao | D.Hủy đơn,,`CL-A02`,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L01-V11,vocabQuiz,P03,P03-L01,vocab,「納期を厳守する」の意味は？,,,A.Tuân thủ nghiêm ngặt hạn giao | B.Kéo dài hạn giao | C.Hỏi lại hạn giao | D.Bỏ qua hạn giao,,`CL-A03`,A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L01-V12,vocabQuiz,P03,P03-L01,vocab,「価格は税込みです」の意味は？,,,A.Chưa gồm thuế | B.Đã gồm thuế | C.Giảm thuế | D.Miễn thuế,,税込み (`NM-08`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V13,vocabQuiz,P03,P03-L01,vocab,"「税抜き10,000円」の意味は？",,,"A.Đã gồm thuế, 10.000 yên | B.10.000 yên chưa gồm thuế | C.Giảm 10.000 yên | D.Thuế là 10.000 yên",,税抜き (`NM-09`),B,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L01-V14,vocabQuiz,P03,P03-L01,vocab,見積書で、全部を足した最終的な金額は？,,,A.内訳 | B.明細 | C.小計 | D.合計,,合計 (`NM-10`); 小計 (`NM-11`) là tổng phụ chưa thuế,D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V15,vocabQuiz,P03,P03-L01,vocab,"「3,000円未満」に含まれないのはどれですか。",,,"A.2,999円 | B.2,500円 | C.3,000円 | D.1,000円",,未満 không gồm mốc (`TR-A04`),C,NEGATION_CONDITION,OK,,,,3,N2/N3,CAO
+P03-L01-V16,vocabQuiz,P03,P03-L01,vocab,"「50,000円以上は送料無料」で、無料になるのは？",,,"A.49,999円 | B.50,000円 | C.40,000円 | D.30,000円",,以上 gồm mốc (`TR-A05`),B,NEGATION_CONDITION,OK,,,,3,N2/N3,CAO
+P03-L01-V17,vocabQuiz,P03,P03-L01,vocab,「5営業日以内」に数えない日は？,,,A.月曜日 | B.水曜日 | C.金曜日 | D.日曜日,,"営業日 không tính T7, CN, lễ (`TM-01`)",D,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L01-V18,vocabQuiz,P03,P03-L01,vocab,12月4日（金）の「翌営業日」はいつですか。,,,A.12月5日（土） | B.12月6日（日） | C.12月7日（月） | D.12月8日（火）,,"翌営業日 bỏ qua T7, CN (`TM-10`)",C,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L01-V19,vocabQuiz,P03,P03-L01,vocab,「提出の（　）は今月末です。」（hạn chót nộp）,,,A.納期 | B.期限 | C.期日 | D.見積,,`HM-12`: 期限 = hạn chót; 納期 = hạn giao hàng,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L01-V20,vocabQuiz,P03,P03-L01,vocab,正式な見積書の前に、おおよその金額を出すことは？,,,A.概算 | B.小計 | C.合計 | D.検収,,`HM-15`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-V21,vocabQuiz,P03,P03-L01,vocab,"税抜30,000円、消費税10%のとき、税込の金額は？",,,"A.30,000円 | B.31,000円 | C.33,000円 | D.3,000円",,"30,000 + 3,000 = 33,000 (`NM-08`, `NM-09`)",C,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L01-E01,listening:P03-L01-LR01,P03,P03-L01,listening_reading,新しい合計金額（税込）はいくらですか。,,,"A.50,000円 | B.55,000円 | C.88,000円 | D.110,000円",,"Giấy 600 × 30 = 18.000; mực 8.000 × 4 = 32.000 → tổng **50.000 chưa thuế**. Cộng thuế 10% (5.000) = **55.000** → B. A là giá chưa thuế, D là giá cũ.",B,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P03-L01-E02,listening:P03-L01-LR01,P03,P03-L01,listening_reading,送料はどうなりますか。,,,"A.無料になる。 | B.1,100円かかる。 | C.半額になる。 | D.税込合計によって決まる。",,"Điều kiện ghi `税抜合計50,000円以上は無料`. Tổng mới đúng **50.000 chưa thuế** → `以上` gồm mốc → **miễn phí**. D sai vì mốc tính theo 税抜, không phải 税込.",A,"NEGATION_CONDITION, DOCUMENT_MATCH",OK,,,,3,N2,CAO
+P03-L01-E03,listening:P03-L01-LR01,P03,P03-L01,listening_reading,発注が12月1日に確定した場合、最も遅い納品日はいつですか。,,,A.12月7日（月） | B.12月8日（火） | C.12月9日（水） | D.12月10日（木）,,"Tính từ ngày **hôm sau** (12/2) là ngày thứ 1 và chỉ đếm **営業日**: 12/2 (1), 12/3 (2), 12/4 (3), **12/7 (4)**, **12/8 (5)** — bỏ qua T7, CN (12/5–6) → **B**.",B,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L01-E04,reading:P03-L01-R01,P03,P03-L01,reading,このメールの内容と合っているものはどれですか。,,,A.コピー用紙も12月10日に遅れる。 | B.トナーは12月10日に必ず届く。 | C.他社製品に交換すると、単価が上がる。 | D.木村様は他社製品に交換しなければならない。,,"`ただし、その場合は単価が10％高くなります` → C. A sai (giấy vẫn giao 12/4). B sai vì chỉ là `予定` (dự kiến), sẽ báo lại khi có hàng. D sai vì đổi hàng là **tùy chọn** (`可能`).",C,"NEGATION_CONDITION, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P03-L01-X01,expression,P03,P03-L01,expression_reading,取引先から「注文した商品がまだ届かない」という電話がありました。最初の返事として最も適切なものを選んでください。,,,A.申し訳ございません。ただちに状況を確認いたします。 | B.そうですか。では、もう少し待ってください。 | C.私は担当ではないので、わかりません。 | D.配送会社に聞いてください。,,"Lời đầu tiên khi khách phàn nàn: **xin lỗi + hành động ngay** (`ただちに確認`). B, C, D đẩy trách nhiệm hoặc thiếu lịch sự.",A,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P03-L01-G01,grammar,P03,P03-L01,grammar,台風（　）、荷物の到着が遅れております。,,,A.のため | B.のおかげで | C.ように | D.にわたって,,"`〜のため` = vì (lý do trang trọng, `G1-01`)",A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L01-G02,grammar,P03,P03-L01,grammar,田中さん（　）、契約を取ることができました。,,,A.のおかげで | B.のせいで | C.によって | D.のために,,Kết quả **tốt** → `おかげで` (`G1-03`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L01-G03,grammar,P03,P03-L01,grammar,事故（　）、電車が大幅に遅れております。,,,A.により | B.おかげで | C.につれて | D.に対して,,"`〜により` = do (nguyên nhân sự cố, `G1-02`)",A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L01-G04,grammar,P03,P03-L01,grammar,一度引き受けた（　）、最後まで責任を持ちます。,,,A.以上は | B.ばかりに | C.せいで | D.ものの,,`〜以上(は)` = một khi đã… thì (`G1-05`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L01-G05,grammar,P03,P03-L01,grammar,調査結果（　）、新商品の価格を決めました。,,,A.に基づいて | B.に対して | C.にわたって | D.について,,`〜に基づいて` = dựa trên (`G1-07`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L01-G06,grammar,P03,P03-L01,grammar,当社はメーカーに部品を（　）しました。,,,A.受注 | B.発注 | C.納入 | D.請求,,Bên mua đặt hàng → `発注` (`TR-03`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L01-G07,grammar,P03,P03-L01,grammar,商品が届いたら、まず数と品質を（　）してください。,,,A.検収 | B.請求 | C.返品 | D.催促,,"`検収` = nghiệm thu, kiểm hàng khi nhận (`DC-08`)",A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+TR-06,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",納品,のうひん,"Giao hàng, bàn giao sản phẩm",明日、商品を納品します。,Ngày mai tôi giao hàng.,Có `納品書` đi kèm,,,OK,,,,3,N2/N3,CAO
+TR-07,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",納入,のうにゅう,Giao nộp (hàng hóa),部品を工場に納入します。,Giao linh kiện cho nhà máy.,`納入先` = nơi nhận,,,OK,,,,3,N2/N3,CAO
+TR-08,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",在庫,ざいこ,Hàng tồn kho,在庫を確認します。,Kiểm tra tồn kho.,,,,OK,,,,3,N2/N3,CAO
+TR-12,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",納品書,のうひんしょ,Phiếu giao hàng,納品書を同封します。,Kèm theo phiếu giao hàng.,Đối chiếu số lượng,,,OK,,,,3,N2/N3,CAO
+TR-15,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",返品,へんぴん,Trả hàng,不良品を返品します。,Trả hàng lỗi.,≠ `交換`,,,OK,,,,3,N2/N3,CAO
+TR-16,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",交換,こうかん,Đổi hàng,新品と交換します。,Đổi lấy hàng mới.,,,,OK,,,,3,N2/N3,CAO
+CL-A30,vocab,P03,P03-L02,"Nhóm A — Giao hàng, tồn kho & đổi trả (7 từ)",在庫切れ,ざいこぎれ,Hết hàng tồn kho,ただいま在庫切れです。,Hiện đang hết hàng.,≠ `入荷` (hàng về),,,OK,,,,3,N2/N3,CAO
+LG-01,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),配送,はいそう,"Giao hàng, vận chuyển",配送予定表を確認します。,Kiểm tra lịch giao hàng.,`配送予定表`,,,OK,,,,3,N2/N3,CAO
+LG-02,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),輸送,ゆそう,"Vận tải (đường dài, khối lượng lớn)",船で輸送します。,Vận chuyển bằng tàu.,"Tàu, máy bay",,,OK,,,,3,N2/N3,CAO
+LG-03,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),運送,うんそう,Vận chuyển (hàng hóa),運送会社に依頼します。,Nhờ công ty vận chuyển.,`運送会社`,,,OK,,,,3,N2/N3,CAO
+LG-04,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),宅配,たくはい,Giao hàng tận nhà,宅配便で送ります。,Gửi bằng dịch vụ giao tận nhà.,,,,OK,,,,3,N2/N3,CAO
+LG-05,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),梱包,こんぽう,Đóng gói (để vận chuyển),割れないように梱包します。,Đóng gói để không bị vỡ.,≠ `包装`,,,OK,,,,3,N2/N3,CAO
+LG-06,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),包装,ほうそう,"Bao bì, gói quà",贈答用に包装します。,Gói làm quà tặng.,"Trang trí, làm đẹp",,,OK,,,,3,N2/N3,CAO
+LG-07,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),発送,はっそう,Gửi hàng đi,本日発送しました。,Hôm nay đã gửi hàng đi.,≠ `到着`,,,OK,,,,3,N2/N3,CAO
+LG-08,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),到着,とうちゃく,Đến nơi,明日到着予定です。,Dự kiến mai hàng đến.,Ngày đến ≠ ngày gửi,,,OK,,,,3,N2/N3,CAO
+LG-09,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),遅延,ちえん,Chậm trễ,台風で配送が遅延しています。,Do bão nên giao hàng đang chậm.,,,,OK,,,,3,N2/N3,CAO
+LG-10,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),倉庫,そうこ,Kho hàng,倉庫に保管します。,Lưu trong kho.,,,,OK,,,,3,N2/N3,CAO
+LG-11,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),運賃,うんちん,Cước vận chuyển,運賃は当社が負担します。,Cước vận chuyển do chúng tôi chịu.,,,,OK,,,,3,N2/N3,CAO
+LG-12,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),通関,つうかん,Thông quan,通関に3日かかります。,Thông quan mất 3 ngày.,Bẫy **cộng thêm ngày**,,,CẦN XEM,trùng,Trùng từ '通関' với P01-L03:LG-12,,3,N2/N3,CAO
+LG-13,vocab,P03,P03-L02,Nhóm B — Vận chuyển & logistics (13 từ),着払い,ちゃくばらい,Người nhận trả cước,送料は着払いです。,Cước do người nhận trả.,≠ `元払い`,,,OK,,,,3,N2/N3,CAO
+KT-03,vocab,P03,P03-L02,Nhóm C — Katakana kinh doanh (2 từ),キャンセル,きゃんせる,Hủy,注文をキャンセルします。,Hủy đơn hàng.,,,,OK,,,,3,N2/N3,CAO
+KT-14,vocab,P03,P03-L02,Nhóm C — Katakana kinh doanh (2 từ),リードタイム,りーどたいむ,Thời gian từ lúc đặt đến lúc giao,リードタイムは2週間です。,Thời gian từ đặt đến giao là 2 tuần.,Bẫy tính ngày dự kiến,,,OK,,,,3,N2/N3,CAO
+P03-L02-V01,vocabQuiz,P03,P03-L02,vocab,「納品」の意味は？,,,"A.Giao sản phẩm, bàn giao hàng | B.Đặt hàng | C.Trả hàng | D.Báo giá",,`TR-06`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V02,vocabQuiz,P03,P03-L02,vocab,部品を工場に（　）する。,,,A.納期 | B.納入 | C.返品 | D.在庫,,納入 (`TR-07`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L02-V03,vocabQuiz,P03,P03-L02,vocab,倉庫にある商品の数・残りを何といいますか。,,,A.納期 | B.運賃 | C.在庫 | D.遅延,,在庫 (`TR-08`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V04,vocabQuiz,P03,P03-L02,vocab,届けた品物の内容を書き、商品に同封する書類は？,,,A.請求書 | B.納品書 | C.見積書 | D.領収書,,納品書 (`TR-12`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V05,vocabQuiz,P03,P03-L02,vocab,商品を相手に戻すことは？,,,A.交換 | B.納品 | C.発送 | D.返品,,返品 (`TR-15`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V06,vocabQuiz,P03,P03-L02,vocab,不良品を新しい商品に取り替えることは？,,,A.交換 | B.返品 | C.到着 | D.在庫,,交換 (`TR-16`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V07,vocabQuiz,P03,P03-L02,vocab,「配送予定表」の「配送」の意味は？,,,"A.Đóng gói | B.Giao hàng, vận chuyển | C.Nhập kho | D.Thông quan",,配送 (`LG-01`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V08,vocabQuiz,P03,P03-L02,vocab,船や飛行機などで、遠くへ大量に運ぶことは？,,,A.宅配 | B.梱包 | C.輸送 | D.包装,,輸送 (`LG-02`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V09,vocabQuiz,P03,P03-L02,vocab,「運送会社」の「運送」の意味は？,,,A.Giao tận nhà | B.Đóng gói | C.Vận chuyển hàng hóa | D.Gửi bưu điện,,運送 (`LG-03`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V10,vocabQuiz,P03,P03-L02,vocab,家まで荷物を届けるサービスは？,,,A.宅配 | B.倉庫 | C.通関 | D.運賃,,宅配 (`LG-04`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V11,vocabQuiz,P03,P03-L02,vocab,割れないように、箱に入れて荷造りすることは？,,,A.包装 | B.梱包 | C.発送 | D.到着,,梱包 (`LG-05`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V12,vocabQuiz,P03,P03-L02,vocab,プレゼント用にきれいに包むことは？,,,A.梱包 | B.輸送 | C.包装 | D.遅延,,包装 (`LG-06`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V13,vocabQuiz,P03,P03-L02,vocab,荷物を送り出すことは？,,,A.到着 | B.発送 | C.納期 | D.在庫,,発送 (`LG-07`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V14,vocabQuiz,P03,P03-L02,vocab,荷物が目的地に着くことは？,,,A.発送 | B.輸送 | C.配送 | D.到着,,到着 (`LG-08`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V15,vocabQuiz,P03,P03-L02,vocab,「配送が遅延しています」の意味は？,,,A.Giao hàng đang bị chậm | B.Giao hàng sớm | C.Giao hàng đã hủy | D.Giao miễn phí,,遅延 (`LG-09`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V16,vocabQuiz,P03,P03-L02,vocab,商品を保管する建物は？,,,A.工場 | B.倉庫 | C.受付 | D.応接室,,倉庫 (`LG-10`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V17,vocabQuiz,P03,P03-L02,vocab,荷物を運ぶためにかかる費用は？,,,A.運賃 | B.内訳 | C.在庫 | D.納期,,運賃 (`LG-11`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V18,vocabQuiz,P03,P03-L02,vocab,輸入品が国内に入るために必要な手続きは？,,,A.梱包 | B.返品 | C.通関 | D.発送,,通関 (`LG-12`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V19,vocabQuiz,P03,P03-L02,vocab,「送料は着払いです」で、送料を払うのは？,,,A.送る人 | B.受け取る人 | C.配送会社 | D.払わない,,着払い (`LG-13`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V20,vocabQuiz,P03,P03-L02,vocab,注文を取り消すことは？,,,A.キャンセル | B.リードタイム | C.在庫 | D.納品,,キャンセル (`KT-03`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V21,vocabQuiz,P03,P03-L02,vocab,「リードタイム」の意味は？,,,A.Hạn thanh toán | B.Cước vận chuyển | C.Thời gian từ đặt đến giao hàng | D.Số lượng tồn,,リードタイム (`KT-14`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-V22,vocabQuiz,P03,P03-L02,vocab,「ただいま在庫切れです」の意味は？,,,A.Hàng còn nhiều | B.Hàng đã giao | C.Hàng bị hỏng | D.Hiện hết hàng tồn kho,,在庫切れ (`CL-A30`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-E01,listening:P03-L02-LR01,P03,P03-L02,listening_reading,ミライ商事の封筒は、いつ発送されますか。,,,A.12月3日 | B.12月4日 | C.12月7日 | D.12月8日,,"Bảng ghi 12/4 nhưng đó là **lịch cũ**. Audio đổi sang `3日に出せば7日の月曜に着く` và cả hai chốt làm theo đó → **A**. B là bẫy tài liệu; C, D là ngày đến.",A,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P03-L02-E02,listening:P03-L02-LR01,P03,P03-L02,listening,高橋さんは、この後何をしますか。,,,A.12月3日に封筒を倉庫から発送する。 | B.今日中に送り状を作成し、ミライ商事に連絡する。 | C.倉庫で朝一番に梱包作業をする。 | D.ミライ商事に、8日に届くと連絡する。,,"Việc của Takahashi: `送り状は私が今日中に作成して、ミライ商事には7日に届くと連絡` → **B**. A, C là việc của Nakamura (kho). D sai vì ngày đến đã đổi thành 7.",B,"SPEAKER_ROLE, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P03-L02-E03,reading:P03-L02-R01,P03,P03-L02,reading,この案内の内容と合っているものはどれですか。,,,"A.到着から10日後でも、不良品なら交換できる。 | B.商品代金が2,500円の場合、お客様の都合では返品できない。 | C.開封済みの不良品は、返品できない。 | D.お客様の都合で返品する場合、送料は当社が負担する。",,"`3,000円未満` không nhận → 2.500 yên không được → **B**. A sai (quá 8 ngày). C sai (`不良品を除く` → hàng lỗi vẫn nhận dù đã mở). D sai (lý do khách → khách trả cước).",B,NEGATION_CONDITION,OK,,,,3,N2/N3,CAO
+P03-L02-E04,reading:P03-L02-R01,P03,P03-L02,reading,商品が12月4日に届いた場合、連絡の期限はいつですか。,,,A.12月10日 | B.12月11日 | C.12月12日 | D.12月13日,,"`到着日を含む8日以内` → 12/4 là ngày 1, **12/11 là ngày thứ 8** → B. Nếu đếm từ ngày hôm sau sẽ nhầm thành 12/12.",B,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L02-X01,expression,P03,P03-L02,expression_listening,- **Audio dẫn đề:** お客様から「在庫切れの商品は、いつ入りますか」と聞かれましたが、あなたは入荷日がわかりません。何と言いますか。,,,A.来週ぐらいに入ると思います。 | B.ただいま確認してまいりますので、少々お待ちいただけますでしょうか。 | C.わかりません。 | D.入荷したら、お客様から連絡してください。,,"Không biết thì **không đoán** (A), không trả lời cộc (C), không đẩy việc cho khách (D). Dùng mẫu `ただいま確認してまいります` (`CS-08`).",B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P03-L02-G01,grammar,P03,P03-L02,grammar,荷物が届き（　）、すぐにご連絡ください。,,,A.次第 | B.うちに | C.たびに | D.最中に,,`〜次第` = ngay khi… (`G2-01`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L02-G02,grammar,P03,P03-L02,grammar,納期が遅れる（　）、事前にご連絡ください。,,,A.場合には | B.うちに | C.たびに | D.最中に,,`〜場合には` = trong trường hợp (`G2-05`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L02-G03,grammar,P03,P03-L02,grammar,ご利用の（　）は、予約が必要です。,,,A.際 | B.最中 | C.とたん | D.次第,,`〜際(は)` = khi (`G2-02`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L02-G04,grammar,P03,P03-L02,grammar,在庫（　）のため、お届けまでに2週間かかります。,,,A.切れ | B.外れ | C.抜け | D.落ち,,`在庫切れ` (`CL-A30`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L02-G05,grammar,P03,P03-L02,grammar,「リードタイム」の意味として正しいものはどれですか。,,,A.発注から納品までの期間 | B.商品の値段 | C.荷物の重さ | D.支払いの期限,,`KT-14`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-G06,grammar,P03,P03-L02,grammar,「送料は着払いです」とは、どういう意味ですか。,,,A.送る人が払う | B.受け取る人が払う | C.送料は無料 | D.代金を後で払う,,`着払い` = người nhận trả cước (`LG-13`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L02-D01,depiction,P03,P03-L02,depiction,Xem mô tả/tranh và chọn nhận định đúng với nội dung.,,,A.女性が荷物を梱包しています。 | B.女性が伝票を見ながら荷物を確認しています。 | C.男性が荷物を倉庫に運び入れています。 | D.二人とも荷物をトラックに積んでいます。,,"Nữ đang nhìn phiếu bên chồng thùng (`伝票`, `確認`). A sai (không đóng gói), C sai (nam đang **xếp lên** xe, không đưa vào kho), D sai (chỉ nam xếp hàng).",B,"IMAGE_DETAIL, VOCAB_UNKNOWN",OK,,,,3,N2/N3,CAO
+TR-10,vocab,P03,P03-L03,Nhóm A — Hóa đơn & thanh toán (6 từ),請求書,せいきゅうしょ,Hóa đơn yêu cầu thanh toán,請求書を発行します。,Xuất hóa đơn.,**Bên bán** gửi,,,OK,,,,3,N2/N3,CAO
+TR-11,vocab,P03,P03-L03,Nhóm A — Hóa đơn & thanh toán (6 từ),領収書,りょうしゅうしょ,Biên lai (đã nhận tiền),領収書をお渡しします。,Xin đưa biên lai.,Chứng minh **đã nhận tiền**,,,OK,,,,3,N2/N3,CAO
+TR-13,vocab,P03,P03-L03,Nhóm A — Hóa đơn & thanh toán (6 từ),支払い,しはらい,Thanh toán,お支払いは月末です。,Thanh toán vào cuối tháng.,`お支払期限` = hạn thanh toán,,,OK,,,,3,N2/N3,CAO
+TR-14,vocab,P03,P03-L03,Nhóm A — Hóa đơn & thanh toán (6 từ),振り込み,ふりこみ,Chuyển khoản,銀行振り込みでお願いします。,Xin thanh toán bằng chuyển khoản.,`振込先` = tài khoản nhận,,,OK,,,,3,N2/N3,CAO
+TR-17,vocab,P03,P03-L03,Nhóm A — Hóa đơn & thanh toán (6 từ),催促,さいそく,"Nhắc, giục (thanh toán/việc)",支払いを催促します。,Nhắc thanh toán.,Đi kèm `CS-04`,,,OK,,,,3,N2/N3,CAO
+TR-A15,vocab,P03,P03-L03,Nhóm A — Hóa đơn & thanh toán (6 từ),振込手数料,ふりこみてすうりょう,Phí chuyển khoản ngân hàng,振込手数料はお客様のご負担です。,Phí chuyển khoản do khách chịu.,Ghi `ご負担` thì khách **không trừ**,,,OK,,,,3,N2/N3,CAO
+NM-12,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),総額,そうがく,Tổng số tiền,総額を確認します。,Xác nhận tổng số tiền.,,,,OK,,,,3,N2/N3,CAO
+NM-13,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),内訳,うちわけ,Chi tiết cấu thành,費用の内訳を説明します。,Giải thích chi tiết cấu thành chi phí.,,,,OK,,,,3,N2/N3,CAO
+NM-14,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),明細,めいさい,Bảng kê chi tiết,請求の明細を送ります。,Gửi bảng kê chi tiết.,,,,OK,,,,3,N2/N3,CAO
+NM-15,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),割増,わりまし,"Phụ phí, tính thêm",夜間は割増料金です。,Ban đêm tính phụ phí.,≠ `割引` (giảm giá),,,OK,,,,3,N2/N3,CAO
+NM-16,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),差し引く,さしひく,"Trừ đi, khấu trừ",手数料を差し引きます。,Trừ phí đi.,Bẫy `振込手数料`,,,OK,,,,3,N2/N3,CAO
+NM-17,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),立て替える,たてかえる,Ứng tiền trước hộ,交通費を立て替えます。,Ứng tiền đi lại trước.,Sau đó được hoàn lại,,,OK,,,,3,N2/N3,CAO
+NM-18,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),入金,にゅうきん,Tiền đã vào tài khoản,入金を確認しました。,Đã xác nhận tiền vào.,Góc nhìn bên nhận,,,OK,,,,3,N2/N3,CAO
+NM-19,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),未払い,みはらい,Chưa thanh toán,先月分が未払いです。,Tháng trước chưa thanh toán.,,,,OK,,,,3,N2/N3,CAO
+NM-20,vocab,P03,P03-L03,Nhóm B — Số tiền & tính toán (9 từ),残高,ざんだか,Số dư,口座の残高を確認します。,Kiểm tra số dư tài khoản.,,,,OK,,,,3,N2/N3,CAO
+KT-13,vocab,P03,P03-L03,Nhóm C — Katakana & thủ tục (4 từ),ロット,ろっと,Lô hàng,最小ロットは100個です。,Lô tối thiểu là 100 cái.,Đặt theo lô,,,OK,,,,3,N2/N3,CAO
+KT-23,vocab,P03,P03-L03,Nhóm C — Katakana & thủ tục (4 từ),オーダー,おーだー,Đơn hàng,オーダーを受けました。,Đã nhận đơn hàng.,Kiểu nói katakana của `注文`,,,OK,,,,3,N2/N3,CAO
+CL-A17,vocab,P03,P03-L03,Nhóm C — Katakana & thủ tục (4 từ),照会する,しょうかいする,"Tra cứu, hỏi xác minh thông tin",在庫を照会します。,Tra cứu tồn kho.,,,,OK,,,,3,N2/N3,CAO
+CL-A21,vocab,P03,P03-L03,Nhóm C — Katakana & thủ tục (4 từ),再発行,さいはっこう,"Cấp lại, xuất lại",請求書を再発行します。,Xuất lại hóa đơn.,Khi hóa đơn sai,,,OK,,,,3,N2/N3,CAO
+P03-L03-V01,vocabQuiz,P03,P03-L03,vocab,「請求書」を出すのはどんなときですか。,,,A.買った人が、代金を払うため | B.売った側が、代金を求めるため | C.買った側が、注文するため | D.売った側が、受け取ったと証明するため,,請求書 (`TR-10`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V02,vocabQuiz,P03,P03-L03,vocab,代金を受け取ったことを証明する書類は？,,,A.見積書 | B.請求書 | C.領収書 | D.発注書,,領収書 (`TR-11`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V03,vocabQuiz,P03,P03-L03,vocab,「お支払いは月末です」の「支払い」の意味は？,,,A.Thanh toán | B.Đặt hàng | C.Trả hàng | D.Giao hàng,,支払い (`TR-13`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V04,vocabQuiz,P03,P03-L03,vocab,銀行を通じて、お金を相手の口座に送ることは？,,,A.入金 | B.立て替え | C.振り込み | D.残高,,振り込み (`TR-14`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V05,vocabQuiz,P03,P03-L03,vocab,支払いの期限が過ぎたとき、早く払ってほしいと伝えることは？,,,A.催促 | B.照会 | C.再発行 | D.割増,,催促 (`TR-17`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V06,vocabQuiz,P03,P03-L03,vocab,銀行振り込みのときにかかる費用は？,,,A.運賃 | B.割増 | C.内訳 | D.振込手数料,,振込手数料 (`TR-A15`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V07,vocabQuiz,P03,P03-L03,vocab,費用を全部足した金額は？,,,A.残高 | B.総額 | C.未払い | D.明細,,総額 (`NM-12`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V08,vocabQuiz,P03,P03-L03,vocab,費用が何でできているか、項目ごとに分けたものは？,,,A.内訳 | B.総額 | C.残高 | D.入金,,内訳 (`NM-13`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V09,vocabQuiz,P03,P03-L03,vocab,請求や取引の項目を、細かく書いた表は？,,,A.総額 | B.割増 | C.明細 | D.再発行,,明細 (`NM-14`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V10,vocabQuiz,P03,P03-L03,vocab,夜間や急ぎのときに、通常の料金に加える料金は？,,,A.割増 | B.小計 | C.総額 | D.内訳,,割増 (`NM-15`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V11,vocabQuiz,P03,P03-L03,vocab,「手数料を差し引く」の意味は？,,,A.Cộng thêm phí | B.Trừ phí đi | C.Hoàn phí | D.Miễn phí,,差し引く (`NM-16`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L03-V12,vocabQuiz,P03,P03-L03,vocab,自分のお金を先に払って、あとで返してもらうことは？,,,A.振り込み | B.入金 | C.催促 | D.立て替える,,立て替える (`NM-17`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V13,vocabQuiz,P03,P03-L03,vocab,お金が口座に入ったことは？,,,A.未払い | B.立て替え | C.入金 | D.催促,,入金 (`NM-18`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V14,vocabQuiz,P03,P03-L03,vocab,「先月分が未払いです」の意味は？,,,A.Đã thanh toán | B.Chưa thanh toán | C.Đã hoàn tiền | D.Đã giảm giá,,未払い (`NM-19`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V15,vocabQuiz,P03,P03-L03,vocab,口座に残っているお金は？,,,A.総額 | B.残高 | C.内訳 | D.入金,,残高 (`NM-20`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V16,vocabQuiz,P03,P03-L03,vocab,「最小ロットは100個です」の「ロット」とは？,,,A.Lô hàng | B.Phí vận chuyển | C.Hóa đơn | D.Hạn giao,,ロット (`KT-13`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V17,vocabQuiz,P03,P03-L03,vocab,「オーダーを受ける」の意味は？,,,A.Nhận đơn hàng | B.Hủy đơn | C.Giao hàng | D.Báo giá,,オーダー (`KT-23`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V18,vocabQuiz,P03,P03-L03,vocab,在庫や状況を問い合わせて確認することは？,,,A.再発行 | B.催促 | C.照会する | D.立て替える,,照会する (`CL-A17`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V19,vocabQuiz,P03,P03-L03,vocab,請求書が間違っていたので、もう一度出してもらうことは？,,,A.催促 | B.照会 | C.総額 | D.再発行,,再発行 (`CL-A21`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-V20,vocabQuiz,P03,P03-L03,vocab,「請求・要求・要請・依頼」のうち、お金を払ってほしいと求めるのは？,,,A.依頼 | B.請求 | C.要求 | D.要請,,`HM-13`,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L03-V21,vocabQuiz,P03,P03-L03,vocab,「納付・納入・納品」のうち、税金を納めるのは？,,,A.納品 | B.納入 | C.納付 | D.納期,,`HM-14`,C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L03-E01,listening:P03-L03-LR01,P03,P03-L03,listening_reading,さくら商事の口座に入金してもらう金額はいくらですか。,,,"A.50,000円 | B.54,670円 | C.55,000円 | D.55,330円",,Hóa đơn ghi `振込手数料はお客様のご負担` → khách **không trừ** phí; số tiền tới tài khoản phải là **55.000** (`ご請求金額`). B là số khách đề nghị nhưng bị từ chối; A là chưa thuế.,C,"NUMBER_TIME, DOCUMENT_MATCH",OK,,,,3,N2,CAO
+P03-L03-E02,listening:P03-L03-LR01,P03,P03-L03,listening_reading,東洋物産は、いつまでに入金の手続きをする必要がありますか。,,,A.1月29日（金） | B.1月30日（土） | C.1月31日（日） | D.2月1日（月）,,Hạn ghi trên hóa đơn là 1/31 nhưng đó là Chủ Nhật; Kobayashi yêu cầu **xác nhận tiền vào trước thứ Sáu 1/29** → A.,A,"NUMBER_TIME, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P03-L03-E03,reading:P03-L03-R01,P03,P03-L03,reading,鈴木さんが求めていることは何ですか。,,,A.封筒をあと20袋追加で納品すること | B.請求書を訂正して再発行すること | C.納品書の数量を200袋に直すこと | D.振込手数料を返金すること,,"Phiếu giao hàng ghi **180**, hóa đơn tính **200** → hóa đơn sai, nhờ `請求書を再発行` (`CL-A21`) → B. C sai vì phiếu giao hàng mới là bản đúng. Chưa thanh toán cho tới khi nhận bản sửa.",B,"DETAIL_MISS, NEGATION_CONDITION",OK,,,,3,N2/N3,CAO
+P03-L03-X01,expression,P03,P03-L03,expression_reading,支払期限を過ぎても入金がない取引先に、確認の連絡をします。最も適切なものを選んでください。,,,A.お金がまだ届いていません。すぐ払ってください。 | B.申し上げにくいのですが、ご入金の確認が取れておりません。行き違いでしたら、ご容赦ください。 | C.払っていないのはそちらのミスですよね。 | D.催促します。,,"Mẫu nhắc nợ chuẩn: **từ đệm** (`申し上げにくいのですが`, `CS-04`) + **nêu sự việc, không buộc tội** (`確認が取れておりません`) + **chừa đường lui** (`行き違いでしたら`). A, C, D quá thẳng.",B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P03-L03-G01,grammar,P03,P03-L03,grammar,過去のデータ（　）、来月の発注量を決めます。,,,A.をもとに | B.に対して | C.にわたって | D.について,,`〜をもとに` = dựa vào (`G1-08`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L03-G02,grammar,P03,P03-L03,grammar,約束した（　）、納期は必ず守ります。,,,A.からには | B.せいで | C.おかげで | D.ものの,,`〜からには` = đã… thì phải (`G1-06`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L03-G03,grammar,P03,P03-L03,grammar,手数料を（　）、入金してください。,,,A.差し引かずに | B.立て替えて | C.催促して | D.見込んで,,`差し引く` = trừ đi (`NM-16`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L03-G04,grammar,P03,P03-L03,grammar,先月分の代金が、まだ（　）です。,,,A.未払い | B.入金 | C.残高 | D.内訳,,`未払い` = chưa thanh toán (`NM-19`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-G05,grammar,P03,P03-L03,grammar,税金を（　）する。,,,A.納付 | B.納品 | C.納入 | D.納期,,Nộp thuế/phí → `納付` (`HM-14`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L03-G06,grammar,P03,P03-L03,grammar,費用を取引先に（　）する。,,,A.請求 | B.要請 | C.依頼 | D.要求,,Đòi tiền → `請求` (`HM-13`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L04-T15,listening:P03-L04-A01,P03,P03-L04,listening,現在、封筒の在庫はいくつありますか。,,,A.200袋 | B.300袋 | C.500袋 | D.700袋,,`在庫が今は300袋` (200 là số sắp về),B,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P03-L04-T16,listening:P03-L04-A01,P03,P03-L04,listening,封筒は、何日に発送する予定ですか。,,,A.12月9日 | B.12月11日 | C.12月12日 | D.12月14日,,"9 = ngày hàng về, 14 = ngày đến, **11 = ngày gửi**",B,"NUMBER_TIME, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P03-L04-T17,listening:P03-L04-A01,P03,P03-L04,listening,中村さんは、この後どうしますか。,,,A.今日中に大阪支社へ連絡する | B.9日に入荷したら、すぐ高橋さんに連絡する | C.11日に北斗産業へ電話する | D.在庫を300袋に減らす,,`9日に入荷したらすぐ連絡します`,B,"SPEAKER_ROLE, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P03-L04-T18,listening:P03-L04-A02,P03,P03-L04,listening,井上さんは、どうすることを希望しましたか。,,,A.返品して返金してもらう | B.新しい商品と交換する | C.値引きしてもらう | D.修理してもらう,,`急いでいるので、交換でお願いします`,B,SPEAKER_INTENT,OK,,,,3,N2/N3,CAO
+P03-L04-T19,listening:P03-L04-A02,P03,P03-L04,listening,井上さんが今日中にすることは何ですか。,,,A.壊れた商品を送り返す | B.写真をメールで送る | C.新しい商品を受け取る | D.返金を申請する,,`今日中にメールで送ります` (写真). Gửi trả hàng hỏng là việc sau,B,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P03-L04-T20,listening:P03-L04-A02,P03,P03-L04,listening,壊れた商品を送り返す送料は、だれが負担しますか。,,,A.井上さん | B.さくら商事 | C.配送会社 | D.半分ずつ,,`当社の不備ですので、送料は当社で負担` + `着払い` (người nhận = Sakura Shoji trả cước),B,"SPEAKER_ROLE, VOCAB_UNKNOWN",OK,,,,3,N2/N3,CAO
+P03-L04-T12,reading:R01,P03,P03-L04,reading,このメールの目的はどれですか。,,,A.見積もりを依頼する | B.商品を注文する | C.納期の変更を頼む | D.返品を申し出る,,`発注いたします` → đặt hàng,B,INFERENCE,OK,,,,3,N2/N3,CAO
+P03-L04-T13,reading:R01,P03,P03-L04,reading,納品について、合っているものはどれですか。,,,A.納入先は本社である | B.14日の午後でもよい | C.間に合わない場合は、事前に連絡が必要である | D.納品書は1部でよい,,"`間に合わない場合は…事前にご連絡` → C. A sai (大阪支社), B sai (午前中), D sai (2部)",C,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P03-L04-T14,reading:R01,P03,P03-L04,reading,高橋さんは、納品書を何部同封する必要がありますか。,,,A.1部 | B.2部 | C.3部 | D.500部,,`納品書は2部同封`,B,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P03-L04-T01,grammar,P03,P03-L04,grammar,納入先に荷物が（　）したら、受領書にサインをもらってください。,,,A.到着 | B.出発 | C.発注 | D.受注,,Đến nơi → `到着` (`LG-08`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L04-T02,grammar,P03,P03-L04,grammar,注文が殺到したため、商品の（　）が追いつかない。,,,A.供給 | B.需要 | C.競争 | D.投資,,Cung không theo kịp → `供給` (`EC-06`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L04-T03,grammar,P03,P03-L04,grammar,見積もり金額には、消費税が（　）。,,,A.含まれています | B.引かれています | C.除かれています | D.限られています,,`税込み` = đã bao gồm thuế (`NM-08`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L04-T04,grammar,P03,P03-L04,grammar,納期を（　）ために、残業して作業を進めた。,,,A.守る | B.破る | C.延ばす | D.戻す,,`納期を守る` (`CL-A03`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L04-T05,grammar,P03,P03-L04,grammar,輸入品は（　）に時間がかかることがある。,,,A.通関 | B.梱包 | C.返品 | D.割引,,`通関` = thông quan (`LG-12`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P03-L04-T06,grammar,P03,P03-L04,grammar,事故（　）、高速道路が通行止めになっています。,,,A.により | B.おかげで | C.ように | D.うちに,,`〜により` (`G1-02`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L04-T07,grammar,P03,P03-L04,grammar,出荷の（　）、数量を確認します。,,,A.たびに | B.次第 | C.うちに | D.とたん,,`〜たびに` = mỗi khi (`G2-07`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P03-L04-T08,grammar,P03,P03-L04,grammar,納品は、（　）午前中に行います。,,,A.原則として | B.万一 | C.先日 | D.後ほど,,`原則として` = về nguyên tắc (`TR-A09`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P03-L04-T09,grammar,P03,P03-L04,grammar,納品が1日遅れることを、取引先にメールで伝えます。最も適切なものはどれですか。,,,A.納品が遅れます。すみません。 | B.誠に申し訳ございませんが、納品が1日遅れる見込みでございます。 | C.納品が遅れちゃいそうです。 | D.遅れるのは私のせいではありません。,,"Xin lỗi trang trọng + `見込み` (`NM-21`). Các đáp án khác cộc, thân mật hoặc đổ lỗi",B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P03-L04-T10,grammar,P03,P03-L04,grammar,値引きを頼まれましたが、自分では決められません。最も適切なものはどれですか。,,,A.無理です。 | B.私の一存では決めかねますので、上司と相談の上、改めてご連絡いたします。 | C.上司に聞かないとわかりません。 | D.値引きは考えていません。,,`決めかねます` (`G6-02`) + `〜の上` (`G5-08`) + `改めて連絡` (`FX-11`),B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P03-L04-T11,grammar,P03,P03-L04,grammar,荷物を渡すとき、納品書を確認してもらいたいです。最も適切なものはどれですか。,,,A.納品書を見てください。 | B.お手数ですが、納品書をご確認いただけますでしょうか。 | C.納品書をご確認してください。 | D.納品書を拝見してください。,,"C sai (`ご〜する` là khiêm nhường, `KE-07`); D sai (`拝見` là khiêm nhường, không dùng cho khách)",B,KEIGO_REGISTER,OK,,,,3,N2,CAO
+NG-01,vocab,P04,P04-L01,Nhóm A — Bàn bạc & đưa điều kiện (6 từ),交渉,こうしょう,Đàm phán,価格について交渉します。,Đàm phán về giá.,`交渉が成立する` = đàm phán thành công,,,OK,,,,3,N2/N3,CAO
+NG-02,vocab,P04,P04-L01,Nhóm A — Bàn bạc & đưa điều kiện (6 từ),条件,じょうけん,Điều kiện,支払い条件を確認します。,Xác nhận điều kiện thanh toán.,`条件付き` = có kèm điều kiện,,,OK,,,,3,N2/N3,CAO
+NG-10,vocab,P04,P04-L01,Nhóm A — Bàn bạc & đưa điều kiện (6 từ),打ち合わせ,うちあわせ,Buổi bàn công việc,明日10時に打ち合わせがあります。,10 giờ mai có buổi bàn công việc.,"Nhỏ, thân mật hơn `会議`",,,OK,,,,3,N2/N3,CAO
+NG-11,vocab,P04,P04-L01,Nhóm A — Bàn bạc & đưa điều kiện (6 từ),提案,ていあん,Đề xuất,新しいプランを提案します。,Đề xuất kế hoạch mới.,`提案書` = bản đề xuất,,,OK,,,,3,N2/N3,CAO
+NG-12,vocab,P04,P04-L01,Nhóm A — Bàn bạc & đưa điều kiện (6 từ),要望,ようぼう,"Yêu cầu, nguyện vọng",お客様の要望を伺います。,Lắng nghe nguyện vọng của khách.,Nhẹ hơn `要求`,,,OK,,,,3,N2/N3,CAO
+CL-A08,vocab,P04,P04-L01,Nhóm A — Bàn bạc & đưa điều kiện (6 từ),条件を提示する,じょうけんをていじする,Đưa ra điều kiện,先に条件を提示してください。,Xin hãy đưa điều kiện trước.,`提示` = đưa ra cho đối phương xem,,,OK,,,,3,N2/N3,CAO
+NG-03,vocab,P04,P04-L01,Nhóm B — Giá & nhượng bộ (5 từ),値引き,ねびき,Giảm giá (thương lượng cho từng giao dịch),大量注文なので値引きします。,Vì đặt nhiều nên giảm giá.,Giảm **theo đàm phán**,,,OK,,,,3,N2/N3,CAO
+NG-04,vocab,P04,P04-L01,Nhóm B — Giá & nhượng bộ (5 từ),割引,わりびき,"Chiết khấu (theo quy tắc, tỷ lệ)",会員は一律10%割引です。,Hội viên chiết khấu đồng loạt 10%.,`10%割引` = theo bảng,,,OK,,,,3,N2/N3,CAO
+NG-05,vocab,P04,P04-L01,Nhóm B — Giá & nhượng bộ (5 từ),妥協,だきょう,Thỏa hiệp (hai bên cùng bớt),双方が妥協して合意した。,Hai bên thỏa hiệp rồi đồng thuận.,Hơi tiêu cực,,,OK,,,,3,N2/N3,CAO
+NG-06,vocab,P04,P04-L01,Nhóm B — Giá & nhượng bộ (5 từ),譲歩,じょうほ,Nhượng bộ (một bên lùi),こちらが価格で譲歩します。,Phía tôi nhượng bộ về giá.,`譲歩する代わりに〜`,,,OK,,,,3,N2/N3,CAO
+CL-A27,vocab,P04,P04-L01,Nhóm B — Giá & nhượng bộ (5 từ),歩み寄る,あゆみよる,Xích lại gần nhau (trong đàm phán),双方が歩み寄って解決した。,Hai bên xích lại gần nhau và giải quyết xong.,Nghĩa tích cực,,,OK,,,,3,N2/N3,CAO
+NG-07,vocab,P04,P04-L01,Nhóm C — Kết quả đàm phán (6 từ),承諾,しょうだく,Chấp thuận (lời đề nghị),ご依頼を承諾します。,Chấp thuận lời nhờ.,Nói **đồng ý** hẳn,,,OK,,,,3,N2/N3,CAO
+NG-08,vocab,P04,P04-L01,Nhóm C — Kết quả đàm phán (6 từ),了承,りょうしょう,"Đồng ý, thông cảm",ご了承ください。,Xin quý vị thông cảm cho.,Hay có trong thông báo,,,OK,,,,3,N2/N3,CAO
+NG-09,vocab,P04,P04-L01,Nhóm C — Kết quả đàm phán (6 từ),検討,けんとう,"Xem xét, cân nhắc",前向きに検討します。,Sẽ xem xét tích cực.,**≠ đồng ý**,,,OK,,,,3,N2/N3,CAO
+NG-13,vocab,P04,P04-L01,Nhóm C — Kết quả đàm phán (6 từ),合意,ごうい,Đồng thuận,価格で合意に達しました。,Đã đạt đồng thuận về giá.,`合意に達する`,,,OK,,,,3,N2/N3,CAO
+NG-14,vocab,P04,P04-L01,Nhóm C — Kết quả đàm phán (6 từ),決裂,けつれつ,Đàm phán đổ vỡ,交渉が決裂しました。,Đàm phán đã đổ vỡ.,Ngược với `成立`,,,OK,,,,3,N2/N3,CAO
+NG-15,vocab,P04,P04-L01,Nhóm C — Kết quả đàm phán (6 từ),保留,ほりゅう,"Tạm gác, chưa quyết",返事は保留にします。,Tạm gác chưa trả lời.,**Chưa phải từ chối**,,,OK,,,,3,N2/N3,CAO
+P04-L01-V01,vocabQuiz,P04,P04-L01,vocab,「交渉」の意味は？,,,A.Hủy bỏ | B.Đàm phán | C.Chấp thuận | D.Đề xuất,,交渉 (`NG-01`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V02,vocabQuiz,P04,P04-L01,vocab,契約の（　）を確認する。,,,A.決裂 | B.保留 | C.提案 | D.条件,,条件 (`NG-02`),D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V03,vocabQuiz,P04,P04-L01,vocab,来週月曜日に、新商品について（　）があります。,,,A.打ち合わせ | B.決裂 | C.譲歩 | D.割引,,打ち合わせ (`NG-10`) = buổi bàn công việc,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V04,vocabQuiz,P04,P04-L01,vocab,新しい販売方法を（　）します。,,,A.保留 | B.提案 | C.了承 | D.決裂,,提案 (`NG-11`) = đề xuất,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V05,vocabQuiz,P04,P04-L01,vocab,「お客様のご要望を伺います」の意味は？,,,A.Lắng nghe nguyện vọng của khách | B.Từ chối khách | C.Gửi báo giá cho khách | D.Trả hàng cho khách,,要望 (`NG-12`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V06,vocabQuiz,P04,P04-L01,vocab,「条件を提示する」の意味は？,,,A.Hủy điều kiện | B.Đưa ra điều kiện cho đối phương xem | C.Chấp nhận điều kiện | D.Quên điều kiện,,`CL-A08`,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V07,vocabQuiz,P04,P04-L01,vocab,100個買うので、特別に（　）してもらえませんか。,,,A.値引き | B.保留 | C.決裂 | D.承諾,,Nhờ giảm giá riêng → 値引き (`NG-03`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V08,vocabQuiz,P04,P04-L01,vocab,会員なら、全商品が一律10%（　）になります。,,,A.保留 | B.提案 | C.割引 | D.決裂,,Theo tỷ lệ cố định → 割引 (`NG-04`),C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V09,vocabQuiz,P04,P04-L01,vocab,双方が少しずつ譲って、折り合いをつけることは？,,,A.妥協 | B.承諾 | C.提示 | D.要望,,妥協 (`NG-05`): cả hai cùng bớt,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V10,vocabQuiz,P04,P04-L01,vocab,こちらだけが条件を下げて、相手の希望に近づけることは？,,,A.合意 | B.保留 | C.譲歩 | D.決裂,,譲歩 (`NG-06`): một bên lùi,C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V11,vocabQuiz,P04,P04-L01,vocab,「双方が歩み寄る」の意味は？,,,A.Hai bên cãi nhau | B.Hai bên xích lại gần nhau | C.Hai bên rời đi | D.Hai bên hủy hợp đồng,,`CL-A27`,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V12,vocabQuiz,P04,P04-L01,vocab,相手の依頼を「いいですよ」と受け入れることは？,,,A.保留 | B.決裂 | C.検討 | D.承諾,,承諾 (`NG-07`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V13,vocabQuiz,P04,P04-L01,vocab,「ご了承ください」の意味は？,,,"A.Xin hãy từ chối | B.Xin hãy thông cảm, chấp nhận cho | C.Xin hãy trả lời ngay | D.Xin hãy nộp hồ sơ",,了承 (`NG-08`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V14,vocabQuiz,P04,P04-L01,vocab,「検討します」と言われたとき、正しい理解は？,,,A.必ず承諾してくれる | B.すでに断られた | C.契約が成立した | D.まだ決まっていない,,"検討 (`NG-09`) = đang xem xét, chưa chốt",D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L01-V15,vocabQuiz,P04,P04-L01,vocab,価格について、双方が納得して（　）に達した。,,,A.決裂 | B.合意 | C.保留 | D.要望,,合意 (`NG-13`): `合意に達する`,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V16,vocabQuiz,P04,P04-L01,vocab,交渉がうまくいかず、話し合いが終わってしまうことは？,,,A.合意 | B.承諾 | C.提案 | D.決裂,,決裂 (`NG-14`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V17,vocabQuiz,P04,P04-L01,vocab,「返事は保留にします」の意味は？,,,"A.Từ chối ngay | B.Đồng ý ngay | C.Tạm gác, chưa quyết | D.Hủy hợp đồng",,保留 (`NG-15`): chưa phải từ chối,C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L01-V18,vocabQuiz,P04,P04-L01,vocab,見積書や条件など、相手に「見せるために出す」ときに使う語は？,,,A.提案 | B.提示 | C.提出 | D.提携,,"`HM-10`: 提示 = đưa ra cho xem điều kiện, giá",B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-V19,vocabQuiz,P04,P04-L01,vocab,上司が書類を見て「いいでしょう」と、正式に認めることは？,,,A.承認 | B.承知 | C.了承 | D.承諾,,`HM-07`: 承認 = phê duyệt chính thức,A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-E01,listening:P04-L01-LR01,P04,P04-L01,listening_reading,合意した内容で、支払う金額（税込）はいくらですか。,,,"A.237,500円 | B.270,000円 | C.297,000円 | D.330,000円",,"300 hộp × 1.000 = 300.000 → giảm 10% = **270.000 (chưa thuế)** → cộng thuế 10% (27.000) = **297.000**. A là 250 hộp giảm 5% chưa thuế; B là giá chưa thuế; D là 300 hộp không giảm giá, có thuế.",C,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P04-L01-E02,listening:P04-L01-LR01,P04,P04-L01,listening,山田さんが断ったのはどれですか。,,,A.250個で10%割引にすること | B.300個で10%割引にすること | C.250個で5%割引にすること | D.支払い条件を変えないこと,,`10%は300個以上が対象…250個ですと5%` → từ chối **250 hộp mà 10%**. B được chấp nhận; C là mức áp dụng; D là điều Yamada xác nhận giữ nguyên.,A,"NEGATION_CONDITION, SPEAKER_INTENT",OK,,,,3,N2/N3,CAO
+P04-L01-E03,listening:P04-L01-LR01,P04,P04-L01,listening_reading,12月に納品された分の支払い期限はいつですか。,,,A.12月31日 | B.1月15日 | C.1月末 | D.2月末,,`月末締め・翌月末払い` → hàng giao trong tháng 12 được chốt cuối tháng 12 và **trả vào cuối tháng 1**.,C,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P04-L01-E04,reading:P04-L01-R01,P04,P04-L01,reading,このメールの内容と合っているものはどれですか。,,,A.単価をさらに値引きする。 | B.納期を2日延ばす。 | C.今月中に発注すると3%割引になる。 | D.年間契約にすると全商品が3%割引になる。,,"`年間契約…全商品を一律3%割引` → D. A sai (`難しい状況` = từ chối giảm thêm). B sai (rút **ngắn** 2 ngày). C sai: đặt trong tháng thì được **rút ngắn hạn giao**, không phải giảm 3%.",D,"NEGATION_CONDITION, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P04-L01-X01,expression,P04,P04-L01,expression_reading,取引先から「納期を1日早めてほしい」という要望があり、対応できます。最も適切な返事を選んでください。,,,A.はい、大丈夫です。 | B.承知いたしました。ご要望どおり、1日早めて対応いたします。 | C.たぶんできると思います。 | D.しかたがないので、やります。,,Đồng ý với khách: `承知いたしました` + nêu rõ nội dung sẽ làm. A suồng sã; C không chắc chắn; D thái độ không tốt.,B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P04-L01-G01,grammar,P04,P04-L01,grammar,価格（　）、双方の意見が分かれている。,,,A.をめぐって | B.にとって | C.に対して | D.にわたって,,`〜をめぐって` = xoay quanh (`G6-15`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L01-G02,grammar,P04,P04-L01,grammar,当社（　）、この取引先は最も重要です。,,,A.をめぐって | B.にとって | C.次第 | D.上で,,`〜にとって` = đối với góc nhìn của… (`G6-31`),B,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L01-G03,grammar,P04,P04-L01,grammar,交渉の結果（　）で、契約の内容を変えるかもしれません。,,,A.おかげ | B.せい | C.次第 | D.以上,,`〜次第で` = tùy vào (`G6-03`),C,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L01-G04,grammar,P04,P04-L01,grammar,契約を結ぶ（　）、注意すべき点を確認した。,,,A.上で | B.うちに | C.ものの | D.ばかり,,`〜上で` = trong việc… (`G6-08`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L01-G05,grammar,P04,P04-L01,grammar,双方が（　）、ようやく合意に至った。,,,A.決裂して | B.保留して | C.歩み寄って | D.撤回して,,`歩み寄る` (`CL-A27`),C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L01-G06,grammar,P04,P04-L01,grammar,納期を守る代わりに、価格では（　）します。,,,A.決裂 | B.保留 | C.提出 | D.譲歩,,`譲歩する代わりに` (`NG-06`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+IN-02,vocab,P04,P04-L02,Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ),前向きに検討いたします,まえむきにけんとういたします,Sẽ xem xét tích cực,前向きに検討いたします。,Chúng tôi sẽ xem xét tích cực.,◎ **Khả năng đồng ý cao**,,,OK,,,,3,N2/N3,CAO
+IN-01,vocab,P04,P04-L02,Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ),検討いたします,けんとういたします,Sẽ cân nhắc,検討いたします。,Chúng tôi sẽ cân nhắc.,"△ Chưa cam kết, có thể nghiêng về từ chối",,,OK,,,,3,N2/N3,CAO
+IN-03,vocab,P04,P04-L02,Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ),善処いたします,ぜんしょいたします,Sẽ cố gắng xử lý,できる限り善処いたします。,Sẽ cố gắng hết mức.,△ **Chưa cam kết** rõ ràng,,,OK,,,,3,N2/N3,CAO
+IN-04,vocab,P04,P04-L02,Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ),持ち帰って検討いたします,もちかえってけんとういたします,"Xin mang về xem xét, trả lời sau",持ち帰って検討いたします。,Xin mang về xem xét rồi trả lời.,○ Cần xác nhận nội bộ,,,OK,,,,3,N2/N3,CAO
+IN-08,vocab,P04,P04-L02,Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ),社内で確認いたします,しゃないでかくにんいたします,Phải hỏi lại trong công ty trước,社内で確認いたします。,Chúng tôi xác nhận nội bộ.,○ Chưa thể trả lời ngay,,,OK,,,,3,N2/N3,CAO
+CL-A12,vocab,P04,P04-L02,Nhóm A — Chưa quyết: tích cực / chờ duyệt / trì hoãn (6 từ),見合わせる,みあわせる,"Tạm hoãn, dừng chưa thực hiện",発売を見合わせる。,Tạm hoãn phát hành.,"△ Hoãn, chưa phải hủy",,,OK,,,,3,N2/N3,CAO
+IN-05,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),難しいかもしれません,むずかしいかもしれません,Rất có thể là không được,納期は難しいかもしれません。,Hạn giao rất có thể không được.,× Từ chối khéo,,,OK,,,,3,N2/N3,CAO
+IN-06,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),少々、難しい状況です,しょうしょう、むずかしいじょうきょうです,Thực tế là khó thực hiện,少々、難しい状況です。,Tình hình hơi khó.,× Dù có chữ `少々` vẫn là từ chối,,,OK,,,,3,N2/N3,CAO
+IN-07,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),今回は見送らせていただきます,こんかいはみおくらせていただきます,Lần này xin không tham gia,今回は見送らせていただきます。,Lần này xin phép gác lại.,× Từ chối,,,OK,,,,3,N2/N3,CAO
+IN-09,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),ご期待に沿えず、申し訳ございません,ごきたいにそえず、もうしわけございません,Xin lỗi vì không đáp ứng được,ご期待に沿えず、申し訳ございません。,Xin lỗi vì không đáp ứng được kỳ vọng.,× Từ chối,,,OK,,,,3,N2/N3,CAO
+CS-02,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),せっかくですが,せっかくですが,Thật quý hóa quá nhưng…,せっかくですが、今回は遠慮します。,Quý hóa quá nhưng lần này xin phép thôi.,× Đệm trước khi từ chối,,,CẦN XEM,trùng; đọc,"Trùng từ 'せっかくですが' với P02-L01:CS-02 | Khác cách đọc giữa các bài: {'', 'せっかくですが'}",,3,N2/N3,CAO
+CS-07,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),お力になれず申し訳ございません,おちからになれずもうしわけございません,Xin lỗi vì không giúp được,お力になれず申し訳ございません。,Xin lỗi vì không giúp được.,× Từ chối rõ nhưng lịch sự,,,CẦN XEM,trùng; đọc; dịch,"Trùng từ 'お力になれず申し訳ございません' với P02-L02:CS-07 | Khác cách đọc giữa các bài: {'', 'おちからになれずもうしわけございません'} | Khác nghĩa Việt giữa các bài: {'Xin lỗi vì không thể giúp được', 'Xin lỗi vì không giúp được'}",,2,N2/N3,CAO
+AC-07,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),見送る,みおくる,"Gác lại, bỏ qua lần này",今回の案は見送ります。,Phương án lần này xin gác lại.,× Có thể không quay lại,,,OK,,,,3,N2/N3,CAO
+AC-08,vocab,P04,P04-L02,Nhóm B — Từ chối khéo (8 mục),差し控える,さしひかえる,"Hạn chế, tránh không làm (lịch sự)",コメントは差し控えます。,Xin phép không bình luận.,× Từ chối lịch sự,,,OK,,,,3,N2/N3,CAO
+AC-01,vocab,P04,P04-L02,"Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",取り下げる,とりさげる,"Rút lại (đề xuất, đơn)",申請を取り下げます。,Tôi rút đơn xin.,Chính mình rút,,,OK,,,,3,N2/N3,CAO
+AC-02,vocab,P04,P04-L02,"Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",取り消す,とりけす,"Hủy, thu hồi",予約を取り消します。,Hủy đặt chỗ.,Coi như chưa từng có,,,OK,,,,3,N2/N3,CAO
+AC-03,vocab,P04,P04-L02,"Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",撤回,てっかい,"Rút lại hoàn toàn (ý kiến, yêu cầu)",発言を撤回します。,Tôi rút lại phát ngôn.,"Mạnh, trang trọng",,,OK,,,,3,N2/N3,CAO
+AC-04,vocab,P04,P04-L02,"Nhóm C — Rút lại, hủy, xem xét lại (4 từ)",見直す,みなおす,"Xem xét lại, rà soát",計画を見直します。,Rà soát lại kế hoạch.,"Chưa hủy, chỉ xem lại",,,OK,,,,3,N2/N3,CAO
+P04-L02-V01,vocabQuiz,P04,P04-L02,vocab,「前向きに検討いたします」の本音として、最も近いのは？,,,A.Khả năng từ chối cao | B.Khả năng đồng ý khá cao | C.Chắc chắn từ chối | D.Chưa nghĩ gì,,`IN-02`: tích cực nhưng chưa chắc chắn,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V02,vocabQuiz,P04,P04-L02,vocab,「検討いたします」とだけ言われたときの正しい理解は？,,,"A.Chưa cam kết, có thể từ chối | B.Chắc chắn đồng ý | C.Hợp đồng đã thành | D.Đơn đặt hàng đã chốt",,`IN-01`,A,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V03,vocabQuiz,P04,P04-L02,vocab,「善処いたします」の意味は？,,,A.Chắc chắn thực hiện | B.Đã từ chối | C.Sẽ cố gắng nhưng chưa cam kết rõ ràng | D.Đã hoàn thành,,`IN-03`,C,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V04,vocabQuiz,P04,P04-L02,vocab,「持ち帰って検討いたします」の意味は？,,,"A.Từ chối ngay | B.Đã chấp nhận | C.Mang hàng về | D.Mang về xem xét, trả lời sau",,`IN-04`: cần xác nhận nội bộ,D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V05,vocabQuiz,P04,P04-L02,vocab,「社内で確認いたします」と言ったのは、どんな状況ですか。,,,A.Cần hỏi nội bộ trước khi trả lời | B.Đã từ chối | C.Đã đồng ý | D.Đã hủy hợp đồng,,`IN-08`,A,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V06,vocabQuiz,P04,P04-L02,vocab,「発売を見合わせる」の意味は？,,,A.Phát hành sớm | B.Phát hành đúng hạn | C.Tạm hoãn phát hành | D.Mở rộng phát hành,,"`CL-A12`: tạm hoãn, dừng chưa làm",C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L02-V07,vocabQuiz,P04,P04-L02,vocab,「納期は難しいかもしれません」の本音は？,,,A.Chắc chắn kịp | B.Rất có thể không kịp | C.Đang chờ duyệt | D.Đã đồng ý,,`IN-05`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V08,vocabQuiz,P04,P04-L02,vocab,「少々、難しい状況です」の正しい理解は？,,,A.Hơi khó nhưng chắc chắn làm được | B.Đang chờ cấp trên duyệt | C.Đã đồng ý | D.Thực tế là khó thực hiện,,`IN-06`: có `少々` vẫn là từ chối,D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V09,vocabQuiz,P04,P04-L02,vocab,「今回は見送らせていただきます」の意味は？,,,A.Lần này xin không tham gia | B.Lần này xin chờ | C.Xin đồng ý | D.Xin tiễn quý khách,,`IN-07`,A,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V10,vocabQuiz,P04,P04-L02,vocab,「ご期待に沿えず、申し訳ございません」と言われました。どういう意味ですか。,,,A.Cảm ơn kỳ vọng của anh | B.Sẽ đáp ứng ngay | C.Xin lỗi vì không đáp ứng được yêu cầu | D.Hẹn họp lại,,`IN-09`,C,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V11,vocabQuiz,P04,P04-L02,vocab,「せっかくですが、〜」は、どんなときの前置きですか。,,,"A.Khi nhận lời mời | B.Khi cảm ơn | C.Khi xin phép về | D.Khi từ chối lời mời, đề nghị",,`CS-02`,D,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V12,vocabQuiz,P04,P04-L02,vocab,「お力になれず申し訳ございません」の意味は？,,,A.Cảm ơn đã giúp | B.Xin lỗi vì không thể giúp được | C.Sẽ giúp ngay | D.Xin hãy giúp tôi,,`CS-07`,B,EXPRESSION_FIT,OK,,,,3,N2,CAO
+P04-L02-V13,vocabQuiz,P04,P04-L02,vocab,今回は応募せず、次の機会を待つことは？,,,A.見送る | B.取り下げる | C.取り消す | D.見直す,,`AC-07`,A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L02-V14,vocabQuiz,P04,P04-L02,vocab,「ここでの写真撮影は（　）ください。」（lịch sự: xin đừng làm）,,,A.取り消して | B.撤回して | C.差し控えて | D.見直して,,`AC-08`,C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L02-V15,vocabQuiz,P04,P04-L02,vocab,自分が出した申請書を、取り戻して引っ込めることは？,,,A.差し控える | B.取り下げる | C.見送る | D.更新する,,`AC-01`,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L02-V16,vocabQuiz,P04,P04-L02,vocab,予約や注文を、なかったことにして消すことは？,,,A.見直す | B.取り消す | C.保留する | D.譲歩する,,`AC-02`,B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L02-V17,vocabQuiz,P04,P04-L02,vocab,一度言った意見を、完全になかったことにして引っ込めることは？,,,A.提案 | B.検討 | C.撤回 | D.了承,,`AC-03`,C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L02-V18,vocabQuiz,P04,P04-L02,vocab,計画に問題があるので、もう一度確認して考え直します。,,,A.見送って | B.差し控えて | C.取り消して | D.見直して,,`AC-04`,D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L02-V19,vocabQuiz,P04,P04-L02,vocab,アンケートへの（　）を、今週中にお願いします。,,,A.解答 | B.回答 | C.提案 | D.承認,,`HM-05`: 回答 = trả lời khảo sát; 解答 = đáp án bài thi,B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L02-E01,listening:P04-L02-LR01,P04,P04-L02,listening,月額料金について、田中さんの返事の意味はどれですか。,,,A.社内で確認して、来週の水曜日までに返事をする。 | B.すぐに9万円で承諾する。 | C.9万円にすることを断った。 | D.返事をしないで保留にする。,,"`私の一存では決めかねます` + `持ち帰って検討` + `来週の水曜日までにご回答` → chờ duyệt nội bộ, **có hẹn hạn trả lời** (`IN-04`). B, C chưa xảy ra; D sai vì có hạn trả lời cụ thể.",A,"INDIRECT_INTENT, SPEAKER_INTENT",OK,,,,3,N2,CAO
+P04-L02-E02,listening:P04-L02-LR01,P04,P04-L02,listening,契約期間を2年にする件について、どう考えられますか。,,,A.断られた。 | B.受け入れられる可能性が高い。 | C.2年で確定した。 | D.まだ何も返事がない。,,`前向きに検討いたします` (`IN-02`) → **khả năng chấp nhận cao nhưng chưa chắc chắn**. C sai vì chưa chốt; A sai vì không phải từ chối.,B,INDIRECT_INTENT,OK,,,,3,N2,CAO
+P04-L02-E03,listening:P04-L02-LR01,P04,P04-L02,listening_reading,納品までの日数について、正しいものはどれですか。,,,A.3営業日に短縮することに決まった。 | B.来週、改めて回答する。 | C.3営業日は難しいと伝えられた。 | D.前向きに検討してもらえる。,,"`少々、難しい状況でして…5営業日が限度` (`IN-06`) → **từ chối khéo**. B, D thuộc về mục ① và ②; A sai.",C,"INDIRECT_INTENT, DOCUMENT_MATCH",OK,,,,3,N2,CAO
+P04-L02-E04,reading:P04-L02-R01,P04,P04-L02,reading,このメールの内容と合っているものはどれですか。,,,A.12月8日に必ず届く。 | B.12月8日に届くかどうか、まだ決まっていない。 | C.12月8日の納品は断られた。 | D.見積書は12月8日まで有効である。,,`できる限り善処いたします` (`IN-03`) = cố gắng nhưng **chưa cam kết**; `確定いたしましたら改めてご連絡` = chưa chốt. A sai; C sai vì không từ chối; D sai vì hạn hiệu lực là **12/18**.,B,"INDIRECT_INTENT, DETAIL_MISS",OK,,,,3,N2,CAO
+P04-L02-X01,expression,P04,P04-L02,expression_reading,取引先から新しい提案がありましたが、今回は受けられません。相手を傷つけないように断る返事として、最も適切なものを選んでください。,,,A.無理です。やりません。 | B.せっかくですが、今回は見送らせていただきます。 | C.検討しておきます。 | D.前向きに検討いたします。,,"Từ chối rõ nhưng lịch sự: `せっかくですが` + `見送らせていただきます` (`CS-02`, `IN-07`). A quá thô; C, D làm đối phương **tưởng còn hy vọng**.",B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P04-L02-G01,grammar,P04,P04-L02,grammar,申し訳ございませんが、そのご依頼はお受け（　）。,,,A.いたしかねます | B.いたしません | C.いたしかねない | D.いたしましょう,,`〜いたしかねます` = xin phép không thể (`G6-25`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L02-G02,grammar,P04,P04-L02,grammar,私の一存では決め（　）ので、上司に確認いたします。,,,A.かねます | B.かねません | C.られます | D.たがります,,`決めかねる` = khó quyết định (`G6-02`),A,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L02-G03,grammar,P04,P04-L02,grammar,この方針では、お客様の不満につながり（　）。,,,A.かねます | B.かねません | C.たいです | D.ません,,`〜かねない` = có thể dẫn đến điều xấu (`G4-03`),B,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L02-G04,grammar,P04,P04-L02,grammar,反対している（　）が、今回は条件が合わないのです。,,,A.はずだ | B.わけではない | C.にすぎない | D.に違いない,,`〜わけではない` = không có nghĩa là (`G4-04`),B,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L02-G05,grammar,P04,P04-L02,grammar,一度約束した以上、期日を変更する（　）。,,,A.わけではありません | B.にすぎません | C.わけにはいきません | D.に違いありません,,`〜わけにはいかない` = không thể (lý do xã hội) (`G4-05`),C,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L02-G06,grammar,P04,P04-L02,grammar,提案を（　）、新しい案を出し直した。,,,A.取り下げて | B.合意して | C.承諾して | D.保留して,,`取り下げる` = tự rút đề xuất (`AC-01`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+CT-01,vocab,P04,P04-L03,Nhóm A — Vòng đời hợp đồng (6 từ),契約,けいやく,Hợp đồng,来月、契約を結びます。,Tháng sau ký hợp đồng.,`契約を結ぶ`,,,OK,,,,3,N2/N3,CAO
+CT-02,vocab,P04,P04-L03,Nhóm A — Vòng đời hợp đồng (6 từ),契約書,けいやくしょ,Bản hợp đồng,契約書を作成します。,Soạn bản hợp đồng.,Văn bản của `契約`,,,OK,,,,3,N2/N3,CAO
+CT-03,vocab,P04,P04-L03,Nhóm A — Vòng đời hợp đồng (6 từ),締結,ていけつ,Ký kết,契約を締結しました。,Đã ký kết hợp đồng.,Từ trang trọng của `結ぶ`,,,OK,,,,3,N2/N3,CAO
+CT-04,vocab,P04,P04-L03,Nhóm A — Vòng đời hợp đồng (6 từ),更新,こうしん,Gia hạn,契約を更新します。,Gia hạn hợp đồng.,`自動更新` = tự động gia hạn,,,OK,,,,3,N2/N3,CAO
+CT-05,vocab,P04,P04-L03,Nhóm A — Vòng đời hợp đồng (6 từ),解約,かいやく,Hủy hợp đồng,来月で解約します。,Hủy hợp đồng vào tháng sau.,Ngược với `締結`,,,OK,,,,3,N2/N3,CAO
+CT-10,vocab,P04,P04-L03,Nhóm A — Vòng đời hợp đồng (6 từ),規約,きやく,"Điều khoản, quy ước",利用規約に同意します。,Đồng ý với điều khoản sử dụng.,`利用規約`,,,OK,,,,3,N2/N3,CAO
+CT-06,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),違反,いはん,Vi phạm,契約に違反しました。,Đã vi phạm hợp đồng.,`契約違反`,,,OK,,,,3,N2/N3,CAO
+CT-07,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),損害賠償,そんがいばいしょう,Bồi thường thiệt hại,損害賠償を請求します。,Yêu cầu bồi thường thiệt hại.,Hệ quả của `違反`,,,OK,,,,3,N2/N3,CAO
+CT-08,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),責任,せきにん,Trách nhiệm,責任を負います。,Chịu trách nhiệm.,`責任を負う`,,,OK,,,,3,N2/N3,CAO
+CT-09,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),保証,ほしょう,"Bảo đảm, bảo hành",1年間の保証があります。,Có bảo hành 1 năm.,Xem thẻ `HM-03`,,,OK,,,,3,N2/N3,CAO
+CT-11,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),守秘義務,しゅひぎむ,Nghĩa vụ giữ bí mật,守秘義務を負います。,Có nghĩa vụ giữ bí mật.,Thường **kéo dài sau khi hợp đồng kết thúc**,,,OK,,,,3,N2/N3,CAO
+AC-17,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),遵守,じゅんしゅ,Tuân thủ,規則を遵守します。,Tuân thủ quy tắc.,`法令遵守`,,,OK,,,,3,N2/N3,CAO
+AC-18,vocab,P04,P04-L03,Nhóm B — Nghĩa vụ & trách nhiệm (7 từ),履行,りこう,Thực hiện nghĩa vụ (hợp đồng),契約を履行します。,Thực hiện hợp đồng.,`契約の履行`,,,OK,,,,3,N2/N3,CAO
+CT-12,vocab,P04,P04-L03,"Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",署名,しょめい,Ký tên,契約書に署名します。,Ký tên vào hợp đồng.,Viết tên tay,,,OK,,,,3,N2/N3,CAO
+CT-13,vocab,P04,P04-L03,"Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",捺印,なついん,Đóng dấu,署名と捺印をお願いします。,Xin ký tên và đóng dấu.,Đồng nghĩa `押印` (`OF-13`),,,OK,,,,3,N2/N3,CAO
+DC-15,vocab,P04,P04-L03,"Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",原本,げんぽん,Bản gốc,原本は郵送します。,Bản gốc gửi bưu điện.,Có chữ ký/dấu thật,,,OK,,,,3,N2/N3,CAO
+DC-16,vocab,P04,P04-L03,"Nhóm C — Ký tên, đóng dấu & bản gốc/bản sao (4 từ)",写し,うつし,Bản sao,写しをメールで送ります。,Gửi bản sao qua email.,= `コピー`,,,OK,,,,3,N2/N3,CAO
+P04-L03-V01,vocabQuiz,P04,P04-L03,vocab,「契約」の意味は？,,,A.Hợp đồng | B.Đề xuất | C.Giảm giá | D.Báo giá,,契約 (`CT-01`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V02,vocabQuiz,P04,P04-L03,vocab,契約の内容を書いた書類は？,,,A.見積書 | B.納品書 | C.契約書 | D.領収書,,契約書 (`CT-02`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V03,vocabQuiz,P04,P04-L03,vocab,「契約を締結する」の意味は？,,,A.Hủy hợp đồng | B.Gia hạn hợp đồng | C.Vi phạm hợp đồng | D.Ký kết hợp đồng,,締結 (`CT-03`),D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-V04,vocabQuiz,P04,P04-L03,vocab,契約の期間が終わるとき、同じ条件で期間を延ばすことは？,,,A.解約 | B.更新 | C.違反 | D.履行,,更新 (`CT-04`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V05,vocabQuiz,P04,P04-L03,vocab,契約を途中でやめることは？,,,A.解約 | B.更新 | C.締結 | D.署名,,解約 (`CT-05`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V06,vocabQuiz,P04,P04-L03,vocab,「利用規約に同意する」の「規約」の意味は？,,,A.Báo giá | B.Hóa đơn | C.Biên lai | D.Điều khoản,,規約 (`CT-10`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V07,vocabQuiz,P04,P04-L03,vocab,契約で決めたことを守らないことは？,,,A.履行 | B.遵守 | C.違反 | D.更新,,違反 (`CT-06`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V08,vocabQuiz,P04,P04-L03,vocab,契約違反で相手に損害を与えたとき、請求されるものは？,,,A.割引 | B.損害賠償 | C.値引き | D.保証,,損害賠償 (`CT-07`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-V09,vocabQuiz,P04,P04-L03,vocab,「責任を負う」の意味は？,,,A.Chịu trách nhiệm | B.Từ chối | C.Giảm giá | D.Hủy bỏ,,責任 (`CT-08`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-V10,vocabQuiz,P04,P04-L03,vocab,「この商品には1年間の（　）があります。」（bảo hành）,,,A.補償 | B.保障 | C.責任 | D.保証,,保証 (`CT-09`); 補償 = bồi thường,D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-V11,vocabQuiz,P04,P04-L03,vocab,取引で知った相手の情報を、外に漏らしてはいけない義務は？,,,A.損害賠償 | B.規約 | C.守秘義務 | D.遵守,,守秘義務 (`CT-11`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V12,vocabQuiz,P04,P04-L03,vocab,「法令を遵守する」の意味は？,,,A.Vi phạm pháp luật | B.Tuân thủ pháp luật | C.Hủy pháp luật | D.Sửa pháp luật,,遵守 (`AC-17`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V13,vocabQuiz,P04,P04-L03,vocab,契約で決めた義務を、実際に行うことは？,,,A.履行 | B.解約 | C.違反 | D.撤回,,履行 (`AC-18`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V14,vocabQuiz,P04,P04-L03,vocab,自分の名前を手で書くことは？,,,A.捺印 | B.原本 | C.署名 | D.写し,,署名 (`CT-12`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V15,vocabQuiz,P04,P04-L03,vocab,「契約書に捺印する」の意味は？,,,A.Ký tên | B.Gửi bản sao | C.Hủy hợp đồng | D.Đóng dấu,,捺印 (`CT-13`) = 押印 (`OF-13`),D,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-V16,vocabQuiz,P04,P04-L03,vocab,署名と捺印がある、元の書類は？,,,A.写し | B.原本 | C.規約 | D.見積書,,原本 (`DC-15`),B,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V17,vocabQuiz,P04,P04-L03,vocab,「契約書の写しをメールで送る」の「写し」の意味は？,,,A.Bản sao | B.Bản gốc | C.Bản nháp | D.Bản dịch,,写し (`DC-16`),A,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L03-V18,vocabQuiz,P04,P04-L03,vocab,事故の被害に対してお金で埋め合わせることは？,,,A.保証 | B.保障 | C.補償 | D.保存,,`HM-03`: 補償 = bồi thường,C,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-E01,listening:P04-L03-LR01,P04,P04-L03,listening_reading,契約を更新しない場合、いつまでに書面で申し出なければなりませんか。,,,A.2026年4月1日 | B.2027年1月末 | C.2027年3月31日 | D.2027年4月1日,,"Điều 3: `期間満了の2か月前まで` — hết hạn 31/3/2027 trừ 2 tháng = **cuối tháng 1/2027** (Ono cũng nói `1月末`). C là ngày hết hạn, không phải hạn báo hủy.",B,"DOCUMENT_MATCH, NUMBER_TIME",OK,,,,3,N2,CAO
+P04-L03-E02,listening:P04-L03-LR01,P04,P04-L03,listening_reading,守秘義務は、いつまで有効ですか。,,,A.契約期間中だけ | B.契約終了後も1年間 | C.契約終了後も2年間 | D.期限はない,,"Điều 5: `契約終了後も2年間有効`, Ono xác nhận lại trong hội thoại. B là bẫy số.",C,"DOCUMENT_MATCH, DETAIL_MISS",OK,,,,3,N2,CAO
+P04-L03-E03,listening:P04-L03-LR01,P04,P04-L03,listening,佐藤さんが今日メールで送るものはどれですか。,,,A.原本 | B.解約通知書 | C.契約書の修正案 | D.写し,,`先にスキャンした写しをメールで` → **bản sao**. `原本` (2 bản) thì **gửi bưu điện** hôm nay (`郵送`).,D,"SPEAKER_INTENT, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P04-L03-E04,reading:P04-L03-R01,P04,P04-L03,reading,改定後の規約に同意しない場合、会員はどうしなければなりませんか。,,,A.4月1日以降に電話をする。 | B.何もしなくてよい。 | C.3月31日までに解約の手続きをする。 | D.年会費の返金を申請する。,,`同意されない場合は、3月31日までに解約のお手続き`. B sai: nếu không làm gì thì bị coi là **đồng ý** (`同意したものとみなします`). D sai: phí năm **nguyên tắc không hoàn lại** (`ご了承ください`).,C,"NEGATION_CONDITION, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P04-L03-X01,expression,P04,P04-L03,expression_reading,取引先に、契約書への署名と捺印をお願いするメールを書きます。最も適切な表現を選んでください。,,,A.契約書に名前を書いて、ハンコを押してください。 | B.お手数ですが、ご署名とご捺印をお願い申し上げます。 | C.サインとハンコ、よろしく。 | D.署名と捺印をしなければなりません。,,"Nhờ khách: `お手数ですが` + `ご署名とご捺印をお願い申し上げます`. A, C suồng sã; D là mệnh lệnh, thiếu kính ngữ.",B,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P04-L03-G01,grammar,P04,P04-L03,grammar,費用は甲が負担する（　）。,,,A.ことにする | B.わけではない | C.ものとする | D.にすぎない,,`〜ものとする` = quy ước là… (`G6-19`),C,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L03-G02,grammar,P04,P04-L03,grammar,本契約に（　）した場合、損害賠償を請求することができる。,,,A.更新 | B.違反 | C.締結 | D.遵守,,`契約に違反する` (`CT-06`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-G03,grammar,P04,P04-L03,grammar,契約書に定められた義務を、確実に（　）する。,,,A.履行 | B.解約 | C.捺印 | D.署名,,`義務を履行する` (`AC-18`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L03-G04,grammar,P04,P04-L03,grammar,契約を解除する（　）、事前に書面で通知する必要がある。,,,A.うちに | B.上では | C.ものの | D.ばかり,,`〜上では` = trong việc… (`G6-08`),B,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L03-G05,grammar,P04,P04-L03,grammar,当社（　）、この契約の更新は大きな意味を持つ。,,,A.をめぐって | B.につれて | C.にとって | D.に対して,,`〜にとって` = đối với (`G6-31`),C,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L03-G06,grammar,P04,P04-L03,grammar,製品に不具合があれば無料で修理する（　）がついています。,,,A.保証 | B.補償 | C.保障 | D.保存,,`HM-03`: 保証 = bảo hành,A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L04-T15,listening:P04-L04-A01,P04,P04-L04,listening,田中さんがすぐに返事できない理由は何ですか。,,,A.契約書がまだできていないから | B.在庫を確認しているから | C.部長の承認が必要だから | D.田中さん自身が出張中だから,,`最終的には部長の承認が必要`. D là bẫy: người đi công tác là **trưởng phòng**,C,"SPEAKER_INTENT, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P04-L04-T16,listening:P04-L04-A01,P04,P04-L04,listening,田中さんは、いつ佐藤さんに連絡しますか。,,,A.今日の午後 | B.月曜日の午後 | C.月曜日の午前 | D.来週の金曜日,,`月曜日の午後には、必ずご連絡` (月曜 = ngày trưởng phòng về),B,NUMBER_TIME,OK,,,,3,N2/N3,CAO
+P04-L04-T17,listening:P04-L04-A01,P04,P04-L04,listening,佐藤さんが新しく出した提案はどれですか。,,,"A.月額97,000円 | B.月額95,000円 | C.月額100,000円 | D.契約期間を2年にする",,`9万7千円ではいかがでしょうか` (95.000 là yêu cầu ban đầu),A,"NUMBER_TIME, DETAIL_MISS",OK,,,,3,N2/N3,CAO
+P04-L04-T18,listening:P04-L04-A02,P04,P04-L04,listening,小野さんは昨日、何をしましたか。,,,A.写しを営業部に送った | B.原本に署名と捺印をして郵送した | C.契約を解約した | D.法務部に原本を渡した,,`昨日…原本2部に署名と捺印をして…郵送` (写し là việc làm **hôm nay**),B,"DETAIL_MISS, NUMBER_TIME",OK,,,,3,N2/N3,CAO
+P04-L04-T19,listening:P04-L04-A02,P04,P04-L04,listening,戻ってきた原本について、中村さんはどう指示しましたか。,,,A.2部とも法務部に渡す | B.2部とも営業部で保管する | C.1部は法務部に渡し、もう1部は営業部で保管する | D.1部は先方に返す,,`1部は法務部に渡して、もう1部は営業部で保管`,C,SPEAKER_INTENT,OK,,,,3,N2/N3,CAO
+P04-L04-T20,listening:P04-L04-A02,P04,P04-L04,listening,中村さんが、写しについて注意したことは何ですか。,,,A.全員に印刷して配ること | B.営業部には送らないこと | C.社外には送らないこと | D.今日中に法務部に送ること,,`守秘義務があるから、社外には絶対に送らないように`,C,"SPEAKER_INTENT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P04-L04-T12,reading:R01,P04,P04-L04,reading,このメールの目的はどれですか。,,,A.契約を解約する | B.条件をつけて契約の更新を相談する | C.新しい契約を結ぶ | D.守秘義務を確認する,,`更新の方向…条件でございます`,B,INFERENCE,OK,,,,3,N2/N3,CAO
+P04-L04-T13,reading:R01,P04,P04-L04,reading,佐藤さんが更新の条件にしていることは何ですか。,,,"A.1月15日までに支払うこと | B.契約期間を延ばすこと | C.保証期間を延ばすこと | D.月額料金を95,000円に見直すこと",,"`月額料金を…95,000円に見直していただくことが条件`",D,DETAIL_MISS,OK,,,,3,N2/N3,CAO
+P04-L04-T14,reading:R01,P04,P04-L04,reading,条件が合わない場合、佐藤さんはどう考えていますか。,,,A.更新を見合わせることも考えている | B.すぐに解約する | C.損害賠償を請求する | D.自動的に更新する,,`今回の更新を見合わせることも考えております`,A,INDIRECT_INTENT,OK,,,,3,N2,CAO
+P04-L04-T01,grammar,P04,P04-L04,grammar,契約書に（　）と捺印をお願いします。,,,A.署名 | B.提案 | C.保留 | D.決裂,,"`署名と捺印` (`CT-12`, `CT-13`)",A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L04-T02,grammar,P04,P04-L04,grammar,双方が（　）、ようやく合意できた。,,,A.歩み寄って | B.取り消して | C.撤回して | D.違反して,,`歩み寄る` (`CL-A27`),A,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L04-T03,grammar,P04,P04-L04,grammar,返事は（　）にして、来週お伝えします。,,,A.履行 | B.保留 | C.違反 | D.捺印,,`保留にする` = tạm gác (`NG-15`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L04-T04,grammar,P04,P04-L04,grammar,契約期間が終わりますが、同じ条件で期間を延ばしたいので、契約を（　）したいです。,,,A.解約 | B.違反 | C.更新 | D.撤回,,`更新` (`CT-04`),C,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L04-T05,grammar,P04,P04-L04,grammar,取引先の情報を外に漏らしてはならないという（　）があります。,,,A.値引き | B.割引 | C.譲歩 | D.守秘義務,,`守秘義務` (`CT-11`),D,VOCAB_UNKNOWN,OK,,,,3,N2/N3,CAO
+P04-L04-T06,grammar,P04,P04-L04,grammar,契約に（　）して、相手に損害を与えたら、損害賠償を請求されます。,,,A.履行 | B.違反 | C.遵守 | D.締結,,`契約に違反` (`CT-06`) → `損害賠償` (`CT-07`),B,COLLOCATION,OK,,,,3,N2/N3,CAO
+P04-L04-T07,grammar,P04,P04-L04,grammar,取引先から「検討いたします」と言われました。正しい理解はどれですか。,,,A.承諾された | B.契約が成立した | C.まだ決まっていない | D.断られた,,"`検討` (`NG-09`, `IN-01`) = chưa cam kết",C,INDIRECT_INTENT,OK,,,,3,N2,CAO
+P04-L04-T08,grammar,P04,P04-L04,grammar,取引先から「今回は見送らせていただきます」とメールが来ました。どういう意味ですか。,,,A.提案を断られた | B.提案を承諾された | C.来週返事が来る | D.条件を交渉したい,,"`見送る` (`IN-07`, `AC-07`) = từ chối",A,INDIRECT_INTENT,OK,,,,3,N2,CAO
+P04-L04-T09,grammar,P04,P04-L04,grammar,私の一存では決め（　）ので、上司に相談します。,,,A.かねません | B.かねます | C.にすぎません | D.ざるを得ません,,`〜かねる` = khó quyết định (`G6-02`),B,GRAMMAR,OK,,,,3,N2/N3,CAO
+P04-L04-T10,grammar,P04,P04-L04,grammar,取引先から値引きを頼まれましたが、会社の方針で応じられません。最も適切な返事はどれですか。,,,A.無理ですね。 | B.前向きに検討いたします。 | C.社長に聞かないとわかりません。 | D.誠に申し訳ございませんが、ご要望の値引きは難しい状況でございます。,,Từ chối khéo: `申し訳ございませんが` + `難しい状況` (`IN-06`). B gây hiểu lầm có hy vọng,D,"EXPRESSION_FIT, KEIGO_REGISTER",OK,,,,3,N2,CAO
+P04-L04-T11,grammar,P04,P04-L04,grammar,約束した以上、今さら契約をキャンセルする（　）。,,,A.にすぎません | B.に違いありません | C.わけにはいきません | D.わけではありません,,`〜わけにはいかない` = không thể (`G4-05`),C,GRAMMAR,OK,,,,3,N2/N3,CAO

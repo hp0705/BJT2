@@ -68,101 +68,101 @@
       "id": "FX-01",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "いつもお世話になっております",
-      "reading": "Cảm ơn sự giúp đỡ thường xuyên",
-      "meaning": "Mở đầu điện thoại/email với đối tác",
-      "exJp": "Nội bộ dùng お疲れ様です",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Cảm ơn sự giúp đỡ thường xuyên",
+      "exJp": "",
+      "exVi": "Mở đầu điện thoại/email với đối tác",
+      "tip": "Nội bộ dùng `お疲れ様です`"
     },
     {
       "id": "FX-02",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "お忙しいところ恐れ入りますが",
-      "reading": "Xin lỗi làm phiền lúc anh/chị đang bận",
-      "meaning": "Trước lời nhờ: お忙しいところ恐れ入りますが、ご確認ください。",
-      "exJp": "Đệm trước lời nhờ",
+      "reading": "",
+      "meaning": "Xin lỗi làm phiền lúc anh/chị đang bận",
+      "exJp": "Trước lời nhờ: お忙しいところ恐れ入りますが、ご確認ください。",
       "exVi": "",
-      "tip": ""
+      "tip": "Đệm trước lời nhờ"
     },
     {
       "id": "FX-03",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "お手数をおかけしますが",
-      "reading": "Xin lỗi vì làm phiền",
-      "meaning": "Trước việc mất công: お手数をおかけしますが、ご記入ください。",
-      "exJp": "Đệm trước lời nhờ",
+      "reading": "",
+      "meaning": "Xin lỗi vì làm phiền",
+      "exJp": "Trước việc mất công: お手数をおかけしますが、ご記入ください。",
       "exVi": "",
-      "tip": ""
+      "tip": "Đệm trước lời nhờ"
     },
     {
       "id": "FX-04",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "恐縮ですが",
-      "reading": "Thật ngại quá, nhưng…",
-      "meaning": "恐縮ですが、お名前を伺えますか。",
-      "exJp": "Nhờ vả / mời",
+      "reading": "",
+      "meaning": "Thật ngại quá, nhưng…",
+      "exJp": "恐縮ですが、お名前を伺えますか。",
       "exVi": "",
-      "tip": ""
+      "tip": "Nhờ vả / mời"
     },
     {
       "id": "FX-05",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "申し訳ございません",
-      "reading": "Xin lỗi (trang trọng)",
-      "meaning": "Khi gây lỗi cho khách",
-      "exJp": "Hơn hẳn すみません",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Xin lỗi (trang trọng)",
+      "exJp": "",
+      "exVi": "Khi gây lỗi cho khách",
+      "tip": "Hơn hẳn `すみません`"
     },
     {
       "id": "FX-06",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "お待たせいたしました",
-      "reading": "Xin lỗi đã để quý vị đợi",
-      "meaning": "Sau khi để khách chờ",
+      "reading": "",
+      "meaning": "Xin lỗi đã để quý vị đợi",
       "exJp": "",
-      "exVi": "",
+      "exVi": "Sau khi để khách chờ",
       "tip": ""
     },
     {
       "id": "FX-15",
       "group": "Nhóm B — Cụm lịch sự cố định (7 cụm)",
       "word": "失礼いたします",
-      "reading": "Xin phép",
-      "meaning": "Vào phòng, ra về, kết thúc cuộc gọi",
+      "reading": "",
+      "meaning": "Xin phép",
       "exJp": "",
-      "exVi": "",
+      "exVi": "Vào phòng, ra về, kết thúc cuộc gọi",
       "tip": ""
     },
     {
       "id": "CS-01",
       "group": "Nhóm C — Từ đệm (クッション言葉) (3 cụm)",
       "word": "あいにくですが",
-      "reading": "Rất tiếc là…",
-      "meaning": "Trước khi báo vắng mặt / hết hàng / không được",
-      "exJp": "あいにく田中は不在です。",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Rất tiếc là…",
+      "exJp": "",
+      "exVi": "Trước khi báo vắng mặt / hết hàng / không được",
+      "tip": "あいにく田中は不在です。"
     },
     {
       "id": "CS-02",
       "group": "Nhóm C — Từ đệm (クッション言葉) (3 cụm)",
       "word": "せっかくですが",
-      "reading": "Thật quý hóa quá nhưng…",
-      "meaning": "Từ chối lời mời/đề xuất",
-      "exJp": "せっかくですが、その日は先約があります。",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Thật quý hóa quá nhưng…",
+      "exJp": "",
+      "exVi": "Từ chối lời mời/đề xuất",
+      "tip": "せっかくですが、その日は先約があります。"
     },
     {
       "id": "CS-03",
       "group": "Nhóm C — Từ đệm (クッション言葉) (3 cụm)",
       "word": "お言葉に甘えて",
-      "reading": "Xin mạn phép nhận lời…",
-      "meaning": "Nhận sự giúp đỡ/lời mời",
-      "exJp": "お言葉に甘えて、いただきます。",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Xin mạn phép nhận lời…",
+      "exJp": "",
+      "exVi": "Nhận sự giúp đỡ/lời mời",
+      "tip": "お言葉に甘えて、いただきます。"
     }
   ],
   "cards": [],
@@ -586,7 +586,7 @@
       "id": "P02-L01-E02",
       "questionType": "expression_reading",
       "skill": "expression_reading",
-      "q": "- **Tình huống:** Bạn dẫn khách vào phòng tiếp khách (`応接室`) nhưng trưởng phòng của bạn (ông Tanaka) đang kẹt cuộc họp chưa ra ngay được. Bạn muốn mời khách ngồi chờ và uống trà.\n- **Câu hỏi:** Câu nói nào tự nhiên và đúng phép lịch sự nhất?\n- Loại B: gọi `田中部長` (kèm chức danh) trước mặt khách\n- Loại D: gọi sếp mình là `田中様` ✗\n- Loại A: thiếu kính ngữ, ngữ điệu cộc",
+      "q": "Bạn dẫn khách vào phòng tiếp khách (`応接室`) nhưng trưởng phòng của bạn (ông Tanaka) đang kẹt cuộc họp chưa ra ngay được. Bạn muốn mời khách ngồi chờ và uống trà.\nCâu nói nào tự nhiên và đúng phép lịch sự nhất?",
       "options": {
         "A": "部長は会議中なので、ここに座って待ってください。お茶を飲んでください。",
         "B": "申し訳ございませんが、ただいま田中部長が会議中でございます。恐れ入りますが、少々お待ちいただけますでしょうか。",
@@ -594,8 +594,11 @@
         "D": "あいにくですが、田中様はまだ来ません。お掛けになってお待ちください。"
       },
       "answer": "C",
-      "explain": "Dùng từ đệm `申し訳ございませんが` + `恐れ入りますが`, đồng thời áp dụng quy tắc `内/外`: không gắn chức danh/`様` sau tên khi nói với người ngoài → `田中部長` ✗ → `田中` ✓.",
-      "tags": [],
+      "explain": "Dùng từ đệm `申し訳ございませんが` + `恐れ入りますが`, đồng thời áp dụng quy tắc `内/外`: không gắn chức danh/`様` sau tên khi nói với người ngoài → `田中部長` ✗ → `田中` ✓.\n- Loại B: gọi `田中部長` (kèm chức danh) trước mặt khách\n- Loại D: gọi sếp mình là `田中様` ✗\n- Loại A: thiếu kính ngữ, ngữ điệu cộc",
+      "tags": [
+        "KEIGO_REGISTER",
+        "SPEAKER_INTENT"
+      ],
       "vocabIds": []
     }
   ],

@@ -540,7 +540,7 @@
           "id": "P01-L03-E02",
           "questionType": "listening",
           "skill": "listening",
-          "q": "荷物はいつ頃到着する予定ですか。\n**Ghi chú `内/外` trong script:** Yamamoto nói về sếp mình là `部長の鈴木が…申しておりまして` (không thêm 様/さん). Ishikawa gọi cấp dưới là `中村` (không `さん`) khi có khách.",
+          "q": "荷物はいつ頃到着する予定ですか。",
           "options": {
             "A": "来月3日頃",
             "B": "来月5日頃",
@@ -548,7 +548,7 @@
             "D": "来月10日頃"
           },
           "answer": "C",
-          "explain": "Bẫy 3 mốc số: 10 ngày là **mong muốn của khách**, 5 ngày là **ngày gửi đi**, 8 ngày là **ngày đến** (`到着は8日頃`) → **C**.",
+          "explain": "Bẫy 3 mốc số: 10 ngày là **mong muốn của khách**, 5 ngày là **ngày gửi đi**, 8 ngày là **ngày đến** (`到着は8日頃`) → **C**.\n> **Ghi chú `内/外` trong script:** Yamamoto nói về sếp mình là `部長の鈴木が…申しておりまして` (không thêm 様/さん). Ishikawa gọi cấp dưới là `中村` (không `さん`) khi có khách.",
           "tags": [
             "NUMBER_TIME",
             "DETAIL_MISS"

@@ -751,7 +751,7 @@
       "id": "P01-L01-E01",
       "questionType": "expression_reading",
       "skill": "expression_reading",
-      "q": "- **Tình huống:** Khách hàng (ông Yamada — công ty ABC) gọi điện hỏi gặp trưởng phòng của bạn (ông Tanaka). Ông Tanaka đang ra ngoài và 3 giờ chiều mới về.\n- **Câu hỏi:** Bạn nên trả lời ông Yamada như thế nào?",
+      "q": "Khách hàng (ông Yamada — công ty ABC) gọi điện hỏi gặp trưởng phòng của bạn (ông Tanaka). Ông Tanaka đang ra ngoài và 3 giờ chiều mới về.\nBạn nên trả lời ông Yamada như thế nào?",
       "options": {
         "A": "あいにく、田中部長は外出していらっしゃいます。3時に戻られます。",
         "B": "あいにく、田中は外出しております。3時頃に戻る予定です。",
@@ -760,7 +760,10 @@
       },
       "answer": "B",
       "explain": "Đối phương là khách (`外`), ông Tanaka là người công ty mình (`内`) → bỏ chức danh `部長` và dùng `外出しております` (khiêm nhường/lịch sự). A và D sai vì tôn kính người nhà mình; C quá suồng sã.",
-      "tags": [],
+      "tags": [
+        "KEIGO_REGISTER",
+        "SPEAKER_ROLE"
+      ],
       "vocabIds": []
     }
   ],

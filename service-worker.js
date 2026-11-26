@@ -1,5 +1,5 @@
-const CACHE_NAME = 'bjt-j2-shell-v2';
-const AUDIO_CACHE = 'bjt-j2-audio-v1';
+const CACHE_NAME = 'bjt-j2-shell-v3';
+const AUDIO_CACHE = 'bjt-j2-audio-v2';
 
 const APP_SHELL = [
   './',

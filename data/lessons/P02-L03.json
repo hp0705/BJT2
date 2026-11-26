@@ -148,41 +148,41 @@
       "id": "ET-10",
       "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
       "word": "報連相（ほうれんそう）",
-      "reading": "Báo cáo – Liên lạc – Bàn bạc",
-      "meaning": "新入社員は報連相を徹底します。→ Nhân viên mới thực hiện triệt để báo-liên-bàn.",
-      "exJp": "報告・連絡・相談",
-      "exVi": "",
-      "tip": ""
+      "reading": "",
+      "meaning": "Báo cáo – Liên lạc – Bàn bạc",
+      "exJp": "新入社員は報連相を徹底します。",
+      "exVi": "Nhân viên mới thực hiện triệt để báo-liên-bàn.",
+      "tip": "報告・連絡・相談"
     },
     {
       "id": "FX-07",
       "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
       "word": "ご足労をおかけして",
-      "reading": "Cảm ơn/xin lỗi vì khách mất công đến",
-      "meaning": "本日はご足労をおかけして、申し訳ございません。",
-      "exJp": "Dành cho khách đến thăm",
+      "reading": "",
+      "meaning": "Cảm ơn/xin lỗi vì khách mất công đến",
+      "exJp": "本日はご足労をおかけして、申し訳ございません。",
       "exVi": "",
-      "tip": ""
+      "tip": "Dành cho **khách đến thăm**"
     },
     {
       "id": "CS-04",
       "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
       "word": "申し上げにくいのですが",
-      "reading": "Thật khó nói nhưng…",
-      "meaning": "申し上げにくいのですが、お支払いが遅れています。",
-      "exJp": "Đệm trước khi nhắc nợ, góp ý, từ chối",
+      "reading": "",
+      "meaning": "Thật khó nói nhưng…",
+      "exJp": "申し上げにくいのですが、お支払いが遅れています。",
       "exVi": "",
-      "tip": ""
+      "tip": "Đệm trước khi nhắc nợ, góp ý, từ chối"
     },
     {
       "id": "CS-06",
       "group": "Nhóm C — Báo-liên-bàn & cụm lịch sự (4 mục)",
       "word": "ご足労いただき恐縮です",
-      "reading": "Rất ngại vì để quý vị mất công đến",
-      "meaning": "本日はご足労いただき恐縮です。",
-      "exJp": "Trang trọng hơn FX-07",
+      "reading": "",
+      "meaning": "Rất ngại vì để quý vị mất công đến",
+      "exJp": "本日はご足労いただき恐縮です。",
       "exVi": "",
-      "tip": ""
+      "tip": "Trang trọng hơn `FX-07`"
     }
   ],
   "cards": [],
@@ -685,7 +685,7 @@
           "id": "P02-L03-E03",
           "questionType": "short_reading",
           "skill": "reading",
-          "q": "この通知の内容と合っているものはどれですか。\n- **Giải thích:**\n- B ✓: `ただし、取引先の役員の方に限り…応接室でお待ちいただけます`\n- A ✗: `土日祝日を除く` → thứ 7 không tiếp khách\n- C ✗: không đặt trước → không chuyển máy (ngoại lệ chỉ dành cho 役員)\n- D ✗: phải nộp `前日までに` (trước ngày hôm trước), không phải sáng hôm đó",
+          "q": "この通知の内容と合っているものはどれですか。",
           "options": {
             "A": "土曜日も9:00から17:30まで受付が開いている。",
             "B": "取引先の役員なら、予約がなくても応接室で待つことができる。",
@@ -693,7 +693,7 @@
             "D": "来客予約票は、来客当日の朝に出せばよい。"
           },
           "answer": "B",
-          "explain": "",
+          "explain": "- B ✓: `ただし、取引先の役員の方に限り…応接室でお待ちいただけます`\n- A ✗: `土日祝日を除く` → thứ 7 không tiếp khách\n- C ✗: không đặt trước → không chuyển máy (ngoại lệ chỉ dành cho 役員)\n- D ✗: phải nộp `前日までに` (trước ngày hôm trước), không phải sáng hôm đó",
           "tags": [
             "NEGATION_CONDITION",
             "DETAIL_MISS"
