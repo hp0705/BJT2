@@ -1,4 +1,6 @@
 // LocalStorage state manager (bjt.v1) with safe try/catch fallback
+import { diffDays, localDateStr } from './date.js';
+
 const STORAGE_KEY = 'bjt.v1';
 
 const DEFAULT_STATE = {
@@ -58,15 +60,25 @@ export function saveState() {
 }
 
 export function getTodayStr() {
-  return new Date().toISOString().slice(0, 10);
+  return localDateStr();
 }
 
 export function touchStreak() {
   const s = loadState();
   const today = getTodayStr();
-  if (s.streak.lastDate === today) return;
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  s.streak.count = s.streak.lastDate === yesterday ? (s.streak.count || 0) + 1 : 1;
+  if (!s.streak.lastDate) {
+    s.streak.count = 1;
+    s.streak.lastDate = today;
+    saveState();
+    return;
+  }
+  const diff = diffDays(s.streak.lastDate, today);
+  if (diff === 0) return;
+  if (diff < 0) {
+    // Timezone shifted west across midnight; keep streak without resetting
+    return;
+  }
+  s.streak.count = diff === 1 ? (s.streak.count || 0) + 1 : 1;
   s.streak.lastDate = today;
   saveState();
 }

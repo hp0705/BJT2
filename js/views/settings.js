@@ -1,6 +1,7 @@
 import { exportJson, importJson, loadState, resetAllData, saveState } from '../store.js';
 import { prefetchPartAudio } from '../audio.js';
 import { t } from '../i18n.js';
+import { localDateStr } from '../date.js';
 
 export function renderSettings(container, ctx) {
   const s = loadState();
@@ -137,7 +138,7 @@ export function renderSettings(container, ctx) {
     const blob = new Blob([data], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `bjt-j2-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `bjt-j2-backup-${localDateStr()}.json`;
     a.click();
     ctx.toast('Đã xuất file sao lưu JSON!');
   };

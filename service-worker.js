@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bjt-j2-shell-v1';
+const CACHE_NAME = 'bjt-j2-shell-v2';
 const AUDIO_CACHE = 'bjt-j2-audio-v1';
 
 const APP_SHELL = [
@@ -7,6 +7,7 @@ const APP_SHELL = [
   './manifest.webmanifest',
   './css/app.css',
   './js/app.js',
+  './js/date.js',
   './js/i18n.js',
   './js/router.js',
   './js/store.js',

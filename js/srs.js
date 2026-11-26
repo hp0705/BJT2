@@ -1,5 +1,6 @@
 // Leitner 5-box Spaced Repetition System
 import { loadState, saveState, getTodayStr } from './store.js';
+import { addDaysLocal } from './date.js';
 
 export const BOX_INTERVALS = {
   1: 1,
@@ -9,19 +10,13 @@ export const BOX_INTERVALS = {
   5: 30
 };
 
-function addDays(dateStr, days) {
-  const d = new Date(dateStr + 'T00:00:00');
-  d.setDate(d.getDate() + days);
-  return d.toISOString().slice(0, 10);
-}
-
 export function ensureCard(vocabId) {
   const s = loadState();
   if (!s.srs[vocabId]) {
     s.srs[vocabId] = {
       id: vocabId,
       box: 1,
-      due: getTodayStr(),
+      due: addDaysLocal(getTodayStr(), 1),
       lapses: 0,
       streakOk: 0,
       hard: false
@@ -54,7 +49,7 @@ export function gradeCard(vocabId, isCorrect) {
     if (card.hard && card.streakOk >= 2) {
       card.hard = false;
     }
-    card.due = addDays(today, BOX_INTERVALS[card.box]);
+    card.due = addDaysLocal(today, BOX_INTERVALS[card.box]);
   } else {
     card.box = 1;
     card.lapses = (card.lapses || 0) + 1;
@@ -62,7 +57,7 @@ export function gradeCard(vocabId, isCorrect) {
     if (card.lapses >= 2) {
       card.hard = true;
     }
-    card.due = addDays(today, 1);
+    card.due = addDaysLocal(today, 1);
   }
   saveState();
   return card;
