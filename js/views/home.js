@@ -1,6 +1,7 @@
 import { loadState, needsBackupReminder, saveState } from '../store.js';
 import { getDueCards } from '../srs.js';
 import { navigate } from '../router.js';
+import { t } from '../i18n.js';
 
 export function renderHome(container, ctx) {
   const s = loadState();
@@ -14,10 +15,8 @@ export function renderHome(container, ctx) {
     ${isIos && !isStandalone && !s.iosHintDismissed ? `
       <div class="card card-accent" id="ios-hint">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">
-          <div>
-            <strong>Mẹo cho iPhone:</strong> Bấm nút <strong>Chia sẻ (⎙) → Thêm vào Màn hình chính</strong> để dùng toàn màn hình offline và giữ dữ liệu lâu dài.
-          </div>
-          <button class="btn-secondary" id="dismiss-ios" style="min-height:36px;padding:0 10px;">Đóng</button>
+          <div>${t('ios_hint')}</div>
+          <button class="btn-secondary" id="dismiss-ios" style="min-height:36px;padding:0 10px;">${t('close')}</button>
         </div>
       </div>
     ` : ''}
@@ -25,8 +24,8 @@ export function renderHome(container, ctx) {
     ${needsBackupReminder() ? `
       <div class="card" style="border-color:var(--warn);">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;">
-          <div>💾 Đã hơn 7 ngày bạn chưa sao lưu tiến độ.</div>
-          <button class="btn-secondary" id="go-backup">Sao lưu</button>
+          <div>${t('backup_remind')}</div>
+          <button class="btn-secondary" id="go-backup">${t('backup_now')}</button>
         </div>
       </div>
     ` : ''}
@@ -34,13 +33,13 @@ export function renderHome(container, ctx) {
     <div class="card card-accent">
       <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
         <div>
-          <div class="muted">Hôm nay</div>
+          <div class="muted">${t('today')}</div>
           <div style="font-size:1.15rem;font-weight:700;">
-            ${dueCount > 0 ? `Ôn ${dueCount} từ đến hạn` : 'Không có từ đến hạn — Học bài mới!'}
+            ${dueCount > 0 ? t('due_today', { n: dueCount }) : t('no_due_today')}
           </div>
         </div>
         <button class="btn-primary" id="btn-today" style="width:auto;min-height:48px;">
-          ${dueCount > 0 ? 'Bắt đầu' : 'Học P01'}
+          ${dueCount > 0 ? t('start') : t('learn_p01')}
         </button>
       </div>
     </div>
@@ -72,7 +71,7 @@ export function renderHome(container, ctx) {
     }).join('')}
 
     <div class="card muted" style="text-align:center;">
-      PART 05–10: 🔒 Sắp cập nhật (thêm file .md rồi chạy parse_md.py)
+      ${t('coming_soon')}
     </div>
   `;
 

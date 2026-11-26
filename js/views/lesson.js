@@ -1,5 +1,6 @@
 import { getLessonState, loadState } from '../store.js';
 import { navigate } from '../router.js';
+import { t } from '../i18n.js';
 
 export function renderLessonMenu(container, ctx, lessonId, lesson) {
   const s = loadState();
@@ -55,43 +56,43 @@ export function renderLessonMenu(container, ctx, lessonId, lesson) {
     </div>
 
     <button class="step-item" id="step-vocab">
-      <span>① Học từ vựng (${lesson.vocab.length} từ)</span>
+      <span>${t('step_vocab', { n: lesson.vocab.length })}</span>
       <span class="pill ${lp.vocabDone ? 'done' : ''}">${lp.vocabDone ? '✓' : '▶'}</span>
     </button>
 
     <button class="step-item" id="step-quiz">
-      <span>② Quiz từ vựng (đạt ≥ ${lesson.vocabQuiz.passAt}/${lesson.vocabQuiz.total})</span>
+      <span>${t('step_quiz', { p: lesson.vocabQuiz.passAt, t: lesson.vocabQuiz.total })}</span>
       <span class="pill ${lp.quizPassed ? 'done' : ''}">
         ${lp.quizBest ? `${lp.quizBest}/${lesson.vocabQuiz.total}` : '▶'}
       </span>
     </button>
 
     <button class="step-item" id="step-review">
-      <span>③ Ôn từ sai (Hộp Leitner)</span>
+      <span>${t('step_review')}</span>
       <span class="pill">▶</span>
     </button>
 
     <div class="muted" style="padding:4px 4px 0;">
-      — Bài thực chiến ${unlocked ? '' : '(🔒 đạt quiz từ vựng để mở)'} —
+      ${t('practice_header', { lock: unlocked ? '' : t('unlock_hint') })}
     </div>
 
     ${lesson.notes?.length ? `
       <button class="step-item ${unlocked ? '' : 'locked'}" id="step-notes" ${unlocked ? '' : 'disabled'}>
-        <span>④ Điểm cần nhớ nhanh (${lesson.notes.length} ý)</span>
+        <span>${t('step_notes', { n: lesson.notes.length })}</span>
         <span class="pill">${unlocked ? '▶' : '🔒'}</span>
       </button>
     ` : ''}
 
     ${lesson.listening.map((lr, idx) => `
       <button class="step-item ${unlocked ? '' : 'locked'}" data-lr="${idx}" ${unlocked ? '' : 'disabled'}>
-        <span>🎧 ${lr.title} (${lr.questions.length} câu)</span>
+        <span>🎧 ${lr.title} (${lr.questions.length})</span>
         <span class="pill ${lp.practiceDone?.[`lr_${idx}`] ? 'done' : ''}">${unlocked ? (lp.practiceDone?.[`lr_${idx}`] ? '✓' : '▶') : '🔒'}</span>
       </button>
     `).join('')}
 
     ${lesson.reading?.length ? `
       <button class="step-item ${unlocked ? '' : 'locked'}" id="step-reading" ${unlocked ? '' : 'disabled'}>
-        <span>📄 Đọc hiểu (${lesson.reading.reduce((a, r) => a + r.questions.length, 0)} câu)</span>
+        <span>${t('step_reading', { n: lesson.reading.reduce((a, r) => a + r.questions.length, 0) })}</span>
         <span class="pill ${lp.practiceDone?.reading ? 'done' : ''}">${unlocked ? (lp.practiceDone?.reading ? '✓' : '▶') : '🔒'}</span>
       </button>
     ` : ''}

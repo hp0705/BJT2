@@ -1,5 +1,6 @@
 import { exportJson, importJson, loadState, resetAllData, saveState } from '../store.js';
 import { prefetchPartAudio } from '../audio.js';
+import { t } from '../i18n.js';
 
 export function renderSettings(container, ctx) {
   const s = loadState();
@@ -7,28 +8,36 @@ export function renderSettings(container, ctx) {
 
   container.innerHTML = `
     <div class="card">
-      <strong>Giao diện & Hiển thị</strong>
+      <strong>${t('set_ui')}</strong>
       <div style="display:flex;flex-direction:column;gap:12px;margin-top:12px;">
         <label style="display:flex;justify-content:space-between;align-items:center;">
-          <span>Chế độ màu</span>
+          <span>${t('set_lang')}</span>
+          <select id="set-lang" class="btn-secondary">
+            <option value="vi" ${st.lang !== 'ja' ? 'selected' : ''}>Tiếng Việt</option>
+            <option value="ja" ${st.lang === 'ja' ? 'selected' : ''}>日本語</option>
+          </select>
+        </label>
+
+        <label style="display:flex;justify-content:space-between;align-items:center;">
+          <span>${t('set_theme')}</span>
           <select id="set-theme" class="btn-secondary">
-            <option value="auto" ${st.theme === 'auto' ? 'selected' : ''}>Tự động</option>
-            <option value="light" ${st.theme === 'light' ? 'selected' : ''}>Sáng</option>
-            <option value="dark" ${st.theme === 'dark' ? 'selected' : ''}>Tối</option>
+            <option value="auto" ${st.theme === 'auto' ? 'selected' : ''}>${t('theme_auto')}</option>
+            <option value="light" ${st.theme === 'light' ? 'selected' : ''}>${t('theme_light')}</option>
+            <option value="dark" ${st.theme === 'dark' ? 'selected' : ''}>${t('theme_dark')}</option>
           </select>
         </label>
 
         <label style="display:flex;justify-content:space-between;align-items:center;">
-          <span>Cỡ chữ</span>
+          <span>${t('set_font')}</span>
           <select id="set-font" class="btn-secondary">
-            <option value="0.9" ${st.fontScale === 0.9 ? 'selected' : ''}>A− Nhỏ</option>
-            <option value="1" ${st.fontScale === 1 ? 'selected' : ''}>A Vừa</option>
-            <option value="1.15" ${st.fontScale === 1.15 ? 'selected' : ''}>A+ Lớn</option>
+            <option value="0.9" ${st.fontScale === 0.9 ? 'selected' : ''}>${t('font_sm')}</option>
+            <option value="1" ${st.fontScale === 1 ? 'selected' : ''}>${t('font_md')}</option>
+            <option value="1.15" ${st.fontScale === 1.15 ? 'selected' : ''}>${t('font_lg')}</option>
           </select>
         </label>
 
         <label style="display:flex;justify-content:space-between;align-items:center;">
-          <span>Tốc độ âm thanh mặc định</span>
+          <span>${t('set_rate')}</span>
           <select id="set-rate" class="btn-secondary">
             <option value="0.85" ${st.audioRate === 0.85 ? 'selected' : ''}>0.85×</option>
             <option value="1" ${st.audioRate === 1 ? 'selected' : ''}>1.0×</option>
@@ -37,50 +46,54 @@ export function renderSettings(container, ctx) {
         </label>
 
         <label style="display:flex;justify-content:space-between;align-items:center;">
-          <span>Tự phát âm sau khi trả lời</span>
+          <span>${t('set_autoplay')}</span>
           <input type="checkbox" id="set-autoplay" ${st.autoPlayAfterAnswer ? 'checked' : ''} style="width:22px;height:22px;" />
         </label>
 
         <label style="display:flex;justify-content:space-between;align-items:center;">
-          <span>Hiện cách đọc (kana) trên thẻ từ</span>
+          <span>${t('set_reading')}</span>
           <input type="checkbox" id="set-reading" ${st.showReadingOnCard ? 'checked' : ''} style="width:22px;height:22px;" />
         </label>
 
         <label style="display:flex;justify-content:space-between;align-items:center;">
-          <span>Mở khóa mọi lesson (bỏ qua ≥80%)</span>
+          <span>${t('set_unlock')}</span>
           <input type="checkbox" id="set-unlock" ${st.unlockAll ? 'checked' : ''} style="width:22px;height:22px;" />
         </label>
       </div>
     </div>
 
     <div class="card">
-      <strong>Tải sẵn Audio Offline</strong>
-      <div class="muted" style="margin:4px 0 10px;">Lưu toàn bộ MP3 của từng PART vào bộ nhớ đệm để học không cần mạng.</div>
+      <strong>${t('offline_title')}</strong>
+      <div class="muted" style="margin:4px 0 10px;">${t('offline_desc')}</div>
       <div style="display:flex;flex-wrap:wrap;gap:8px;">
         ${(ctx.index.parts || []).map((p) => `
-          <button class="btn-secondary" data-prefetch="${p.id}">⬇ Tải ${p.id}</button>
+          <button class="btn-secondary" data-prefetch="${p.id}">⬇ ${p.id}</button>
         `).join('')}
       </div>
       <div id="prefetch-status" class="muted" style="margin-top:8px;"></div>
     </div>
 
     <div class="card">
-      <strong>Sao lưu & Dữ liệu</strong>
+      <strong>${t('backup_title')}</strong>
       <div class="btn-row" style="margin-top:10px;">
-        <button class="btn-secondary" id="btn-export">📤 Xuất JSON</button>
+        <button class="btn-secondary" id="btn-export">${t('export_btn')}</button>
         <label class="btn-secondary" style="cursor:pointer;">
-          📥 Nhập JSON
+          ${t('import_btn')}
           <input type="file" id="btn-import" accept=".json,application/json" hidden />
         </label>
       </div>
-      <button class="btn-bad" id="btn-reset" style="width:100%;margin-top:12px;">🗑 Xóa toàn bộ dữ liệu</button>
+      <button class="btn-bad" id="btn-reset" style="width:100%;margin-top:12px;">${t('reset_btn')}</button>
     </div>
 
     <div class="muted" style="text-align:center;">
-      BJT J2 App · Dữ liệu v${ctx.index.version || '2.2'}
+      BJT J2 App · v${ctx.index.version || '2.2'}
     </div>
   `;
 
+  container.querySelector('#set-lang').onchange = (e) => {
+    st.lang = e.target.value; saveState();
+    window.dispatchEvent(new HashChangeEvent('hashchange'));
+  };
   container.querySelector('#set-theme').onchange = (e) => {
     st.theme = e.target.value; saveState(); ctx.applyTheme();
   };

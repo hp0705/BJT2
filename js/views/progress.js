@@ -1,6 +1,7 @@
 import { loadState } from '../store.js';
 import { getBoxCounts } from '../srs.js';
 import { renderQuizSession } from '../quiz.js';
+import { t } from '../i18n.js';
 
 export function renderProgress(container, ctx) {
   const s = loadState();
@@ -13,22 +14,22 @@ export function renderProgress(container, ctx) {
 
   container.innerHTML = `
     <div class="card">
-      <strong>Tổng quan tiến độ</strong>
+      <strong>${t('prog_overview')}</strong>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px;">
         <div style="background:var(--surface-2);padding:12px;border-radius:12px;">
-          <div class="muted">Từ đã học</div>
+          <div class="muted">${t('words_learned')}</div>
           <div style="font-size:1.3rem;font-weight:800;">${counts.total} / ${totalVocab}</div>
         </div>
         <div style="background:var(--surface-2);padding:12px;border-radius:12px;">
-          <div class="muted">Thuộc chắc (Hộp 4–5)</div>
+          <div class="muted">${t('words_mastered')}</div>
           <div style="font-size:1.3rem;font-weight:800;color:var(--ok);">${mastered}</div>
         </div>
       </div>
     </div>
 
     <div class="card">
-      <strong>Sổ lỗi cá nhân (17 mã lỗi BJT)</strong>
-      <div class="muted" style="margin-bottom:10px;">Chạm vào mã lỗi để luyện lại đúng dạng câu hay sai.</div>
+      <strong>${t('error_book')}</strong>
+      <div class="muted" style="margin-bottom:10px;">${t('error_hint')}</div>
       ${tagEntries.length ? `
         <div style="display:flex;flex-direction:column;gap:8px;">
           ${tagEntries.map(([tag, cnt]) => `
@@ -39,11 +40,11 @@ export function renderProgress(container, ctx) {
             </button>
           `).join('')}
         </div>
-      ` : '<div class="muted">Chưa có lỗi nào được ghi nhận.</div>'}
+      ` : `<div class="muted">${t('no_errors')}</div>`}
     </div>
 
     <div class="card">
-      <strong>Lịch sử điểm Quiz gần đây</strong>
+      <strong>${t('quiz_history')}</strong>
       ${s.quizHistory.length ? `
         <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px;">
           ${s.quizHistory.slice(0, 12).map((h) => `
@@ -53,7 +54,7 @@ export function renderProgress(container, ctx) {
             </div>
           `).join('')}
         </div>
-      ` : '<div class="muted" style="margin-top:6px;">Chưa có bài quiz nào.</div>'}
+      ` : `<div class="muted" style="margin-top:6px;">${t('no_history')}</div>`}
     </div>
   `;
 

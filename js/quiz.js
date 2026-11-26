@@ -2,6 +2,7 @@
 import { playSingle } from './audio.js';
 import { addToBox1 } from './srs.js';
 import { loadState, recordError } from './store.js';
+import { t } from './i18n.js';
 
 function shuffle(arr) {
   const a = [...arr];
@@ -66,7 +67,7 @@ export function renderQuizSession({
         <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;">
           <div style="font-size:1.08rem;font-weight:600;white-space:pre-line;">${
             q.questionType === 'expression_listening' && !isAnswered
-              ? '🎧 Nghe tình huống và chọn câu trả lời phù hợp nhất.'
+              ? t('listen_prompt')
               : q.q
           }</div>
           ${q.questionType === 'expression_listening' ? `<button class="btn-audio-sm" id="q-play-prompt" aria-label="Nghe câu dẫn">🔊</button>` : ''}
@@ -96,14 +97,14 @@ export function renderQuizSession({
       ${isAnswered && immediateFeedback ? `
         <div class="card ${chosenEntry.isCorrect ? '' : 'card-accent'}">
           <div style="font-weight:700;margin-bottom:6px;">
-            ${chosenEntry.isCorrect ? '✓ Chính xác!' : `✗ Chưa đúng — Đáp án: ${q.answer}`}
+            ${chosenEntry.isCorrect ? t('correct_msg') : t('wrong_msg', { a: q.answer })}
           </div>
           <div id="explain-box">${formatExplain(q.explain)}</div>
         </div>
       ` : ''}
 
       <button class="btn-primary" id="btn-next" ${isAnswered ? '' : 'disabled style="opacity:0.5"'}>
-        ${idx + 1 < questions.length ? 'Tiếp →' : 'Xem kết quả'}
+        ${idx + 1 < questions.length ? t('next') : t('see_result')}
       </button>
     `;
 
@@ -184,29 +185,29 @@ export function renderQuizSession({
           ${correctCount} / ${total}
         </div>
         <div style="font-weight:700;margin:6px 0;">
-          ${passed ? '✓ ĐẠT YÊU CẦU' : '✗ CHƯA ĐẠT — Cần ôn lại'}
+          ${passed ? t('quiz_pass') : t('quiz_fail')}
         </div>
-        ${passAt !== null ? `<div class="muted">Ngưỡng đạt: ${passAt}/${total}</div>` : ''}
+        ${passAt !== null ? `<div class="muted">${t('pass_at', { p: passAt, t: total })}</div>` : ''}
       </div>
 
       ${wrongList.length ? `
         <div class="card">
-          <strong>Câu sai (${wrongList.length})</strong>
+          <strong>${t('wrong_list', { n: wrongList.length })}</strong>
           <div style="display:flex;flex-direction:column;gap:12px;margin-top:10px;">
             ${wrongList.map((w) => `
               <div style="border-top:1px solid var(--border);padding-top:10px;">
                 <div style="font-weight:600;">${w.q.q}</div>
-                <div class="muted">Bạn chọn: ${w.chosen} · Đáp án đúng: <strong>${w.q.answer} (${w.q.options[w.q.answer]})</strong></div>
+                <div class="muted">→ <strong>${w.q.answer} (${w.q.options[w.q.answer]})</strong></div>
                 <div style="margin-top:4px;font-size:0.9rem;">${formatExplain(w.q.explain)}</div>
               </div>
             `).join('')}
           </div>
         </div>
-      ` : '<div class="card">Tuyệt vời! Bạn làm đúng 100%.</div>'}
+      ` : `<div class="card">${t('perfect')}</div>`}
 
       <div class="btn-row">
-        ${wrongList.length ? `<button class="btn-secondary" id="btn-retry-wrong">Làm lại câu sai (${wrongList.length})</button>` : '<div></div>'}
-        <button class="btn-primary" id="btn-done-quiz">Quay lại</button>
+        ${wrongList.length ? `<button class="btn-secondary" id="btn-retry-wrong">${t('retry_wrong', { n: wrongList.length })}</button>` : '<div></div>'}
+        <button class="btn-primary" id="btn-done-quiz">${t('back')}</button>
       </div>
     `;
 

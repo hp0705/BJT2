@@ -4,6 +4,7 @@ const STORAGE_KEY = 'bjt.v1';
 const DEFAULT_STATE = {
   version: 1,
   settings: {
+    lang: 'vi',    // 'vi' | 'ja'
     theme: 'auto', // 'auto' | 'light' | 'dark'
     fontScale: 1,  // 0.9 | 1 | 1.15
     audioRate: 1.0,

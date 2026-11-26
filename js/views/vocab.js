@@ -2,6 +2,7 @@ import { playSingle } from '../audio.js';
 import { addToBox1, ensureCard } from '../srs.js';
 import { getLessonState, loadState, saveState, touchStreak } from '../store.js';
 import { navigate } from '../router.js';
+import { t } from '../i18n.js';
 
 export function renderVocab(container, ctx, lessonId, lesson) {
   const vocab = lesson.vocab || [];
@@ -21,10 +22,10 @@ export function renderVocab(container, ctx, lessonId, lesson) {
 
     container.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;">
-        <span class="muted">${v.group || 'Từ vựng'} · ${idx + 1}/${vocab.length}</span>
+        <span class="muted">${v.group || ''} · ${idx + 1}/${vocab.length}</span>
         <div class="seg-tabs" style="width:180px;">
-          <button class="seg-tab ${tab === 'card' ? 'active' : ''}" id="tab-card">Thẻ</button>
-          <button class="seg-tab ${tab === 'list' ? 'active' : ''}" id="tab-list">Danh sách</button>
+          <button class="seg-tab ${tab === 'card' ? 'active' : ''}" id="tab-card">${t('card_tab')}</button>
+          <button class="seg-tab ${tab === 'list' ? 'active' : ''}" id="tab-list">${t('list_tab')}</button>
         </div>
       </div>
 
@@ -46,12 +47,12 @@ export function renderVocab(container, ctx, lessonId, lesson) {
               </div>
             ` : ''}
             ${v.tip ? `<div class="muted" style="text-align:left;width:100%;">💡 ${v.tip}</div>` : ''}
-          ` : `<div class="muted">(Chạm thẻ để lật xem nghĩa & ví dụ)</div>`}
+          ` : `<div class="muted">${t('tap_flip')}</div>`}
         </div>
 
         <div class="btn-row">
-          <button class="btn-bad" id="btn-not-yet">✗ Chưa nhớ</button>
-          <button class="btn-ok" id="btn-got-it">✓ Đã nhớ</button>
+          <button class="btn-bad" id="btn-not-yet">${t('not_yet')}</button>
+          <button class="btn-ok" id="btn-got-it">${t('got_it')}</button>
         </div>
       ` : `
         <div style="display:flex;flex-direction:column;gap:8px;">

@@ -1,6 +1,7 @@
 import { playSingle } from '../audio.js';
 import { getBoxCounts, getDueCards, gradeCard } from '../srs.js';
 import { touchStreak } from '../store.js';
+import { t } from '../i18n.js';
 
 export function renderReview(container, ctx) {
   const counts = getBoxCounts();
@@ -13,20 +14,20 @@ export function renderReview(container, ctx) {
     const maxBox = Math.max(1, counts[1], counts[2], counts[3], counts[4], counts[5]);
     container.innerHTML = `
       <div class="card card-accent">
-        <div class="muted">Ôn tập Leitner 5 hộp</div>
-        <div style="font-size:1.4rem;font-weight:800;margin:4px 0;">${dueList.length} từ cần ôn hôm nay</div>
-        <div class="muted">Tổng đã học: ${counts.total} từ · Từ khó: ${counts.hard}</div>
+        <div class="muted">${t('srs_title')}</div>
+        <div style="font-size:1.4rem;font-weight:800;margin:4px 0;">${t('srs_due', { n: dueList.length })}</div>
+        <div class="muted">${t('srs_total', { t: counts.total, h: counts.hard })}</div>
       </div>
 
       <div class="card">
-        <strong style="display:block;margin-bottom:10px;">Phân bố 5 hộp Leitner</strong>
+        <strong style="display:block;margin-bottom:10px;">${t('srs_dist')}</strong>
         <div style="display:flex;flex-direction:column;gap:8px;">
           ${[1, 2, 3, 4, 5].map((b) => {
-            const days = { 1: '1 ngày', 2: '3 ngày', 3: '7 ngày', 4: '14 ngày', 5: '30 ngày' }[b];
+            const days = { 1: 1, 2: 3, 3: 7, 4: 14, 5: 30 }[b];
             const pct = Math.round((counts[b] / maxBox) * 100);
             return `
               <div class="bar-row">
-                <span>Hộp ${b} (${days})</span>
+                <span>${t('box_label', { b, d: days })}</span>
                 <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
                 <strong style="text-align:right;">${counts[b]}</strong>
               </div>
@@ -37,12 +38,12 @@ export function renderReview(container, ctx) {
 
       ${dueList.length ? `
         <div class="btn-row">
-          <button class="btn-primary" id="start-card">Ôn thẻ (${dueList.length})</button>
-          <button class="btn-secondary" id="start-mc" style="min-height:56px;">Trắc nghiệm</button>
+          <button class="btn-primary" id="start-card">${t('review_cards', { n: dueList.length })}</button>
+          <button class="btn-secondary" id="start-mc" style="min-height:56px;">${t('review_mc')}</button>
         </div>
       ` : `
         <div class="card muted" style="text-align:center;">
-          Chưa có từ đến hạn hôm nay. Hãy học thêm từ mới ở tab <strong>Học</strong>!
+          ${t('srs_empty')}
         </div>
       `}
     `;
@@ -70,11 +71,11 @@ export function renderReview(container, ctx) {
             <div class="reading-jp">${vocab.reading}</div>
             <div class="meaning-vi">${vocab.meaning}</div>
             ${vocab.exJp ? `<div class="muted">${vocab.exJp}<br>${vocab.exVi}</div>` : ''}
-          ` : `<div class="muted">(Chạm thẻ để xem đáp án)</div>`}
+          ` : `<div class="muted">${t('tap_flip')}</div>`}
         </div>
         <div class="btn-row">
-          <button class="btn-bad" id="srs-miss">✗ Quên (về Hộp 1)</button>
-          <button class="btn-ok" id="srs-hit">✓ Nhớ (lên Hộp ${Math.min(5, card.box + 1)})</button>
+          <button class="btn-bad" id="srs-miss">${t('srs_miss')}</button>
+          <button class="btn-ok" id="srs-hit">${t('srs_hit', { b: Math.min(5, card.box + 1) })}</button>
         </div>
       `;
       container.querySelector('#srs-card').onclick = (e) => {

@@ -2,6 +2,7 @@ import { startQueue, toggleQueuePause, stepQueue, setQueueRate, stopAudio } from
 import { renderQuizSession } from '../quiz.js';
 import { getLessonState, loadState, saveState, touchStreak } from '../store.js';
 import { navigate } from '../router.js';
+import { t } from '../i18n.js';
 
 export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
   const lr = lesson.listening[Number(lrIndex)];
@@ -30,7 +31,7 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
       <div class="player-controls">
         <div style="display:flex;gap:8px;align-items:center;">
           <button class="btn-secondary" id="btn-prev" aria-label="Câu trước">⏮</button>
-          <button class="btn-primary" id="btn-play" style="width:auto;min-height:48px;padding:0 18px;">▶ Phát hội thoại</button>
+          <button class="btn-primary" id="btn-play" style="width:auto;min-height:48px;padding:0 18px;">${t('play_dialogue')}</button>
           <button class="btn-secondary" id="btn-next-line" aria-label="Câu sau">⏭</button>
         </div>
         <div class="speed-group">
@@ -41,8 +42,8 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
       </div>
 
       <div class="btn-row" style="margin-top:12px;">
-        <button class="btn-secondary" id="btn-toggle-script">Hiện script JP</button>
-        <button class="btn-secondary" id="btn-toggle-trans">Hiện dịch VN</button>
+        <button class="btn-secondary" id="btn-toggle-script">${t('show_script')}</button>
+        <button class="btn-secondary" id="btn-toggle-trans">${t('show_trans')}</button>
       </div>
 
       <div id="script-box" style="margin-top:12px;display:none;">
@@ -72,7 +73,7 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
   function highlightLine(idx, paused) {
     activeLine = idx;
     isPaused = paused;
-    playBtn.textContent = paused ? '▶ Tiếp tục' : '⏸ Tạm dừng';
+    playBtn.textContent = paused ? t('resume') : t('pause');
     container.querySelectorAll('.dialogue-line').forEach((el) => {
       el.classList.toggle('playing', Number(el.dataset.line) === idx);
     });
@@ -88,7 +89,7 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
       onDone: () => {
         activeLine = -1;
         isPaused = true;
-        playBtn.textContent = '▶ Phát lại';
+        playBtn.textContent = t('replay');
         highlightLine(-1, true);
       }
     });
@@ -98,7 +99,7 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
     if (activeLine === -1) startFrom(0);
     else {
       const playing = toggleQueuePause();
-      playBtn.textContent = playing ? '⏸ Tạm dừng' : '▶ Tiếp tục';
+      playBtn.textContent = playing ? t('pause') : t('resume');
     }
   };
   container.querySelector('#btn-prev').onclick = () => stepQueue(-1);
@@ -115,13 +116,13 @@ export function renderListening(container, ctx, lessonId, lesson, lrIndex = 0) {
   container.querySelector('#btn-toggle-script').onclick = (e) => {
     showScript = !showScript;
     scriptBox.style.display = showScript ? 'block' : 'none';
-    e.target.textContent = showScript ? 'Ẩn script JP' : 'Hiện script JP';
+    e.target.textContent = showScript ? t('hide_script') : t('show_script');
   };
 
   container.querySelector('#btn-toggle-trans').onclick = (e) => {
     showTrans = !showTrans;
     transBox.style.display = showTrans ? 'block' : 'none';
-    e.target.textContent = showTrans ? 'Ẩn dịch VN' : 'Hiện dịch VN';
+    e.target.textContent = showTrans ? t('hide_trans') : t('show_trans');
   };
 
   container.querySelectorAll('[data-play-line]').forEach((b) => {

@@ -1,4 +1,5 @@
 import { parseHash, navigate } from './router.js';
+import { t } from './i18n.js';
 import { getLessonState, getTodayStr, loadState, saveState, touchStreak } from './store.js';
 import { playSingle, setAudioToast, stopAudio } from './audio.js';
 import { getDueCards } from './srs.js';
@@ -89,10 +90,10 @@ function renderTopBar(title, backHash = null) {
 function renderTabBar(activeRoute) {
   const dueCount = getDueCards(appCtx.pool.vocab).length;
   const tabs = [
-    { id: 'home', label: 'Học', jp: '学習' },
-    { id: 'review', label: 'Ôn', jp: '復習', badge: dueCount },
-    { id: 'progress', label: 'Tiến độ', jp: '進捗' },
-    { id: 'settings', label: 'Cài đặt', jp: '設定' }
+    { id: 'home', label: t('tab_home'), jp: '学習' },
+    { id: 'review', label: t('tab_review'), jp: '復習', badge: dueCount },
+    { id: 'progress', label: t('tab_progress'), jp: '進捗' },
+    { id: 'settings', label: t('tab_settings'), jp: '設定' }
   ];
   tabBar.innerHTML = tabs.map((t) => `
     <button class="tab-btn ${activeRoute === t.id ? 'active' : ''}" data-tab="${t.id}">
@@ -221,13 +222,13 @@ async function routeView() {
         });
       }
     } else if (route === 'review') {
-      renderTopBar('Ôn tập 復習');
+      renderTopBar(t('title_review'));
       renderReview(mainView, appCtx);
     } else if (route === 'progress') {
-      renderTopBar('Tiến độ 進捗');
+      renderTopBar(t('title_progress'));
       renderProgress(mainView, appCtx);
     } else if (route === 'settings') {
-      renderTopBar('Cài đặt 設定');
+      renderTopBar(t('title_settings'));
       renderSettings(mainView, appCtx);
     } else {
       navigate('#/home');
